@@ -1,0 +1,206 @@
+[
+  {
+    "id": "qz_world_heritage_zayton",
+    "title_zh": "泉州：宋元中国的世界海洋商贸中心",
+    "title_en": "Quanzhou: Emporium of the World in Song-Yuan China",
+    "category": "world_heritage",
+    "target_markets": ["Europe", "United States", "Middle East", "Japan", "Korea", "Southeast Asian diaspora"],
+    "appeal_score": 5,
+    "summary_zh": "泉州的最大国际识别点是 UNESCO 世界遗产身份。它在宋元时期是重要海洋商贸中心，在阿拉伯和西方文献中被称为 Zayton/刺桐。",
+    "visitor_hook_en": "A living Maritime Silk Road city where medieval global trade, religions, ceramics, bridges and port infrastructure still shape the urban story.",
+    "recommended_questions": [
+      "Why is Quanzhou a UNESCO World Heritage city?",
+      "What does Zayton mean?",
+      "Was Quanzhou an important port in ancient China?"
+    ],
+    "source_urls": ["https://whc.unesco.org/en/list/1561/"]
+  },
+  {
+    "id": "qz_religious_diversity",
+    "title_zh": "多元宗教与文明共处",
+    "title_en": "Religious Diversity in Quanzhou",
+    "category": "heritage",
+    "target_markets": ["Middle East", "Europe", "United States", "India", "Southeast Asia"],
+    "appeal_score": 5,
+    "summary_zh": "清净寺、伊斯兰圣墓、开元寺、印度教石刻和摩尼教遗存，让泉州成为理解海上贸易如何带来人群、信仰和文化交流的城市。",
+    "visitor_hook_en": "Few Chinese old towns show maritime trade and religious diversity as visibly as Quanzhou.",
+    "recommended_questions": [
+      "Are there Islamic heritage sites in Quanzhou?",
+      "Why are there Hindu carvings in Quanzhou?",
+      "What makes Quanzhou different from other Chinese old towns?"
+    ],
+    "source_urls": [
+      "https://whc.unesco.org/en/list/1561/",
+      "https://www.unesco.org/en/articles/heritage-so-young-youth-telling-stories-quanzhou-world-heritage-city-red-brick-walls-and-ancient"
+    ]
+  },
+  {
+    "id": "qz_hokkien_roots",
+    "title_zh": "闽南侨乡与 Hokkien 寻根",
+    "title_en": "Hokkien Roots and Overseas Chinese Heritage",
+    "category": "diaspora",
+    "target_markets": ["Philippines", "Malaysia", "Singapore", "Indonesia", "Thailand", "United States", "Australia"],
+    "appeal_score": 5,
+    "summary_zh": "泉州是著名侨乡和闽南文化重镇，约 950 万泉州籍华侨华人分布在 170 多个国家和地区。对东南亚华裔来说，泉州是祖籍、方言、美食和庙宇记忆的源头之一。",
+    "visitor_hook_en": "For many Hokkien families overseas, Quanzhou is not just a destination; it is an ancestral starting point.",
+    "recommended_questions": [
+      "My family is Hokkien. Should I visit Quanzhou?",
+      "Can I do a roots tour in Quanzhou?",
+      "How is Quanzhou connected to Southeast Asian Chinese communities?"
+    ],
+    "source_urls": [
+      "https://www.quanzhou.gov.cn/gastronomy/en/about/unesco-heritage/202412/t20241203_3112420.htm"
+    ]
+  },
+  {
+    "id": "qz_gastronomy",
+    "title_zh": "UNESCO 美食之都与闽南饮食",
+    "title_en": "UNESCO Creative City of Gastronomy",
+    "category": "food",
+    "target_markets": ["Southeast Asia", "Japan", "Korea", "Europe", "United States"],
+    "appeal_score": 5,
+    "summary_zh": "泉州 2025 年加入 UNESCO 创意城市网络美食类别。泉州饮食具有山海融合、海上贸易和东南亚联系，适合做老城美食步行、夜市、小吃和茶点体验。",
+    "visitor_hook_en": "Quanzhou food is one of the easiest ways to taste the city’s maritime history.",
+    "recommended_questions": [
+      "What should foreigners eat in Quanzhou?",
+      "Is Quanzhou a good food city?",
+      "What are the must-try snacks in Quanzhou?"
+    ],
+    "sample_foods": ["misua soup", "pork zongzi", "stone-flower jelly", "beef soup", "oyster omelette", "ginger duck", "seafood", "tea snacks"],
+    "diet_notes": ["mark pork", "mark shellfish", "mark peanuts", "add halal-friendly alternatives where verified"],
+    "source_urls": [
+      "https://www.unesco.org/en/creative-cities/quanzhou",
+      "https://www.quanzhou.gov.cn/gastronomy/en/about/unesco-heritage/202412/t20241203_3112420.htm"
+    ]
+  },
+  {
+    "id": "qz_xunpu_zanhua",
+    "title_zh": "蟳埔簪花围",
+    "title_en": "Xunpu Zanhua Floral Headdress",
+    "category": "intangible_heritage_photo",
+    "target_markets": ["Japan", "Korea", "Southeast Asia", "Europe", "United States"],
+    "appeal_score": 4,
+    "summary_zh": "蟳埔女簪花围是泉州近年的强传播体验，兼具女性民俗、妈祖信仰、海边渔村生活和摄影体验。蟳埔女习俗是国家级非遗民俗项目。",
+    "visitor_hook_en": "A colorful, photogenic tradition rooted in the life of women in a fishing village near the Maritime Silk Road port.",
+    "recommended_questions": [
+      "Where can I try zanhua in Quanzhou?",
+      "Is the Quanzhou flower headdress traditional?",
+      "How long does a zanhua photo experience take?"
+    ],
+    "source_urls": [
+      "https://govt.chinadaily.com.cn/s/202505/23/WS6830173d498eec7e1f737871/national-ich-customs-of-xunpu-women.html",
+      "https://www.chinadaily.com.cn/a/202412/07/WS6753bd4aa310f1265a1d1adb_5.html"
+    ]
+  },
+  {
+    "id": "qz_anxi_tieguanyin",
+    "title_zh": "安溪铁观音与乌龙茶文化",
+    "title_en": "Anxi Tieguanyin Oolong Tea Culture",
+    "category": "tea",
+    "target_markets": ["Japan", "Korea", "Southeast Asia", "Europe", "United States"],
+    "appeal_score": 4,
+    "summary_zh": "安溪铁观音茶文化系统为 FAO 全球重要农业文化遗产。安溪是乌龙茶工艺和铁观音茶树发现地之一，适合做茶山、制茶、品茶、茶礼和伴手礼体验。",
+    "visitor_hook_en": "A day trip from Quanzhou can move from the old port to the mountain landscapes behind one of China’s best-known oolong teas.",
+    "recommended_questions": [
+      "What is Tieguanyin?",
+      "Can I visit tea plantations near Quanzhou?",
+      "Is Anxi worth a day trip?"
+    ],
+    "source_urls": [
+      "https://www.fao.org/giahs/giahs-around-the-world/china-anxi-tea-culture-system/en"
+    ]
+  },
+  {
+    "id": "qz_dehua_blanc_de_chine",
+    "title_zh": "德化白瓷与 Blanc de Chine",
+    "title_en": "Dehua White Porcelain, Blanc de Chine",
+    "category": "porcelain",
+    "target_markets": ["France", "Italy", "Germany", "United Kingdom", "Japan", "Korea", "United States"],
+    "appeal_score": 4,
+    "summary_zh": "德化白瓷因温润乳白釉色在欧洲被称为 Blanc de Chine。德化窑址是泉州海上贸易生产体系的重要组成部分，适合做博物馆、工坊、设计和购物体验。",
+    "visitor_hook_en": "Blanc de Chine connects Quanzhou’s Maritime Silk Road with European porcelain taste and contemporary craft design.",
+    "recommended_questions": [
+      "What is Blanc de Chine?",
+      "Can I visit porcelain workshops near Quanzhou?",
+      "Why is Dehua porcelain important?"
+    ],
+    "source_urls": [
+      "https://govt.chinadaily.com.cn/s/202404/18/WS6620e247498ed2d7b7eac0fa/blanc-de-chine-unique-name-given-to-dehua-white-porcelain.html",
+      "https://www.quanzhou.gov.cn/gastronomy/en/about/unesco-heritage/202412/t20241228_3124007.htm"
+    ]
+  },
+  {
+    "id": "qz_yongchun_incense",
+    "title_zh": "永春香与香料之路",
+    "title_en": "Yongchun Incense and the Spice Routes",
+    "category": "incense",
+    "target_markets": ["Middle East", "Europe", "United States", "Southeast Asia", "India"],
+    "appeal_score": 4,
+    "summary_zh": "永春香适合做嗅觉型非遗体验。福建传统制香技艺以泉州永春达埔等地为代表，是国家级非遗；其故事可与阿拉伯香料、海上丝绸之路和寺庙生活连接。",
+    "visitor_hook_en": "An aroma-based heritage experience linking Chinese incense, Arab spice routes and the Maritime Silk Road.",
+    "recommended_questions": [
+      "Can I learn incense making in Quanzhou?",
+      "What is Yongchun incense?",
+      "How is incense connected to the Maritime Silk Road?"
+    ],
+    "source_urls": [
+      "https://govt.chinadaily.com.cn/s/202508/07/WS68947408498edec913ce0302/national-ich-art-of-traditional-incense-making-in-fujian.html",
+      "https://en.people.cn/n3/2021/1126/c90000-9924878.html"
+    ]
+  },
+  {
+    "id": "qz_nanyin",
+    "title_zh": "南音：闽南人的故乡之声",
+    "title_en": "Nanyin, the Sound of Minnan Heritage",
+    "category": "performing_arts",
+    "target_markets": ["Southeast Asian diaspora", "Europe", "United States", "Japan", "Korea"],
+    "appeal_score": 4,
+    "summary_zh": "南音于 2009 年列入 UNESCO 人类非物质文化遗产代表作名录。它使用洞箫、琵琶等乐器，以泉州方言演唱，对闽南人和东南亚闽南社群有故乡之声的意义。",
+    "visitor_hook_en": "An intimate evening performance can turn Quanzhou’s old-town heritage into sound.",
+    "recommended_questions": [
+      "Where can I watch Nanyin in Quanzhou?",
+      "What is Nanyin music?",
+      "Why is Nanyin important to Hokkien people?"
+    ],
+    "source_urls": [
+      "https://ich.unesco.org/en/RL/nanyin-00199",
+      "https://en.unesco.org/silkroad/silk-road-themes/intangible-cultural-heritage/nanyin"
+    ]
+  },
+  {
+    "id": "qz_coast_bridges",
+    "title_zh": "海岸、古城与古桥",
+    "title_en": "Coast, Ancient Towns and Bridges",
+    "category": "coast_citywalk",
+    "target_markets": ["Japan", "Korea", "Southeast Asia", "families", "photographers"],
+    "appeal_score": 3,
+    "summary_zh": "泉州有海岸、渔村、古城、桥梁和海防遗迹，但更适合作为海丝城市景观的一部分，而不是单独与海岛型目的地竞争。",
+    "visitor_hook_en": "The coast is best experienced as part of Quanzhou’s maritime story: bridges, fishing villages, seafood, stone carving and old ports.",
+    "recommended_questions": [
+      "Does Quanzhou have beaches?",
+      "Is Chongwu Ancient City worth visiting?",
+      "What coastal day trips can I take from Quanzhou?"
+    ],
+    "source_urls": [
+      "https://whc.unesco.org/en/list/1561/",
+      "https://www.chinadaily.com.cn/m/fujian/2018-08/21/content_16933163.htm"
+    ]
+  },
+  {
+    "id": "qz_2025_inbound_growth",
+    "title_zh": "2025 年泉州入境游增长与海外推广市场",
+    "title_en": "2025 Inbound Tourism Growth and Overseas Promotion Markets",
+    "category": "market_data",
+    "target_markets": ["Japan", "Malaysia", "Singapore", "Philippines", "United Arab Emirates", "United States"],
+    "appeal_score": 4,
+    "summary_zh": "2025 年上半年泉州接待入境旅游人数 40.39 万人次，同比增长 95.5%，外国游客接待量增幅达 135.3%。泉州在日本、马来西亚、新加坡、菲律宾、阿联酋、美国设立海外推广服务点。",
+    "visitor_hook_en": "Quanzhou is actively positioning itself for international visitors, especially across Asia, the Middle East and the United States.",
+    "recommended_questions": [
+      "Which countries is Quanzhou targeting for inbound tourism?",
+      "Is Quanzhou becoming more international for foreign visitors?"
+    ],
+    "source_urls": [
+      "https://ttgchina.com/2025/08/21/%E7%A6%8F%E5%BB%BA%E6%B3%89%E5%B7%9E%E5%85%A5%E5%A2%83%E6%97%85%E6%B8%B82025%E4%B8%8A%E5%8D%8A%E5%B9%B4%E8%BF%85%E7%8C%9B%E5%8F%91%E5%B1%95/"
+    ]
+  }
+]

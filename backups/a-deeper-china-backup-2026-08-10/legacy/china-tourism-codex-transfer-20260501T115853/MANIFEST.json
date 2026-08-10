@@ -1,0 +1,1029 @@
+{
+  "generated_at": "2026-05-01T11:58:53.902Z",
+  "output_dir": "/Users/apple/Documents/Codex/2026-04-30/deepseek-api-claude-code/china-tourism-codex-transfer-20260501T115853",
+  "copied_sources": [
+    {
+      "label": "current-quanzhou-kb",
+      "source": "/Users/apple/Documents/Codex/2026-04-30/deepseek-api-claude-code/quanzhou-foreign-tourist-kb",
+      "destination": "01-current-quanzhou-foreign-tourist-kb"
+    },
+    {
+      "label": "qiongyou-quanzhou-scrape",
+      "source": "/Users/apple/Documents/Codex/2026-04-30/new-chat",
+      "destination": "02-qiongyou-quanzhou-materials"
+    },
+    {
+      "label": "china-insider-mother-doc",
+      "source": "/Users/apple/Documents/Codex/2026-04-23-files-mentioned-by-the-user-ppt/China_Insider_NotebookLM_PPT_Mother_Doc.md",
+      "destination": "03-china-insider-docs/China_Insider_NotebookLM_PPT_Mother_Doc.md"
+    },
+    {
+      "label": "china-insider-codex-patches",
+      "source": "/Users/apple/Documents/Codex/2026-04-24-new-chat",
+      "destination": "04-china-insider-codex-patches"
+    },
+    {
+      "label": "china-insider-home-project",
+      "source": "/Users/apple/china-insider",
+      "destination": "05-china-insider-home-project"
+    },
+    {
+      "label": "china-insider-desktop-project",
+      "source": "/Users/apple/Desktop/china-insider",
+      "destination": "06-china-insider-desktop-project"
+    },
+    {
+      "label": "desktop-tourism-platform-docs",
+      "source": "/Users/apple/Desktop/旅游智能平台",
+      "destination": "07-desktop-tourism-platform-docs"
+    }
+  ],
+  "claude_sanitized_matches": [
+    "/Users/apple/.claude/projects/-Users-apple/2f3464d3-edb8-47e5-a091-b6a5adf36f9b.jsonl",
+    "/Users/apple/.claude/projects/-Users-apple/eb4cfed9-1a2a-4f4c-ab85-f589a5d0275e/subagents/agent-a28144387bf32b6c3.jsonl",
+    "/Users/apple/.claude/projects/-Users-apple/eb4cfed9-1a2a-4f4c-ab85-f589a5d0275e/subagents/agent-a3cc4a35e1b292449.jsonl",
+    "/Users/apple/.claude/projects/-Users-apple/eb4cfed9-1a2a-4f4c-ab85-f589a5d0275e/subagents/agent-a85373b268d923eab.jsonl",
+    "/Users/apple/.claude/projects/-Users-apple/eb4cfed9-1a2a-4f4c-ab85-f589a5d0275e.jsonl",
+    "/Users/apple/.claude/tasks/eb4cfed9-1a2a-4f4c-ab85-f589a5d0275e/2.json",
+    "/Users/apple/.claude/paste-cache/34cc9dfea10aeacb.txt"
+  ],
+  "exclusions": [
+    "API keys, tokens, cookies, auth/session files",
+    ".env files",
+    "Claude settings and auth configs",
+    "node_modules, .next, build/dist/cache directories",
+    "large generated files over per-source limits"
+  ],
+  "files": [
+    {
+      "path": "01-current-quanzhou-foreign-tourist-kb/.DS_Store",
+      "bytes": 6148,
+      "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3"
+    },
+    {
+      "path": "01-current-quanzhou-foreign-tourist-kb/README.md",
+      "bytes": 3927,
+      "sha256": "6eeb388dd46953170f67b64db90d2e95c0b1f95455f4d4abd08d261f009f6765"
+    },
+    {
+      "path": "01-current-quanzhou-foreign-tourist-kb/country-profiles.md",
+      "bytes": 8195,
+      "sha256": "64e6bd17117d9ad5010f648ef0fd4afbb413bd45d11d437d8a90bc1e90830996"
+    },
+    {
+      "path": "01-current-quanzhou-foreign-tourist-kb/knowledge-cards.json",
+      "bytes": 11414,
+      "sha256": "f2e5190621f2f45bc6af42d6b558aec2e5f50e11a9399353859943ac70533470"
+    },
+    {
+      "path": "01-current-quanzhou-foreign-tourist-kb/market-analysis.md",
+      "bytes": 8637,
+      "sha256": "0a5e63c04c6571eac4133216ea3b3c91955e60b5ec3ecd15eb213786bcf8c691"
+    },
+    {
+      "path": "01-current-quanzhou-foreign-tourist-kb/qa-seeds.md",
+      "bytes": 5274,
+      "sha256": "63ee4b229df432945532690af924e6149e24e1acdb1d229a4deadd3bf5f0b76d"
+    },
+    {
+      "path": "01-current-quanzhou-foreign-tourist-kb/rag-ingestion-guide.md",
+      "bytes": 3648,
+      "sha256": "ddc72760e7469755089ed48d677021e22f51d1b52bd2f9658700212d06358837"
+    },
+    {
+      "path": "01-current-quanzhou-foreign-tourist-kb/source-register.md",
+      "bytes": 3113,
+      "sha256": "445ca7e5358d59ced195ced56f59074ffa05c23a4fde9eff58a517c7c6554c3a"
+    },
+    {
+      "path": "01-current-quanzhou-foreign-tourist-kb/theme-cards.md",
+      "bytes": 11642,
+      "sha256": "fb6dfc5fdaadc50db1289db4e16c3c09d1846fb20289c7c10ac69e94a4a881cc"
+    },
+    {
+      "path": "02-qiongyou-quanzhou-materials/quanzhou-guide.html",
+      "bytes": 66606,
+      "sha256": "7278bffc60eb0c14329b83e3884c43bf0f8ef9d067ee27f48cf1a33cd79362b3"
+    },
+    {
+      "path": "02-qiongyou-quanzhou-materials/thread-3611882.html",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "02-qiongyou-quanzhou-materials/thread-3657367.html",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "02-qiongyou-quanzhou-materials/thread-3658303.html",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "02-qiongyou-quanzhou-materials/thread-3670599.html",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "02-qiongyou-quanzhou-materials/thread-3672809.html",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "02-qiongyou-quanzhou-materials/穷游-泉州精华帖.csv",
+      "bytes": 1039,
+      "sha256": "4c0b16efaf68bed0b6fb101eb7b45275f59966a55b281c281aba3904c165dc35"
+    },
+    {
+      "path": "02-qiongyou-quanzhou-materials/穷游-泉州精华帖分类版.md",
+      "bytes": 4765,
+      "sha256": "44ede74f7f327a0ea22987349df14c93b2c6a000a298ab99c16e7d53ca862220"
+    },
+    {
+      "path": "02-qiongyou-quanzhou-materials/穷游-泉州精华帖整理.md",
+      "bytes": 2237,
+      "sha256": "0da8b09c043c345ab33fa80ad73ff6f163ae0d17d75fecc6c2a3472a818d173e"
+    },
+    {
+      "path": "03-china-insider-docs/China_Insider_NotebookLM_PPT_Mother_Doc.md",
+      "bytes": 15626,
+      "sha256": "1b8d7388f45ea9590d452e71d03a9050c552f1845ea996776d3e5b2bc2edcd04"
+    },
+    {
+      "path": "04-china-insider-codex-patches/china-insider-live-patch/package.json",
+      "bytes": 782,
+      "sha256": "ff89224ab51b08c8d7d111891f7d47ef57160950820d8458b974000344f5d829"
+    },
+    {
+      "path": "04-china-insider-codex-patches/china-insider-live-patch/src/app/api/realtime/session/route.ts",
+      "bytes": 1639,
+      "sha256": "bf697861e6d51e976ab2f0d313f743544c54ad1dc04e98c072b6d01d495013a1"
+    },
+    {
+      "path": "04-china-insider-codex-patches/china-insider-live-patch/src/app/api/voice/transcribe/route.ts",
+      "bytes": 5490,
+      "sha256": "f1d096008bf4f983c3ec4f757b3bec1d87ac1ba5898e341979b82907af55fd31"
+    },
+    {
+      "path": "04-china-insider-codex-patches/china-insider-live-patch/src/components/VoiceDemo.tsx",
+      "bytes": 27607,
+      "sha256": "a8fcf4e6d2751e746bb2bcbf3fea5d2dd12bab31f01b49d4467fbcddc0c31a2a"
+    },
+    {
+      "path": "04-china-insider-codex-patches/china-insider-live-patch/src/lib/openai/browser-realtime.ts",
+      "bytes": 5225,
+      "sha256": "6797dc883d0662b37172d4aa43da83103123eb239a2b73def85d138585871db6"
+    },
+    {
+      "path": "04-china-insider-codex-patches/china-insider-patch/app/api/chat/route.ts",
+      "bytes": 19785,
+      "sha256": "87569acfdb888603a0f857a55dcec21fc3abd9330835b9b5be58870bed63adbb"
+    },
+    {
+      "path": "04-china-insider-codex-patches/china-insider-patch/app/api/voice/speak/route.ts",
+      "bytes": 2197,
+      "sha256": "baa39dcc358b7065f9b15ca58f7bd045cd0f588c7a9f0c094cea6593e6b8720c"
+    },
+    {
+      "path": "04-china-insider-codex-patches/china-insider-patch/app/api/voice/transcribe/route.ts",
+      "bytes": 6288,
+      "sha256": "0423d487b81e2880bc4c1120b43283d9a6da0e93aec92e143954b24c67d7af68"
+    },
+    {
+      "path": "04-china-insider-codex-patches/china-insider-patch/components/marketing/chat-concierge-client.tsx",
+      "bytes": 41938,
+      "sha256": "5b161902e11d7d51a178ed521fdad0b9269f3f30ea10673718e99a2265f88e47"
+    },
+    {
+      "path": "04-china-insider-codex-patches/china-insider-patch/package.json",
+      "bytes": 1248,
+      "sha256": "48c81943ccb782fb6ec7a7b03b57b34dcd1758742f62ecf41ad7bf1a9546669d"
+    },
+    {
+      "path": "05-china-insider-home-project/.eslintrc.json",
+      "bytes": 61,
+      "sha256": "8d4a8d81dab1c22bcb28635249606f2e59fa816e8e58c56eecf6d2430949847a"
+    },
+    {
+      "path": "05-china-insider-home-project/.gitignore",
+      "bytes": 391,
+      "sha256": "f37e7e1b90353a16ba7bec8979585311ee6d00311209391e5ab47162df4ca922"
+    },
+    {
+      "path": "05-china-insider-home-project/README.md",
+      "bytes": 1450,
+      "sha256": "60b55ff7df79af72590f9524208e46642bc32bdc175cdad41349681c0e2f958f"
+    },
+    {
+      "path": "05-china-insider-home-project/STITCH_BRIEF.md",
+      "bytes": 6883,
+      "sha256": "dfbf886fc816ea4da0a07ac7a2b9296bb9656233143714bb1231ef77e6c05cb8"
+    },
+    {
+      "path": "05-china-insider-home-project/next-env.d.ts",
+      "bytes": 228,
+      "sha256": "9dd9d642cdb87d4d5b3173217e0c45429b3e47a6f5cf5fb0ead6c644ec5fed01"
+    },
+    {
+      "path": "05-china-insider-home-project/next.config.mjs",
+      "bytes": 224,
+      "sha256": "2c8be55cb2129cfaebbf1d695b43757c5a9d7aa2208ea424fb3ad846b03e90d7"
+    },
+    {
+      "path": "05-china-insider-home-project/package.json",
+      "bytes": 782,
+      "sha256": "ff89224ab51b08c8d7d111891f7d47ef57160950820d8458b974000344f5d829"
+    },
+    {
+      "path": "05-china-insider-home-project/pnpm-lock.yaml",
+      "bytes": 158544,
+      "sha256": "d29a6ff921699d5b9cbc6d000e1bd162cd1ee7592c7a754432fc2ad7b75065ff"
+    },
+    {
+      "path": "05-china-insider-home-project/postcss.config.mjs",
+      "bytes": 135,
+      "sha256": "ac31e2a95ef64fe27ceb4124e101675273107aae2e33bc490b01d919e7f03646"
+    },
+    {
+      "path": "05-china-insider-home-project/src/app/api/realtime/session/route.ts",
+      "bytes": 1639,
+      "sha256": "bf697861e6d51e976ab2f0d313f743544c54ad1dc04e98c072b6d01d495013a1"
+    },
+    {
+      "path": "05-china-insider-home-project/src/app/api/voice/transcribe/route.ts",
+      "bytes": 5490,
+      "sha256": "f1d096008bf4f983c3ec4f757b3bec1d87ac1ba5898e341979b82907af55fd31"
+    },
+    {
+      "path": "05-china-insider-home-project/src/app/cities/[slug]/page.tsx",
+      "bytes": 5404,
+      "sha256": "413d8ff4522f128f6dda7a621ba3935754ece22cb5be8a6f2cc5787795a22ee9"
+    },
+    {
+      "path": "05-china-insider-home-project/src/app/favicon.ico",
+      "bytes": 25931,
+      "sha256": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932"
+    },
+    {
+      "path": "05-china-insider-home-project/src/app/fonts/GeistMonoVF.woff",
+      "bytes": 67864,
+      "sha256": "e8b65928f551b17e3d67c3f709721b952c39842d14b00701f9232057fde73608"
+    },
+    {
+      "path": "05-china-insider-home-project/src/app/fonts/GeistVF.woff",
+      "bytes": 66268,
+      "sha256": "296fafafd41304f7c992079054b8af914dbbd865f32de97c66d0f613b55755d6"
+    },
+    {
+      "path": "05-china-insider-home-project/src/app/globals.css",
+      "bytes": 304,
+      "sha256": "bebc69817b5e6ff767a9c93810c7e82cd864ee38e957824a80ec26606da8f78e"
+    },
+    {
+      "path": "05-china-insider-home-project/src/app/layout.tsx",
+      "bytes": 359,
+      "sha256": "c6257a8b4f4df7552d2c96bb26b88afc584663eaf2cbeda45a5e3d3bf656a53a"
+    },
+    {
+      "path": "05-china-insider-home-project/src/app/page.test.tsx",
+      "bytes": 1228,
+      "sha256": "b5538fb7f576c33180bcaf1466d0950731bbac25252c57e82e80b2b0dfd209e6"
+    },
+    {
+      "path": "05-china-insider-home-project/src/app/page.tsx",
+      "bytes": 4124,
+      "sha256": "5ebb08924fc9c9e62debe63f6e0a8a868d7742540db01049b87773fa86ed4ee0"
+    },
+    {
+      "path": "05-china-insider-home-project/src/components/CityNotes.tsx",
+      "bytes": 835,
+      "sha256": "4166e9d428fa66953f502a20489638eb163b12dce0bc78180a13539ab521d25b"
+    },
+    {
+      "path": "05-china-insider-home-project/src/components/HowItWorks.tsx",
+      "bytes": 1391,
+      "sha256": "7f92c701c88e24cf3eaa542662098c21c1add24994ba2325c81eed4edfb8f12b"
+    },
+    {
+      "path": "05-china-insider-home-project/src/components/SitesSection.tsx",
+      "bytes": 526,
+      "sha256": "8f606cfb5e60c0a7bfbd3b49298c453aa2e0f131cb140069488d2b9635d3644d"
+    },
+    {
+      "path": "05-china-insider-home-project/src/components/TrustBar.tsx",
+      "bytes": 686,
+      "sha256": "b4b4de001c701001dfd2c561191d8123a6ff341461dfdd016026656c7b3accca"
+    },
+    {
+      "path": "05-china-insider-home-project/src/components/VoiceDemo.tsx",
+      "bytes": 27607,
+      "sha256": "a8fcf4e6d2751e746bb2bcbf3fea5d2dd12bab31f01b49d4467fbcddc0c31a2a"
+    },
+    {
+      "path": "05-china-insider-home-project/src/lib/constants.ts",
+      "bytes": 3291,
+      "sha256": "ce9917bea5d16e653fdddcda85b2584cef7e99fa69115baf0ee1b0cbd4151ca5"
+    },
+    {
+      "path": "05-china-insider-home-project/src/lib/demo-data.ts",
+      "bytes": 1760,
+      "sha256": "065b453e8d302af00325a9c1a4ca5c2342c44123dbdb88f1472e6101500e4ff8"
+    },
+    {
+      "path": "05-china-insider-home-project/src/lib/money.ts",
+      "bytes": 577,
+      "sha256": "36c8e150e20c0f05c5e5a3928ca14efbd9a55570dff3fde32447bfb4a9456cc7"
+    },
+    {
+      "path": "05-china-insider-home-project/src/lib/openai/browser-realtime.test.ts",
+      "bytes": 1732,
+      "sha256": "981a696634bb782410a142d2b29e0ed19f0d08ef33a74a8e47a4c6f868dbdd94"
+    },
+    {
+      "path": "05-china-insider-home-project/src/lib/openai/browser-realtime.ts",
+      "bytes": 5225,
+      "sha256": "6797dc883d0662b37172d4aa43da83103123eb239a2b73def85d138585871db6"
+    },
+    {
+      "path": "05-china-insider-home-project/src/lib/openai/realtime.ts",
+      "bytes": 1808,
+      "sha256": "393da28a38a1b3d7def24494babc399b230ee16c8a83156cb481a9f9107b61db"
+    },
+    {
+      "path": "05-china-insider-home-project/src/lib/openai/schemas.ts",
+      "bytes": 250,
+      "sha256": "1601f907ae25ddc2d77a230d899a0159fb16a635a49a163d3ab14a6cf3428e0d"
+    },
+    {
+      "path": "05-china-insider-home-project/tailwind.config.ts",
+      "bytes": 407,
+      "sha256": "8880e4796c3e98b43dc5ff31b58960cf23324c0c46fba345f985c98f34dc126d"
+    },
+    {
+      "path": "05-china-insider-home-project/tsconfig.json",
+      "bytes": 578,
+      "sha256": "53f96418e60724de8c624de8d7d1b549f64a6c34a5f40f07a7596af4380c92f6"
+    },
+    {
+      "path": "05-china-insider-home-project/tsconfig.tsbuildinfo",
+      "bytes": 142888,
+      "sha256": "e27211d1f375dc1b7d7cf4fecf170ede3e2265e5144937cdb9fcb090b1c8a2a0"
+    },
+    {
+      "path": "05-china-insider-home-project/vitest.config.ts",
+      "bytes": 274,
+      "sha256": "944d69a98cfa5a40e5f2f09c28f5260ff4442faec995580161d16805c324ba19"
+    },
+    {
+      "path": "06-china-insider-desktop-project/.DS_Store",
+      "bytes": 8196,
+      "sha256": "58b03473b161ad55ddd7ed28b7fbc88e508d47561046dd2cc97fa1f111fd270a"
+    },
+    {
+      "path": "06-china-insider-desktop-project/.eslintrc.json",
+      "bytes": 61,
+      "sha256": "8d4a8d81dab1c22bcb28635249606f2e59fa816e8e58c56eecf6d2430949847a"
+    },
+    {
+      "path": "06-china-insider-desktop-project/.gitignore",
+      "bytes": 391,
+      "sha256": "f37e7e1b90353a16ba7bec8979585311ee6d00311209391e5ab47162df4ca922"
+    },
+    {
+      "path": "06-china-insider-desktop-project/CLAUDE.md",
+      "bytes": 502,
+      "sha256": "a63b15ac05bf08aea4db47e840bfa00d77dc11a2a28c8818e2a98fec4b7a0037"
+    },
+    {
+      "path": "06-china-insider-desktop-project/README.md",
+      "bytes": 706,
+      "sha256": "a5b4c522ad36ffd521a4c520fbacdc1542bbdbc24e2296a5a2224f298dcadd94"
+    },
+    {
+      "path": "06-china-insider-desktop-project/app/(app)/account/page.tsx",
+      "bytes": 1666,
+      "sha256": "b789e4a26369563225628ba3b276a4ee10ee55626f7c9c0781753b1183c165c4"
+    },
+    {
+      "path": "06-china-insider-desktop-project/app/.DS_Store",
+      "bytes": 8196,
+      "sha256": "2acd21e234b5929f68f68f87fc00a1156d17a5e46e297346549e2e43e40a9eab"
+    },
+    {
+      "path": "06-china-insider-desktop-project/app/api/.DS_Store",
+      "bytes": 6148,
+      "sha256": "59d8b2a0818fef9b1b6e71deb53050c1f02c1457a0f4197ef0013322c4046772"
+    },
+    {
+      "path": "06-china-insider-desktop-project/app/api/chat/route.ts",
+      "bytes": 19785,
+      "sha256": "87569acfdb888603a0f857a55dcec21fc3abd9330835b9b5be58870bed63adbb"
+    },
+    {
+      "path": "06-china-insider-desktop-project/app/api/realtime/session/route.ts",
+      "bytes": 2511,
+      "sha256": "7a599184cbe0c89a488153e1a020ecceae2ae7765ebf609b352bd33f743bc734"
+    },
+    {
+      "path": "06-china-insider-desktop-project/app/api/voice/speak/route.ts",
+      "bytes": 2197,
+      "sha256": "baa39dcc358b7065f9b15ca58f7bd045cd0f588c7a9f0c094cea6593e6b8720c"
+    },
+    {
+      "path": "06-china-insider-desktop-project/app/api/voice/transcribe/route.ts",
+      "bytes": 6288,
+      "sha256": "0423d487b81e2880bc4c1120b43283d9a6da0e93aec92e143954b24c67d7af68"
+    },
+    {
+      "path": "06-china-insider-desktop-project/app/booking/page.tsx",
+      "bytes": 7992,
+      "sha256": "d0df0ec20c4cad4b09bff94be468f2ddf3783d001c3c9a32b7eefbd266ee5cf5"
+    },
+    {
+      "path": "06-china-insider-desktop-project/app/booking/success/page.tsx",
+      "bytes": 3428,
+      "sha256": "f3dd8b76f9ac64ebd039aea43a9bba5a10541e05c47f11bdb0076275b9b17508"
+    },
+    {
+      "path": "06-china-insider-desktop-project/app/chat/page.tsx",
+      "bytes": 2383,
+      "sha256": "bc9e23cb8b72269ed56f55b4df0ea4ea1917fbaf506c912acc84817a6bc27dae"
+    },
+    {
+      "path": "06-china-insider-desktop-project/app/experts/[slug]/page.tsx",
+      "bytes": 5060,
+      "sha256": "bb4e31a5a81cd0b722ffe7e1458dcf4eedf3c6351c97744c51b63cadb459abc8"
+    },
+    {
+      "path": "06-china-insider-desktop-project/app/experts/page.tsx",
+      "bytes": 3599,
+      "sha256": "ed5dc8faa77a8eedfc527bae79c4033e184a6853276271374753942b3247edb8"
+    },
+    {
+      "path": "06-china-insider-desktop-project/app/favicon.ico",
+      "bytes": 25931,
+      "sha256": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932"
+    },
+    {
+      "path": "06-china-insider-desktop-project/app/fonts/GeistMonoVF.woff",
+      "bytes": 67864,
+      "sha256": "e8b65928f551b17e3d67c3f709721b952c39842d14b00701f9232057fde73608"
+    },
+    {
+      "path": "06-china-insider-desktop-project/app/fonts/GeistVF.woff",
+      "bytes": 66268,
+      "sha256": "296fafafd41304f7c992079054b8af914dbbd865f32de97c66d0f613b55755d6"
+    },
+    {
+      "path": "06-china-insider-desktop-project/app/globals.css",
+      "bytes": 8773,
+      "sha256": "ef00f134afa9d4eb2f51fc3b098175b5568122d0e8e3da5439007eba1f3fa477"
+    },
+    {
+      "path": "06-china-insider-desktop-project/app/layout.tsx",
+      "bytes": 1015,
+      "sha256": "e6882db3216ad131e0d7daffbf21d610d01ba994f3ce98d3cb6d5c021e8d36a1"
+    },
+    {
+      "path": "06-china-insider-desktop-project/app/login/page.tsx",
+      "bytes": 2682,
+      "sha256": "f6c3d8c8b9f1b48f936f72ee4fb874ff5768c53ea26906b814647f35c67aa511"
+    },
+    {
+      "path": "06-china-insider-desktop-project/app/page.tsx",
+      "bytes": 5812,
+      "sha256": "155ce81f8feaa3d35edbb596ab3019b1564fe521a2b7acbf8b1cf76efd618008"
+    },
+    {
+      "path": "06-china-insider-desktop-project/biome.json",
+      "bytes": 547,
+      "sha256": "dd86916182bfcfb2e9e603ef96cccb59449e1fbc3d9b3c51a0a3da477b16c37f"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/.DS_Store",
+      "bytes": 8196,
+      "sha256": "42419ef24470054a37f3da678bbbde805ee1f843085898e84dd98a6c14f052d5"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/.eslintrc.json",
+      "bytes": 61,
+      "sha256": "8d4a8d81dab1c22bcb28635249606f2e59fa816e8e58c56eecf6d2430949847a"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/.gitignore",
+      "bytes": 391,
+      "sha256": "f37e7e1b90353a16ba7bec8979585311ee6d00311209391e5ab47162df4ca922"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/CLAUDE.md",
+      "bytes": 502,
+      "sha256": "a63b15ac05bf08aea4db47e840bfa00d77dc11a2a28c8818e2a98fec4b7a0037"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/README.md",
+      "bytes": 706,
+      "sha256": "a5b4c522ad36ffd521a4c520fbacdc1542bbdbc24e2296a5a2224f298dcadd94"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/app/(app)/account/page.tsx",
+      "bytes": 1666,
+      "sha256": "b789e4a26369563225628ba3b276a4ee10ee55626f7c9c0781753b1183c165c4"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/app/api/chat/route.ts",
+      "bytes": 3178,
+      "sha256": "6c34a2b65792e459279c5e5b3795d1ae458d7fd32938c34c741e1389f97a8910"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/app/booking/page.tsx",
+      "bytes": 7992,
+      "sha256": "d0df0ec20c4cad4b09bff94be468f2ddf3783d001c3c9a32b7eefbd266ee5cf5"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/app/booking/success/page.tsx",
+      "bytes": 3428,
+      "sha256": "f3dd8b76f9ac64ebd039aea43a9bba5a10541e05c47f11bdb0076275b9b17508"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/app/chat/page.tsx",
+      "bytes": 14876,
+      "sha256": "f778b2bffb7c3454f1dbc3f0ad46326a90d12eed9ed6e0de967a723f576652da"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/app/experts/[slug]/page.tsx",
+      "bytes": 5060,
+      "sha256": "bb4e31a5a81cd0b722ffe7e1458dcf4eedf3c6351c97744c51b63cadb459abc8"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/app/experts/page.tsx",
+      "bytes": 3599,
+      "sha256": "ed5dc8faa77a8eedfc527bae79c4033e184a6853276271374753942b3247edb8"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/app/favicon.ico",
+      "bytes": 25931,
+      "sha256": "2b8ad2d33455a8f736fc3a8ebf8f0bdea8848ad4c0db48a2833bd0f9cd775932"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/app/fonts/GeistMonoVF.woff",
+      "bytes": 67864,
+      "sha256": "e8b65928f551b17e3d67c3f709721b952c39842d14b00701f9232057fde73608"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/app/fonts/GeistVF.woff",
+      "bytes": 66268,
+      "sha256": "296fafafd41304f7c992079054b8af914dbbd865f32de97c66d0f613b55755d6"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/app/globals.css",
+      "bytes": 8773,
+      "sha256": "ef00f134afa9d4eb2f51fc3b098175b5568122d0e8e3da5439007eba1f3fa477"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/app/layout.tsx",
+      "bytes": 1015,
+      "sha256": "e6882db3216ad131e0d7daffbf21d610d01ba994f3ce98d3cb6d5c021e8d36a1"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/app/login/page.tsx",
+      "bytes": 2682,
+      "sha256": "f6c3d8c8b9f1b48f936f72ee4fb874ff5768c53ea26906b814647f35c67aa511"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/app/page.tsx",
+      "bytes": 5812,
+      "sha256": "155ce81f8feaa3d35edbb596ab3019b1564fe521a2b7acbf8b1cf76efd618008"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/biome.json",
+      "bytes": 547,
+      "sha256": "dd86916182bfcfb2e9e603ef96cccb59449e1fbc3d9b3c51a0a3da477b16c37f"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/components/marketing/chat-concierge-client.tsx",
+      "bytes": 6165,
+      "sha256": "238f477f68e7b15c656bf2eaac1f6443e59a0be9086d4e2bed5bc7bd679627b5"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/components/marketing/expert-card.tsx",
+      "bytes": 1914,
+      "sha256": "5ecf7205859362f1d8ff3b6b8486360a5b7e94f2952dd4fddcb4ddc6f32ed158"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/components/marketing/site-header.tsx",
+      "bytes": 1150,
+      "sha256": "df20b71f3e3677545199269db2e7c978850190e833853d2e349e46d13243d077"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/components/ui/button.tsx",
+      "bytes": 3204,
+      "sha256": "94f3f0df1d8328b2566d8aa35119cd27d5c6ca89dc9962c0bafbcf4b0851086e"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/components.json",
+      "bytes": 534,
+      "sha256": "48890abafb78b0f93f7e702548501e98cef13314debc22f2d8c127cbc5c36509"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/lib/city-showcase.ts",
+      "bytes": 2411,
+      "sha256": "6ca8cf1e12c578eef70a5b37591f9f5312185bdc1f3469233ad13a4f9a135868"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/lib/constants.ts",
+      "bytes": 697,
+      "sha256": "8a302e8c6a4568b2837989558fedd6dbcd16f2e0b37d35257baaba003c7c0a6f"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/lib/format.ts",
+      "bytes": 772,
+      "sha256": "7eb17a9d1d76eb86bab9ca61385c9bb2f06a2d04b5c9b87d75c1a74551e80140"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/lib/i18n/en.ts",
+      "bytes": 529,
+      "sha256": "d7bf4a2559b2d988aa9b51b431b0c113ca748475a83b86c6380f8fa4b7df2a22"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/lib/matching/match-experts.ts",
+      "bytes": 1438,
+      "sha256": "05ff709b53f35ba11fc34e383a4e883c016cce65c9e40bc3607aeb5c103bdc68"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/lib/mock-data.ts",
+      "bytes": 3819,
+      "sha256": "cb18690973048144336571f1804189b6fe6de75867f62da89c6beae2fa94c7e8"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/lib/money.ts",
+      "bytes": 1328,
+      "sha256": "af3e2c915031729cef19d6ff7cf46f842acc2be603d82b543f79d82868197094"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/lib/supabase/admin.ts",
+      "bytes": 531,
+      "sha256": "0b1600b0b0e0de59cc863aeda48f2336d70ec9196577fa885ce5535b082b9a09"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/lib/supabase/client.ts",
+      "bytes": 458,
+      "sha256": "2cdf42b15e44de351f87d0a80992afa02238b0a937a3b5a56064064d9dfc6720"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/lib/supabase/env.ts",
+      "bytes": 698,
+      "sha256": "a3de8cc199f7dd59d5339bcdf12f350fdbee70090a30d2ca7a956d875730cfee"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/lib/supabase/server.ts",
+      "bytes": 920,
+      "sha256": "02e6e3beaeddd1f17cf81ff9770cf04802093fc0500f56131f4238d954a3e151"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/lib/utils.ts",
+      "bytes": 169,
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/middleware.ts",
+      "bytes": 1022,
+      "sha256": "c26e7b9aff3f558953380e7b6fe863e36cc6c5248502f2d8523bb8ba4ac00ac4"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/next-env.d.ts",
+      "bytes": 228,
+      "sha256": "9dd9d642cdb87d4d5b3173217e0c45429b3e47a6f5cf5fb0ead6c644ec5fed01"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/next.config.mjs",
+      "bytes": 224,
+      "sha256": "2c8be55cb2129cfaebbf1d695b43757c5a9d7aa2208ea424fb3ad846b03e90d7"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/package.json",
+      "bytes": 1199,
+      "sha256": "ac351fdb2ea25f418adaaab68663e0819c9066e14a6427534da208892231f230"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/pnpm-lock.yaml",
+      "bytes": 235611,
+      "sha256": "d95c7bb5c15c357d3a6b2ce989ef5d1a798af6d47b163cee3cc03cf9f1714fa8"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/postcss.config.mjs",
+      "bytes": 135,
+      "sha256": "ac31e2a95ef64fe27ceb4124e101675273107aae2e33bc490b01d919e7f03646"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/public/cities/README.md",
+      "bytes": 364,
+      "sha256": "623f56fa07b6e6833b7b25e51dea9204eb0e6b9e35223b4d48fc75a1e3fd668f"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/public/hero-bg.png",
+      "bytes": 393489,
+      "sha256": "64d0e38a9fcf1ead0cc5e3f88fcef20d9fd517d490305e0b130d2540bde2c454"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/scripts/seed-experts.ts",
+      "bytes": 177,
+      "sha256": "a9027f3f3e8902f0ef03cdb3146db103e40cf5b1366accfc610f47a7238d52a2"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/scripts/verify-supabase.ts",
+      "bytes": 1202,
+      "sha256": "5db20b809ec5c52bc5bd07410de9499a8f1f60ac7ef3eb55ae2ee16f8e89141b"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/supabase/migrations/0001_init.sql",
+      "bytes": 6035,
+      "sha256": "52773493db52aa84bd525f3cfe25b4a5980fe916ea1dd3577d53470b98eb024c"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/supabase/migrations/0003_rls.sql",
+      "bytes": 2564,
+      "sha256": "16bd736974fcc90cc0cac6844952a4bc87af165ee763ffdd74ef615d8d569a6f"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/supabase/migrations/0004_seed.sql",
+      "bytes": 3029,
+      "sha256": "a47437814d3f97db30ceacdf719711a7d132081bce98e548e5841d9f66f4ef40"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/tailwind.config.ts",
+      "bytes": 1452,
+      "sha256": "a169bb90a6b5e76567c28bb4ea4c7b7e447e8c3cf75f7f94df163c51ab1f0c06"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/tests/unit/money.test.ts",
+      "bytes": 661,
+      "sha256": "022acb21d8694813054064cffd87bd0af280f52262d21362189844fe09becf06"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/tsconfig.json",
+      "bytes": 574,
+      "sha256": "54202f1d6d35ba51c3daea32bf67e8da24568ec0cb0c341fa0b5ed2ceb174f2d"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/tsconfig.tsbuildinfo",
+      "bytes": 163887,
+      "sha256": "200d80d3ee1e5ae4e3b1a4319b6135d375daa7fbc749a4d1353a174781d570cb"
+    },
+    {
+      "path": "06-china-insider-desktop-project/china-insider/vitest.config.ts",
+      "bytes": 347,
+      "sha256": "9e34bc120f1653c0f09209d22e66ecb12cdd95cf412a9ed07905e6e329d8a973"
+    },
+    {
+      "path": "06-china-insider-desktop-project/components/.DS_Store",
+      "bytes": 6148,
+      "sha256": "3ba2a3217e20cf1ab3f103c92354c1bbdcb56c46b1990f3fdd58048a18e6de50"
+    },
+    {
+      "path": "06-china-insider-desktop-project/components/marketing/chat-concierge-client.tsx",
+      "bytes": 41938,
+      "sha256": "5b161902e11d7d51a178ed521fdad0b9269f3f30ea10673718e99a2265f88e47"
+    },
+    {
+      "path": "06-china-insider-desktop-project/components/marketing/expert-card.tsx",
+      "bytes": 1914,
+      "sha256": "5ecf7205859362f1d8ff3b6b8486360a5b7e94f2952dd4fddcb4ddc6f32ed158"
+    },
+    {
+      "path": "06-china-insider-desktop-project/components/marketing/site-header.tsx",
+      "bytes": 1150,
+      "sha256": "df20b71f3e3677545199269db2e7c978850190e833853d2e349e46d13243d077"
+    },
+    {
+      "path": "06-china-insider-desktop-project/components/ui/button.tsx",
+      "bytes": 3204,
+      "sha256": "94f3f0df1d8328b2566d8aa35119cd27d5c6ca89dc9962c0bafbcf4b0851086e"
+    },
+    {
+      "path": "06-china-insider-desktop-project/components.json",
+      "bytes": 534,
+      "sha256": "48890abafb78b0f93f7e702548501e98cef13314debc22f2d8c127cbc5c36509"
+    },
+    {
+      "path": "06-china-insider-desktop-project/lib/.DS_Store",
+      "bytes": 6148,
+      "sha256": "ba0b39d4393d0ff57f38acc8ecef48213f2e785612c6159a60364d2c8b6fcd1e"
+    },
+    {
+      "path": "06-china-insider-desktop-project/lib/city-showcase.ts",
+      "bytes": 2411,
+      "sha256": "6ca8cf1e12c578eef70a5b37591f9f5312185bdc1f3469233ad13a4f9a135868"
+    },
+    {
+      "path": "06-china-insider-desktop-project/lib/constants.ts",
+      "bytes": 697,
+      "sha256": "8a302e8c6a4568b2837989558fedd6dbcd16f2e0b37d35257baaba003c7c0a6f"
+    },
+    {
+      "path": "06-china-insider-desktop-project/lib/format.ts",
+      "bytes": 772,
+      "sha256": "7eb17a9d1d76eb86bab9ca61385c9bb2f06a2d04b5c9b87d75c1a74551e80140"
+    },
+    {
+      "path": "06-china-insider-desktop-project/lib/i18n/en.ts",
+      "bytes": 529,
+      "sha256": "d7bf4a2559b2d988aa9b51b431b0c113ca748475a83b86c6380f8fa4b7df2a22"
+    },
+    {
+      "path": "06-china-insider-desktop-project/lib/matching/match-experts.ts",
+      "bytes": 1438,
+      "sha256": "05ff709b53f35ba11fc34e383a4e883c016cce65c9e40bc3607aeb5c103bdc68"
+    },
+    {
+      "path": "06-china-insider-desktop-project/lib/mock-data.ts",
+      "bytes": 3819,
+      "sha256": "cb18690973048144336571f1804189b6fe6de75867f62da89c6beae2fa94c7e8"
+    },
+    {
+      "path": "06-china-insider-desktop-project/lib/money.ts",
+      "bytes": 1328,
+      "sha256": "af3e2c915031729cef19d6ff7cf46f842acc2be603d82b543f79d82868197094"
+    },
+    {
+      "path": "06-china-insider-desktop-project/lib/supabase/admin.ts",
+      "bytes": 531,
+      "sha256": "0b1600b0b0e0de59cc863aeda48f2336d70ec9196577fa885ce5535b082b9a09"
+    },
+    {
+      "path": "06-china-insider-desktop-project/lib/supabase/client.ts",
+      "bytes": 458,
+      "sha256": "2cdf42b15e44de351f87d0a80992afa02238b0a937a3b5a56064064d9dfc6720"
+    },
+    {
+      "path": "06-china-insider-desktop-project/lib/supabase/env.ts",
+      "bytes": 698,
+      "sha256": "a3de8cc199f7dd59d5339bcdf12f350fdbee70090a30d2ca7a956d875730cfee"
+    },
+    {
+      "path": "06-china-insider-desktop-project/lib/supabase/server.ts",
+      "bytes": 920,
+      "sha256": "02e6e3beaeddd1f17cf81ff9770cf04802093fc0500f56131f4238d954a3e151"
+    },
+    {
+      "path": "06-china-insider-desktop-project/lib/utils.ts",
+      "bytes": 169,
+      "sha256": "4acbc7165a8d54738ff62b51414e772c08fe78434e524e6d8770180d3ba2925f"
+    },
+    {
+      "path": "06-china-insider-desktop-project/middleware.ts",
+      "bytes": 1022,
+      "sha256": "c26e7b9aff3f558953380e7b6fe863e36cc6c5248502f2d8523bb8ba4ac00ac4"
+    },
+    {
+      "path": "06-china-insider-desktop-project/next-env.d.ts",
+      "bytes": 228,
+      "sha256": "9dd9d642cdb87d4d5b3173217e0c45429b3e47a6f5cf5fb0ead6c644ec5fed01"
+    },
+    {
+      "path": "06-china-insider-desktop-project/next.config.mjs",
+      "bytes": 224,
+      "sha256": "2c8be55cb2129cfaebbf1d695b43757c5a9d7aa2208ea424fb3ad846b03e90d7"
+    },
+    {
+      "path": "06-china-insider-desktop-project/package.json",
+      "bytes": 1248,
+      "sha256": "48c81943ccb782fb6ec7a7b03b57b34dcd1758742f62ecf41ad7bf1a9546669d"
+    },
+    {
+      "path": "06-china-insider-desktop-project/pnpm-lock.yaml",
+      "bytes": 236618,
+      "sha256": "4a149aebacf6a9b5b62d05d843f65bb953d8fc83cd406ab9145f316e107fb174"
+    },
+    {
+      "path": "06-china-insider-desktop-project/postcss.config.mjs",
+      "bytes": 135,
+      "sha256": "ac31e2a95ef64fe27ceb4124e101675273107aae2e33bc490b01d919e7f03646"
+    },
+    {
+      "path": "06-china-insider-desktop-project/public/cities/README.md",
+      "bytes": 364,
+      "sha256": "623f56fa07b6e6833b7b25e51dea9204eb0e6b9e35223b4d48fc75a1e3fd668f"
+    },
+    {
+      "path": "06-china-insider-desktop-project/public/hero-bg.png",
+      "bytes": 393489,
+      "sha256": "64d0e38a9fcf1ead0cc5e3f88fcef20d9fd517d490305e0b130d2540bde2c454"
+    },
+    {
+      "path": "06-china-insider-desktop-project/scripts/seed-experts.ts",
+      "bytes": 177,
+      "sha256": "a9027f3f3e8902f0ef03cdb3146db103e40cf5b1366accfc610f47a7238d52a2"
+    },
+    {
+      "path": "06-china-insider-desktop-project/scripts/verify-supabase.ts",
+      "bytes": 1202,
+      "sha256": "5db20b809ec5c52bc5bd07410de9499a8f1f60ac7ef3eb55ae2ee16f8e89141b"
+    },
+    {
+      "path": "06-china-insider-desktop-project/supabase/migrations/0001_init.sql",
+      "bytes": 6035,
+      "sha256": "52773493db52aa84bd525f3cfe25b4a5980fe916ea1dd3577d53470b98eb024c"
+    },
+    {
+      "path": "06-china-insider-desktop-project/supabase/migrations/0003_rls.sql",
+      "bytes": 2564,
+      "sha256": "16bd736974fcc90cc0cac6844952a4bc87af165ee763ffdd74ef615d8d569a6f"
+    },
+    {
+      "path": "06-china-insider-desktop-project/supabase/migrations/0004_seed.sql",
+      "bytes": 3029,
+      "sha256": "a47437814d3f97db30ceacdf719711a7d132081bce98e548e5841d9f66f4ef40"
+    },
+    {
+      "path": "06-china-insider-desktop-project/tailwind.config.ts",
+      "bytes": 1452,
+      "sha256": "a169bb90a6b5e76567c28bb4ea4c7b7e447e8c3cf75f7f94df163c51ab1f0c06"
+    },
+    {
+      "path": "06-china-insider-desktop-project/tests/unit/money.test.ts",
+      "bytes": 661,
+      "sha256": "022acb21d8694813054064cffd87bd0af280f52262d21362189844fe09becf06"
+    },
+    {
+      "path": "06-china-insider-desktop-project/tsconfig.json",
+      "bytes": 591,
+      "sha256": "baf2d4a8e206d89b9b7b0dde66ddfd2384d79ab2e3a2c73c4599ce2c9533b2c6"
+    },
+    {
+      "path": "06-china-insider-desktop-project/tsconfig.tsbuildinfo",
+      "bytes": 163887,
+      "sha256": "200d80d3ee1e5ae4e3b1a4319b6135d375daa7fbc749a4d1353a174781d570cb"
+    },
+    {
+      "path": "06-china-insider-desktop-project/vitest.config.ts",
+      "bytes": 347,
+      "sha256": "9e34bc120f1653c0f09209d22e66ecb12cdd95cf412a9ed07905e6e329d8a973"
+    },
+    {
+      "path": "07-desktop-tourism-platform-docs/.DS_Store",
+      "bytes": 6148,
+      "sha256": "d65165279105ca6773180500688df4bdc69a2c7b771752f0a46ef120b7fd8ec3"
+    },
+    {
+      "path": "07-desktop-tourism-platform-docs/gemini一版.docx",
+      "bytes": 27275,
+      "sha256": "aa96651528b9bd074047409f96ada1b666fc72559e317d7ca06fe55755c6fc6d"
+    },
+    {
+      "path": "07-desktop-tourism-platform-docs/manus一版.docx",
+      "bytes": 43608,
+      "sha256": "a2cfd05827a995897c7c40d8203f4989bdbde0961a904e6b1f67f8115e4808c3"
+    },
+    {
+      "path": "07-desktop-tourism-platform-docs/旅游方案豆包一版.docx",
+      "bytes": 24674,
+      "sha256": "c15a05cc9585381b92f92975134cba64b532fa15a2864cad34d115b7306abf7a"
+    },
+    {
+      "path": "07-desktop-tourism-platform-docs/海外游客搜索中国旅游信息社交平台及欧美游客消费习惯分析报告.docx",
+      "bytes": 12245,
+      "sha256": "ec38e28e8476063772497b59907bd72250f85038141201e6ab6e6e1caa14a5db"
+    },
+    {
+      "path": "08-claude-code-sanitized-excerpts/paste-cache/34cc9dfea10aeacb.txt",
+      "bytes": 29149,
+      "sha256": "fdf438183c2423465768e55d7ee785998ff2d0ed00d8fee09588fb97ea56140f"
+    },
+    {
+      "path": "08-claude-code-sanitized-excerpts/projects/-Users-apple/2f3464d3-edb8-47e5-a091-b6a5adf36f9b.jsonl",
+      "bytes": 84481,
+      "sha256": "4f757048a35a3904c147c9303060bc1107da95dd9d9c26d9e2b83b7788448e4a"
+    },
+    {
+      "path": "08-claude-code-sanitized-excerpts/projects/-Users-apple/eb4cfed9-1a2a-4f4c-ab85-f589a5d0275e/subagents/agent-a28144387bf32b6c3.jsonl",
+      "bytes": 39221,
+      "sha256": "0ed51091e13467b8e400dcec2189779d6657bdc980f0185f8a5c1db34f81851b"
+    },
+    {
+      "path": "08-claude-code-sanitized-excerpts/projects/-Users-apple/eb4cfed9-1a2a-4f4c-ab85-f589a5d0275e/subagents/agent-a3cc4a35e1b292449.jsonl",
+      "bytes": 35704,
+      "sha256": "174499679cbaf0307fbbdae8e3c957b9fcd4bd160199d5faa64e5487a20e6e0a"
+    },
+    {
+      "path": "08-claude-code-sanitized-excerpts/projects/-Users-apple/eb4cfed9-1a2a-4f4c-ab85-f589a5d0275e/subagents/agent-a85373b268d923eab.jsonl",
+      "bytes": 43294,
+      "sha256": "ea79f760d53ca203159b7d3af94102c62af07e903ea295b5c2937bed3c6e2a46"
+    },
+    {
+      "path": "08-claude-code-sanitized-excerpts/projects/-Users-apple/eb4cfed9-1a2a-4f4c-ab85-f589a5d0275e.jsonl",
+      "bytes": 4746239,
+      "sha256": "c4c08c78fde51556bd95b1a9a77b81a46f259714cb41a0a565625a182d9ce7cb"
+    },
+    {
+      "path": "08-claude-code-sanitized-excerpts/tasks/eb4cfed9-1a2a-4f4c-ab85-f589a5d0275e/2.json",
+      "bytes": 278,
+      "sha256": "47d1291b202524b34fa7bdcb02ae7530a442d80ab672654cf875b96e8de3ff50"
+    },
+    {
+      "path": "TRANSFER_BRIEF.md",
+      "bytes": 2621,
+      "sha256": "e01a47fcfb8744ad89881c51e8d5f6d5ee5f27b96cb22f5fff5d0b8bcb3cd3da"
+    }
+  ]
+}
