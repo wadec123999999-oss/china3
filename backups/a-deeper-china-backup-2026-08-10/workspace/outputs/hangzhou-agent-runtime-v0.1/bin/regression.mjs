@@ -1,0 +1,1 @@
+import {runRegression} from '../src/regression.mjs';const results=runRegression();const failed=results.filter(r=>!r.pass);console.log((results.length-failed.length)+'/'+results.length+' cases passed');if(failed.length){console.error(JSON.stringify(failed,null,2));process.exit(1);}
