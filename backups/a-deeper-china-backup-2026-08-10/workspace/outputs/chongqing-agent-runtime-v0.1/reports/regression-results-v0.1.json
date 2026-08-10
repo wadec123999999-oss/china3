@@ -1,0 +1,5041 @@
+{
+  "generatedAt": "2026-08-09T17:59:18.487Z",
+  "databaseId": "chongqing-main-city-agent-v1.0",
+  "databaseVersion": "1.0",
+  "totalCases": 60,
+  "passedCases": 60,
+  "failedCases": 0,
+  "assertionCount": 591,
+  "cases": [
+    {
+      "testId": "TC01",
+      "conversation": "第一次来，3天，和妈妈，不想太累，想拍特别的城市感，也不想全是网红。",
+      "passed": true,
+      "assertionCount": 10,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC01, got TC01"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:mobility_detail",
+          "passed": true,
+          "detail": "got mobility_detail,arrival_departure"
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM02,RM04"
+        },
+        {
+          "label": "ignored_intent:历史理解",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "commercial_state",
+          "passed": true,
+          "detail": "expected research_candidate, got research_candidate"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM02",
+          "RM04",
+          "RM03",
+          "RM01",
+          "RM07",
+          "RM12",
+          "RM16",
+          "RM13",
+          "RM14"
+        ],
+        "followUpCodes": [
+          "mobility_detail",
+          "arrival_departure"
+        ],
+        "dynamicChecks": [
+          "line_2_service_and_liziba_construction"
+        ],
+        "excludedModuleIds": [
+          "RM10",
+          "RM20"
+        ],
+        "commercialState": "research_candidate",
+        "commercialAction": "offer_paid_roadbook_or_manual_waitlist",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC02",
+      "conversation": "洪崖洞李子坝都去过。这次想了解开埠和普通人的生活，不爱排队。",
+      "passed": true,
+      "assertionCount": 12,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC02, got TC02"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 4, got 4"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "excluded:RM04",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM16",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM08,RM19,RM22"
+        },
+        {
+          "label": "used_intent:历史理解",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "used_intent:在地生活",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "used_intent:复游新鲜感",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM02",
+          "RM08",
+          "RM10",
+          "RM12",
+          "RM07",
+          "RM14",
+          "RM15",
+          "RM13",
+          "RM19",
+          "RM24",
+          "RM22",
+          "RM23"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [],
+        "excludedModuleIds": [
+          "RM04",
+          "RM16"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC03",
+      "conversation": "I have two days to film Chongqing for YouTube. Cyberpunk visuals matter most.",
+      "passed": true,
+      "assertionCount": 9,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC03, got TC03"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 2, got 2"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:commercial_filming_scope",
+          "passed": true,
+          "detail": "got commercial_filming_scope"
+        },
+        {
+          "label": "dynamic_check:commercial_filming_permission",
+          "passed": true,
+          "detail": "got commercial_filming_permission,line_2_service_and_liziba_construction"
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM02,RM04,RM16"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM10",
+          "RM16",
+          "RM17"
+        ],
+        "followUpCodes": [
+          "commercial_filming_scope"
+        ],
+        "dynamicChecks": [
+          "commercial_filming_permission",
+          "line_2_service_and_liziba_construction"
+        ],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC04",
+      "conversation": "带8岁孩子，雨天，不吃辣，孩子喜欢火车和博物馆。",
+      "passed": true,
+      "assertionCount": 9,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC04, got TC04"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:dietary_detail",
+          "passed": true,
+          "detail": "got dietary_detail"
+        },
+        {
+          "label": "dynamic_check:same_day_weather_and_route_condition",
+          "passed": true,
+          "detail": "got same_day_weather_and_route_condition,line_2_service_and_liziba_construction"
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM13,RM16"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM05",
+          "RM02",
+          "RM01",
+          "RM12",
+          "RM13",
+          "RM16",
+          "RM18",
+          "RM15",
+          "RM14"
+        ],
+        "followUpCodes": [
+          "dietary_detail"
+        ],
+        "dynamicChecks": [
+          "same_day_weather_and_route_condition",
+          "line_2_service_and_liziba_construction"
+        ],
+        "excludedModuleIds": [
+          "RM10",
+          "RM20"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC05",
+      "conversation": "预算没问题，想要小众、真实，不想被推销。你直接安排。",
+      "passed": true,
+      "assertionCount": 9,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC05, got TC05"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:definition_of_authentic",
+          "passed": true,
+          "detail": "got definition_of_authentic,budget_scope"
+        },
+        {
+          "label": "follow_up:budget_scope",
+          "passed": true,
+          "detail": "got definition_of_authentic,budget_scope"
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM22,RM19"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM06",
+          "RM12",
+          "RM10",
+          "RM07",
+          "RM16",
+          "RM19",
+          "RM22",
+          "RM23",
+          "RM24"
+        ],
+        "followUpCodes": [
+          "definition_of_authentic",
+          "budget_scope"
+        ],
+        "dynamicChecks": [],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC06",
+      "conversation": "只有两天，但洪崖洞、长江索道、游船、李子坝、十八梯和博物馆都想去。",
+      "passed": true,
+      "assertionCount": 9,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC06, got TC06"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 2, got 2"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM04,RM16"
+        },
+        {
+          "label": "expected_total_days",
+          "passed": true,
+          "detail": "expected 2, got 2"
+        },
+        {
+          "label": "expected_max_modules_per_day",
+          "passed": true,
+          "detail": "one or more days exceeded 3"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM04",
+          "RM05",
+          "RM10",
+          "RM12",
+          "RM16",
+          "RM13"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [
+          "line_2_service_and_liziba_construction"
+        ],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC07",
+      "conversation": "My father is 72. He can walk, but repeated stairs hurt his knees.",
+      "passed": true,
+      "assertionCount": 10,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC07, got TC07"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:mobility_detail",
+          "passed": true,
+          "detail": "got mobility_detail"
+        },
+        {
+          "label": "excluded:RM10",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM20",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM13,RM16"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM02",
+          "RM05",
+          "RM01",
+          "RM03",
+          "RM04",
+          "RM12",
+          "RM16",
+          "RM13",
+          "RM14"
+        ],
+        "followUpCodes": [
+          "mobility_detail"
+        ],
+        "dynamicChecks": [
+          "line_2_service_and_liziba_construction"
+        ],
+        "excludedModuleIds": [
+          "RM10",
+          "RM20"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC08",
+      "conversation": "One of us uses a wheelchair. Can we do Kuixinglou, Hongyadong and the riverfront?",
+      "passed": true,
+      "assertionCount": 11,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC08, got TC08"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:wheelchair_accessibility",
+          "passed": true,
+          "detail": "got wheelchair_accessibility"
+        },
+        {
+          "label": "dynamic_check:continuous_accessibility_field_check",
+          "passed": true,
+          "detail": "got continuous_accessibility_field_check"
+        },
+        {
+          "label": "excluded:RM02",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM03",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM04",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [],
+        "followUpCodes": [
+          "wheelchair_accessibility"
+        ],
+        "dynamicChecks": [
+          "continuous_accessibility_field_check"
+        ],
+        "excludedModuleIds": [
+          "RM01",
+          "RM02",
+          "RM03",
+          "RM04",
+          "RM05",
+          "RM06",
+          "RM07",
+          "RM08",
+          "RM09",
+          "RM10",
+          "RM11",
+          "RM12",
+          "RM13",
+          "RM14",
+          "RM15",
+          "RM16",
+          "RM17",
+          "RM18",
+          "RM19",
+          "RM20",
+          "RM21",
+          "RM22",
+          "RM23",
+          "RM24"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC09",
+      "conversation": "I love architecture but I’m seriously afraid of exposed heights and glass bridges.",
+      "passed": true,
+      "assertionCount": 11,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC09, got TC09"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "excluded:RM02",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM05",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM17",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM21",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM07,RM13,RM14"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM01",
+          "RM03",
+          "RM04",
+          "RM07",
+          "RM10",
+          "RM14",
+          "RM13",
+          "RM19",
+          "RM24"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [],
+        "excludedModuleIds": [
+          "RM02",
+          "RM05",
+          "RM17",
+          "RM21"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC10",
+      "conversation": "I’ll be 24 weeks pregnant and visiting in August. I want an easy city day.",
+      "passed": true,
+      "assertionCount": 11,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC10, got TC10"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:current_safety",
+          "passed": true,
+          "detail": "got current_safety,medical_boundary"
+        },
+        {
+          "label": "follow_up:medical_boundary",
+          "passed": true,
+          "detail": "got current_safety,medical_boundary"
+        },
+        {
+          "label": "dynamic_check:same_day_weather_and_route_condition",
+          "passed": true,
+          "detail": "got same_day_weather_and_route_condition,line_2_service_and_liziba_construction"
+        },
+        {
+          "label": "excluded:RM10",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM20",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM05",
+          "RM02",
+          "RM01",
+          "RM04",
+          "RM12",
+          "RM16",
+          "RM13",
+          "RM15",
+          "RM14"
+        ],
+        "followUpCodes": [
+          "current_safety",
+          "medical_boundary"
+        ],
+        "dynamicChecks": [
+          "same_day_weather_and_route_condition",
+          "line_2_service_and_liziba_construction"
+        ],
+        "excludedModuleIds": [
+          "RM10",
+          "RM20"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC11",
+      "conversation": "We have a four-year-old and a stroller. Can we wander Shancheng Alley and Shibati?",
+      "passed": true,
+      "assertionCount": 9,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC11, got TC11"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:mobility_detail",
+          "passed": true,
+          "detail": "got mobility_detail"
+        },
+        {
+          "label": "excluded:RM10",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM13,RM16"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM02",
+          "RM01",
+          "RM04",
+          "RM03",
+          "RM12",
+          "RM16",
+          "RM13",
+          "RM14",
+          "RM15"
+        ],
+        "followUpCodes": [
+          "mobility_detail"
+        ],
+        "dynamicChecks": [
+          "line_2_service_and_liziba_construction"
+        ],
+        "excludedModuleIds": [
+          "RM10",
+          "RM20"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC12",
+      "conversation": "My 14-year-old is into trains, engineering and city systems.",
+      "passed": true,
+      "assertionCount": 8,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC12, got TC12"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM02,RM16,RM24"
+        },
+        {
+          "label": "used_intent:亲子教育",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM02",
+          "RM04",
+          "RM03",
+          "RM12",
+          "RM07",
+          "RM16",
+          "RM13",
+          "RM14",
+          "RM24"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [
+          "line_2_service_and_liziba_construction"
+        ],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC13",
+      "conversation": "I have a severe peanut allergy. Is your noodle and hotpot experience safe?",
+      "passed": true,
+      "assertionCount": 11,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC13, got TC13"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:food_allergy_sop",
+          "passed": true,
+          "detail": "got food_allergy_sop"
+        },
+        {
+          "label": "dynamic_check:venue_food_safety_written_confirmation",
+          "passed": true,
+          "detail": "got venue_food_safety_written_confirmation"
+        },
+        {
+          "label": "excluded:RM12",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "commercial_state",
+          "passed": true,
+          "detail": "expected research_candidate, got research_candidate"
+        },
+        {
+          "label": "may_quote",
+          "passed": true,
+          "detail": "expected false, got false"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM06",
+          "RM07",
+          "RM10",
+          "RM13",
+          "RM16",
+          "RM19"
+        ],
+        "followUpCodes": [
+          "food_allergy_sop"
+        ],
+        "dynamicChecks": [
+          "venue_food_safety_written_confirmation"
+        ],
+        "excludedModuleIds": [
+          "RM12",
+          "RM23"
+        ],
+        "commercialState": "research_candidate",
+        "commercialAction": "offer_paid_roadbook_or_manual_waitlist",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC14",
+      "conversation": "We are vegetarian and don’t eat spicy food, but want to understand food culture.",
+      "passed": true,
+      "assertionCount": 9,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC14, got TC14"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:dietary_detail",
+          "passed": true,
+          "detail": "got dietary_detail"
+        },
+        {
+          "label": "not_excluded:RM12",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM12"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM12",
+          "RM07",
+          "RM10",
+          "RM13",
+          "RM23",
+          "RM19"
+        ],
+        "followUpCodes": [
+          "dietary_detail"
+        ],
+        "dynamicChecks": [],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC15",
+      "conversation": "We need halal food and clear ingredient questions.",
+      "passed": true,
+      "assertionCount": 9,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC15, got TC15"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:dietary_detail",
+          "passed": true,
+          "detail": "got dietary_detail"
+        },
+        {
+          "label": "dynamic_check:venue_food_safety_written_confirmation",
+          "passed": true,
+          "detail": "got venue_food_safety_written_confirmation"
+        },
+        {
+          "label": "excluded:RM12",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM06",
+          "RM07",
+          "RM10",
+          "RM13",
+          "RM23",
+          "RM19"
+        ],
+        "followUpCodes": [
+          "dietary_detail"
+        ],
+        "dynamicChecks": [
+          "venue_food_safety_written_confirmation"
+        ],
+        "excludedModuleIds": [
+          "RM12"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC16",
+      "conversation": "I have coeliac disease. Can I safely try local noodles or hotpot?",
+      "passed": true,
+      "assertionCount": 9,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC16, got TC16"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:food_allergy_sop",
+          "passed": true,
+          "detail": "got food_allergy_sop"
+        },
+        {
+          "label": "dynamic_check:venue_food_safety_written_confirmation",
+          "passed": true,
+          "detail": "got venue_food_safety_written_confirmation"
+        },
+        {
+          "label": "excluded:RM12",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM06",
+          "RM07",
+          "RM10",
+          "RM13",
+          "RM16",
+          "RM19"
+        ],
+        "followUpCodes": [
+          "food_allergy_sop"
+        ],
+        "dynamicChecks": [
+          "venue_food_safety_written_confirmation"
+        ],
+        "excludedModuleIds": [
+          "RM12",
+          "RM23"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC17",
+      "conversation": "I’m a solo woman. I want night photos but don’t want to be stranded.",
+      "passed": true,
+      "assertionCount": 8,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC17, got TC17"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:return_plan",
+          "passed": true,
+          "detail": "got return_plan,hotel_area"
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM04,RM06"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM04",
+          "RM06",
+          "RM02",
+          "RM03",
+          "RM10",
+          "RM16",
+          "RM24",
+          "RM19",
+          "RM22"
+        ],
+        "followUpCodes": [
+          "return_plan",
+          "hotel_area"
+        ],
+        "dynamicChecks": [],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC18",
+      "conversation": "We are a same-sex couple and prefer discreet, welcoming spaces. We don’t need nightlife.",
+      "passed": true,
+      "assertionCount": 8,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC18, got TC18"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "excluded:RM06",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM01,RM07,RM13"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM01",
+          "RM03",
+          "RM07",
+          "RM10",
+          "RM13",
+          "RM16",
+          "RM14",
+          "RM19",
+          "RM24"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [
+          "line_2_service_and_liziba_construction"
+        ],
+        "excludedModuleIds": [
+          "RM06"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC19",
+      "conversation": "We’re a three-person production crew with two cameras and a tripod. Can your guide get us permits?",
+      "passed": true,
+      "assertionCount": 10,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC19, got TC19"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:commercial_filming_scope",
+          "passed": true,
+          "detail": "got commercial_filming_scope"
+        },
+        {
+          "label": "dynamic_check:commercial_filming_permission",
+          "passed": true,
+          "detail": "got commercial_filming_permission"
+        },
+        {
+          "label": "commercial_state",
+          "passed": true,
+          "detail": "expected research_candidate, got research_candidate"
+        },
+        {
+          "label": "may_quote",
+          "passed": true,
+          "detail": "expected false, got false"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM10",
+          "RM12",
+          "RM16",
+          "RM24",
+          "RM19",
+          "RM22"
+        ],
+        "followUpCodes": [
+          "commercial_filming_scope"
+        ],
+        "dynamicChecks": [
+          "commercial_filming_permission"
+        ],
+        "excludedModuleIds": [],
+        "commercialState": "research_candidate",
+        "commercialAction": "offer_paid_roadbook_or_manual_waitlist",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC20",
+      "conversation": "Where should I fly my drone for the Chongqing skyline?",
+      "passed": true,
+      "assertionCount": 9,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC20, got TC20"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:drone_compliance",
+          "passed": true,
+          "detail": "got drone_compliance"
+        },
+        {
+          "label": "dynamic_check:official_airspace_and_event_notice",
+          "passed": true,
+          "detail": "got official_airspace_and_event_notice"
+        },
+        {
+          "label": "status",
+          "passed": true,
+          "detail": "expected needs_confirmation, got needs_confirmation"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM12",
+          "RM07",
+          "RM10",
+          "RM16",
+          "RM13",
+          "RM14"
+        ],
+        "followUpCodes": [
+          "drone_compliance"
+        ],
+        "dynamicChecks": [
+          "official_airspace_and_event_notice"
+        ],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC21",
+      "conversation": "I only need the best tripod positions for blue hour. No history.",
+      "passed": true,
+      "assertionCount": 8,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC21, got TC21"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:commercial_filming_scope",
+          "passed": true,
+          "detail": "got commercial_filming_scope"
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM04,RM17"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM10",
+          "RM17",
+          "RM16",
+          "RM24",
+          "RM22",
+          "RM19"
+        ],
+        "followUpCodes": [
+          "commercial_filming_scope"
+        ],
+        "dynamicChecks": [
+          "commercial_filming_permission"
+        ],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC22",
+      "conversation": "I want candid portraits of old men playing cards in a traditional teahouse.",
+      "passed": true,
+      "assertionCount": 9,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC22, got TC22"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:privacy_consent",
+          "passed": true,
+          "detail": "got privacy_consent"
+        },
+        {
+          "label": "dynamic_check:venue_and_individual_consent",
+          "passed": true,
+          "detail": "got venue_and_individual_consent"
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM23,RM22"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM12",
+          "RM07",
+          "RM10",
+          "RM13",
+          "RM23",
+          "RM22"
+        ],
+        "followUpCodes": [
+          "privacy_consent"
+        ],
+        "dynamicChecks": [
+          "venue_and_individual_consent"
+        ],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC23",
+      "conversation": "My total activity budget is RMB 500 for two people. What should we pay for?",
+      "passed": true,
+      "assertionCount": 9,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC23, got TC23"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:budget_scope",
+          "passed": true,
+          "detail": "got budget_scope"
+        },
+        {
+          "label": "commercial_action",
+          "passed": true,
+          "detail": "expected offer_paid_roadbook_or_manual_consultation, got offer_paid_roadbook_or_manual_consultation"
+        },
+        {
+          "label": "may_quote",
+          "passed": true,
+          "detail": "expected false, got false"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM01",
+          "RM12",
+          "RM07",
+          "RM10",
+          "RM16",
+          "RM13"
+        ],
+        "followUpCodes": [
+          "budget_scope"
+        ],
+        "dynamicChecks": [],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "offer_paid_roadbook_or_manual_consultation",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC24",
+      "conversation": "Budget isn’t an issue. I want the most exclusive Chongqing experience.",
+      "passed": true,
+      "assertionCount": 10,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC24, got TC24"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:privacy_consent",
+          "passed": true,
+          "detail": "got privacy_consent,definition_of_authentic"
+        },
+        {
+          "label": "follow_up:definition_of_authentic",
+          "passed": true,
+          "detail": "got privacy_consent,definition_of_authentic"
+        },
+        {
+          "label": "commercial_state",
+          "passed": true,
+          "detail": "expected research_candidate, got research_candidate"
+        },
+        {
+          "label": "may_quote",
+          "passed": true,
+          "detail": "expected false, got false"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM04",
+          "RM12",
+          "RM10",
+          "RM07",
+          "RM14",
+          "RM16",
+          "RM19",
+          "RM24",
+          "RM22"
+        ],
+        "followUpCodes": [
+          "privacy_consent",
+          "definition_of_authentic"
+        ],
+        "dynamicChecks": [],
+        "excludedModuleIds": [],
+        "commercialState": "research_candidate",
+        "commercialAction": "offer_paid_roadbook_or_manual_waitlist",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC25",
+      "conversation": "We’re comfortable paying for something worthwhile, but don’t know what it should cost.",
+      "passed": true,
+      "assertionCount": 8,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC25, got TC25"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:budget_scope",
+          "passed": true,
+          "detail": "got budget_scope"
+        },
+        {
+          "label": "commercial_action",
+          "passed": true,
+          "detail": "expected roadbook_only, got roadbook_only"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM01",
+          "RM12",
+          "RM07",
+          "RM10",
+          "RM16",
+          "RM13"
+        ],
+        "followUpCodes": [
+          "budget_scope"
+        ],
+        "dynamicChecks": [],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC26",
+      "conversation": "We are in Jiefangbei now. Can someone guide us in two hours?",
+      "passed": true,
+      "assertionCount": 10,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC26, got TC26"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 1, got 1"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "commercial_state",
+          "passed": true,
+          "detail": "expected research_candidate, got research_candidate"
+        },
+        {
+          "label": "commercial_action",
+          "passed": true,
+          "detail": "expected offer_paid_roadbook_or_manual_waitlist, got offer_paid_roadbook_or_manual_waitlist"
+        },
+        {
+          "label": "may_quote",
+          "passed": true,
+          "detail": "expected false, got false"
+        },
+        {
+          "label": "may_take_payment",
+          "passed": true,
+          "detail": "expected false, got false"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM04",
+          "RM12",
+          "RM07"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [],
+        "excludedModuleIds": [],
+        "commercialState": "research_candidate",
+        "commercialAction": "offer_paid_roadbook_or_manual_waitlist",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC27",
+      "conversation": "We’ll be there during Golden Week and want Hongyadong at night.",
+      "passed": true,
+      "assertionCount": 9,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC27, got TC27"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:holiday_crowd_plan",
+          "passed": true,
+          "detail": "got holiday_crowd_plan"
+        },
+        {
+          "label": "dynamic_check:official_traffic_control",
+          "passed": true,
+          "detail": "got official_traffic_control"
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM04,RM05"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM04",
+          "RM05",
+          "RM02",
+          "RM03",
+          "RM10",
+          "RM16",
+          "RM24",
+          "RM19",
+          "RM22"
+        ],
+        "followUpCodes": [
+          "holiday_crowd_plan"
+        ],
+        "dynamicChecks": [
+          "official_traffic_control"
+        ],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC28",
+      "conversation": "It’s raining hard right now. Should we still do the Mountain City Trail?",
+      "passed": true,
+      "assertionCount": 10,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC28, got TC28"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:current_safety",
+          "passed": true,
+          "detail": "got current_safety"
+        },
+        {
+          "label": "dynamic_check:same_day_weather_and_route_condition",
+          "passed": true,
+          "detail": "got same_day_weather_and_route_condition"
+        },
+        {
+          "label": "excluded:RM10",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM20",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM04",
+          "RM01",
+          "RM02",
+          "RM03",
+          "RM12",
+          "RM07",
+          "RM16",
+          "RM13",
+          "RM14"
+        ],
+        "followUpCodes": [
+          "current_safety"
+        ],
+        "dynamicChecks": [
+          "same_day_weather_and_route_condition"
+        ],
+        "excludedModuleIds": [
+          "RM09",
+          "RM10",
+          "RM20"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC29",
+      "conversation": "It’s 40°C and we planned three outdoor high-load places this afternoon.",
+      "passed": true,
+      "assertionCount": 10,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC29, got TC29"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:current_safety",
+          "passed": true,
+          "detail": "got current_safety"
+        },
+        {
+          "label": "dynamic_check:same_day_weather_and_route_condition",
+          "passed": true,
+          "detail": "got same_day_weather_and_route_condition"
+        },
+        {
+          "label": "excluded:RM10",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM20",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM03",
+          "RM04",
+          "RM02",
+          "RM01",
+          "RM12",
+          "RM07",
+          "RM16",
+          "RM13",
+          "RM14"
+        ],
+        "followUpCodes": [
+          "current_safety"
+        ],
+        "dynamicChecks": [
+          "same_day_weather_and_route_condition"
+        ],
+        "excludedModuleIds": [
+          "RM10",
+          "RM20"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC30",
+      "conversation": "The skyline is completely fogged in. Is Eling still worth it?",
+      "passed": true,
+      "assertionCount": 8,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC30, got TC30"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "dynamic_check:same_day_weather_and_route_condition",
+          "passed": true,
+          "detail": "got same_day_weather_and_route_condition"
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM17"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM10",
+          "RM17",
+          "RM16",
+          "RM24",
+          "RM19",
+          "RM22"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [
+          "same_day_weather_and_route_condition"
+        ],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC31",
+      "conversation": "Our hotel is near the airport, but all plans start in Jiefangbei at 8 a.m.",
+      "passed": true,
+      "assertionCount": 7,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC31, got TC31"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:hotel_area",
+          "passed": true,
+          "detail": "got hotel_area"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM01",
+          "RM12",
+          "RM07",
+          "RM10",
+          "RM16",
+          "RM13"
+        ],
+        "followUpCodes": [
+          "hotel_area"
+        ],
+        "dynamicChecks": [],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC32",
+      "conversation": "Our train arrives at Chongqingbei at 6:30 p.m. Can we still see Hongyadong and take a cruise?",
+      "passed": true,
+      "assertionCount": 18,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC32, got TC32"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 1, got 1"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "excluded:RM03",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM07",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM10",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM12",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM13",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM14",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM17",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM19",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM20",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM22",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM24",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM04,RM05"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM04",
+          "RM06"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [],
+        "excludedModuleIds": [
+          "RM01",
+          "RM02",
+          "RM03",
+          "RM07",
+          "RM08",
+          "RM09",
+          "RM10",
+          "RM11",
+          "RM12",
+          "RM13",
+          "RM14",
+          "RM15",
+          "RM16",
+          "RM17",
+          "RM18",
+          "RM19",
+          "RM20",
+          "RM22",
+          "RM23",
+          "RM24"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC33",
+      "conversation": "We leave for Chengdu at 11 a.m. What can we do before the train?",
+      "passed": true,
+      "assertionCount": 20,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC33, got TC33"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 1, got 1"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 2 modules"
+        },
+        {
+          "label": "follow_up:departure_logistics",
+          "passed": true,
+          "detail": "got departure_logistics"
+        },
+        {
+          "label": "excluded:RM04",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM07",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM10",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM12",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM13",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM14",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM17",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM18",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM19",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM20",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM21",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM22",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM24",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM03",
+          "RM16"
+        ],
+        "followUpCodes": [
+          "departure_logistics"
+        ],
+        "dynamicChecks": [],
+        "excludedModuleIds": [
+          "RM04",
+          "RM05",
+          "RM06",
+          "RM07",
+          "RM08",
+          "RM10",
+          "RM12",
+          "RM13",
+          "RM14",
+          "RM15",
+          "RM17",
+          "RM18",
+          "RM19",
+          "RM20",
+          "RM21",
+          "RM22",
+          "RM24"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC34",
+      "conversation": "Can we do six attractions across the city in one day?",
+      "passed": true,
+      "assertionCount": 8,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC34, got TC34"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 1, got 1"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "expected_total_days",
+          "passed": true,
+          "detail": "expected 1, got 1"
+        },
+        {
+          "label": "expected_max_modules_per_day",
+          "passed": true,
+          "detail": "one or more days exceeded 3"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM04",
+          "RM12",
+          "RM13"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [
+          "line_2_service_and_liziba_construction"
+        ],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC35",
+      "conversation": "We have three days. Should one full day be Wulong, or should we stay in the city?",
+      "passed": true,
+      "assertionCount": 7,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC35, got TC35"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:city_choice",
+          "passed": true,
+          "detail": "got city_choice"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM01",
+          "RM12",
+          "RM07",
+          "RM10",
+          "RM16",
+          "RM13"
+        ],
+        "followUpCodes": [
+          "city_choice"
+        ],
+        "dynamicChecks": [],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC36",
+      "conversation": "Could we do Mount Emei and Leshan as a day trip from Chongqing?",
+      "passed": true,
+      "assertionCount": 8,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC36, got TC36"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:cross_city_feasibility",
+          "passed": true,
+          "detail": "got cross_city_feasibility"
+        },
+        {
+          "label": "status",
+          "passed": true,
+          "detail": "expected needs_confirmation, got needs_confirmation"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM01",
+          "RM12",
+          "RM07",
+          "RM10",
+          "RM16",
+          "RM13"
+        ],
+        "followUpCodes": [
+          "cross_city_feasibility"
+        ],
+        "dynamicChecks": [],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC37",
+      "conversation": "This is my third visit. I want migration history and wartime diplomacy.",
+      "passed": true,
+      "assertionCount": 9,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC37, got TC37"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "excluded:RM04",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM16",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM07,RM08,RM14,RM15"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM02",
+          "RM07",
+          "RM08",
+          "RM10",
+          "RM12",
+          "RM14",
+          "RM15",
+          "RM19",
+          "RM24"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [],
+        "excludedModuleIds": [
+          "RM04",
+          "RM16"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC38",
+      "conversation": "I want the real Chongqing, not tourist places.",
+      "passed": true,
+      "assertionCount": 8,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC38, got TC38"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:definition_of_authentic",
+          "passed": true,
+          "detail": "got definition_of_authentic"
+        },
+        {
+          "label": "used_intent:在地生活",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM12",
+          "RM10",
+          "RM07",
+          "RM14",
+          "RM16",
+          "RM19",
+          "RM22",
+          "RM24",
+          "RM23"
+        ],
+        "followUpCodes": [
+          "definition_of_authentic"
+        ],
+        "dynamicChecks": [],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC39",
+      "conversation": "We want local nightlife after 10 p.m., not a sightseeing cruise.",
+      "passed": true,
+      "assertionCount": 9,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC39, got TC39"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:return_plan",
+          "passed": true,
+          "detail": "got return_plan"
+        },
+        {
+          "label": "excluded:RM05",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM06"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM06",
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM12",
+          "RM07",
+          "RM10",
+          "RM13",
+          "RM23"
+        ],
+        "followUpCodes": [
+          "return_plan"
+        ],
+        "dynamicChecks": [],
+        "excludedModuleIds": [
+          "RM05"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC40",
+      "conversation": "We’d like a quiet teahouse where we can talk to local people and take photos.",
+      "passed": true,
+      "assertionCount": 9,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC40, got TC40"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:privacy_consent",
+          "passed": true,
+          "detail": "got privacy_consent"
+        },
+        {
+          "label": "dynamic_check:venue_and_individual_consent",
+          "passed": true,
+          "detail": "got venue_and_individual_consent"
+        },
+        {
+          "label": "commercial_state",
+          "passed": true,
+          "detail": "expected research_candidate, got research_candidate"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM12",
+          "RM07",
+          "RM10",
+          "RM13",
+          "RM23",
+          "RM22"
+        ],
+        "followUpCodes": [
+          "privacy_consent"
+        ],
+        "dynamicChecks": [
+          "venue_and_individual_consent"
+        ],
+        "excludedModuleIds": [],
+        "commercialState": "research_candidate",
+        "commercialAction": "offer_paid_roadbook_or_manual_waitlist",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC41",
+      "conversation": "Why are there so many guild halls and place names from other provinces?",
+      "passed": true,
+      "assertionCount": 8,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC41, got TC41"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM07,RM08,RM03"
+        },
+        {
+          "label": "used_intent:历史理解",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM03",
+          "RM04",
+          "RM07",
+          "RM08",
+          "RM10",
+          "RM14",
+          "RM13",
+          "RM19",
+          "RM24"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC42",
+      "conversation": "I’m an urban designer. I care about circulation, retaining walls and public space on slopes.",
+      "passed": true,
+      "assertionCount": 7,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC42, got TC42"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM02,RM10,RM16,RM17"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM02",
+          "RM03",
+          "RM10",
+          "RM07",
+          "RM16",
+          "RM17",
+          "RM14",
+          "RM19",
+          "RM24"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [
+          "line_2_service_and_liziba_construction"
+        ],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC43",
+      "conversation": "I’m a transit fan. Which side of Line 2 should I sit on, and what car is best?",
+      "passed": true,
+      "assertionCount": 10,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC43, got TC43"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:field_evidence_gap",
+          "passed": true,
+          "detail": "got field_evidence_gap"
+        },
+        {
+          "label": "dynamic_check:field_test_carriage_and_direction",
+          "passed": true,
+          "detail": "got field_test_carriage_and_direction,line_2_service_and_liziba_construction"
+        },
+        {
+          "label": "dynamic_check:line_2_service_and_liziba_construction",
+          "passed": true,
+          "detail": "got field_test_carriage_and_direction,line_2_service_and_liziba_construction"
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM16"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM01",
+          "RM12",
+          "RM07",
+          "RM10",
+          "RM16",
+          "RM13"
+        ],
+        "followUpCodes": [
+          "field_evidence_gap"
+        ],
+        "dynamicChecks": [
+          "field_test_carriage_and_direction",
+          "line_2_service_and_liziba_construction"
+        ],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC44",
+      "conversation": "We only have Monday for museums and history. What still works?",
+      "passed": true,
+      "assertionCount": 15,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC44, got TC44"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:venue_live_status",
+          "passed": true,
+          "detail": "got venue_live_status"
+        },
+        {
+          "label": "dynamic_check:same_day_venue_status",
+          "passed": true,
+          "detail": "got same_day_venue_status"
+        },
+        {
+          "label": "excluded:RM07",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM11",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM13",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM15",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM18",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM24",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM14"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM03",
+          "RM04",
+          "RM02",
+          "RM10",
+          "RM08",
+          "RM12",
+          "RM14",
+          "RM16",
+          "RM19"
+        ],
+        "followUpCodes": [
+          "venue_live_status"
+        ],
+        "dynamicChecks": [
+          "same_day_venue_status"
+        ],
+        "excludedModuleIds": [
+          "RM07",
+          "RM11",
+          "RM13",
+          "RM15",
+          "RM18",
+          "RM24"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC45",
+      "conversation": "We’ll be in Chongqing next month. What time is the drone show?",
+      "passed": true,
+      "assertionCount": 9,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC45, got TC45"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:event_schedule",
+          "passed": true,
+          "detail": "got event_schedule"
+        },
+        {
+          "label": "dynamic_check:current_official_event_schedule",
+          "passed": true,
+          "detail": "got current_official_event_schedule"
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM04"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM01",
+          "RM12",
+          "RM07",
+          "RM10",
+          "RM16",
+          "RM13"
+        ],
+        "followUpCodes": [
+          "event_schedule"
+        ],
+        "dynamicChecks": [
+          "current_official_event_schedule"
+        ],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC46",
+      "conversation": "Is Huguang Guild Hall definitely open tomorrow, and can I use my passport?",
+      "passed": true,
+      "assertionCount": 9,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC46, got TC46"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:venue_live_status",
+          "passed": true,
+          "detail": "got venue_live_status"
+        },
+        {
+          "label": "dynamic_check:same_day_venue_status",
+          "passed": true,
+          "detail": "got same_day_venue_status"
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM07"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM01",
+          "RM07",
+          "RM12",
+          "RM10",
+          "RM16",
+          "RM13"
+        ],
+        "followUpCodes": [
+          "venue_live_status"
+        ],
+        "dynamicChecks": [
+          "same_day_venue_status"
+        ],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC47",
+      "conversation": "How much is your four-hour walk, and can I book Friday?",
+      "passed": true,
+      "assertionCount": 10,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC47, got TC47"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "commercial_state",
+          "passed": true,
+          "detail": "expected research_candidate, got research_candidate"
+        },
+        {
+          "label": "commercial_action",
+          "passed": true,
+          "detail": "expected offer_paid_roadbook_or_manual_waitlist, got offer_paid_roadbook_or_manual_waitlist"
+        },
+        {
+          "label": "may_quote",
+          "passed": true,
+          "detail": "expected false, got false"
+        },
+        {
+          "label": "may_take_payment",
+          "passed": true,
+          "detail": "expected false, got false"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM01",
+          "RM12",
+          "RM07",
+          "RM10",
+          "RM16",
+          "RM13"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [],
+        "excludedModuleIds": [],
+        "commercialState": "research_candidate",
+        "commercialAction": "offer_paid_roadbook_or_manual_waitlist",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC48",
+      "conversation": "If I pay now, what happens if it rains or the guide cancels?",
+      "passed": true,
+      "assertionCount": 9,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC48, got TC48"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "commercial_state",
+          "passed": true,
+          "detail": "expected research_candidate, got research_candidate"
+        },
+        {
+          "label": "may_quote",
+          "passed": true,
+          "detail": "expected false, got false"
+        },
+        {
+          "label": "may_take_payment",
+          "passed": true,
+          "detail": "expected false, got false"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM01",
+          "RM12",
+          "RM07",
+          "RM10",
+          "RM16",
+          "RM13"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [],
+        "excludedModuleIds": [],
+        "commercialState": "research_candidate",
+        "commercialAction": "offer_paid_roadbook_or_manual_waitlist",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC49",
+      "conversation": "The guide says her English is excellent and she is free this weekend. Can we list her now?",
+      "passed": true,
+      "assertionCount": 9,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC49, got TC49"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:supplier_due_diligence",
+          "passed": true,
+          "detail": "got supplier_due_diligence"
+        },
+        {
+          "label": "dynamic_check:supplier_seven_gate_due_diligence",
+          "passed": true,
+          "detail": "got supplier_seven_gate_due_diligence"
+        },
+        {
+          "label": "commercial_state",
+          "passed": true,
+          "detail": "expected research_candidate, got research_candidate"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM01",
+          "RM12",
+          "RM07",
+          "RM10",
+          "RM16",
+          "RM13"
+        ],
+        "followUpCodes": [
+          "supplier_due_diligence"
+        ],
+        "dynamicChecks": [
+          "supplier_seven_gate_due_diligence"
+        ],
+        "excludedModuleIds": [],
+        "commercialState": "research_candidate",
+        "commercialAction": "offer_paid_roadbook_or_manual_waitlist",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC50",
+      "conversation": "Earlier I said I can walk all day, but my knee started hurting today.",
+      "passed": true,
+      "assertionCount": 11,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC50, got TC50"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 3, got 3"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:current_safety",
+          "passed": true,
+          "detail": "got current_safety"
+        },
+        {
+          "label": "excluded:RM10",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM20",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "ranked_any",
+          "passed": true,
+          "detail": "expected one of RM13,RM16,RM05"
+        },
+        {
+          "label": "status",
+          "passed": true,
+          "detail": "expected needs_confirmation, got needs_confirmation"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM05",
+          "RM02",
+          "RM01",
+          "RM03",
+          "RM04",
+          "RM12",
+          "RM16",
+          "RM13",
+          "RM14"
+        ],
+        "followUpCodes": [
+          "current_safety"
+        ],
+        "dynamicChecks": [
+          "line_2_service_and_liziba_construction"
+        ],
+        "excludedModuleIds": [
+          "RM10",
+          "RM20"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC51",
+      "conversation": "This is my first time in Chongqing and I only have one full day. I want to understand the city, not collect landmarks.",
+      "passed": true,
+      "assertionCount": 12,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC51, got TC51"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 1, got 1"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "selected:RM07",
+          "passed": true,
+          "detail": "got RM07,RM12,RM16"
+        },
+        {
+          "label": "selected_default_day_any",
+          "passed": true,
+          "detail": "expected one of D2,D3,D4; got D2,D2,D3"
+        },
+        {
+          "label": "selected_role_any",
+          "passed": true,
+          "detail": "expected one of 引流钩子,核心解释,真实生活,付费体验; got 核心解释,付费体验,引流钩子"
+        },
+        {
+          "label": "all_days_non_empty",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "expected_total_days",
+          "passed": true,
+          "detail": "expected 1, got 1"
+        },
+        {
+          "label": "expected_max_modules_per_day",
+          "passed": true,
+          "detail": "one or more days exceeded 3"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM07",
+          "RM12",
+          "RM16"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC52",
+      "conversation": "I have one day for migration history and wartime diplomacy. Huguang Guild Hall and Zhongshan Fourth Road matter most.",
+      "passed": true,
+      "assertionCount": 11,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC52, got TC52"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 1, got 1"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "selected:RM07",
+          "passed": true,
+          "detail": "got RM04,RM07,RM14"
+        },
+        {
+          "label": "selected:RM14",
+          "passed": true,
+          "detail": "got RM04,RM07,RM14"
+        },
+        {
+          "label": "selected_default_day_any",
+          "passed": true,
+          "detail": "expected one of D2,D3; got D1,D2,D3"
+        },
+        {
+          "label": "all_days_non_empty",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "expected_total_days",
+          "passed": true,
+          "detail": "expected 1, got 1"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM04",
+          "RM07",
+          "RM14"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC53",
+      "conversation": "We only have one day and care mainly about noodles, hotpot etiquette and one piece of city context.",
+      "passed": true,
+      "assertionCount": 10,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC53, got TC53"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 1, got 1"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 2 modules"
+        },
+        {
+          "label": "selected:RM12",
+          "passed": true,
+          "detail": "got RM12,RM10"
+        },
+        {
+          "label": "selected_default_day_any",
+          "passed": true,
+          "detail": "expected one of D2; got D2,D2"
+        },
+        {
+          "label": "selected_role_any",
+          "passed": true,
+          "detail": "expected one of 付费体验; got 付费体验,核心解释"
+        },
+        {
+          "label": "expected_max_modules_per_day",
+          "passed": true,
+          "detail": "one or more days exceeded 2"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM12",
+          "RM10"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC54",
+      "conversation": "It is my third visit, but I have only one day. I want Huangjueping and a teahouse, not the viral skyline.",
+      "passed": true,
+      "assertionCount": 11,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC54, got TC54"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 1, got 1"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "excluded:RM04",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM16",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected:RM22",
+          "passed": true,
+          "detail": "got RM02,RM22,RM23"
+        },
+        {
+          "label": "selected:RM23",
+          "passed": true,
+          "detail": "got RM02,RM22,RM23"
+        },
+        {
+          "label": "selected_default_day_any",
+          "passed": true,
+          "detail": "expected one of D4; got D1,D4,D4"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM02",
+          "RM22",
+          "RM23"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [],
+        "excludedModuleIds": [
+          "RM04",
+          "RM16"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC55",
+      "conversation": "We have two days: one for Chongqing’s transit and terrain, one for migration and wartime history.",
+      "passed": true,
+      "assertionCount": 11,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC55, got TC55"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 2, got 2"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "selected:RM16",
+          "passed": true,
+          "detail": "got RM07,RM10,RM14,RM16,RM19,RM24"
+        },
+        {
+          "label": "selected:RM07",
+          "passed": true,
+          "detail": "got RM07,RM10,RM14,RM16,RM19,RM24"
+        },
+        {
+          "label": "selected:RM14",
+          "passed": true,
+          "detail": "got RM07,RM10,RM14,RM16,RM19,RM24"
+        },
+        {
+          "label": "all_days_non_empty",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "expected_total_days",
+          "passed": true,
+          "detail": "expected 2, got 2"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM07",
+          "RM10",
+          "RM14",
+          "RM16",
+          "RM19",
+          "RM24"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [
+          "line_2_service_and_liziba_construction"
+        ],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC56",
+      "conversation": "We have four full days and want a balanced first visit without repeating the same kind of viewpoint.",
+      "passed": true,
+      "assertionCount": 10,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC56, got TC56"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 4, got 4"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "selected_role_any",
+          "passed": true,
+          "detail": "expected one of 引流钩子,真实生活; got 引流钩子,引流钩子,核心解释,核心解释,核心解释,核心解释,付费体验,引流钩子,核心解释,核心解释,核心解释,核心解释"
+        },
+        {
+          "label": "all_days_non_empty",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "expected_total_days",
+          "passed": true,
+          "detail": "expected 4, got 4"
+        },
+        {
+          "label": "expected_max_modules_per_day",
+          "passed": true,
+          "detail": "one or more days exceeded 3"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM04",
+          "RM02",
+          "RM03",
+          "RM01",
+          "RM10",
+          "RM07",
+          "RM12",
+          "RM16",
+          "RM13",
+          "RM14",
+          "RM19",
+          "RM24"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC57",
+      "conversation": "I only have one day, love history, and cannot handle exposed heights.",
+      "passed": true,
+      "assertionCount": 13,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC57, got TC57"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 1, got 1"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "excluded:RM02",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM05",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM17",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM21",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected:RM07",
+          "passed": true,
+          "detail": "got RM04,RM07,RM14"
+        },
+        {
+          "label": "selected:RM14",
+          "passed": true,
+          "detail": "got RM04,RM07,RM14"
+        },
+        {
+          "label": "all_days_non_empty",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM04",
+          "RM07",
+          "RM14"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [],
+        "excludedModuleIds": [
+          "RM02",
+          "RM05",
+          "RM17",
+          "RM21"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC58",
+      "conversation": "My knees cannot take repeated stairs. I have one day and want migration history plus a museum framework.",
+      "passed": true,
+      "assertionCount": 12,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC58, got TC58"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 1, got 1"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:mobility_detail",
+          "passed": true,
+          "detail": "got mobility_detail"
+        },
+        {
+          "label": "excluded:RM10",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "excluded:RM20",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected:RM07",
+          "passed": true,
+          "detail": "got RM02,RM07,RM13"
+        },
+        {
+          "label": "selected:RM13",
+          "passed": true,
+          "detail": "got RM02,RM07,RM13"
+        },
+        {
+          "label": "status",
+          "passed": true,
+          "detail": "expected needs_confirmation, got needs_confirmation"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [
+          "RM02",
+          "RM07",
+          "RM13"
+        ],
+        "followUpCodes": [
+          "mobility_detail"
+        ],
+        "dynamicChecks": [],
+        "excludedModuleIds": [
+          "RM10",
+          "RM20"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC59",
+      "conversation": "I use a wheelchair and need a continuously accessible one-day route. Nothing has been field-verified yet.",
+      "passed": true,
+      "assertionCount": 10,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC59, got TC59"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 1, got 1"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "follow_up:wheelchair_accessibility",
+          "passed": true,
+          "detail": "got wheelchair_accessibility"
+        },
+        {
+          "label": "dynamic_check:continuous_accessibility_field_check",
+          "passed": true,
+          "detail": "got continuous_accessibility_field_check"
+        },
+        {
+          "label": "all_days_empty",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "status",
+          "passed": true,
+          "detail": "expected needs_confirmation, got needs_confirmation"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "needs_confirmation",
+        "selectedModuleIds": [],
+        "followUpCodes": [
+          "wheelchair_accessibility"
+        ],
+        "dynamicChecks": [
+          "continuous_accessibility_field_check"
+        ],
+        "excludedModuleIds": [
+          "RM01",
+          "RM02",
+          "RM03",
+          "RM04",
+          "RM05",
+          "RM06",
+          "RM07",
+          "RM08",
+          "RM09",
+          "RM10",
+          "RM11",
+          "RM12",
+          "RM13",
+          "RM14",
+          "RM15",
+          "RM16",
+          "RM17",
+          "RM18",
+          "RM19",
+          "RM20",
+          "RM21",
+          "RM22",
+          "RM23",
+          "RM24"
+        ],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    },
+    {
+      "testId": "TC60",
+      "conversation": "We have two days and no fixed checklist. Give us one visual hook, one explanation of how the city works, and some everyday life.",
+      "passed": true,
+      "assertionCount": 9,
+      "failureCount": 0,
+      "failures": [],
+      "checks": [
+        {
+          "label": "input_schema",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "request_id",
+          "passed": true,
+          "detail": "expected TC60, got TC60"
+        },
+        {
+          "label": "day_count",
+          "passed": true,
+          "detail": "expected 2, got 2"
+        },
+        {
+          "label": "output_length_limit",
+          "passed": true,
+          "detail": "one or more days exceeded 3 modules"
+        },
+        {
+          "label": "selected_role_any",
+          "passed": true,
+          "detail": "expected one of 引流钩子,核心解释,真实生活; got 引流钩子,核心解释,核心解释,核心解释,付费体验,引流钩子"
+        },
+        {
+          "label": "all_days_non_empty",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "expected_total_days",
+          "passed": true,
+          "detail": "expected 2, got 2"
+        },
+        {
+          "label": "availability_never_promised",
+          "passed": true,
+          "detail": ""
+        },
+        {
+          "label": "selected_modules_are_ranked",
+          "passed": true,
+          "detail": ""
+        }
+      ],
+      "result": {
+        "status": "roadbook_draft_ready",
+        "selectedModuleIds": [
+          "RM04",
+          "RM03",
+          "RM10",
+          "RM07",
+          "RM12",
+          "RM16"
+        ],
+        "followUpCodes": [],
+        "dynamicChecks": [],
+        "excludedModuleIds": [],
+        "commercialState": "no_verified_experience_selected",
+        "commercialAction": "roadbook_only",
+        "mayQuote": false,
+        "mayTakePayment": false
+      }
+    }
+  ]
+}

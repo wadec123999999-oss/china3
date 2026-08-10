@@ -1,0 +1,48 @@
+{
+  "requestId": "demo-first-time-parent",
+  "stage": "路线规划",
+  "trip": {
+    "days": 3,
+    "profile": "首次经典",
+    "fitness": "低",
+    "weather": "正常",
+    "outputLength": "标准",
+    "arrivalDepartureKnown": false,
+    "hotelAreaKnown": false
+  },
+  "intents": {
+    "视觉奇观": {
+      "intensity": 5,
+      "confidence": 0.95,
+      "evidenceQuote": "想拍特别的城市感"
+    },
+    "在地生活": {
+      "intensity": 4,
+      "confidence": 0.8,
+      "evidenceQuote": "不想全是网红"
+    },
+    "低摩擦": {
+      "intensity": 5,
+      "confidence": 0.75,
+      "evidenceQuote": "和妈妈，不想太累"
+    },
+    "历史理解": {
+      "intensity": 2,
+      "confidence": 0.35,
+      "evidenceQuote": ""
+    }
+  },
+  "constraints": {
+    "needsMobilityConfirmation": true
+  },
+  "liveChecks": {},
+  "requestedModuleIds": ["RM02", "RM04", "RM16", "RM13", "RM07"],
+  "excludedModuleIds": [],
+  "purchase": {
+    "experienceId": "EXP-CQ-001",
+    "asksPrice": false,
+    "asksBooking": false,
+    "asksPayment": false,
+    "asksCancellation": false
+  }
+}

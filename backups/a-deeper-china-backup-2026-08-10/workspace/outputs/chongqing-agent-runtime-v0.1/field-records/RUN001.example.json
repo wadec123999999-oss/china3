@@ -1,0 +1,33 @@
+{
+  "run_id": "RUN001",
+  "field_date": "2099-01-01",
+  "tester": "Example tester — replace before use",
+  "companion_tester": null,
+  "weather_crowd": "Example only — replace with weather, temperature, rain state and crowd level.",
+  "start_time": "10:00",
+  "end_time": "12:20",
+  "actual_minutes": "140",
+  "steps": "Example only — record watch or phone count if available.",
+  "stairs_slope": "Example only — list every long stair section, slope and rest point.",
+  "entrance_exit": "Example only — exact start, exit, wrong-turn risk and correct wayfinding cue.",
+  "toilet_seating_water": "Example only — locations and whether they were usable.",
+  "crowd_safety_privacy": "Example only — congestion, barriers, security restrictions and filming concerns.",
+  "fallback_exit": "Example only — a realistic low-load or weather exit, not a theoretical alternative.",
+  "safety_blocking": false,
+  "result": "pass",
+  "conditions": null,
+  "failure_reason": null,
+  "issues_changes": "Example only — list every database or roadbook change this evidence requires.",
+  "evidence": [
+    {
+      "type": "track",
+      "reference": "Replace with a Drive, map or file reference.",
+      "description": "Full walking track with start and end time."
+    },
+    {
+      "type": "photo",
+      "reference": "Replace with a Drive, map or file reference.",
+      "description": "Correct entrance and the main exit/transfer point."
+    }
+  ]
+}

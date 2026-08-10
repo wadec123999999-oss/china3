@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://adeeperchina.example/schemas/chongqing-field-run-record-v1.0.json",
+  "title": "Chongqing Field Run Record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["run_id", "field_date", "tester", "weather_crowd", "result", "evidence"],
+  "properties": {
+    "run_id": {"type": "string", "pattern": "^RUN[0-9]{3}$"},
+    "field_date": {"type": "string", "format": "date"},
+    "tester": {"type": "string", "minLength": 1},
+    "companion_tester": {"type": ["string", "null"]},
+    "weather_crowd": {"type": "string", "minLength": 1},
+    "start_time": {"type": ["string", "null"]},
+    "end_time": {"type": ["string", "null"]},
+    "actual_minutes": {"type": ["string", "number", "null"]},
+    "steps": {"type": ["string", "number", "null"]},
+    "stairs_slope": {"type": ["string", "null"]},
+    "entrance_exit": {"type": ["string", "null"]},
+    "toilet_seating_water": {"type": ["string", "null"]},
+    "crowd_safety_privacy": {"type": ["string", "null"]},
+    "fallback_exit": {"type": ["string", "null"]},
+    "safety_blocking": {"type": "boolean"},
+    "result": {"enum": ["pass", "conditional_pass", "fail", "incomplete"]},
+    "conditions": {"type": ["string", "null"]},
+    "failure_reason": {"type": ["string", "null"]},
+    "issues_changes": {"type": ["string", "null"]},
+    "evidence": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["type", "reference", "description"],
+        "properties": {
+          "type": {"enum": ["track", "photo", "video", "screenshot", "written_reply", "receipt", "map_card", "interview_note"]},
+          "reference": {"type": "string", "minLength": 1},
+          "description": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  }
+}
