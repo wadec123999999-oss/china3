@@ -1,0 +1,13 @@
+{
+  "schema_version":"0.1",
+  "case_id":"SH-202608-01",
+  "status":"awaiting_human_check",
+  "city_scope":["Shanghai"],
+  "trip":{"arrival_date":"2026-10-11","departure_date":"2026-10-14","nights":3,"arrival_context":"Arriving after an international flight; first evening should stay light.","departure_context":"Morning train departure; no final-day city programme.","accommodation_area":"Not booked; prefers a well-connected central area.","weather_flexibility":"partial"},
+  "intent":{"explicit_goals":["architecture","street life","one thoughtful food experience"],"inferred_goals":["avoid a rushed landmark checklist","need clear independent-travel friction guidance"],"avoid":["shopping-heavy itinerary","nightclubs","long queues where avoidable"],"confidence":"medium"},
+  "constraints":{"party_type":"couple","mobility_review":"none_disclosed","language":["English"],"budget_style":"balanced","food_notes":["no shellfish"],"technology_readiness":"ready"},
+  "commercial_acknowledgement":{"direct_booking_only":true,"not_guiding_or_medical_service":true},
+  "consent":{"brief_saved":true,"feedback_contact":true},
+  "created_at":"2026-08-02T09:00:00+08:00",
+  "updated_at":"2026-08-02T09:20:00+08:00"
+}

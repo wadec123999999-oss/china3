@@ -1,0 +1,146 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "A Deeper China Public Roadbook V1.2 (schema compatibility 1.1)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "status",
+    "city",
+    "renderer_version",
+    "delivery_status",
+    "route_thesis",
+    "why_this_route",
+    "trip_context",
+    "explicit_priorities",
+    "explicit_avoidances",
+    "hypotheses_to_confirm",
+    "decision_brief",
+    "route_controls",
+    "days",
+    "what_we_deliberately_leave_out",
+    "deliberate_tradeoff",
+    "fallback_logic",
+    "checks_before_delivery",
+    "delivery_boundary",
+    "markdown"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.1" },
+    "status": { "type": "string", "enum": ["research_draft", "draft_for_human_review", "human_checked_ready"] },
+    "city": { "type": "string", "minLength": 2 },
+    "renderer_version": { "type": "string", "minLength": 1 },
+    "delivery_status": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["public_state", "current_checks_required", "human_review_required", "booking_created", "explanation"],
+      "properties": {
+        "public_state": { "type": "string", "enum": ["research_draft", "draft_for_human_review", "human_checked_ready"] },
+        "current_checks_required": { "type": "boolean" },
+        "human_review_required": { "type": "boolean" },
+        "booking_created": { "const": false },
+        "explanation": { "type": "string" }
+      }
+    },
+    "decision_brief": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["what_we_heard", "what_we_are_protecting", "inferred_needs"],
+      "properties": {
+        "what_we_heard": { "type": "array", "items": { "type": "string" } },
+        "what_we_are_protecting": { "type": "array", "items": { "type": "string" } },
+        "inferred_needs": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "route_thesis": { "type": "string", "minLength": 1 },
+    "why_this_route": { "type": "array", "items": { "type": "string" } },
+    "trip_context": {
+      "type": ["object", "null"],
+      "additionalProperties": false,
+      "properties": {
+        "arrival_date": { "type": ["string", "null"] },
+        "departure_date": { "type": ["string", "null"] },
+        "nights": { "type": ["integer", "null"], "minimum": 0 },
+        "adults": { "type": ["integer", "null"], "minimum": 0 },
+        "children": { "type": ["integer", "null"], "minimum": 0 },
+        "party_size": { "type": ["integer", "null"], "minimum": 1 },
+        "pace": { "type": ["string", "null"] },
+        "overnight_area": { "type": ["string", "null"] },
+        "output_language": { "type": ["string", "null"] },
+        "explicit_priorities": { "type": "array", "items": { "type": "string" } },
+        "explicit_avoidances": { "type": "array", "items": { "type": "string" } },
+        "inferred_needs": { "type": "array", "items": { "$ref": "#/$defs/inferred_need" } }
+      }
+    },
+    "explicit_priorities": { "type": "array", "items": { "type": "string" } },
+    "explicit_avoidances": { "type": "array", "items": { "type": "string" } },
+    "hypotheses_to_confirm": { "type": "array", "items": { "$ref": "#/$defs/hypothesis" } },
+    "route_controls": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["one_question_per_day", "stop_when_answered", "protect_recovery_time", "explanation"],
+      "properties": {
+        "one_question_per_day": { "type": "boolean" },
+        "stop_when_answered": { "type": "boolean" },
+        "protect_recovery_time": { "type": "boolean" },
+        "explanation": { "type": "string" }
+      }
+    },
+    "days": { "type": "array", "items": { "$ref": "#/$defs/day" } },
+    "what_we_deliberately_leave_out": { "type": "array", "items": { "type": "string" } },
+    "deliberate_tradeoff": { "type": "string" },
+    "fallback_logic": { "type": "string" },
+    "checks_before_delivery": { "type": "array", "items": { "type": "string" } },
+    "delivery_boundary": { "type": "string" },
+    "markdown": { "type": "string" }
+  },
+  "$defs": {
+    "inferred_need": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["question", "why"],
+      "properties": {
+        "question": { "type": "string" },
+        "why": { "type": ["string", "null"] }
+      }
+    },
+    "hypothesis": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["question", "why"],
+      "properties": {
+        "question": { "type": "string" },
+        "why": { "type": ["string", "null"] }
+      }
+    },
+    "day": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["day", "theme", "modules"],
+      "properties": {
+        "day": { "type": "integer", "minimum": 1 },
+        "theme": { "type": ["string", "null"] },
+        "modules": { "type": "array", "items": { "$ref": "#/$defs/module" } }
+      }
+    },
+    "module": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "question", "practical_note", "confirmations"],
+      "properties": {
+        "name": { "type": ["string", "null"] },
+        "question": { "type": ["string", "null"] },
+        "practical_note": { "type": ["string", "null"] },
+        "confirmations": { "type": "array", "items": {} },
+        "anchor": { "type": "string" },
+        "what_to_notice": { "type": "string" },
+        "stop_rule": { "type": "string" },
+        "main_friction": { "type": "string" },
+        "route_shape": { "type": "string" },
+        "body_budget": { "type": "string" },
+        "low_energy_version": { "type": "string" },
+        "rain_version": { "type": "string" }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://adeeperchina.example/schemas/travel-brief-v0.1.json",
+  "title":"A Deeper China Travel Brief V0.1",
+  "type":"object",
+  "additionalProperties":false,
+  "required":["schema_version","case_id","status","city_scope","trip","intent","constraints","commercial_acknowledgement","created_at","updated_at"],
+  "properties":{
+    "schema_version":{"const":"0.1"},
+    "case_id":{"type":"string","pattern":"^[A-Z]{2,8}-[0-9]{6}-[0-9]{2,4}$"},
+    "status":{"enum":["research_draft","awaiting_human_check","human_checked","published","declined_or_research_only"]},
+    "city_scope":{"type":"array","minItems":1,"items":{"type":"string"}},
+    "trip":{"type":"object","additionalProperties":false,"required":["arrival_date","departure_date","nights","arrival_context","departure_context"],"properties":{"arrival_date":{"type":"string","format":"date"},"departure_date":{"type":"string","format":"date"},"nights":{"type":"integer","minimum":0,"maximum":60},"arrival_context":{"type":"string","maxLength":280},"departure_context":{"type":"string","maxLength":280},"accommodation_area":{"type":"string","maxLength":160},"weather_flexibility":{"enum":["none","partial","full","unknown"]}}},
+    "intent":{"type":"object","additionalProperties":false,"required":["explicit_goals","avoid","confidence"],"properties":{"explicit_goals":{"type":"array","items":{"type":"string","maxLength":120},"maxItems":8},"inferred_goals":{"type":"array","items":{"type":"string","maxLength":120},"maxItems":8},"avoid":{"type":"array","items":{"type":"string","maxLength":120},"maxItems":8},"confidence":{"enum":["low","medium","high"]}}},
+    "constraints":{"type":"object","additionalProperties":false,"required":["party_type","mobility_review","language","budget_style"],"properties":{"party_type":{"enum":["solo","couple","family","friends","other"]},"mobility_review":{"enum":["none_disclosed","human_review_needed","not_collected"]},"language":{"type":"array","items":{"type":"string","maxLength":40},"maxItems":4},"budget_style":{"enum":["value","balanced","flexible","not_collected"]},"food_notes":{"type":"array","items":{"type":"string","maxLength":100},"maxItems":6},"technology_readiness":{"enum":["ready","needs_help","not_collected"]}}},
+    "commercial_acknowledgement":{"type":"object","additionalProperties":false,"required":["direct_booking_only","not_guiding_or_medical_service"],"properties":{"direct_booking_only":{"const":true},"not_guiding_or_medical_service":{"const":true}}},
+    "consent":{"type":"object","additionalProperties":false,"properties":{"brief_saved":{"type":"boolean"},"feedback_contact":{"type":"boolean"}}},
+    "created_at":{"type":"string","format":"date-time"},
+    "updated_at":{"type":"string","format":"date-time"}
+  }
+}

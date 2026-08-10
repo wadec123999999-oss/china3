@@ -1,0 +1,23 @@
+{
+  "message": "It is our first time in Shanghai. We have two full days and want architecture, street life and a calm pace with my parents.",
+  "city_unit": "shanghai",
+  "module_ids": ["SHM01", "SHM04", "SHM05"],
+  "travel": {
+    "start_date": "REPLACE-WITH-YYYY-MM-DD",
+    "end_date": "REPLACE-WITH-YYYY-MM-DD"
+  },
+  "client": {
+    "party": { "adults": 2, "children_ages": [] },
+    "arrival": { "date_time": "REPLACE-WITH-ISO-DATETIME", "place": "REPLACE-WITH-ARRIVAL-PLACE" },
+    "departure": { "date_time": "REPLACE-WITH-ISO-DATETIME", "place": "REPLACE-WITH-DEPARTURE-PLACE" },
+    "overnight_area": "REPLACE-WITH-HOTEL-AREA",
+    "pace": "slow",
+    "mobility_notes": "REPLACE-AFTER-ASKING",
+    "priorities": ["architecture", "street life"],
+    "avoid": ["rushed checklist"],
+    "food_restrictions": "REPLACE-AFTER-ASKING",
+    "budget_context": "REPLACE-WITH-CLIENT-CONTEXT",
+    "output_language": "English"
+  },
+  "evidence_records": []
+}

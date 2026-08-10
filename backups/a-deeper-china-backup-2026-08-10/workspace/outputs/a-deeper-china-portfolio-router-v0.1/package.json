@@ -1,0 +1,7 @@
+{
+  "name":"a-deeper-china-portfolio-router",
+  "version":"0.1.0",
+  "private":true,
+  "type":"module",
+  "scripts":{"test":"node --test","route":"node bin/route.mjs","converse":"node bin/converse.mjs","plan-retrieval":"node bin/plan-retrieval.mjs","brief":"node bin/roadbook-brief.mjs","client-roadbook":"node bin/client-roadbook.mjs","route-preview":"node bin/route-preview.mjs","score-roadbook":"node bin/score-roadbook.mjs","validate-route-preview":"node bin/validate-route-preview.mjs","review-packet":"node bin/human-review-packet.mjs","review-roadbook":"node bin/review-roadbook.mjs","validate-public-roadbook":"node bin/validate-public-roadbook.mjs","runtime-input":"node bin/runtime-input.mjs","dispatch-runtime":"node bin/dispatch-runtime.mjs","release":"node bin/release.mjs","validate":"node bin/validate.mjs","audit:cities":"node bin/audit-city-databases.mjs","audit:interactions":"node bin/audit-city-interactions.mjs","audit:retrieval":"node bin/audit-retrieval.mjs","audit:runtimes":"node bin/audit-runtimes.mjs","audit:all":"node bin/audit-all.mjs","export:portfolio-rag":"node bin/export-portfolio-rag.mjs","audit:portfolio-rag":"node bin/audit-portfolio-rag.mjs","worklist:portfolio-rag":"node bin/generate-portfolio-rag-worklist.mjs","generate-samples":"node bin/generate-sample-pack.mjs","site-api":"node bin/site-api-server.mjs"}
+}

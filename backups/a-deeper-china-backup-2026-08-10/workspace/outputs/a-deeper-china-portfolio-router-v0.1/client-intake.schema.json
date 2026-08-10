@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "A Deeper China Paid Roadbook Client Intake V0.1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["party", "arrival", "departure", "overnight_area", "pace", "mobility_notes", "priorities", "avoid", "food_restrictions", "budget_context", "output_language"],
+  "properties": {
+    "party": {
+      "type": "object", "additionalProperties": false, "required": ["adults", "children_ages"],
+      "properties": {
+        "adults": { "type": "integer", "minimum": 0 },
+        "children_ages": { "type": "array", "items": { "type": "integer", "minimum": 0, "maximum": 17 }, "maxItems": 12 }
+      }
+    },
+    "arrival": { "$ref": "#/$defs/travel_leg" },
+    "departure": { "$ref": "#/$defs/travel_leg" },
+    "overnight_area": { "type": "string", "minLength": 1, "maxLength": 160 },
+    "pace": { "enum": ["slow", "moderate", "full"] },
+    "mobility_notes": { "type": "string", "minLength": 1, "maxLength": 500 },
+    "priorities": { "type": "array", "minItems": 1, "maxItems": 8, "items": { "type": "string", "minLength": 1, "maxLength": 160 } },
+    "avoid": { "type": "array", "minItems": 1, "maxItems": 8, "items": { "type": "string", "minLength": 1, "maxLength": 160 } },
+    "food_restrictions": { "type": "string", "minLength": 1, "maxLength": 500 },
+    "budget_context": { "type": "string", "minLength": 1, "maxLength": 500 },
+    "output_language": { "type": "string", "minLength": 1, "maxLength": 80 }
+  },
+  "$defs": {
+    "travel_leg": {
+      "type": "object", "additionalProperties": false, "required": ["date_time", "place"],
+      "properties": {
+        "date_time": { "type": "string", "format": "date-time" },
+        "place": { "type": "string", "minLength": 1, "maxLength": 200 }
+      }
+    }
+  }
+}

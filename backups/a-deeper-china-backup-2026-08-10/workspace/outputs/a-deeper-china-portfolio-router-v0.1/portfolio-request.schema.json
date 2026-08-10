@@ -1,0 +1,13 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://adeeperchina.example/schemas/portfolio-request-v0.1.json",
+  "title":"A Deeper China Portfolio Router Request V0.1",
+  "type":"object",
+  "additionalProperties":false,
+  "properties":{
+    "nights":{"type":"integer","minimum":0,"maximum":60},
+    "cities":{"type":"array","items":{"type":"string","maxLength":80},"maxItems":10},
+    "interests":{"type":"array","items":{"type":"string","maxLength":80},"maxItems":10},
+    "constraints":{"type":"array","items":{"enum":["limited_mobility","medical","severe_allergy","private_access","experience_booking","family","weather_sensitive","other"]},"uniqueItems":true}
+  }
+}

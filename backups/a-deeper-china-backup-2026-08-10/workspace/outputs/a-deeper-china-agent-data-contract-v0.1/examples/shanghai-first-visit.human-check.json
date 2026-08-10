@@ -1,0 +1,16 @@
+{
+  "schema_version":"0.1",
+  "check_id":"HC-20261008-01",
+  "case_id":"SH-202608-01",
+  "roadbook_id":"RB-SH-202608-01-v1",
+  "checked_at":"2026-10-08T11:00:00+08:00",
+  "reviewer_role":"city_reviewer",
+  "items":[
+    {"category":"route_pace","status":"verified","checked_at":"2026-10-08T10:20:00+08:00","source_type":"field_note","source_reference":"Internal dated route note","decision":"First evening remains neighbourhood-only after flight."},
+    {"category":"opening_access","status":"not_verified","checked_at":"2026-10-08T10:35:00+08:00","source_type":"official","source_reference":"Official venue pages to be checked by customer before booking","decision":"Roadbook uses a same-area fallback and labels the customer action."},
+    {"category":"payment_language","status":"verified","checked_at":"2026-10-08T10:45:00+08:00","source_type":"customer_confirmed","source_reference":"Customer reports eSIM and local-payment preparation","decision":"Keep payment friction card; do not provide payment setup service."}
+  ],
+  "overall_status":"approved_with_client_actions",
+  "unresolved_risks":["Venue reservations remain the customer's direct action.","Weather-specific fallback must be selected on the day."],
+  "valid_until":"2026-10-11T09:00:00+08:00"
+}

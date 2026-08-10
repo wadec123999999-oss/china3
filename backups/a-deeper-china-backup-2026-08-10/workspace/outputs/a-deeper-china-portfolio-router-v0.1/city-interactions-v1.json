@@ -1,0 +1,1588 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-08-09",
+  "scope": {
+    "city_database_count": 13,
+    "product_unit_count": 10
+  },
+  "organizing_principle": "task_first",
+  "thesis": "Organize every city around the traveller decision it resolves, not around a catalogue of attractions. The agent asks only the smallest set of questions that can change the city, route, pace or safety boundary.",
+  "release_policy": {
+    "current_status": "content_ready_human_review_required",
+    "field_verified_count": 0,
+    "publishable_label": "research-based draft; human review required for dated delivery",
+    "forbidden_claims": [
+      "human-checked",
+      "verified",
+      "vetted",
+      "guaranteed",
+      "private access",
+      "partner-ready"
+    ],
+    "escalation_triggers": [
+      "dynamic opening/reservation/transport",
+      "mobility/medical/severe allergy/child safety",
+      "private access or booking",
+      "weather-dependent outdoor activity",
+      "religious, craft, farm or teacher access"
+    ]
+  },
+  "source_databases": [
+    {
+      "id": "shanghai",
+      "label": "Shanghai",
+      "path": "../shanghai-agent-database-20260802/上海主城智能体数据库_V1.0.json"
+    },
+    {
+      "id": "chongqing",
+      "label": "Chongqing",
+      "path": "../chongqing-agent-database-20260729/重庆主城智能体数据库_V1.0.json"
+    },
+    {
+      "id": "beijing",
+      "label": "Beijing",
+      "path": "../beijing-agent-database-20260802/北京智能体数据库_V0.1.json"
+    },
+    {
+      "id": "chengdu",
+      "label": "Chengdu",
+      "path": "../chengdu-agent-database-20260802/成都智能体数据库_V0.1.json"
+    },
+    {
+      "id": "guangzhou",
+      "label": "Guangzhou",
+      "path": "../guangzhou-agent-database-20260802/广州智能体数据库_V0.1.json"
+    },
+    {
+      "id": "shenzhen",
+      "label": "Shenzhen",
+      "path": "../shenzhen-agent-database-20260802/深圳智能体数据库_V0.1.json"
+    },
+    {
+      "id": "hangzhou",
+      "label": "Hangzhou",
+      "path": "../hangzhou-agent-database-20260802/杭州智能体数据库_V0.1.json"
+    },
+    {
+      "id": "suzhou",
+      "label": "Suzhou",
+      "path": "../suzhou-agent-database-20260802/苏州智能体数据库_V0.1.json"
+    },
+    {
+      "id": "guilin_yangshuo",
+      "label": "Guilin–Yangshuo",
+      "path": "../guilin-yangshuo-agent-database-20260802/桂林阳朔智能体数据库_V0.1.json"
+    },
+    {
+      "id": "quanzhou_dehua",
+      "label": "Quanzhou–Dehua",
+      "path": "../quanzhou-dehua-agent-database-20260802/泉州德化智能体数据库_V0.1.json"
+    },
+    {
+      "id": "jingdezhen",
+      "label": "Jingdezhen",
+      "path": "../jingdezhen-agent-database-20260802/景德镇智能体数据库_V0.1.json"
+    },
+    {
+      "id": "wudang",
+      "label": "Wudang Mountains",
+      "path": "../wudang-agent-database-20260802/武当山智能体数据库_V0.1.json"
+    },
+    {
+      "id": "jingmai",
+      "label": "Jingmai Mountain",
+      "path": "../jingmai-agent-database-20260802/景迈茶山智能体数据库_V0.1.json"
+    }
+  ],
+  "product_units": [
+    {
+      "id": "shanghai",
+      "label": "Shanghai",
+      "aliases": [
+        "shanghai",
+        "上海"
+      ],
+      "min_protected_nights": 2,
+      "city_database_ids": [
+        "shanghai"
+      ],
+      "database_refs": [
+        "../shanghai-agent-database-20260802/上海主城智能体数据库_V1.0.json"
+      ],
+      "status": "human_check_pilot",
+      "identity": {
+        "what_it_is": "A readable city-scale contrast between river, historic fabric, migration and contemporary urban life.",
+        "not_for": "A tower-and-shopping checklist or an unverified Tai Chi/creative-studio promise."
+      },
+      "selection_rules": {
+        "include_when": [
+          "architecture or urban history is a priority",
+          "the traveller wants a gentle first China city",
+          "the traveller needs a strong public-transport base"
+        ],
+        "protect": [
+          "one coherent neighbourhood question per half day",
+          "arrival and recovery time"
+        ],
+        "exclude_or_split_when": [
+          "one-night stop with no full day",
+          "the request depends on private homes, teachers or studios without a current partner record"
+        ]
+      },
+      "latent_need_rules": [
+        {
+          "id": "architecture_depth_vs_photo",
+          "signals": [
+            "architecture",
+            "facades",
+            "photos",
+            "art deco"
+          ],
+          "confirmation_question": "Do you want to photograph façades, understand their history, or see how old buildings are reused today?",
+          "effect": "Chooses the reading layer and prevents an overfilled landmark loop."
+        },
+        {
+          "id": "arrival_friction",
+          "signals": [
+            "first visit",
+            "late arrival",
+            "airport",
+            "payment"
+          ],
+          "confirmation_question": "What time can you actually leave your hotel on the first full day, and are mobile data and payment already working?",
+          "effect": "Protects the first day from a false full-day assumption."
+        },
+        {
+          "id": "slow_city_vs_extension",
+          "signals": [
+            "hangzhou",
+            "suzhou",
+            "jiangnan",
+            "extra night"
+          ],
+          "confirmation_question": "Would one more Shanghai neighbourhood be better than adding Hangzhou or Suzhou with another transfer?",
+          "effect": "Decides whether to keep Shanghai deep or extend to Jiangnan."
+        },
+        {
+          "id": "participatory_access",
+          "signals": [
+            "tai chi",
+            "teacher",
+            "maker",
+            "local"
+          ],
+          "confirmation_question": "Would a public, consent-based observation route still meet your aim if a private introduction is unavailable?",
+          "effect": "Converts private-access expectations into a safe public alternative."
+        }
+      ],
+      "follow_up_questions": [
+        {
+          "id": "SHI01",
+          "priority": 1,
+          "triggers": [
+            "days_missing",
+            "dates_missing"
+          ],
+          "ask": "How many protected full days do you have after arrival and before departure?",
+          "decision_effect": "Sets the route depth and whether a Jiangnan extension is realistic."
+        },
+        {
+          "id": "SHI02",
+          "priority": 1,
+          "triggers": [
+            "architecture",
+            "design",
+            "photo"
+          ],
+          "ask": "Do you want façades and photographs, historical context, or contemporary urban reuse?",
+          "decision_effect": "Selects the primary architecture module."
+        },
+        {
+          "id": "SHI03",
+          "priority": 2,
+          "triggers": [
+            "first_visit",
+            "mobility_unknown",
+            "family"
+          ],
+          "ask": "Any mobility needs, children, older relatives, or limits on stairs and long walks?",
+          "decision_effect": "Changes the walking loop, seating and transfer plan."
+        },
+        {
+          "id": "SHI04",
+          "priority": 2,
+          "triggers": [
+            "hangzhou",
+            "suzhou",
+            "extension"
+          ],
+          "ask": "Do you have an extra night for Jiangnan, or would another Shanghai day be more valuable?",
+          "decision_effect": "Prevents a rushed same-day add-on."
+        },
+        {
+          "id": "SHI05",
+          "priority": 2,
+          "triggers": [
+            "tai_chi",
+            "teacher",
+            "private_access"
+          ],
+          "ask": "Is your priority observation, a beginner session, or serious training—and what English instruction and physical limits matter?",
+          "decision_effect": "Routes to human review before any teacher is mentioned."
+        }
+      ],
+      "human_review_triggers": [
+        "dynamic opening/reservation/transport facts",
+        "Tai Chi or teacher request",
+        "private home/studio or community access",
+        "mobility, medical, severe allergy or child-safety constraints"
+      ],
+      "output_emphasis": [
+        "explain one urban relationship",
+        "give a calm main route and a rain/low-energy branch",
+        "name what to delete rather than add"
+      ]
+    },
+    {
+      "id": "hangzhou_suzhou",
+      "label": "Hangzhou–Suzhou",
+      "aliases": [
+        "hangzhou",
+        "suzhou",
+        "杭州",
+        "苏州",
+        "jiangnan"
+      ],
+      "min_protected_nights": 3,
+      "city_database_ids": [
+        "hangzhou",
+        "suzhou"
+      ],
+      "database_refs": [
+        "../hangzhou-agent-database-20260802/杭州智能体数据库_V0.1.json",
+        "../suzhou-agent-database-20260802/苏州智能体数据库_V0.1.json"
+      ],
+      "status": "content_foundation",
+      "identity": {
+        "what_it_is": "A Jiangnan choice: lake/tea/temple rhythm or gardens/canals/craft, with transfer cost made explicit.",
+        "not_for": "Shanghai plus two water-town day trips squeezed into one day."
+      },
+      "selection_rules": {
+        "include_when": [
+          "the traveller has at least three protected nights",
+          "landscape, tea, gardens or canals are the actual question",
+          "a slower regional contrast is more valuable than another megacity"
+        ],
+        "protect": [
+          "choose Hangzhou or Suzhou as the primary question before combining them",
+          "one overnight when the traveller wants depth"
+        ],
+        "exclude_or_split_when": [
+          "same-day return is mandatory and the traveller wants both cities",
+          "the trip has less than three protected nights"
+        ]
+      },
+      "latent_need_rules": [
+        {
+          "id": "day_trip_vs_overnight",
+          "signals": [
+            "same day",
+            "day trip",
+            "overnight",
+            "from Shanghai"
+          ],
+          "confirmation_question": "Must this be a same-day return from Shanghai, or can you protect one overnight?",
+          "effect": "Determines whether a coherent route is possible."
+        },
+        {
+          "id": "lake_vs_garden",
+          "signals": [
+            "west lake",
+            "tea",
+            "garden",
+            "canal"
+          ],
+          "confirmation_question": "Would you rather read lake/tea/temple landscapes or gardens/canals/craft in detail?",
+          "effect": "Chooses one Jiangnan identity instead of stacking similar scenery."
+        },
+        {
+          "id": "weather_and_surface",
+          "signals": [
+            "rain",
+            "heat",
+            "stairs",
+            "mobility"
+          ],
+          "confirmation_question": "What weather, walking or stair threshold requires a shorter or indoor alternative?",
+          "effect": "Controls the outdoor/heritage fallback."
+        },
+        {
+          "id": "buying_vs_learning",
+          "signals": [
+            "tea purchase",
+            "craft",
+            "silk",
+            "workshop"
+          ],
+          "confirmation_question": "Are you learning about the material culture, buying something, or seeking a verified participatory activity?",
+          "effect": "Prevents unverified purchase/workshop promises."
+        }
+      ],
+      "follow_up_questions": [
+        {
+          "id": "JQI01",
+          "priority": 1,
+          "triggers": [
+            "extension",
+            "same_day",
+            "overnight"
+          ],
+          "ask": "Are you willing to stay overnight, or must this be a same-day return from Shanghai?",
+          "decision_effect": "Determines route continuity."
+        },
+        {
+          "id": "JQI02",
+          "priority": 1,
+          "triggers": [
+            "lake",
+            "tea",
+            "west_lake",
+            "garden",
+            "canal"
+          ],
+          "ask": "Do you want lake/tea/temple pace or gardens/canals/craft density—and how many days can you truly protect?",
+          "decision_effect": "Chooses Hangzhou versus Suzhou and the night split."
+        },
+        {
+          "id": "JQI03",
+          "priority": 2,
+          "triggers": [
+            "tea",
+            "tea_purchase",
+            "craft",
+            "performance"
+          ],
+          "ask": "Are you mainly learning, buying, watching a current programme, or seeking a verified hands-on activity?",
+          "decision_effect": "Sets the research-only or human-check boundary."
+        },
+        {
+          "id": "JQI04",
+          "priority": 2,
+          "triggers": [
+            "religion",
+            "mobility",
+            "rain",
+            "heat"
+          ],
+          "ask": "What terrain and weather can your group comfortably handle?",
+          "decision_effect": "Selects a lower-exposure route."
+        },
+        {
+          "id": "JQI05",
+          "priority": 2,
+          "triggers": [
+            "multi_city"
+          ],
+          "ask": "Which city comes before and after Jiangnan, and where is your recovery buffer?",
+          "decision_effect": "Avoids hidden transfer fatigue."
+        }
+      ],
+      "human_review_triggers": [
+        "garden/temple/cultural venue opening and reservation",
+        "tea or craft purchase/participation",
+        "weather and water-town transport",
+        "mobility or family constraints"
+      ],
+      "output_emphasis": [
+        "state the one Jiangnan question",
+        "show transfer time as part of the product",
+        "offer one city first and the other as a deliberate extension"
+      ]
+    },
+    {
+      "id": "beijing",
+      "label": "Beijing",
+      "aliases": [
+        "beijing",
+        "北京"
+      ],
+      "min_protected_nights": 3,
+      "city_database_ids": [
+        "beijing"
+      ],
+      "database_refs": [
+        "../beijing-agent-database-20260802/北京智能体数据库_V0.1.json"
+      ],
+      "status": "content_foundation",
+      "identity": {
+        "what_it_is": "A first-China historical grammar: imperial scale, civic ritual, neighbourhood life and one deliberate Great Wall choice.",
+        "not_for": "Every palace, park, hutong and Wall section in a short stay."
+      },
+      "selection_rules": {
+        "include_when": [
+          "first visit and history/architecture matter",
+          "the traveller can protect three full nights",
+          "the Great Wall is treated as a separate logistics decision"
+        ],
+        "protect": [
+          "one imperial site deeply",
+          "a full Wall day only when transport, weather and body cost fit"
+        ],
+        "exclude_or_split_when": [
+          "less than three nights with both Palace Museum and Wall as musts",
+          "mobility or heat limits are unknown for a long exposed day"
+        ]
+      },
+      "latent_need_rules": [
+        {
+          "id": "wall_priority_type",
+          "signals": [
+            "great wall",
+            "mutianyu",
+            "badaling"
+          ],
+          "confirmation_question": "For the Wall, what matters most: iconic first visit, mountain scenery, fewer crowds, or minimising transfers?",
+          "effect": "Chooses the Wall branch instead of a generic recommendation."
+        },
+        {
+          "id": "imperial_overload",
+          "signals": [
+            "palace",
+            "forbidden city",
+            "history"
+          ],
+          "confirmation_question": "Do you want one major imperial site done deeply, or a comparison across two different sites?",
+          "effect": "Controls cognitive and queue load."
+        },
+        {
+          "id": "weather_body_cost",
+          "signals": [
+            "stairs",
+            "family",
+            "heat",
+            "rain"
+          ],
+          "confirmation_question": "How comfortable are you with stairs, uneven ground and a long day outside the city?",
+          "effect": "Sets the physical route and stop rule."
+        },
+        {
+          "id": "neighbourhood_style",
+          "signals": [
+            "hutong",
+            "local",
+            "quiet",
+            "not touristy"
+          ],
+          "confirmation_question": "Would you rather see a lively famous lane or a quieter street with less to “do”?",
+          "effect": "Matches the desired public-life texture."
+        }
+      ],
+      "follow_up_questions": [
+        {
+          "id": "BJI01",
+          "priority": 1,
+          "triggers": [
+            "first_visit",
+            "days_missing"
+          ],
+          "ask": "What date and time do you land, and do you already have your first full day free?",
+          "decision_effect": "Calculates real usable time."
+        },
+        {
+          "id": "BJI02",
+          "priority": 1,
+          "triggers": [
+            "great_wall"
+          ],
+          "ask": "Is the Great Wall an absolute priority, and are you choosing iconic access, scenery, fewer crowds or minimal transfer?",
+          "decision_effect": "Selects Wall decision branch."
+        },
+        {
+          "id": "BJI03",
+          "priority": 2,
+          "triggers": [
+            "history",
+            "palace"
+          ],
+          "ask": "Do you prefer one imperial site deeply or a comparison across two sites?",
+          "decision_effect": "Prevents palace overload."
+        },
+        {
+          "id": "BJI04",
+          "priority": 2,
+          "triggers": [
+            "hutong",
+            "local"
+          ],
+          "ask": "Do you want lively famous lanes or quieter neighbourhood fabric?",
+          "decision_effect": "Selects hutong route tone."
+        },
+        {
+          "id": "BJI05",
+          "priority": 2,
+          "triggers": [
+            "family",
+            "mobility",
+            "weather"
+          ],
+          "ask": "What are the walking, stair, meal and rest limits for your group?",
+          "decision_effect": "Changes route length and Wall feasibility."
+        }
+      ],
+      "human_review_triggers": [
+        "identity-linked reservations and current opening hours",
+        "Great Wall transport/weather/entry",
+        "family, mobility or heat constraints",
+        "commercial photography or private access"
+      ],
+      "output_emphasis": [
+        "teach one spatial/history idea",
+        "make the Wall an explicit yes/no decision",
+        "protect a recovery half-day"
+      ]
+    },
+    {
+      "id": "chengdu_chongqing",
+      "label": "Chengdu–Chongqing",
+      "aliases": [
+        "chengdu",
+        "chongqing",
+        "成都",
+        "重庆"
+      ],
+      "min_protected_nights": 4,
+      "city_database_ids": [
+        "chengdu",
+        "chongqing"
+      ],
+      "database_refs": [
+        "../chengdu-agent-database-20260802/成都智能体数据库_V0.1.json",
+        "../chongqing-agent-database-20260729/重庆主城智能体数据库_V1.0.json"
+      ],
+      "status": "content_foundation",
+      "identity": {
+        "what_it_is": "A contrast pair: Chengdu protects pace, food and public life; Chongqing creates vertical movement, river-port history and night intensity.",
+        "not_for": "A checklist that gives each city one rushed night."
+      },
+      "selection_rules": {
+        "include_when": [
+          "the traveller has at least four protected nights",
+          "they want two genuinely different urban rhythms",
+          "a high-speed rail transfer is acceptable"
+        ],
+        "protect": [
+          "at least two nights per city for a first visit",
+          "one full transfer/recovery buffer when arrival times are awkward"
+        ],
+        "exclude_or_split_when": [
+          "less than four nights",
+          "the traveller wants slow time but also many remote day trips",
+          "Dazu/Wulong is being treated as a casual Chongqing add-on"
+        ]
+      },
+      "latent_need_rules": [
+        {
+          "id": "pace_vs_intensity",
+          "signals": [
+            "slow",
+            "food",
+            "night",
+            "cyberpunk"
+          ],
+          "confirmation_question": "Do you want a slower public-life and food rhythm, a vertical high-intensity city experience, or both?",
+          "effect": "Decides city split and deletion."
+        },
+        {
+          "id": "panda_cost",
+          "signals": [
+            "panda",
+            "pandas"
+          ],
+          "confirmation_question": "Are pandas a must, and are you open to an early start or longer transfer for them?",
+          "effect": "Prevents pandas from consuming Chengdu by default."
+        },
+        {
+          "id": "transfer_tolerance",
+          "signals": [
+            "both",
+            "two cities",
+            "high speed rail"
+          ],
+          "confirmation_question": "How many protected nights can each city receive after the train transfer?",
+          "effect": "Blocks an unrealistic pair."
+        },
+        {
+          "id": "body_and_night_safety",
+          "signals": [
+            "stairs",
+            "parents",
+            "family",
+            "photography"
+          ],
+          "confirmation_question": "What walking, stair, late-night and rest limits should control the Chongqing route?",
+          "effect": "Filters high-cost vertical/night modules."
+        }
+      ],
+      "follow_up_questions": [
+        {
+          "id": "CDQ01",
+          "priority": 1,
+          "triggers": [
+            "chengdu",
+            "chongqing",
+            "both",
+            "two_cities"
+          ],
+          "ask": "How many protected nights can you give each city after the high-speed rail transfer?",
+          "decision_effect": "The primary pair decision."
+        },
+        {
+          "id": "CDQ02",
+          "priority": 1,
+          "triggers": [
+            "food",
+            "slow",
+            "cyberpunk",
+            "night"
+          ],
+          "ask": "Would you rather protect Chengdu’s slower food/public-life rhythm or Chongqing’s vertical/night intensity?",
+          "decision_effect": "Clarifies what the two cities must each do."
+        },
+        {
+          "id": "CDQ03",
+          "priority": 2,
+          "triggers": [
+            "panda"
+          ],
+          "ask": "Are pandas a must, or would a city-based Chengdu day be more valuable?",
+          "decision_effect": "Controls early start and remote transfer."
+        },
+        {
+          "id": "CDQ04",
+          "priority": 2,
+          "triggers": [
+            "stairs",
+            "family",
+            "parents",
+            "mobility"
+          ],
+          "ask": "How long can your group walk, climb stairs and stay out after dark?",
+          "decision_effect": "Changes Chongqing route and night photography."
+        },
+        {
+          "id": "CDQ05",
+          "priority": 2,
+          "triggers": [
+            "wulong",
+            "dazu",
+            "day_trip"
+          ],
+          "ask": "Is the priority a city experience or a separate full-day heritage/landscape excursion?",
+          "decision_effect": "Prevents remote excursions being hidden add-ons."
+        }
+      ],
+      "human_review_triggers": [
+        "current rail/metro/venue and night access",
+        "stairs, heat, family or late-night constraints",
+        "Dazu/Wulong day-trip logistics",
+        "private community/creator/photography access"
+      ],
+      "output_emphasis": [
+        "state what each city answers",
+        "recommend deleting one city when nights are insufficient",
+        "treat cyberpunk as a physical city experiment, not a slogan"
+      ]
+    },
+    {
+      "id": "guangzhou_shenzhen",
+      "label": "Guangzhou–Shenzhen",
+      "aliases": [
+        "guangzhou",
+        "shenzhen",
+        "广州",
+        "深圳"
+      ],
+      "min_protected_nights": 4,
+      "city_database_ids": [
+        "guangzhou",
+        "shenzhen"
+      ],
+      "database_refs": [
+        "../guangzhou-agent-database-20260802/广州智能体数据库_V0.1.json",
+        "../shenzhen-agent-database-20260802/深圳智能体数据库_V0.1.json"
+      ],
+      "status": "content_foundation",
+      "identity": {
+        "what_it_is": "South China through Cantonese food/trade history and Shenzhen’s public-facing technology and urban systems.",
+        "not_for": "A promised factory, private company, supplier or R&D visit."
+      },
+      "selection_rules": {
+        "include_when": [
+          "the traveller wants food/trade plus technology/design",
+          "there are at least four protected nights",
+          "public observation is acceptable"
+        ],
+        "protect": [
+          "one food/social question in Guangzhou",
+          "one public technology question in Shenzhen"
+        ],
+        "exclude_or_split_when": [
+          "the request depends on private company access",
+          "less than four nights and both cities are treated as equal musts",
+          "a border crossing is assumed without current official confirmation"
+        ]
+      },
+      "latent_need_rules": [
+        {
+          "id": "food_vs_tech",
+          "signals": [
+            "cantonese",
+            "yum cha",
+            "tech",
+            "hardware"
+          ],
+          "confirmation_question": "Is the trip primarily about Cantonese food/trade, public technology, or the contrast between them?",
+          "effect": "Chooses the city or pair."
+        },
+        {
+          "id": "public_vs_private_tech",
+          "signals": [
+            "factory",
+            "huawei",
+            "tencent",
+            "sourcing"
+          ],
+          "confirmation_question": "Are you seeking public learning and observation, or private company/supplier access?",
+          "effect": "Enforces access boundary."
+        },
+        {
+          "id": "shopping_vs_system",
+          "signals": [
+            "shopping",
+            "market",
+            "huaqiangbei"
+          ],
+          "confirmation_question": "Are you buying a personal item, sourcing commercially, or understanding the supply-chain ecosystem?",
+          "effect": "Prevents shopping folklore and legal/IP overreach."
+        },
+        {
+          "id": "heat_and_transfer",
+          "signals": [
+            "rain",
+            "heat",
+            "business",
+            "hong kong"
+          ],
+          "confirmation_question": "What transfer, heat and luggage constraints apply to your final day?",
+          "effect": "Changes route order and border decisions."
+        }
+      ],
+      "follow_up_questions": [
+        {
+          "id": "GSI01",
+          "priority": 1,
+          "triggers": [
+            "food",
+            "tech",
+            "both"
+          ],
+          "ask": "Is your main question Cantonese food/trade, Shenzhen technology, or the contrast between them?",
+          "decision_effect": "Sets the city split."
+        },
+        {
+          "id": "GSI02",
+          "priority": 1,
+          "triggers": [
+            "factory",
+            "company",
+            "sourcing",
+            "tech"
+          ],
+          "ask": "Are you seeking public observation or private company/supplier access?",
+          "decision_effect": "Determines whether the request can be handled."
+        },
+        {
+          "id": "GSI03",
+          "priority": 2,
+          "triggers": [
+            "food",
+            "dim_sum",
+            "allergy"
+          ],
+          "ask": "What food format and dietary limits should the route respect?",
+          "decision_effect": "Controls meal selection and safety review."
+        },
+        {
+          "id": "GSI04",
+          "priority": 2,
+          "triggers": [
+            "hardware",
+            "shopping",
+            "huaqiangbei"
+          ],
+          "ask": "Are you observing, buying a personal item, sourcing, or photographing the ecosystem?",
+          "decision_effect": "Selects a bounded market route."
+        },
+        {
+          "id": "GSI05",
+          "priority": 2,
+          "triggers": [
+            "hong_kong",
+            "border"
+          ],
+          "ask": "What passport/visa status and official current basis apply to any border crossing?",
+          "decision_effect": "Stops unsupported border assumptions."
+        }
+      ],
+      "human_review_triggers": [
+        "food allergies and dietary safety",
+        "public access, photography and IP at markets",
+        "private company/factory/supplier requests",
+        "border, payment, weather and departure logistics"
+      ],
+      "output_emphasis": [
+        "make public/private access explicit",
+        "explain Guangzhou and Shenzhen as different questions",
+        "never use company-name tourism as a promise"
+      ]
+    },
+    {
+      "id": "guilin_yangshuo",
+      "label": "Guilin–Yangshuo",
+      "aliases": [
+        "guilin",
+        "yangshuo",
+        "桂林",
+        "阳朔"
+      ],
+      "min_protected_nights": 3,
+      "city_database_ids": [
+        "guilin_yangshuo"
+      ],
+      "database_refs": [
+        "../guilin-yangshuo-agent-database-20260802/桂林阳朔智能体数据库_V0.1.json"
+      ],
+      "status": "content_foundation",
+      "identity": {
+        "what_it_is": "A weather-aware karst landscape route where river, land, settlement and rest are chosen deliberately.",
+        "not_for": "A scenic checklist that assumes perfect visibility, cycling ability or water conditions."
+      },
+      "selection_rules": {
+        "include_when": [
+          "the traveller has three protected nights",
+          "landscape is the central question",
+          "they accept weather and water-dependent alternatives"
+        ],
+        "protect": [
+          "one primary landscape mode",
+          "a weather fallback and a non-riding option"
+        ],
+        "exclude_or_split_when": [
+          "Longji is added without a separate full day",
+          "the traveller needs guaranteed sunrise/fog/water conditions",
+          "cycling/boat safety limits are unknown"
+        ]
+      },
+      "latent_need_rules": [
+        {
+          "id": "landscape_mode",
+          "signals": [
+            "karst",
+            "river",
+            "photo",
+            "cycling",
+            "family"
+          ],
+          "confirmation_question": "Is the priority river, walking/cycling, photography, family slow travel, adventure or rest?",
+          "effect": "Chooses the landscape mode."
+        },
+        {
+          "id": "activity_tolerance",
+          "signals": [
+            "bike",
+            "cycling",
+            "yulong",
+            "boat"
+          ],
+          "confirmation_question": "Will you walk, cycle, use an e-bike, use vehicle support, or avoid road riding?",
+          "effect": "Controls physical and safety assumptions."
+        },
+        {
+          "id": "weather_reversibility",
+          "signals": [
+            "rain",
+            "fog",
+            "visibility"
+          ],
+          "confirmation_question": "What weather, water, stairs or walking threshold requires a route change?",
+          "effect": "Ensures the route can survive poor conditions."
+        },
+        {
+          "id": "longji_tradeoff",
+          "signals": [
+            "longji",
+            "rice terraces"
+          ],
+          "confirmation_question": "Do you have a separate full day for Longji, or should the karst route remain focused?",
+          "effect": "Prevents overextension."
+        }
+      ],
+      "follow_up_questions": [
+        {
+          "id": "GYI01",
+          "priority": 1,
+          "triggers": [
+            "karst",
+            "landscape"
+          ],
+          "ask": "What is the main landscape experience: river, walking/cycling, photography, family slow travel, adventure or rest?",
+          "decision_effect": "Chooses the route mode."
+        },
+        {
+          "id": "GYI02",
+          "priority": 1,
+          "triggers": [
+            "river",
+            "li_river",
+            "boat"
+          ],
+          "ask": "Are you comfortable with a long boat day, motion, weather uncertainty and luggage handling?",
+          "decision_effect": "Checks the boat branch."
+        },
+        {
+          "id": "GYI03",
+          "priority": 2,
+          "triggers": [
+            "cycling",
+            "bike",
+            "yulong"
+          ],
+          "ask": "Will you ride, walk, use vehicle support, or avoid road riding altogether?",
+          "decision_effect": "Avoids assuming cycling."
+        },
+        {
+          "id": "GYI04",
+          "priority": 2,
+          "triggers": [
+            "longji"
+          ],
+          "ask": "Do you have a separate full day and weather/terrain tolerance for rice terraces?",
+          "decision_effect": "Makes Longji an explicit add-on decision."
+        },
+        {
+          "id": "GYI05",
+          "priority": 2,
+          "triggers": [
+            "rain",
+            "fog",
+            "mobility"
+          ],
+          "ask": "What conditions would make you switch to a seated or lower-exposure landscape day?",
+          "decision_effect": "Creates a usable fallback."
+        }
+      ],
+      "human_review_triggers": [
+        "weather, water level, visibility and outdoor access",
+        "cycling, e-bike, boat or terrain safety",
+        "Longji transfer and full-day feasibility",
+        "family or mobility constraints"
+      ],
+      "output_emphasis": [
+        "describe a landscape relationship, not a view-point list",
+        "show the fallback before the guest needs it",
+        "never guarantee weather or visibility"
+      ]
+    },
+    {
+      "id": "quanzhou_dehua",
+      "label": "Quanzhou–Dehua",
+      "aliases": [
+        "quanzhou",
+        "dehua",
+        "泉州",
+        "德化"
+      ],
+      "min_protected_nights": 3,
+      "city_database_ids": [
+        "quanzhou_dehua"
+      ],
+      "database_refs": [
+        "../quanzhou-dehua-agent-database-20260802/泉州德化智能体数据库_V0.1.json"
+      ],
+      "status": "human_check_pilot",
+      "identity": {
+        "what_it_is": "A world-port system of trade, religious exchange, everyday streets and a separate ceramics extension.",
+        "not_for": "A temple checklist, guaranteed private religious access or a ceramic workshop promise."
+      },
+      "selection_rules": {
+        "include_when": [
+          "the traveller wants maritime history, religious plurality, food or ceramics",
+          "there are three protected nights for city plus optional Dehua",
+          "the traveller accepts etiquette and consent boundaries"
+        ],
+        "protect": [
+          "two city days before considering Dehua",
+          "one coherent maritime/faith question rather than many temples"
+        ],
+        "exclude_or_split_when": [
+          "only two days and Dehua is a must",
+          "the request requires private homes, religious ritual or maker access",
+          "weather/transfer conditions are not current"
+        ]
+      },
+      "latent_need_rules": [
+        {
+          "id": "maritime_system_vs_sightseeing",
+          "signals": [
+            "maritime",
+            "port",
+            "trade",
+            "history"
+          ],
+          "confirmation_question": "Do you want to understand trade systems, port infrastructure, religious exchange, ceramics, or the links between them?",
+          "effect": "Sets the narrative frame."
+        },
+        {
+          "id": "public_faith_vs_private_ritual",
+          "signals": [
+            "religion",
+            "mosque",
+            "temple",
+            "ritual"
+          ],
+          "confirmation_question": "Are you looking for historical context, sacred architecture or living practice—and are you comfortable with strict etiquette and access limits?",
+          "effect": "Protects communities and access boundaries."
+        },
+        {
+          "id": "quanzhou_vs_dehua",
+          "signals": [
+            "dehua",
+            "ceramic",
+            "porcelain"
+          ],
+          "confirmation_question": "Do you have a separate third day for Dehua, or should the city route stay focused on Quanzhou?",
+          "effect": "Controls the extension."
+        },
+        {
+          "id": "craft_learning_vs_buying",
+          "signals": [
+            "maker",
+            "workshop",
+            "buy"
+          ],
+          "confirmation_question": "Are you learning production context, buying ceramics, or seeking a verified making encounter?",
+          "effect": "Prevents unverified craft promises."
+        }
+      ],
+      "follow_up_questions": [
+        {
+          "id": "QZI01",
+          "priority": 1,
+          "triggers": [
+            "maritime",
+            "port",
+            "history"
+          ],
+          "ask": "Are you most interested in trade systems, religious exchange, everyday city life, ceramics, or the connections between them?",
+          "decision_effect": "Selects the main story."
+        },
+        {
+          "id": "QZI02",
+          "priority": 1,
+          "triggers": [
+            "religion",
+            "temple",
+            "mosque"
+          ],
+          "ask": "Do you want historical context, sacred architecture or living practice—and what etiquette/access limits are you comfortable with?",
+          "decision_effect": "Sets the faith route boundary."
+        },
+        {
+          "id": "QZI03",
+          "priority": 1,
+          "triggers": [
+            "dehua",
+            "ceramics"
+          ],
+          "ask": "Do you have a separate day for Dehua, or would another Quanzhou day be more valuable?",
+          "decision_effect": "Makes the extension explicit."
+        },
+        {
+          "id": "QZI04",
+          "priority": 2,
+          "triggers": [
+            "craft",
+            "workshop",
+            "buying"
+          ],
+          "ask": "Are you learning, buying, or seeking a verified participatory craft encounter?",
+          "decision_effect": "Routes to research-only or human review."
+        },
+        {
+          "id": "QZI05",
+          "priority": 2,
+          "triggers": [
+            "rain",
+            "heat",
+            "mobility"
+          ],
+          "ask": "What weather, walking, stairs or transfer threshold requires a shorter alternative?",
+          "decision_effect": "Controls route continuity."
+        }
+      ],
+      "human_review_triggers": [
+        "religious access, photography and etiquette",
+        "Dehua transport and maker/workshop release",
+        "food allergies and local-language friction",
+        "any private home, ritual or community request"
+      ],
+      "output_emphasis": [
+        "use the maritime system as the organizing frame",
+        "make Quanzhou versus Dehua a real choice",
+        "respect living religious and craft communities"
+      ]
+    },
+    {
+      "id": "jingdezhen",
+      "label": "Jingdezhen",
+      "aliases": [
+        "jingdezhen",
+        "景德镇"
+      ],
+      "min_protected_nights": 2,
+      "city_database_ids": [
+        "jingdezhen"
+      ],
+      "database_refs": [
+        "../jingdezhen-agent-database-20260802/景德镇智能体数据库_V0.1.json"
+      ],
+      "status": "content_foundation",
+      "identity": {
+        "what_it_is": "A living porcelain system: material, kiln, labour, standards, trade and contemporary making.",
+        "not_for": "An art-market guarantee, private studio access, authentication or shipping service."
+      },
+      "selection_rules": {
+        "include_when": [
+          "ceramics, material culture, design or craft is a real priority",
+          "the traveller has at least two nights",
+          "the visitor can distinguish public learning from professional training"
+        ],
+        "protect": [
+          "one process/history question and one contemporary making layer",
+          "delivery and firing uncertainty when a workshop is considered"
+        ],
+        "exclude_or_split_when": [
+          "the request is only “buy the best porcelain”",
+          "a private studio, residency or apprenticeship is assumed",
+          "departure is too soon for firing/delivery"
+        ]
+      },
+      "latent_need_rules": [
+        {
+          "id": "learning_vs_purchase",
+          "signals": [
+            "ceramics",
+            "porcelain",
+            "buy",
+            "collect"
+          ],
+          "confirmation_question": "Are you interested in material/process, history, contemporary art, buying, a short workshop, or professional learning?",
+          "effect": "Chooses the product mode."
+        },
+        {
+          "id": "time_to_make",
+          "signals": [
+            "workshop",
+            "firing",
+            "delivery"
+          ],
+          "confirmation_question": "Do you want a one-off public experience or genuine skills learning, and when do you depart relative to firing or delivery?",
+          "effect": "Sets feasible scope."
+        },
+        {
+          "id": "professional_scope",
+          "signals": [
+            "residency",
+            "apprenticeship",
+            "portfolio"
+          ],
+          "confirmation_question": "Are you exploring a professional programme rather than tourism? If so, what duration, language and portfolio constraints apply?",
+          "effect": "Escalates to a separate research scope."
+        },
+        {
+          "id": "provenance_boundary",
+          "signals": [
+            "collecting",
+            "authentic",
+            "shipping"
+          ],
+          "confirmation_question": "Are you browsing or buying for personal use? The roadbook cannot authenticate, value or ship objects.",
+          "effect": "Makes commercial limits explicit."
+        }
+      ],
+      "follow_up_questions": [
+        {
+          "id": "JDI01",
+          "priority": 1,
+          "triggers": [
+            "ceramics",
+            "porcelain"
+          ],
+          "ask": "Are you here for material/process, imperial history, contemporary art, buying, a short workshop, or professional learning?",
+          "decision_effect": "Selects the route mode."
+        },
+        {
+          "id": "JDI02",
+          "priority": 2,
+          "triggers": [
+            "workshop",
+            "making"
+          ],
+          "ask": "Do you want a one-off public experience or genuine skills learning, and when do you depart?",
+          "decision_effect": "Checks whether making can fit."
+        },
+        {
+          "id": "JDI03",
+          "priority": 2,
+          "triggers": [
+            "buying",
+            "collecting",
+            "shipping"
+          ],
+          "ask": "Are you browsing, buying for personal use, collecting, or arranging delivery?",
+          "decision_effect": "Enforces provenance and shipping boundary."
+        },
+        {
+          "id": "JDI04",
+          "priority": 2,
+          "triggers": [
+            "residency",
+            "apprenticeship"
+          ],
+          "ask": "Is this professional research or tourism, and how much time can you actually spend?",
+          "decision_effect": "Routes out of the travel product."
+        },
+        {
+          "id": "JDI05",
+          "priority": 2,
+          "triggers": [
+            "dehua",
+            "fujian"
+          ],
+          "ask": "Would you rather deepen Jingdezhen’s porcelain system or add a separate Fujian production chapter?",
+          "decision_effect": "Prevents incompatible extensions."
+        }
+      ],
+      "human_review_triggers": [
+        "workshop/studio access and current programme",
+        "purchase, provenance, pricing, firing or shipping questions",
+        "professional residency/apprenticeship requests",
+        "language and payment friction"
+      ],
+      "output_emphasis": [
+        "teach the production system",
+        "separate public observation from private making",
+        "never imply authenticity or investment advice"
+      ]
+    },
+    {
+      "id": "wudang",
+      "label": "Wudang Mountains",
+      "aliases": [
+        "wudang",
+        "wudang mountains",
+        "武当山"
+      ],
+      "min_protected_nights": 3,
+      "city_database_ids": [
+        "wudang"
+      ],
+      "database_refs": [
+        "../wudang-agent-database-20260802/武当山智能体数据库_V0.1.json"
+      ],
+      "status": "research_led",
+      "identity": {
+        "what_it_is": "Mountain-based Taoist architectural heritage approached through public space, weather, body cost and etiquette.",
+        "not_for": "A mystical, healing, master-access or guaranteed Tai Chi training product."
+      },
+      "selection_rules": {
+        "include_when": [
+          "heritage architecture, Taoist history or mountain walking is the actual question",
+          "the traveller can protect three nights and a weather buffer",
+          "public heritage routes are acceptable"
+        ],
+        "protect": [
+          "arrival/departure buffer",
+          "stairs, cable-car and weather decision before naming a route"
+        ],
+        "exclude_or_split_when": [
+          "the traveller wants a guaranteed master, ritual or healing outcome",
+          "a day trip leaves no usable mountain day",
+          "fitness/medical constraints are undisclosed"
+        ]
+      },
+      "latent_need_rules": [
+        {
+          "id": "heritage_vs_training",
+          "signals": [
+            "taoism",
+            "architecture",
+            "tai chi",
+            "martial arts"
+          ],
+          "confirmation_question": "Are you here for public heritage/architecture, mountain walking, a beginner session, or serious training?",
+          "effect": "Separates a travel route from training/health claims."
+        },
+        {
+          "id": "mountain_feasibility",
+          "signals": [
+            "two nights",
+            "day trip",
+            "stairs",
+            "cable car"
+          ],
+          "confirmation_question": "Where do you arrive from, how many complete mountain days remain, and can one day move for weather?",
+          "effect": "Tests feasibility."
+        },
+        {
+          "id": "private_access_boundary",
+          "signals": [
+            "master",
+            "ritual",
+            "temple access"
+          ],
+          "confirmation_question": "Would a respectful public heritage route meet your aim if private religious access is unavailable?",
+          "effect": "Protects religious/community boundaries."
+        },
+        {
+          "id": "physical_risk",
+          "signals": [
+            "fitness",
+            "injury",
+            "heart",
+            "family"
+          ],
+          "confirmation_question": "What mobility, stair, altitude, injury or child-safety limits need human review?",
+          "effect": "Blocks unsafe assumptions."
+        }
+      ],
+      "follow_up_questions": [
+        {
+          "id": "WDI01",
+          "priority": 1,
+          "triggers": [
+            "heritage",
+            "taoism",
+            "architecture",
+            "tai_chi"
+          ],
+          "ask": "Are you primarily here for public heritage/architecture, mountain walking, an introductory Tai Chi session, or serious training?",
+          "decision_effect": "Chooses safe scope."
+        },
+        {
+          "id": "WDI02",
+          "priority": 1,
+          "triggers": [
+            "nights",
+            "day_trip",
+            "arrival"
+          ],
+          "ask": "Where do you arrive from, how many actual nights are protected, and can one day change for weather?",
+          "decision_effect": "Tests route feasibility."
+        },
+        {
+          "id": "WDI03",
+          "priority": 1,
+          "triggers": [
+            "mobility",
+            "fitness",
+            "family"
+          ],
+          "ask": "Are there stairs, altitude, injury, heart, or child-safety limits that require human review?",
+          "decision_effect": "Blocks high-risk route output."
+        },
+        {
+          "id": "WDI04",
+          "priority": 2,
+          "triggers": [
+            "master",
+            "ritual",
+            "private_access"
+          ],
+          "ask": "Would a respectful public heritage route meet your interest? Private religious access and ritual participation cannot be promised.",
+          "decision_effect": "Sets the boundary."
+        },
+        {
+          "id": "WDI05",
+          "priority": 2,
+          "triggers": [
+            "sunrise",
+            "cable_car",
+            "weather"
+          ],
+          "ask": "Can you accept a weather-dependent fallback and verify same-day operating information?",
+          "decision_effect": "Protects against false certainty."
+        }
+      ],
+      "human_review_triggers": [
+        "stairs, cable car, weather and mountain transport",
+        "Tai Chi, martial arts, healing or training requests",
+        "private religious access or ritual participation",
+        "medical, injury, family or safety constraints"
+      ],
+      "output_emphasis": [
+        "lead with architecture and public heritage",
+        "show body cost and weather reversibility",
+        "refuse mystical or healing claims clearly"
+      ]
+    },
+    {
+      "id": "jingmai",
+      "label": "Jingmai Mountain",
+      "aliases": [
+        "jingmai",
+        "jingmai mountain",
+        "景迈",
+        "景迈茶山"
+      ],
+      "min_protected_nights": 3,
+      "city_database_ids": [
+        "jingmai"
+      ],
+      "database_refs": [
+        "../jingmai-agent-database-20260802/景迈茶山智能体数据库_V0.1.json"
+      ],
+      "status": "research_led",
+      "identity": {
+        "what_it_is": "A living tea-forest cultural landscape of villages, roads, ecology and slow observation.",
+        "not_for": "Tea authentication, investment, health claims, private farmer visits or guaranteed mist/sunrise."
+      },
+      "selection_rules": {
+        "include_when": [
+          "the traveller has three or more mountain nights",
+          "they accept road/weather variability and community etiquette",
+          "learning is more important than buying or private access"
+        ],
+        "protect": [
+          "arrival/departure and road buffer",
+          "an approved public/consented observation route"
+        ],
+        "exclude_or_split_when": [
+          "two nights leave no complete mountain day",
+          "the trip depends on private homes or ceremonies",
+          "the traveller expects guaranteed tea quality, weather or transport"
+        ]
+      },
+      "latent_need_rules": [
+        {
+          "id": "tea_learning_vs_purchase",
+          "signals": [
+            "tea culture",
+            "old tree",
+            "tea purchase"
+          ],
+          "confirmation_question": "Are you trying to understand tea landscape and processing, taste comparatively, buy for personal use, or collect?",
+          "effect": "Sets the learning/buying boundary."
+        },
+        {
+          "id": "public_vs_private_village",
+          "signals": [
+            "farmer",
+            "home visit",
+            "ceremony"
+          ],
+          "confirmation_question": "Would a respectful public or approved observation meet your aim if private homes, gardens or ceremonies are unavailable?",
+          "effect": "Protects community consent."
+        },
+        {
+          "id": "road_and_weather",
+          "signals": [
+            "rainy season",
+            "sunrise",
+            "scooter",
+            "self drive"
+          ],
+          "confirmation_question": "Where do you arrive and leave, and can you accept a weather-dependent road and trail fallback?",
+          "effect": "Tests operational feasibility."
+        },
+        {
+          "id": "health_claim_boundary",
+          "signals": [
+            "tea health",
+            "investment"
+          ],
+          "confirmation_question": "Are you seeking medical advice or an investment recommendation? Neither can be supplied through a travel roadbook.",
+          "effect": "Prevents unsafe or financial claims."
+        }
+      ],
+      "follow_up_questions": [
+        {
+          "id": "JMI01",
+          "priority": 1,
+          "triggers": [
+            "tea",
+            "old_tree",
+            "purchase"
+          ],
+          "ask": "Are you learning about tea landscape and processing, tasting comparatively, buying for personal use, or collecting?",
+          "decision_effect": "Chooses the route mode."
+        },
+        {
+          "id": "JMI02",
+          "priority": 1,
+          "triggers": [
+            "farmer",
+            "home_visit",
+            "ceremony"
+          ],
+          "ask": "Would a respectful public/approved observation meet your aim? Private homes, tea gardens and ceremonies cannot be promised.",
+          "decision_effect": "Sets the access boundary."
+        },
+        {
+          "id": "JMI03",
+          "priority": 1,
+          "triggers": [
+            "nights",
+            "arrival",
+            "departure"
+          ],
+          "ask": "Where do you arrive from and leave for, and how many complete mountain days remain after transfers?",
+          "decision_effect": "Tests minimum viable stay."
+        },
+        {
+          "id": "JMI04",
+          "priority": 2,
+          "triggers": [
+            "walking",
+            "mobility",
+            "family"
+          ],
+          "ask": "What walking, mud, stairs, child-safety, injury or health constraints need human review?",
+          "decision_effect": "Controls terrain and safety."
+        },
+        {
+          "id": "JMI05",
+          "priority": 2,
+          "triggers": [
+            "rain",
+            "sunrise",
+            "scooter"
+          ],
+          "ask": "Can you accept a weather-dependent fallback and independently verify same-day road/trail conditions?",
+          "decision_effect": "Protects against false certainty."
+        }
+      ],
+      "human_review_triggers": [
+        "roads, weather, trails and local transport",
+        "tea purchase/authentication/health/investment questions",
+        "private farmer, home, ceremony or village requests",
+        "mobility, child-safety or self-drive constraints"
+      ],
+      "output_emphasis": [
+        "treat tea as landscape and labour, not a product catalogue",
+        "put logistics before romantic language",
+        "use research-only status until local consent and road checks exist"
+      ]
+    }
+  ]
+}
