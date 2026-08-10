@@ -1,0 +1,12 @@
+{
+  "name": "a-deeper-china-beijing-agent-runtime",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "test": "node --test",
+    "regression": "node bin/run-regression.mjs",
+    "validate": "node bin/validate-database.mjs",
+    "validate:decision-layer": "node bin/validate-database.mjs",
+    "roadbook": "node bin/roadbook.mjs"
+  }
+}

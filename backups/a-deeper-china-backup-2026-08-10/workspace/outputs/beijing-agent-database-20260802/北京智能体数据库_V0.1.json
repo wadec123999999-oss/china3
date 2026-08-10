@@ -1,0 +1,108 @@
+{
+  "metadata": {
+    "city": "Beijing",
+    "version": "0.1",
+    "as_of": "2026-08-02",
+    "status": "content_foundation_not_field_verified",
+    "audience": "English-speaking independent international visitors, 3–5 days",
+    "promise": "Interpret Beijing as a working capital of layers—imperial order, everyday neighbourhoods, landscape at the Wall, and a contemporary art city—not as a checklist.",
+    "commercial_boundary": "Research and a human-checked digital roadbook only. No bundled travel, bookings, transport, guiding, admission resale, or local-experience price promises.",
+    "source_pack_ref": "../a-deeper-china-quality-system-v0.1/北京成都来源包_V0.1.json",
+    "decision_layer_ref": "北京决策字段_V1.0.json",
+    "point_decision_layer_ref": "北京点位决策字段_V1.0.json"
+  },
+  "source_policy": {
+    "rule": "Use official operational sources for tickets, opening times, routes, payments and eligibility. Treat every such fact as time-sensitive. Use editorial and community sources only to detect questions and friction, never as operational authority.",
+    "official_sources": [
+      {"id": "BJS01", "title": "Beijing International Web Portal: visitor services", "url": "https://english.beijing.gov.cn/latest/news/202605/t20260507_4639364.html", "use": "foreign-visitor arrival, payment and service friction", "dynamic": true},
+      {"id": "BJS02", "title": "Beijing ticketing portal: Mutianyu", "url": "https://english.beijing.gov.cn/specials/ticketing/attractions/202407/t20240717_3751593.html", "use": "Mutianyu hours, entry and ticket policy", "dynamic": true},
+      {"id": "BJS03", "title": "Beijing: Mutianyu transport and site information", "url": "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260325_4566115.html", "use": "public-transport cross-check", "dynamic": true},
+      {"id": "BJS04", "title": "Beijing Central Axis landmarks", "url": "https://english.beijing.gov.cn/specials/centralaxis/landmarksalongthecentralaxis/index.html", "use": "Drum and Bell Tower operations", "dynamic": true},
+      {"id": "BJS05", "title": "798·751 Zone", "url": "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260323_4563864.html", "use": "798 orientation and exhibition-entry caveat", "dynamic": true}
+    ]
+  },
+  "modules": [
+    {"id": "BJM01", "name": "Imperial axis, read as a system", "question": "How do I make the Forbidden City meaningful rather than overwhelming?", "output_rule": "Pair a bounded Palace Museum visit with one high viewpoint or surrounding street; never prescribe same-day ticket inventory."},
+    {"id": "BJM02", "name": "Ritual, park and the lived capital", "question": "Where can I see Beijing beyond palace architecture?", "output_rule": "Use Temple of Heaven as a lens on ritual space and public everyday use; field-check entrance and park conditions."},
+    {"id": "BJM03", "name": "Hutong as neighbourhood, not set", "question": "How do I explore hutongs respectfully?", "output_rule": "Offer a walking logic, quieter alternatives and photo etiquette; do not imply access to private courtyards."},
+    {"id": "BJM04", "name": "The Great Wall decision", "question": "Which Wall section fits my day and ability?", "output_rule": "State trade-offs and a verification checklist; do not make transport or cable-car promises."},
+    {"id": "BJM05", "name": "Water, gardens and imperial leisure", "question": "Do I need the Summer Palace after the Forbidden City?", "output_rule": "Frame it as a different spatial experience—water, movement and distance—rather than another palace."},
+    {"id": "BJM06", "name": "Beijing now: 798 and cultural production", "question": "Is there a contemporary Beijing worth a half-day?", "output_rule": "Use 798·751 as an exhibition-led district; verify programme and paid-entry details just before output."},
+    {"id": "BJM07", "name": "First 24 hours and reservation friction", "question": "Can I actually enter the places I came for?", "output_rule": "Surface passport, reservation, payment, language and time-zone risks early; give official channels, not an assurance."},
+    {"id": "BJM08", "name": "Beijing within a China journey", "question": "How many days should Beijing receive?", "output_rule": "Recommend a pace based on purpose and energy; distinguish a Beijing core from a Wall day."}
+  ],
+  "points": [
+    {"id": "BJ001", "name": "Palace Museum / Forbidden City", "module_id": "BJM01", "role": "anchor", "why_it_matters": "The highest-density encounter with imperial spatial order, but its value comes from a clear reading question rather than trying to consume every hall.", "best_for": ["first_visit", "history", "architecture"], "friction": ["time_specific_reservation", "passport_identity", "crowds", "closed_day"], "agent_use": "Ask whether the visitor wants an axis overview, material detail, court history, or photography; then limit the scope.", "dynamic_source": "BJS01", "field_status": "needs_operational_check"},
+    {"id": "BJ002", "name": "Jingshan Park", "module_id": "BJM01", "role": "counterpoint", "why_it_matters": "A short elevation reset after the Palace Museum; useful to read the city from above rather than remain inside a sequence of halls.", "best_for": ["first_visit", "photography", "short_time"], "friction": ["weather", "crowds", "ticket_policy"], "agent_use": "Use as a fork: add it for orientation, omit it if mobility or heat makes the day too dense.", "dynamic_source": "BJS01", "field_status": "needs_operational_check"},
+    {"id": "BJ003", "name": "Tian'anmen Square approach", "module_id": "BJM01", "role": "context", "why_it_matters": "The civic-scale counterpart to the imperial axis; it needs expectation-setting about screening, identity and timing.", "best_for": ["first_visit", "urban_scale"], "friction": ["security_process", "reservation", "heat", "crowds"], "agent_use": "Never treat it as a casual five-minute add-on. Confirm current access requirements before publishing.", "dynamic_source": "BJS01", "field_status": "needs_operational_check"},
+    {"id": "BJ004", "name": "Temple of Heaven", "module_id": "BJM02", "role": "anchor", "why_it_matters": "Lets a visitor connect imperial ritual architecture with a large public park and everyday urban rhythms.", "best_for": ["history", "slow_travel", "morning"], "friction": ["multi_zone_ticketing", "opening_time", "weather"], "agent_use": "Explain the difference between park access and interior sites only after current policy is verified.", "dynamic_source": "BJS01", "field_status": "needs_operational_check"},
+    {"id": "BJ005", "name": "Qianmen–Dashilar", "module_id": "BJM02", "role": "transition", "why_it_matters": "A useful south-of-axis transition from monumental Beijing to commerce, streets and adaptive reuse.", "best_for": ["food_culture", "urban_history", "evening"], "friction": ["tourist_density", "commercial_noise", "closing_times"], "agent_use": "Do not call it 'authentic' by default; identify whether the visitor wants historic urban fabric, design shops, or a food stop.", "dynamic_source": "BJS01", "field_status": "needs_field_walk"},
+    {"id": "BJ006", "name": "Drum and Bell Towers", "module_id": "BJM03", "role": "anchor", "why_it_matters": "A strong entry point to the northern end of the historic city and to Beijing as a city organised by time as well as axis.", "best_for": ["history", "viewpoint", "hutong"], "friction": ["stairs", "time_specific_hours", "ticketing"], "agent_use": "Use current official hours only after re-check; offer a ground-level alternative for visitors who avoid stairs.", "dynamic_source": "BJS04", "field_status": "needs_operational_check"},
+    {"id": "BJ007", "name": "Shichahai–Yandaixiejie walking fabric", "module_id": "BJM03", "role": "anchor", "why_it_matters": "An accessible way to connect water, old-city lanes, former residences and the Drum Tower area without reducing hutongs to a single photo street.", "best_for": ["walkers", "evening", "urban_history"], "friction": ["crowds", "night_noise", "commercialization"], "agent_use": "Build a time-of-day route and explicitly say that private homes are not attractions.", "dynamic_source": "BJS04", "field_status": "needs_field_walk"},
+    {"id": "BJ008", "name": "Nanluoguxiang decision", "module_id": "BJM03", "role": "decision_card", "why_it_matters": "Useful as a recognisable orientation point but often mismatched for travellers seeking quiet neighbourhood observation.", "best_for": ["first_visit", "short_time"], "friction": ["crowds", "retail_noise"], "agent_use": "Do not automatically include. Ask whether the visitor values famous lanes, shopping, or quieter side-street walking.", "dynamic_source": "BJS01", "field_status": "needs_field_walk"},
+    {"id": "BJ009", "name": "Wudaoying–Andingmen evening lane", "module_id": "BJM03", "role": "alternative", "why_it_matters": "A candidate for a smaller-scale evening of shops, bars and contemporary neighbourhood life.", "best_for": ["second_visit", "evening", "design"], "friction": ["venue_turnover", "noise", "late_transport"], "agent_use": "Never promise a particular venue; use only after a current field walk confirms the street still fits the stated mood.", "dynamic_source": "BJS01", "field_status": "candidate_only"},
+    {"id": "BJ010", "name": "Mutianyu Great Wall", "module_id": "BJM04", "role": "anchor", "why_it_matters": "A Wall day combining a well-preserved Ming section, mountain setting and multiple ascent/return choices.", "best_for": ["first_visit", "scenery", "active_day"], "friction": ["weather", "distance", "reservation", "transfer", "cable_car_decision"], "agent_use": "Ask about fitness, fear of heights, budget, group size and tolerance for long transfers before recommending it. Recheck entry, access and weather.", "dynamic_source": "BJS02", "field_status": "needs_full_day_run"},
+    {"id": "BJ011", "name": "Badaling versus Mutianyu decision", "module_id": "BJM04", "role": "decision_card", "why_it_matters": "The meaningful choice is not which is 'best' but whether the visitor prioritises rail-like access/landmark recognition, mountain setting, or a particular physical challenge.", "best_for": ["first_visit", "short_time", "accessibility"], "friction": ["transport_variability", "seasonality", "crowding"], "agent_use": "Present verified options and the reason for each. Do not turn internet folklore into a universal ranking.", "dynamic_source": "BJS01", "field_status": "needs_full_day_run"},
+    {"id": "BJ012", "name": "Summer Palace", "module_id": "BJM05", "role": "anchor", "why_it_matters": "A contrast to the compact ceremonial logic of the Palace Museum: landscape, water, long movement and imperial retreat.", "best_for": ["first_visit", "gardens", "slow_travel"], "friction": ["large_site_fatigue", "weather", "ticketing"], "agent_use": "Recommend only if the visitor wants time outdoors and has enough energy for distance; do not stack it mechanically with the Palace Museum.", "dynamic_source": "BJS01", "field_status": "needs_operational_check"},
+    {"id": "BJ013", "name": "Beihai Park", "module_id": "BJM05", "role": "alternative", "why_it_matters": "A central water-and-garden option that can reduce a dense north-city day without requiring a full Summer Palace commitment.", "best_for": ["short_time", "walkers", "quiet_reset"], "friction": ["opening_time", "weather", "walking"], "agent_use": "Use as a pacing component, not a compulsory landmark.", "dynamic_source": "BJS01", "field_status": "needs_field_walk"},
+    {"id": "BJ014", "name": "798·751 Art Zone", "module_id": "BJM06", "role": "anchor", "why_it_matters": "A former industrial setting now used by art, design, film and cultural organisations; it gives an English-speaking visitor a concrete entry into Beijing's current cultural production.", "best_for": ["art", "design", "second_visit", "rain_flexible"], "friction": ["exhibition_turnover", "paid_exhibitions", "distance_from_core"], "agent_use": "Match it to an exhibition-led half-day and check the programme; entry to the district does not mean every exhibition is free.", "dynamic_source": "BJS05", "field_status": "needs_field_walk"},
+    {"id": "BJ015", "name": "Caochangdi / art-periphery decision", "module_id": "BJM06", "role": "candidate", "why_it_matters": "A research candidate for visitors who want contemporary art beyond the most legible district.", "best_for": ["art_professional", "repeat_visitor"], "friction": ["venue_turnover", "distance", "language"], "agent_use": "Do not include in a launch roadbook until a current programme and transport audit exists.", "dynamic_source": "BJS05", "field_status": "candidate_only"},
+    {"id": "BJ016", "name": "Airport-to-city first 24 hours", "module_id": "BJM07", "role": "friction_card", "why_it_matters": "The first failure is often not cultural—it is payment, data, an unreadable booking flow, fatigue or a missed reservation window.", "best_for": ["all"], "friction": ["payment", "connectivity", "passport", "jetlag"], "agent_use": "Ask arrival airport, arrival time, SIM/eSIM status, payment setup and next-day reservation status before producing Day 1.", "dynamic_source": "BJS01", "field_status": "needs_arrival_run"},
+    {"id": "BJ017", "name": "Reservation and identity protocol", "module_id": "BJM07", "role": "friction_card", "why_it_matters": "Key cultural sites can require named reservations and identity matching; an attractive itinerary is useless if its first anchor cannot be entered.", "best_for": ["all"], "friction": ["real_name_booking", "passport_matching", "release_times"], "agent_use": "Put reservation deadlines and official links in the human-check layer. Never claim availability.", "dynamic_source": "BJS01", "field_status": "needs_operational_check"},
+    {"id": "BJ018", "name": "Foreign-card and transit setup", "module_id": "BJM07", "role": "friction_card", "why_it_matters": "Payment and transit usability shape whether an independent visitor can move with confidence.", "best_for": ["all"], "friction": ["card_acceptance", "app_setup", "language"], "agent_use": "Give official current options and a contingency, while avoiding a guarantee that every merchant accepts a method.", "dynamic_source": "BJS01", "field_status": "needs_arrival_run"},
+    {"id": "BJ019", "name": "Three-day Beijing core", "module_id": "BJM08", "role": "pace_card", "why_it_matters": "A core city pattern: one imperial-axis day, one Wall day, one hutong/ritual/contemporary day chosen by interest.", "best_for": ["first_visit", "three_days"], "friction": ["overpacking", "reservation_order", "weather"], "agent_use": "This is a skeleton, not a schedule. Select two anchors per day at most and preserve recovery time.", "dynamic_source": "BJS01", "field_status": "content_ready"},
+    {"id": "BJ020", "name": "Five-day Beijing depth", "module_id": "BJM08", "role": "pace_card", "why_it_matters": "Adds garden/water, a deeper hutong walk and a contemporary cultural day rather than repeating monumental sites.", "best_for": ["five_days", "repeat_visitor", "slow_travel"], "friction": ["fatigue", "museum_closures", "weather"], "agent_use": "Use only when the traveller genuinely has five full days; do not sell more sights as more depth.", "dynamic_source": "BJS01", "field_status": "content_ready"}
+  ],
+  "signals": [
+    {"id": "BJSIG01", "signal": "first_time_in_china", "meaning": "Needs friction-first itinerary and a small number of reliable anchors."},
+    {"id": "BJSIG02", "signal": "palace_overload", "meaning": "Avoid Palace Museum plus Summer Palace as default."},
+    {"id": "BJSIG03", "signal": "history_architecture", "meaning": "Prioritise imperial axis, Temple of Heaven and a reading question."},
+    {"id": "BJSIG04", "signal": "hutong_not_touristy", "meaning": "Offer non-automatic Nanluoguxiang decision and etiquette."},
+    {"id": "BJSIG05", "signal": "great_wall_must", "meaning": "Trigger Wall decision questions before an itinerary."},
+    {"id": "BJSIG06", "signal": "limited_mobility", "meaning": "Avoid tower stairs and strenuous Wall framing; use verification/handoff."},
+    {"id": "BJSIG07", "signal": "photography", "meaning": "Ask crowd tolerance, dawn/heat constraints and whether people or architecture are primary."},
+    {"id": "BJSIG08", "signal": "art_design", "meaning": "Route to 798·751 with programme check."},
+    {"id": "BJSIG09", "signal": "rain_or_heat", "meaning": "Reduce exposed walks and avoid treating the Wall as fixed."},
+    {"id": "BJSIG10", "signal": "family", "meaning": "Ask ages, stroller, naps and meaningful attention span; not just 'kid friendly'."},
+    {"id": "BJSIG11", "signal": "solo_woman", "meaning": "Prioritise legible late-day returns and reduce isolated or very late plans."},
+    {"id": "BJSIG12", "signal": "arrive_late", "meaning": "No irreversible Day 1 plan; trigger payment/connectivity/next-day reservation audit."},
+    {"id": "BJSIG13", "signal": "budget_sensitive", "meaning": "Surface transport and paid-entry trade-offs, never promise current prices."},
+    {"id": "BJSIG14", "signal": "second_visit", "meaning": "De-emphasise compulsory checklist and use lived-city/contemporary branches."},
+    {"id": "BJSIG15", "signal": "layover", "meaning": "Confirm visa/entry eligibility and real usable hours before any suggestion."},
+    {"id": "BJSIG16", "signal": "ethical_photo", "meaning": "Offer public-space rules and exclude private-home voyeurism."},
+    {"id": "BJSIG17", "signal": "food_driven", "meaning": "Ask meal style and dietary needs; do not manufacture a restaurant list."},
+    {"id": "BJSIG18", "signal": "china_multi_city", "meaning": "Ask sequence and recovery days; Beijing needs separate Wall-day capacity."},
+    {"id": "BJSIG19", "signal": "booking_help_requested", "meaning": "State product boundary and move to official link plus human verification workflow."},
+    {"id": "BJSIG20", "signal": "experience_booking_requested", "meaning": "Do not sell or quote third-party experience; capture lead for later verified partner programme."}
+  ],
+  "follow_up_questions": [
+    {"id": "BJQ01", "when": ["first_time_in_china"], "ask": "What date and time do you land, and do you already have your first full day free?"},
+    {"id": "BJQ02", "when": ["great_wall_must"], "ask": "For the Wall, what matters most: an iconic first visit, mountain scenery, fewer crowds, or minimising transfers?"},
+    {"id": "BJQ03", "when": ["great_wall_must", "limited_mobility"], "ask": "How comfortable are you with stairs, uneven surfaces, cable cars and a long day outside the city?"},
+    {"id": "BJQ04", "when": ["hutong_not_touristy"], "ask": "Would you rather see famous lanes with energy, or quieter streets where there is less to 'do'?"},
+    {"id": "BJQ05", "when": ["art_design"], "ask": "Are you looking for museums, commercial galleries, industrial architecture, or a casual half-day of exhibitions and cafés?"},
+    {"id": "BJQ06", "when": ["palace_overload"], "ask": "Do you want one major imperial site done deeply, or a comparative view across two very different sites?"},
+    {"id": "BJQ07", "when": ["family"], "ask": "What are the children's ages, walking tolerance and non-negotiable rest/meal rhythm?"},
+    {"id": "BJQ08", "when": ["rain_or_heat"], "ask": "What weather threshold would make you swap the Wall or a long hutong walk?"},
+    {"id": "BJQ09", "when": ["arrive_late"], "ask": "Do you have mobile data, a working payment method, and any time-sensitive reservations for tomorrow?"},
+    {"id": "BJQ10", "when": ["photography"], "ask": "Do you prefer people/street life, architectural order, or landscapes—and are early starts acceptable?"},
+    {"id": "BJQ11", "when": ["china_multi_city"], "ask": "Which cities come immediately before and after Beijing, and where do you need a recovery day?"},
+    {"id": "BJQ12", "when": ["booking_help_requested", "experience_booking_requested"], "ask": "Would you like a human-checked planning brief with official booking links, while you make all bookings directly?"}
+  ],
+  "output_guardrails": [
+    "Never publish live hours, prices, tickets, reservation windows, transport departures or weather suitability without a dated recheck.",
+    "Never imply a private hutong home, resident or courtyard is a visitor product.",
+    "Never claim an art exhibition is open, free or English-accessible without current verification.",
+    "Never rank Wall sections as universally best; explain the traveller-specific trade-off.",
+    "Never bundle, book, collect payment for or guarantee any third-party travel service.",
+    "When high-stakes operational information is missing, say so and use a human-check handoff instead of guessing."
+  ],
+  "launch_checks": [
+    {"id": "BJLFV001", "name": "Palace Museum reservation journey", "purpose": "Passport, availability, entry point and failure recovery"},
+    {"id": "BJLFV002", "name": "Central Axis / Temple of Heaven operational run", "purpose": "Ticket separation, screening, walking burden and weather exit"},
+    {"id": "BJLFV003", "name": "Shichahai–Drum Tower ethical field walk", "purpose": "Crowd pattern, accessibility, public/private boundaries and night return"},
+    {"id": "BJLFV004", "name": "Mutianyu full-day independent run", "purpose": "Transfer, queues, weather, ascent choices and return risk"},
+    {"id": "BJLFV005", "name": "798·751 programme and access audit", "purpose": "Exhibition turnover, paid/free distinction and navigation"},
+    {"id": "BJLFV006", "name": "Airport-to-city foreign-visitor run", "purpose": "Data, foreign card, transit and official-support contingency"}
+  ]
+}

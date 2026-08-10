@@ -1,0 +1,107 @@
+{
+  "metadata": {
+    "city": "Chengdu",
+    "version": "0.1",
+    "as_of": "2026-08-02",
+    "status": "content_foundation_not_field_verified",
+    "audience": "English-speaking independent international visitors, 2–5 days",
+    "promise": "Chengdu is a city to inhabit for a few days: pandas are an anchor, but tea, food, parks, riverside evenings and Sichuan cultural memory create the reason to stay.",
+    "commercial_boundary": "Research and human-checked digital roadbook only. No bookings, ticket resale, bundled travel, local guiding or experience price promises.",
+    "source_pack_ref": "../a-deeper-china-quality-system-v0.1/北京成都来源包_V0.1.json",
+    "decision_layer_ref": "成都决策字段_V1.0.json",
+    "point_decision_layer_ref": "成都点位决策字段_V1.0.json"
+  },
+  "source_policy": {
+    "rule": "Operational facts always require current official-source recheck. Community reports reveal expectation and friction but are never authority for hours, access, queues, restaurants or transport.",
+    "official_sources": [
+      {"id": "CDS01", "title": "Chengdu inbound tourism guide", "url": "https://www.gochengdu.cn/en/article/column_167083285087556/4314", "use": "foreign-visitor orientation", "dynamic": true},
+      {"id": "CDS02", "title": "Chengdu booking guide", "url": "https://www.gochengdu.cn/en/article/column_167083285087556/4591", "use": "panda base passport and reservation protocol", "dynamic": true},
+      {"id": "CDS03", "title": "Chengdu Metro app guide", "url": "https://www.gochengdu.cn/en/article/city_services_/399", "use": "metro language/payment options", "dynamic": true},
+      {"id": "CDS04", "title": "Tea and opera in Chengdu", "url": "https://www.gochengdu.cn/en/article/column_167323354598747/4650", "use": "tea/performing-arts research leads", "dynamic": true},
+      {"id": "CDS05", "title": "Chengdu cultural and landscape orientation", "url": "https://www.gochengdu.cn/en/article/news/1125", "use": "context for Dujiangyan, tea, food and cultural sites", "dynamic": false}
+    ]
+  },
+  "modules": [
+    {"id": "CDM01", "name": "The Chengdu rhythm", "question": "How do I experience Chengdu without turning it into a rush between attractions?", "output_rule": "Reserve unprogrammed sitting, eating and walking time; do not place more than two high-friction anchors in one day."},
+    {"id": "CDM02", "name": "Pandas as a real operational decision", "question": "Is the Panda Base worth my time and how should it shape the day?", "output_rule": "Confirm reservation, passport matching, entry, weather and crowd strategy; do not promise animal activity or queue length."},
+    {"id": "CDM03", "name": "Tea, park and public life", "question": "Where does Chengdu's slow-city feeling become legible?", "output_rule": "Use a public park/tea structure, not a hard-coded commercial venue. Verify current venues separately."},
+    {"id": "CDM04", "name": "Sichuan flavour as social geography", "question": "How do I eat Sichuan food without being sent to a generic tourist list?", "output_rule": "Ask spice tolerance, dietary needs, meal style, queue tolerance and whether the client wants hotpot, snacks, tea or a single regional dish; never promise a restaurant."},
+    {"id": "CDM05", "name": "Memory, poetry and religion", "question": "What does Chengdu offer beyond cute pandas and food?", "output_rule": "Use Wuhou, Du Fu and Wenshu as distinct cultural lenses; do not stack all three by default."},
+    {"id": "CDM06", "name": "Night and the contemporary city", "question": "Where is present-day Chengdu visible?", "output_rule": "Route by desired mood—river, young retail, music, tea/performing arts—then field-check current venues and late return."},
+    {"id": "CDM07", "name": "Dujiangyan / western-Sichuan decision", "question": "Should I leave the city for a day?", "output_rule": "Separate a city roadbook from a full day-trip plan. Ask whether water engineering/history, panda viewing, mountain time or rest is the real purpose."},
+    {"id": "CDM08", "name": "Chengdu–Chongqing pacing", "question": "How should Chengdu and Chongqing work together?", "output_rule": "Frame Chengdu as dwell time and Chongqing as vertical/urban intensity; never force a two-city bundle or advise live train inventory without recheck."}
+  ],
+  "points": [
+    {"id": "CD001", "name": "People's Park tea-time structure", "module_id": "CDM03", "role": "anchor", "why_it_matters": "A public-space lens for Chengdu's rhythm: sitting, watching and allowing the city to unfold rather than moving through a sight list.", "best_for": ["first_visit", "slow_travel", "public_life"], "friction": ["weather", "crowds", "venue_turnover"], "agent_use": "Offer it as a time block, not a promise of a particular tea table or performance.", "dynamic_source": "CDS01", "field_status": "needs_field_walk"},
+    {"id": "CD002", "name": "Chengdu Research Base of Giant Panda Breeding", "module_id": "CDM02", "role": "anchor", "why_it_matters": "For many first-time international visitors it is the strongest single reason to include Chengdu, but it should consume only the part of a day it genuinely needs.", "best_for": ["first_visit", "family", "wildlife_interest"], "friction": ["reservation", "passport_match", "crowds", "weather", "animal_activity"], "agent_use": "Ask whether pandas are a must or a nice-to-have. Recheck official reservation and identity rules; never promise sightings or short queues.", "dynamic_source": "CDS02", "field_status": "needs_operational_check"},
+    {"id": "CD003", "name": "Panda Base versus Dujiangyan Panda Valley decision", "module_id": "CDM02", "role": "decision_card", "why_it_matters": "The choice changes the entire day: city convenience versus a wider day-trip purpose.", "best_for": ["panda_priority", "repeat_visitor", "day_trip"], "friction": ["transport", "reservation", "weather", "day_length"], "agent_use": "Do not compare through crowd folklore. Clarify city time, transport tolerance and whether Dujiangyan itself is desired.", "dynamic_source": "CDS02", "field_status": "needs_full_day_run"},
+    {"id": "CD004", "name": "Wenshu Monastery area", "module_id": "CDM05", "role": "anchor", "why_it_matters": "A useful cultural and slower urban area for a visitor who wants a religious and neighbourhood texture rather than another retail street.", "best_for": ["slow_travel", "religion", "food_culture"], "friction": ["worship_etiquette", "opening_time", "crowds"], "agent_use": "Explain public etiquette and verify current access before delivery.", "dynamic_source": "CDS05", "field_status": "needs_field_walk"},
+    {"id": "CD005", "name": "Wuhou Shrine and Jinli decision", "module_id": "CDM05", "role": "decision_card", "why_it_matters": "One site can serve different reasons: Three Kingdoms memory, museum interest, or a recognisable evening street; these should not be conflated.", "best_for": ["history", "first_visit", "evening"], "friction": ["ticketing", "tourist_density", "commercial_noise"], "agent_use": "Ask whether the client wants history depth or a lively familiar street; do not label Jinli as an automatic authenticity experience.", "dynamic_source": "CDS01", "field_status": "needs_field_walk"},
+    {"id": "CD006", "name": "Du Fu Thatched Cottage", "module_id": "CDM05", "role": "anchor", "why_it_matters": "An entry into poetry, literary memory and garden scale, best for visitors who genuinely want a quieter cultural reading.", "best_for": ["literature", "gardens", "slow_travel"], "friction": ["ticketing", "translation_depth", "weather"], "agent_use": "Use as an alternative to, not an addition to, every history site.", "dynamic_source": "CDS05", "field_status": "needs_field_walk"},
+    {"id": "CD007", "name": "Kuanzhai Alleys decision", "module_id": "CDM01", "role": "decision_card", "why_it_matters": "A legible historic-commercial district that may suit a first-time visitor but can conflict with a client seeking less retail noise.", "best_for": ["first_visit", "short_time"], "friction": ["crowds", "retail_noise", "photo_expectations"], "agent_use": "Make it opt-in after asking whether the visitor values recognisable streets or quieter time.", "dynamic_source": "CDS01", "field_status": "needs_field_walk"},
+    {"id": "CD008", "name": "Chunxi Road–Taikoo Li contemporary-city decision", "module_id": "CDM06", "role": "decision_card", "why_it_matters": "A way to read current consumer and youth-facing Chengdu, not simply a shopping recommendation.", "best_for": ["urbanism", "design", "night"], "friction": ["crowds", "retail_focus", "late_return"], "agent_use": "Only include when the client wants contemporary city energy; it is not a default cultural stop.", "dynamic_source": "CDS01", "field_status": "needs_field_walk"},
+    {"id": "CD009", "name": "Eastern Suburb Memory / tea-and-performance lead", "module_id": "CDM06", "role": "candidate", "why_it_matters": "A research lead for industrial memory and contemporary tea/performance formats.", "best_for": ["design", "performance", "second_visit"], "friction": ["programme_turnover", "ticketing", "language"], "agent_use": "No specific show or venue recommendation until programme, language and return route are verified.", "dynamic_source": "CDS04", "field_status": "candidate_only"},
+    {"id": "CD010", "name": "Sichuan Opera decision", "module_id": "CDM06", "role": "decision_card", "why_it_matters": "Can be a meaningful performing-arts evening or a poor fit if the client expects a short, spontaneous or English-led event.", "best_for": ["performance", "first_visit", "evening"], "friction": ["programme_turnover", "ticketing", "language", "commercialization"], "agent_use": "Ask whether the client wants theatrical form, face-changing spectacle, tea-house ambience or simply an evening plan.", "dynamic_source": "CDS04", "field_status": "needs_field_walk"},
+    {"id": "CD011", "name": "Hotpot / chuanchuan meal logic", "module_id": "CDM04", "role": "anchor", "why_it_matters": "The value is shared decision-making and a local meal format, not a generic 'must-eat' restaurant ranking.", "best_for": ["food_culture", "groups", "first_visit"], "friction": ["spice", "dietary_needs", "queues", "ordering_language"], "agent_use": "Collect spice, meat, allergy, shared-pot and queue preferences; give formats and verification criteria, never fixed restaurant promises.", "dynamic_source": "CDS01", "field_status": "needs_food_audit"},
+    {"id": "CD012", "name": "Sichuan snacks and tea as a low-commitment food layer", "module_id": "CDM04", "role": "alternative", "why_it_matters": "Lets a visitor approach flavour with smaller commitments when a communal hotpot meal is not a fit.", "best_for": ["solo", "dietary_caution", "short_time"], "friction": ["ingredients", "allergens", "translation"], "agent_use": "Use explicit dietary uncertainty rather than pretending a dish is safe.", "dynamic_source": "CDS01", "field_status": "needs_food_audit"},
+    {"id": "CD013", "name": "Dujiangyan irrigation system decision", "module_id": "CDM07", "role": "anchor", "why_it_matters": "A strong day-trip option when the traveller wants water engineering, terrain and long historical infrastructure—not merely to leave the city.", "best_for": ["history", "engineering", "day_trip"], "friction": ["transport", "weather", "day_length", "ticketing"], "agent_use": "Keep it separate from a Panda Base half-day unless the full logistics are field-verified.", "dynamic_source": "CDS05", "field_status": "needs_full_day_run"},
+    {"id": "CD014", "name": "Mount Qingcheng decision", "module_id": "CDM07", "role": "candidate", "why_it_matters": "A possible extension for mountain and Taoist-interest travellers, but too demanding to add casually to a compact Chengdu visit.", "best_for": ["hiking", "religion", "nature"], "friction": ["weather", "terrain", "transport", "day_length"], "agent_use": "Use only after fitness, season, weather and day-trip logistics are confirmed.", "dynamic_source": "CDS05", "field_status": "candidate_only"},
+    {"id": "CD015", "name": "Arrival and Metro setup", "module_id": "CDM01", "role": "friction_card", "why_it_matters": "Independent travel begins with payment, data, mapping and a realistic first-day energy estimate.", "best_for": ["all"], "friction": ["payment", "connectivity", "app_setup", "jetlag"], "agent_use": "Ask arrival time and payment/data readiness before creating a first evening; offer official metro guidance only as a current-check link.", "dynamic_source": "CDS03", "field_status": "needs_arrival_run"},
+    {"id": "CD016", "name": "Two-day Chengdu core", "module_id": "CDM01", "role": "pace_card", "why_it_matters": "One panda-or-cultural anchor per day plus tea/food time; avoids a false promise of comprehensiveness.", "best_for": ["two_days", "first_visit"], "friction": ["overpacking", "reservation_order", "fatigue"], "agent_use": "Use as a constrained skeleton, not an hour-by-hour itinerary.", "dynamic_source": "CDS01", "field_status": "content_ready"},
+    {"id": "CD017", "name": "Four-day Chengdu depth", "module_id": "CDM01", "role": "pace_card", "why_it_matters": "Creates room for city rhythm plus one deliberate day-trip decision rather than adding attractions every hour.", "best_for": ["four_days", "slow_travel"], "friction": ["weather", "transit", "fatigue"], "agent_use": "Choose Dujiangyan or a second cultural layer; do not automatically add both.", "dynamic_source": "CDS01", "field_status": "content_ready"},
+    {"id": "CD018", "name": "Chengdu–Chongqing contrast card", "module_id": "CDM08", "role": "pace_card", "why_it_matters": "The pair is valuable through contrast: Chengdu rewards dwelling, Chongqing rewards vertical movement, nightscape and urban friction.", "best_for": ["two_city", "first_visit", "urbanism"], "friction": ["train_booking", "transfer_fatigue", "overpacking"], "agent_use": "Require travel sequence and minimum nights in each city. Output a handoff, not a bundled itinerary.", "dynamic_source": "CDS01", "field_status": "content_ready"},
+    {"id": "CD019", "name": "Panda-free Chengdu", "module_id": "CDM01", "role": "alternative", "why_it_matters": "A visitor who has seen pandas elsewhere can still have a coherent city centred on tea, food, literature, public life and contemporary Chengdu.", "best_for": ["second_visit", "no_pandas", "slow_travel"], "friction": ["fear_of_missing_out", "overplanning"], "agent_use": "Explicitly validate the choice instead of forcing the Panda Base into every plan.", "dynamic_source": "CDS01", "field_status": "content_ready"},
+    {"id": "CD020", "name": "Rain/heat recovery block", "module_id": "CDM01", "role": "friction_card", "why_it_matters": "Weather and humidity can make a long outdoor day unproductive; Chengdu's value includes sitting and indoor/cultural alternatives.", "best_for": ["rain_heat", "family", "slow_travel"], "friction": ["weather", "energy"], "agent_use": "Hold an uncommitted alternative until date-specific weather and attraction rules are rechecked.", "dynamic_source": "CDS01", "field_status": "needs_field_walk"}
+  ],
+  "signals": [
+    {"id":"CDSIG01","signal":"first_time_in_china","meaning":"Start with arrival/payment and no more than two high-friction anchors per day."},
+    {"id":"CDSIG02","signal":"panda_priority","meaning":"Trigger passport/reservation and full-day-shape questions."},
+    {"id":"CDSIG03","signal":"no_pandas","meaning":"Use the panda-free Chengdu branch without apology."},
+    {"id":"CDSIG04","signal":"slow_travel","meaning":"Prioritise tea, public space, food and empty time."},
+    {"id":"CDSIG05","signal":"food_driven","meaning":"Collect spice, diet and meal-format preferences before places."},
+    {"id":"CDSIG06","signal":"history","meaning":"Route to Wuhou, Du Fu or Dujiangyan based on actual lens."},
+    {"id":"CDSIG07","signal":"literature","meaning":"Prioritise Du Fu over generic old-street content."},
+    {"id":"CDSIG08","signal":"religion","meaning":"Use Wenshu/Qingcheng only with etiquette and capacity check."},
+    {"id":"CDSIG09","signal":"art_design","meaning":"Route to current-city and programme-dependent candidates."},
+    {"id":"CDSIG10","signal":"performance","meaning":"Ask form, spectacle and language expectations."},
+    {"id":"CDSIG11","signal":"family","meaning":"Ask ages, naps, spice and panda priority."},
+    {"id":"CDSIG12","signal":"rain_heat","meaning":"Protect recovery time and recheck outdoor plans."},
+    {"id":"CDSIG13","signal":"limited_mobility","meaning":"Escalate day-trip terrain and transit for human review."},
+    {"id":"CDSIG14","signal":"solo","meaning":"Use low-commitment meal and legible return options."},
+    {"id":"CDSIG15","signal":"nightlife","meaning":"Ask desired mood and return comfort; do not name venues from stale content."},
+    {"id":"CDSIG16","signal":"dujiangyan","meaning":"Ask engineering, panda or mountain intent before a day trip."},
+    {"id":"CDSIG17","signal":"qingcheng","meaning":"Require fitness, weather and full-day logistics."},
+    {"id":"CDSIG18","signal":"chongqing_extension","meaning":"Use two-city handoff, no package or live-train promise."},
+    {"id":"CDSIG19","signal":"booking_help_requested","meaning":"State human-check and direct-booking boundary."},
+    {"id":"CDSIG20","signal":"experience_booking_requested","meaning":"Do not sell/quote third-party experience; capture interest for future verified partners."}
+  ],
+  "follow_up_questions": [
+    {"id":"CDQ01","when":["first_time_in_china"],"ask":"What airport and arrival time are you working with, and is your first full day truly free?"},
+    {"id":"CDQ02","when":["panda_priority"],"ask":"Are pandas a must, and do you prefer a city-based visit or are you open to a longer day outside Chengdu?"},
+    {"id":"CDQ03","when":["slow_travel"],"ask":"Would you prefer tea/public-space time, food exploration, gardens/literature, or simply less scheduled time?"},
+    {"id":"CDQ04","when":["food_driven"],"ask":"What is your spice tolerance, dietary/allergy situation, group size and willingness to queue or share a pot?"},
+    {"id":"CDQ05","when":["history"],"ask":"Are you more drawn to Three Kingdoms memory, poetry and gardens, Buddhist/Taoist practice, or water engineering?"},
+    {"id":"CDQ06","when":["performance"],"ask":"Do you want a formal performance, face-changing spectacle, or a tea-house atmosphere—and how important is English explanation?"},
+    {"id":"CDQ07","when":["dujiangyan","qingcheng"],"ask":"Is the aim an engineering site, panda viewing, mountain time, or a day away from the city?"},
+    {"id":"CDQ08","when":["family"],"ask":"What are the children's ages, walking tolerance, meal/spice needs and rest rhythm?"},
+    {"id":"CDQ09","when":["rain_heat"],"ask":"What weather or humidity would make you switch an outdoor day?"},
+    {"id":"CDQ10","when":["chongqing_extension"],"ask":"How many nights can you give each city, and do you want contrast or maximum attraction count?"},
+    {"id":"CDQ11","when":["booking_help_requested","experience_booking_requested"],"ask":"Would you like a human-checked planning brief with official links, while you make every booking directly?"}
+  ],
+  "output_guardrails": [
+    "Never turn the slow-city narrative into a vague itinerary; give an actual pacing and recovery logic.",
+    "Never publish live booking, animal-activity, entry, food, venue, transport or weather claims without a dated recheck.",
+    "Never promise that a commercial street, tea house, restaurant or performance is authentic, local, English-friendly or open.",
+    "Do not stack Panda Base, Dujiangyan and Mount Qingcheng into a casual single day.",
+    "Do not force pandas onto a visitor who clearly does not want them.",
+    "No booking, payment collection, bundling, guiding, transport or third-party experience sale."
+  ],
+  "launch_checks": [
+    {"id":"CDLFV001","name":"Panda Base reservation and passport journey","purpose":"Official reservation, identity match, entrance and fallback"},
+    {"id":"CDLFV002","name":"People's Park / tea public-space walk","purpose":"Time of day, crowd, seating, weather and ethical framing"},
+    {"id":"CDLFV003","name":"Food accessibility audit","purpose":"Spice, allergy communication, ordering friction and no-restaurant-list policy"},
+    {"id":"CDLFV004","name":"Wenshu–Wuhou–Du Fu cultural route audit","purpose":"Walking burden, ticket separation, visitor purpose and translation depth"},
+    {"id":"CDLFV005","name":"Dujiangyan independent full-day run","purpose":"Transfer, weather, entrance, fatigue and return risk"},
+    {"id":"CDLFV006","name":"Airport/metro/payment foreign-visitor run","purpose":"Data, international payment, metro use and first-night reality"}
+  ]
+}
