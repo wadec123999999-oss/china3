@@ -1,0 +1,6 @@
+{
+  "name": "a-deeper-china-shanghai-agent-runtime",
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": { "test": "node --test", "regression": "node bin/run-regression.mjs", "validate:v1": "node bin/validate-v1-database.mjs", "validate:decision-layer": "node bin/validate-v1-database.mjs", "roadbook": "node bin/roadbook.mjs", "field:new": "node bin/new-field-record.mjs" }
+}

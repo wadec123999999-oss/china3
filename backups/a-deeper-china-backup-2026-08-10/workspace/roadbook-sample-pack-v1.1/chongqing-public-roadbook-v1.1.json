@@ -1,0 +1,313 @@
+{
+  "schema_version": "1.1",
+  "renderer_version": "chongqing-v1.2",
+  "status": "draft_for_human_review",
+  "city": "chongqing",
+  "delivery_status": {
+    "public_state": "draft_for_human_review",
+    "current_checks_required": true,
+    "human_review_required": true,
+    "booking_created": false,
+    "explanation": "This route is a research or human-review draft. Current checks and human review are required before client delivery."
+  },
+  "route_thesis": "Read Chongqing through vertical geography, movement, food and public life—not a sequence of skyline viewpoints.",
+  "why_this_route": [
+    "The selected modules are a small information budget, not a ranking of every attraction.",
+    "Each day answers one question and leaves a realistic exit for weather, energy or access changes."
+  ],
+  "route_controls": {
+    "one_question_per_day": true,
+    "stop_when_answered": true,
+    "protect_recovery_time": true,
+    "explanation": "The route gets shorter when the guest has understood the idea; more stops are not automatically better."
+  },
+  "trip_context": {
+    "arrival_date": "2026-09-10",
+    "departure_date": "2026-09-13",
+    "nights": 3,
+    "adults": 2,
+    "children": 0,
+    "party_size": 2,
+    "pace": "slow",
+    "overnight_area": "to confirm",
+    "output_language": "English",
+    "explicit_priorities": [
+      "architecture",
+      "food"
+    ],
+    "explicit_avoidances": [
+      "rushing"
+    ],
+    "inferred_needs": [
+      {
+        "question": "Would you rather understand one city clearly than try to cover its famous places?",
+        "why": "first-visit wording can mean the traveller needs a legible starting point, not more landmarks."
+      }
+    ]
+  },
+  "explicit_priorities": [
+    "architecture",
+    "food"
+  ],
+  "explicit_avoidances": [
+    "rushing"
+  ],
+  "decision_brief": {
+    "what_we_heard": [
+      "architecture",
+      "food"
+    ],
+    "what_we_are_protecting": [
+      "rushing"
+    ],
+    "inferred_needs": [
+      "Would you rather understand one city clearly than try to cover its famous places?"
+    ]
+  },
+  "hypotheses_to_confirm": [
+    {
+      "question": "Would you rather understand one city clearly than try to cover its famous places?",
+      "why": "first-visit wording can mean the traveller needs a legible starting point, not more landmarks."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Hongya Cave is a visual entry point, not a shopping complex that must be explored from end to end.",
+      "modules": [
+        {
+          "name": "Reading the Night Skyline—Without Getting Lost Inside Hongya Cave",
+          "question": "Hongya Cave is a visual entry point, not a shopping complex that must be explored from end to end.",
+          "practical_note": "Night crowds can be heavy; lighting, drone performances and traffic controls depend on current official notices.",
+          "confirmations": [
+            "Preferred end time and crowd tolerance"
+          ],
+          "anchor": "Use the night skyline as an orientation frame, then leave the commercial complex instead of touring it end to end.",
+          "what_to_notice": "How lighting, river bends and stacked transport levels produce the city image.",
+          "stop_rule": "Stop once the visual geography is clear; do not spend the whole evening inside a shopping complex.",
+          "main_friction": "Crowding, heat, stairs and confusing exits can erase the intended slow pace.",
+          "route_shape": "A night orientation arc outside the commercial core, using one skyline contrast and an early exit.",
+          "body_budget": "Longer evening window with crowd, stairs, heat and return-transport friction.",
+          "low_energy_version": "Keep one clear external viewpoint and return before navigation becomes the main task.",
+          "rain_version": "Use the most reliable public edge only if lighting, access and weather conditions support it."
+        },
+        {
+          "name": "The Multiple-Ground-Level Experiment",
+          "question": "Mountain terrain allows several street levels to be simultaneously true.",
+          "practical_note": "Tell us about serious fear of heights in advance; the exercise does not require approaching an exposed edge.",
+          "confirmations": [
+            "Tolerance for exposed heights"
+          ],
+          "anchor": "Follow one vertical transition on foot and treat each level as a different public street.",
+          "what_to_notice": "How lifts, stairs, roads, homes and commerce overlap at different elevations.",
+          "stop_rule": "End after one complete terrain experiment; do not stack several viewpoints just because they are nearby on a map.",
+          "main_friction": "Step intensity, construction, rain and map distance need live checking.",
+          "route_shape": "One complete high/low transition; stop after the terrain experiment is understood.",
+          "body_budget": "Short on the map but stair and elevation intensity can be high.",
+          "low_energy_version": "Use one confirmed platform and stop; do not stack viewpoints.",
+          "rain_version": "Remove the exposed transition unless same-day surface and construction conditions are acceptable."
+        },
+        {
+          "name": "Gateway Between Two Rivers",
+          "question": "Chaotianmen was a gate and river port before it became a modern skyline.",
+          "practical_note": "Riverfront entrances and walking distance must be adjusted to the access available on the day.",
+          "confirmations": [
+            "Walking tolerance and current riverfront access"
+          ],
+          "anchor": "Read the river gate through movement and infrastructure before looking for a skyline photograph.",
+          "what_to_notice": "Ferries, bridges, road flows and the meeting of the two rivers.",
+          "stop_rule": "Leave when the transport geography is understood; preserve energy for the next district.",
+          "main_friction": "Traffic, heat, crowd load and river-edge access can change the usable route.",
+          "route_shape": "One river-gate reading from movement and infrastructure, not a sequence of skyline photographs.",
+          "body_budget": "Moderate walking with heat, traffic and crowd exposure near the river edge.",
+          "low_energy_version": "Keep one accessible river-facing section and leave when the transport geography is legible.",
+          "rain_version": "Shorten the river edge and preserve the question with an indoor historical layer."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "Chongqing’s strangeness is not just verticality; it is the coexistence of different urban orders.",
+      "modules": [
+        {
+          "name": "Orienting Chongqing: Civic Landmark and Sacred Enclave",
+          "question": "Chongqing’s strangeness is not just verticality; it is the coexistence of different urban orders.",
+          "practical_note": "If time is short, this can be folded into the following vertical-city module.",
+          "confirmations": [],
+          "anchor": "Use Orienting Chongqing: Civic Landmark and Sacred Enclave to answer one concrete question, not to accumulate another stop.",
+          "what_to_notice": "Chongqing’s strangeness is not just verticality; it is the coexistence of different urban orders.",
+          "stop_rule": "Stop when the route question is answered; preserve time for rest and unexpected city life.",
+          "main_friction": "Current access, weather, crowding and walking conditions need confirmation.",
+          "route_shape": "One central-city orientation loop linking public religion, commerce and vertical movement.",
+          "body_budget": "Lower walking load, but dense crossings and sensory load require a deliberate pause.",
+          "low_energy_version": "Keep the shortest public-street loop and remove the extra temple or shopping detour.",
+          "rain_version": "Use the indoor/religious layer and shorten the exposed street section after current access is checked."
+        },
+        {
+          "name": "Noodles, Hotpot and the Social Rules of Eating",
+          "question": "A restaurant list is not the product; ordering, allergies, spice and shared-table rules are.",
+          "practical_note": "Allergens, dietary restrictions and spice tolerance must be confirmed; price and cancellation terms are separate.",
+          "confirmations": [
+            "Allergens, dietary restrictions, spice tolerance and budget"
+          ],
+          "anchor": "Make one meal a social observation: ordering, spice, sharing and pace matter more than restaurant quantity.",
+          "what_to_notice": "Table rules, noodle/hotpot choices, allergies and how locals move through the meal.",
+          "stop_rule": "One well-understood meal is enough; do not turn food into a venue-hopping checklist.",
+          "main_friction": "Spice, waiting, shared tables and language need confirmation for the actual group.",
+          "route_shape": "One meal as social observation—ordering, spice, sharing and pace—not a restaurant crawl.",
+          "body_budget": "Low walking load but high waiting, dietary and communication sensitivity.",
+          "low_energy_version": "Keep one confirmed meal and remove any second food stop.",
+          "rain_version": "Food can remain the anchor, subject to written dietary and venue checks where required."
+        },
+        {
+          "name": "Migrant Networks and the Water Gate",
+          "question": "Guild halls supported newcomers through commerce, belief and social organisation.",
+          "practical_note": "Current opening and English-language support must be checked before departure.",
+          "confirmations": [
+            "Desired history depth and current venue opening"
+          ],
+          "anchor": "Use Migrant Networks and the Water Gate to answer one concrete question, not to accumulate another stop.",
+          "what_to_notice": "Guild halls supported newcomers through commerce, belief and social organisation.",
+          "stop_rule": "Stop when the route question is answered; preserve time for rest and unexpected city life.",
+          "main_friction": "Current access, weather, crowding and walking conditions need confirmation.",
+          "route_shape": "One migration-and-waterway story linking a public heritage site to the river gate.",
+          "body_budget": "Moderate walking with uneven surfaces and a meaningful amount of historical attention.",
+          "low_energy_version": "Keep the heritage anchor and remove the longer river connection.",
+          "rain_version": "Protect the indoor historical core and drop exposed movement if surfaces or access are poor."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "A mountain-city path is transport and social space, not merely a scenic boardwalk.",
+      "modules": [
+        {
+          "name": "Land Gate and Mountain-City Paths",
+          "question": "A mountain-city path is transport and social space, not merely a scenic boardwalk.",
+          "practical_note": "This module contains repeated stairs; rain, knee pain or low walking capacity triggers a lower-step alternative.",
+          "confirmations": [
+            "Continuous stair capacity and knee condition"
+          ],
+          "anchor": "Use Land Gate and Mountain-City Paths to answer one concrete question, not to accumulate another stop.",
+          "what_to_notice": "A mountain-city path is transport and social space, not merely a scenic boardwalk.",
+          "stop_rule": "Stop when the route question is answered; preserve time for rest and unexpected city life.",
+          "main_friction": "Current access, weather, crowding and walking conditions need confirmation.",
+          "route_shape": "One mountain-city walking experiment with a pre-set turnaround, not a test of endurance.",
+          "body_budget": "High step and elevation load; this is a body decision before it is a sightseeing decision.",
+          "low_energy_version": "Replace it with a lower-load public-space or museum layer.",
+          "rain_version": "Remove it unless current route-surface and safety checks explicitly support continuation."
+        },
+        {
+          "name": "Ride First, Photograph Second",
+          "question": "The Liziba viewpoint is a verification point; the ride is the core experience.",
+          "practical_note": "Construction or crowds may alter the exterior stop; the train ride remains the core.",
+          "confirmations": [
+            "Motion sensitivity and photography purpose"
+          ],
+          "anchor": "Ride first and use the viewpoint only to explain the transport relationship.",
+          "what_to_notice": "How rail, road, tower blocks and terrain coexist in one short movement.",
+          "stop_rule": "Leave after the ride-and-viewpoint relationship is legible; do not promise a particular train or photo moment.",
+          "main_friction": "Service timing, crowding, platform movement and viewing conditions are dynamic.",
+          "route_shape": "Ride first, then use the viewpoint to explain the transport relationship; do not chase a train moment.",
+          "body_budget": "Low walking load, but service timing, platforms and crowding are dynamic.",
+          "low_energy_version": "Keep the ride-and-viewpoint pair and end immediately after the relationship is clear.",
+          "rain_version": "Keep only after same-day line, construction and exit conditions are checked."
+        },
+        {
+          "name": "A Museum Framework for the City",
+          "question": "Visit only the galleries that answer the route’s questions rather than trying to complete the museum.",
+          "practical_note": "Monday closure patterns and temporary exhibition changes can affect access; check again before departure.",
+          "confirmations": [
+            "Current opening and children’s ages"
+          ],
+          "anchor": "Use A Museum Framework for the City to answer one concrete question, not to accumulate another stop.",
+          "what_to_notice": "Visit only the galleries that answer the route’s questions rather than trying to complete the museum.",
+          "stop_rule": "Stop when the route question is answered; preserve time for rest and unexpected city life.",
+          "main_friction": "Current access, weather, crowding and walking conditions need confirmation.",
+          "route_shape": "One indoor city-framework session before adding another district.",
+          "body_budget": "Low physical load but high attention load; leave time to process the city model.",
+          "low_energy_version": "Use a shorter gallery route and stop before adding another museum.",
+          "rain_version": "A strong weather branch after dated opening and admission checks."
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "theme": "Tell history through relationships and choices rather than a pile of names and dates.",
+      "modules": [
+        {
+          "name": "Wartime Capital on Foot",
+          "question": "Tell history through relationships and choices rather than a pile of names and dates.",
+          "practical_note": "Allow about two hours; the amount of political history should match the guest’s interest.",
+          "confirmations": [
+            "Desired depth of political and wartime history"
+          ],
+          "anchor": "Use Wartime Capital on Foot to answer one concrete question, not to accumulate another stop.",
+          "what_to_notice": "Tell history through relationships and choices rather than a pile of names and dates.",
+          "stop_rule": "Stop when the route question is answered; preserve time for rest and unexpected city life.",
+          "main_friction": "Current access, weather, crowding and walking conditions need confirmation.",
+          "route_shape": "Use this module to answer one question, then stop before adding another transfer.",
+          "body_budget": "Walking, crowding, weather and current access need a dated check.",
+          "low_energy_version": "Keep the shortest coherent version of this module.",
+          "rain_version": "Preserve the question and move indoors only after current access is confirmed."
+        },
+        {
+          "name": "Treaty-Port Remains and South-Bank Renewal",
+          "question": "Keep surviving fabric, restoration and new consumption space distinct.",
+          "practical_note": "Open sections and construction change quickly; recheck the route before departure.",
+          "confirmations": [
+            "Same-day opening and construction"
+          ],
+          "anchor": "Use Treaty-Port Remains and South-Bank Renewal to answer one concrete question, not to accumulate another stop.",
+          "what_to_notice": "Keep surviving fabric, restoration and new consumption space distinct.",
+          "stop_rule": "Stop when the route question is answered; preserve time for rest and unexpected city life.",
+          "main_friction": "Current access, weather, crowding and walking conditions need confirmation.",
+          "route_shape": "One south-bank regeneration sequence linking port history, neighbourhood texture and public space.",
+          "body_budget": "Longer walking and transfer exposure; route continuity must be checked on the ground.",
+          "low_energy_version": "Keep the most coherent public segment and cut the far end before fatigue hides the story.",
+          "rain_version": "Shorten to the confirmed indoor/covered history layer; do not force the full waterfront."
+        },
+        {
+          "name": "Air-Raid Shelters, Industry and Museum Space",
+          "question": "Read the underground space before the exhibits; the escalator is only a conditional transport detail.",
+          "practical_note": "Current opening and English interpretation must be checked; the escalator remains optional.",
+          "confirmations": [
+            "Current opening and English-language support"
+          ],
+          "anchor": "Use Air-Raid Shelters, Industry and Museum Space to answer one concrete question, not to accumulate another stop.",
+          "what_to_notice": "Read the underground space before the exhibits; the escalator is only a conditional transport detail.",
+          "stop_rule": "Stop when the route question is answered; preserve time for rest and unexpected city life.",
+          "main_friction": "Current access, weather, crowding and walking conditions need confirmation.",
+          "route_shape": "Use this module to answer one question, then stop before adding another transfer.",
+          "body_budget": "Walking, crowding, weather and current access need a dated check.",
+          "low_energy_version": "Keep the shortest coherent version of this module.",
+          "rain_version": "Preserve the question and move indoors only after current access is confirmed."
+        }
+      ]
+    }
+  ],
+  "what_we_deliberately_leave_out": [
+    "A second skyline viewpoint added only to collect another photograph.",
+    "A full Hongyadong commercial-complex tour after the visual geography is already clear.",
+    "Residential interiors, staged resident encounters or intrusive photography.",
+    "A Wulong day trip added automatically to a Chongqing city stay; the transfer must earn its place."
+  ],
+  "deliberate_tradeoff": "A visual route, a food route and a history route use different energy budgets; combining all three needs deliberate pacing.",
+  "fallback_logic": "If stairs, heat or construction make a route fragile, keep one terrain experiment and one lower-friction city layer.",
+  "checks_before_delivery": [
+    "Current opening, reservation, transport, weather and access conditions for the selected dates.",
+    "Preferred end time and crowd tolerance",
+    "Tolerance for exposed heights",
+    "Walking tolerance and current riverfront access",
+    "Allergens, dietary restrictions, spice tolerance and budget",
+    "Desired history depth and current venue opening",
+    "Continuous stair capacity and knee condition",
+    "Motion sensitivity and photography purpose",
+    "Current opening and children’s ages",
+    "Desired depth of political and wartime history",
+    "Same-day opening and construction",
+    "Current opening and English-language support"
+  ],
+  "delivery_boundary": "Research draft until dated human checks support release. This does not create a booking, private-access promise or supplier recommendation.",
+  "markdown": "# Chongqing Roadbook — 4-Day Plan\n\n> Planning status: **route draft ready**. Live opening, weather and operational checks may still be required before release.\n\n## Design frame\n\n- Available time: 4 days\n- Intended pace: moderate walking load\n- Information budget: no more than 3 modules per day\n\nHard constraints were applied before preferences. The route deliberately favours a coherent explanation of Chongqing over a checklist of attractions.\n\n\n## Trip brief used for this draft\n- Dates: 2026-09-10 → 2026-09-13 (3 nights)\n- Travelers: 2 travelers\n- Pace: slow\n- Overnight area: to confirm\n- Output language: English\n\n### What we heard\n- Priorities: architecture; food\n- Avoidances: rushing\n\n### Hypotheses to confirm\n- Would you rather understand one city clearly than try to cover its famous places?\n  - Why this came up: first-visit wording can mean the traveller needs a legible starting point, not more landmarks.\n\n## Client decision brief\n\n- **What we heard:** first visit / classic orientation, visual impact, food interaction.\n- **What we inferred:**\n  - A first visit needs a readable city frame before collecting viewpoints.\n- **Route promise:** one readable city question at a time, with a shorter version when body, weather or access changes.\n\n## Day 1 — Hongya Cave is a visual entry point, not a shopping complex that must be explored from end to end.\n\n### Reading the Night Skyline—Without Getting Lost Inside Hongya Cave\n\n**Where:** Daijiaxiang — Hongya Cave exterior — Grand Theatre riverfront  \n**Working duration:** about 150 minutes\n\nFrom across the river, read bridges, water, cliffs, buildings and light as one urban cross-section.\n\n**The one idea to carry:** Hongya Cave is a visual entry point, not a shopping complex that must be explored from end to end.\n\n**Your observation task:** Point out the ridge, riverbank and bridges you travelled through earlier in the day.\n\n**Reality check:** Night crowds can be heavy; lighting, drone performances and traffic controls depend on current official notices.\n\n**Stop rule:** Stop once the visual geography is clear; do not spend the whole evening inside a shopping complex.\n\n**Main friction:** Crowding, heat, stairs and confusing exits can erase the intended slow pace.\n\n**Route shape:** A night orientation arc outside the commercial core, using one skyline contrast and an early exit.\n\n**Body and time budget:** Longer evening window with crowd, stairs, heat and return-transport friction.\n\n**Low-energy version:** Keep one clear external viewpoint and return before the route becomes a complex-navigation exercise.\n\n**Rain version:** Use the most reliable public edge only if lighting, access and weather conditions support it.\n\n**Confirm before release:** Preferred end time and crowd tolerance.\n\n### The Multiple-Ground-Level Experiment\n\n**Where:** Kuixinglou and connected high-level platforms  \n**Working duration:** about 40 minutes\n\nTest for yourself how a 22nd floor can also meet a street—the fastest way to understand Chongqing’s vertical logic.\n\n**The one idea to carry:** Mountain terrain allows several street levels to be simultaneously true.\n\n**Your observation task:** Guess the floor first, then leave through a different exit and test your assumption.\n\n**Reality check:** Tell us about serious fear of heights in advance; the exercise does not require approaching an exposed edge.\n\n**Stop rule:** End after one complete terrain experiment; do not stack several viewpoints just because they are nearby on a map.\n\n**Main friction:** Step intensity, construction, rain and map distance need live checking.\n\n**Route shape:** One complete high/low transition; stop after the terrain experiment is understood.\n\n**Body and time budget:** Short on the map but stair and elevation intensity can be high; do not judge it by minutes alone.\n\n**Low-energy version:** Use one platform and one lift/escalator option where confirmed; do not stack viewpoints.\n\n**Rain version:** Remove the exposed transition unless same-day surface and construction conditions are acceptable.\n\n**Confirm before release:** Tolerance for exposed heights.\n\n### Gateway Between Two Rivers\n\n**Where:** Chaotianmen and the confluence viewpoint  \n**Working duration:** about 75 minutes\n\nUse the former city gate and the directions of the two rivers to understand why Chongqing grew here.\n\n**The one idea to carry:** Chaotianmen was a gate and river port before it became a modern skyline.\n\n**Your observation task:** Reconstruct the directions of the Yangtze, Jialing and the Yuzhong peninsula from the riverfront.\n\n**Reality check:** Riverfront entrances and walking distance must be adjusted to the access available on the day.\n\n**Stop rule:** Leave when the transport geography is understood; preserve energy for the next district.\n\n**Main friction:** Traffic, heat, crowd load and river-edge access can change the usable route.\n\n**Route shape:** One river-gate reading from movement and infrastructure, not a sequence of skyline photographs.\n\n**Body and time budget:** Moderate walking with heat, traffic and crowd exposure near the river edge.\n\n**Low-energy version:** Keep one accessible river-facing section and leave when the transport geography is legible.\n\n**Rain version:** Shorten the river edge and preserve the question with an indoor historical layer.\n\n**Confirm before release:** Walking tolerance and current riverfront access.\n\n\n## Day 2 — Chongqing’s strangeness is not just verticality; it is the coexistence of different urban orders.\n\n### Orienting Chongqing: Civic Landmark and Sacred Enclave\n\n**Where:** Jiefangbei — Luohan Temple  \n**Working duration:** about 75 minutes\n\nEstablish your bearings, then feel how a working Buddhist temple occupies a pocket between towers.\n\n**The one idea to carry:** Chongqing’s strangeness is not just verticality; it is the coexistence of different urban orders.\n\n**Your observation task:** Compare sound, light and walking pace on the two sides of the temple gate.\n\n**Reality check:** If time is short, this can be folded into the following vertical-city module.\n\n**Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n\n**Main friction:** If time is short, this can be folded into the following vertical-city module.\n\n**Route shape:** One central-city orientation loop linking public religion, commerce and vertical movement.\n\n**Body and time budget:** Lower walking load, but dense crossings and sensory load require a deliberate pause.\n\n**Low-energy version:** Keep the shortest public-street loop and remove the extra temple or shopping detour.\n\n**Rain version:** Use the indoor/religious layer and shorten the exposed street section after current access is checked.\n\n### Noodles, Hotpot and the Social Rules of Eating\n\n**Where:** Chongqing noodles — bilingual hotpot experience  \n**Working duration:** about 180 minutes\n\nEnter everyday life through breakfast, then use hotpot to understand a shared table, spice levels and social rules.\n\n**The one idea to carry:** A restaurant list is not the product; ordering, allergies, spice and shared-table rules are.\n\n**Your observation task:** Complete one order with explanation instead of having every decision made for you.\n\n**Reality check:** Allergens, dietary restrictions and spice tolerance must be confirmed; price and cancellation terms are separate.\n\n**Stop rule:** One well-understood meal is enough; do not turn food into a venue-hopping checklist.\n\n**Main friction:** Spice, waiting, shared tables and language need confirmation for the actual group.\n\n**Route shape:** One meal as social observation—ordering, spice, sharing and pace—not a restaurant crawl.\n\n**Body and time budget:** Low walking load but high waiting, dietary and communication sensitivity.\n\n**Low-energy version:** Keep one confirmed meal and remove any second food stop.\n\n**Rain version:** Food can remain the anchor, subject to written dietary and venue checks where required.\n\n**Confirm before release:** Allergens, dietary restrictions, spice tolerance and budget.\n\n### Migrant Networks and the Water Gate\n\n**Where:** Huguang Guild Hall — Dongshuimen  \n**Working duration:** about 130 minutes\n\nUse guild halls, mutual-aid networks and a river gate to understand why Chongqing became a migrant city.\n\n**The one idea to carry:** Guild halls supported newcomers through commerce, belief and social organisation.\n\n**Your observation task:** Compare what the guild hall did with how the water gate connected to the terrain.\n\n**Reality check:** Current opening and English-language support must be checked before departure.\n\n**Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n\n**Main friction:** Current opening and English-language support must be checked before departure.\n\n**Route shape:** One migration-and-waterway story linking a public heritage site to the river gate.\n\n**Body and time budget:** Moderate walking with uneven surfaces and a meaningful amount of historical attention.\n\n**Low-energy version:** Keep the heritage anchor and remove the longer river connection.\n\n**Rain version:** Protect the indoor historical core and drop exposed movement if surfaces or access are poor.\n\n**Confirm before release:** Desired history depth and current venue opening.\n\n\n## Day 3 — A mountain-city path is transport and social space, not merely a scenic boardwalk.\n\n### Land Gate and Mountain-City Paths\n\n**Where:** Tongyuanmen — Third Mountain City Trail — Shibati comparison  \n**Working duration:** about 210 minutes\n\nUse your feet to understand how slope, lanes, rest platforms and daily life form part of the transport system.\n\n**The one idea to carry:** A mountain-city path is transport and social space, not merely a scenic boardwalk.\n\n**Your observation task:** Record how a road becomes steps, a platform, a lane and the edge of a courtyard.\n\n**Reality check:** This module contains repeated stairs; rain, knee pain or low walking capacity triggers a lower-step alternative.\n\n**Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n\n**Main friction:** This module contains repeated stairs; rain, knee pain or low walking capacity triggers a lower-step alternative.\n\n**Route shape:** One mountain-city walking experiment with a pre-set turnaround, not a test of endurance.\n\n**Body and time budget:** High step and elevation load; this is a body decision before it is a sightseeing decision.\n\n**Low-energy version:** Do not use this module; replace it with a lower-load public-space or museum layer.\n\n**Rain version:** Remove it unless current route-surface and safety checks explicitly support continuation.\n\n**Confirm before release:** Continuous stair capacity and knee condition.\n\n### Ride First, Photograph Second\n\n**Where:** Metro Line 2 — Liziba  \n**Working duration:** about 70 minutes\n\nUnderstand how the monorail responds to curves, slope and dense construction before treating the building passage as a photograph.\n\n**The one idea to carry:** The Liziba viewpoint is a verification point; the ride is the core experience.\n\n**Your observation task:** From the train, record elevated track, river edge, curves and changing ground levels.\n\n**Reality check:** Construction or crowds may alter the exterior stop; the train ride remains the core.\n\n**Stop rule:** Leave after the ride-and-viewpoint relationship is legible; do not promise a particular train or photo moment.\n\n**Main friction:** Service timing, crowding, platform movement and viewing conditions are dynamic.\n\n**Route shape:** Ride first, then use the viewpoint to explain the transport relationship; do not chase a train moment.\n\n**Body and time budget:** Low walking load, but service timing, platforms and crowding are dynamic.\n\n**Low-energy version:** Keep the ride-and-viewpoint pair and end immediately after the relationship is clear.\n\n**Rain version:** Keep only after same-day line, construction and exit conditions are checked.\n\n**Confirm before release:** Motion sensitivity and photography purpose.\n\n### A Museum Framework for the City\n\n**Where:** Three Gorges Museum — Great Hall exterior  \n**Working duration:** about 180 minutes\n\nUse terrain, migration, the Three Gorges and wartime history to explain what you saw on the street.\n\n**The one idea to carry:** Visit only the galleries that answer the route’s questions rather than trying to complete the museum.\n\n**Your observation task:** Name three city phenomena that make more sense when you leave.\n\n**Reality check:** Monday closure patterns and temporary exhibition changes can affect access; check again before departure.\n\n**Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n\n**Main friction:** Monday closure patterns and temporary exhibition changes can affect access; check again before departure.\n\n**Route shape:** One indoor city-framework session before adding another district.\n\n**Body and time budget:** Low physical load but high attention load; leave time to process the city model.\n\n**Low-energy version:** Use a shorter gallery route and the exterior civic contrast only if energy remains.\n\n**Rain version:** This is a strong weather branch after dated opening and admission checks.\n\n**Confirm before release:** Current opening and children’s ages.\n\n\n## Day 4 — Tell history through relationships and choices rather than a pile of names and dates.\n\n### Wartime Capital on Foot\n\n**Where:** Zhongshan Fourth Road: Guiyuan — Zhou Enlai Residence — Te Yuan  \n**Working duration:** about 120 minutes\n\nPlace politics, negotiation, diplomacy and cultural activity inside one walkable street.\n\n**The one idea to carry:** Tell history through relationships and choices rather than a pile of names and dates.\n\n**Your observation task:** Compare the domestic scale of the buildings with the international political work they once held.\n\n**Reality check:** Allow about two hours; the amount of political history should match the guest’s interest.\n\n**Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n\n**Main friction:** Allow about two hours; the amount of political history should match the guest’s interest.\n\n**Route shape:** One readable political/history street sequence, not a memorial checklist.\n\n**Body and time budget:** Low-to-moderate walking with shade and opening-time dependence.\n\n**Low-energy version:** Keep one public historical segment and finish before adding another former residence.\n\n**Rain version:** Use the confirmed indoor sites and remove the longer street extension.\n\n**Confirm before release:** Desired depth of political and wartime history.\n\n### Treaty-Port Remains and South-Bank Renewal\n\n**Where:** Treaty Port Site Park — Longmenhao — Xiahaoli  \n**Working duration:** about 210 minutes\n\nFollow the 1891 opening, river transport, institutions and neighbourhood renewal along one riverbank.\n\n**The one idea to carry:** Keep surviving fabric, restoration and new consumption space distinct.\n\n**Your observation task:** Choose one building and trace its relationship to river transport.\n\n**Reality check:** Open sections and construction change quickly; recheck the route before departure.\n\n**Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n\n**Main friction:** Open sections and construction change quickly; recheck the route before departure.\n\n**Route shape:** One south-bank regeneration sequence linking port history, neighbourhood texture and public space.\n\n**Body and time budget:** Longer walking and transfer exposure; route continuity must be checked on the ground.\n\n**Low-energy version:** Keep the most coherent public segment and cut the far end before fatigue hides the story.\n\n**Rain version:** Shorten to the confirmed indoor/covered history layer; do not force the full waterfront.\n\n**Confirm before release:** Same-day opening and construction.\n\n### Air-Raid Shelters, Industry and Museum Space\n\n**Where:** Jianchuan Museum Cluster — Crown Escalator only if useful  \n**Working duration:** about 190 minutes\n\nUse shelter space and industrial remains to connect war, manufacturing and modern transport.\n\n**The one idea to carry:** Read the underground space before the exhibits; the escalator is only a conditional transport detail.\n\n**Your observation task:** Compare the tunnel fabric, exhibition design and transport layers.\n\n**Reality check:** Current opening and English interpretation must be checked; the escalator remains optional.\n\n**Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n\n**Main friction:** Current opening and English interpretation must be checked; the escalator remains optional.\n\n**Route shape:** One material-memory layer linking industrial space, air-raid history or civic infrastructure.\n\n**Body and time budget:** Moderate walking and attention load; the module can become too dense if overextended.\n\n**Low-energy version:** Choose one museum/industrial question and stop before adding the second site.\n\n**Rain version:** Strong indoor fallback after venue and admission checks.\n\n**Confirm before release:** Current opening and English-language support.\n\n\n## Release checks\n\n- No extra dynamic trigger was generated from the current request. Venue-level confirmations shown inside each module still apply.\n- Confirm: Preferred end time and crowd tolerance.\n- Confirm: Tolerance for exposed heights.\n- Confirm: Walking tolerance and current riverfront access.\n- Confirm: Allergens, dietary restrictions, spice tolerance and budget.\n- Confirm: Desired history depth and current venue opening.\n- Confirm: Continuous stair capacity and knee condition.\n- Confirm: Motion sensitivity and photography purpose.\n- Confirm: Current opening and children’s ages.\n- Confirm: Desired depth of political and wartime history.\n- Confirm: Same-day opening and construction.\n- Confirm: Current opening and English-language support.\n\n## What was deliberately left out\n\n- The route uses a fixed daily information budget; additional ranked places were left out rather than compressed into an unrealistic checklist.\n- A second skyline viewpoint added only to collect another photograph.\n- A full Hongyadong commercial-complex tour when the visual geography is already clear.\n- Residential interiors, staged resident encounters or intrusive photography.\n- A Wulong day trip added automatically to a Chongqing city stay; the transfer must earn its place.\n\n## Booking boundary\n\nThis is a roadbook, not a confirmed guided-experience booking. No guide, venue, price or availability is promised."
+}

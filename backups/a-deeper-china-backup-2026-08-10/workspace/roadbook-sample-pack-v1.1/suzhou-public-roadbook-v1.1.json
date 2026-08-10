@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.1",
+  "renderer_version": "suzhou-v1.2",
+  "status": "draft_for_human_review",
+  "city": "Suzhou",
+  "delivery_status": {
+    "public_state": "draft_for_human_review",
+    "current_checks_required": true,
+    "human_review_required": true,
+    "booking_created": false,
+    "explanation": "This route is a research or human-review draft. Current checks and human review are required before client delivery."
+  },
+  "route_thesis": "Read Suzhou through one garden, one water layer and one meaningful contrast—not a garden checklist.",
+  "why_this_route": [
+    "The selected modules are a small information budget, not a ranking of every attraction.",
+    "Each day answers one question and leaves a realistic exit for weather, energy or access changes."
+  ],
+  "route_controls": {
+    "one_question_per_day": true,
+    "stop_when_answered": true,
+    "protect_recovery_time": true,
+    "explanation": "The route gets shorter when the guest has understood the idea; more stops are not automatically better."
+  },
+  "trip_context": {
+    "arrival_date": "2026-09-10",
+    "departure_date": "2026-09-13",
+    "nights": 3,
+    "adults": 2,
+    "children": 0,
+    "party_size": 2,
+    "pace": "slow",
+    "overnight_area": "to confirm",
+    "output_language": "English",
+    "explicit_priorities": [
+      "gardens",
+      "architecture"
+    ],
+    "explicit_avoidances": [
+      "rushing"
+    ],
+    "inferred_needs": []
+  },
+  "explicit_priorities": [
+    "gardens",
+    "architecture"
+  ],
+  "explicit_avoidances": [
+    "rushing"
+  ],
+  "decision_brief": {
+    "what_we_heard": [
+      "gardens",
+      "architecture"
+    ],
+    "what_we_are_protecting": [
+      "rushing"
+    ],
+    "inferred_needs": []
+  },
+  "hypotheses_to_confirm": [],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Garden as an instrument of attention",
+      "modules": [
+        {
+          "name": "Garden as an instrument of attention",
+          "question": "Which garden suits the way you want to look, move and rest?",
+          "practical_note": "Choose one primary garden and a contrast, not a garden marathon.",
+          "confirmations": [],
+          "anchor": "Choose one garden as an instrument of attention, matched to how the guest wants to look and rest.",
+          "what_to_notice": "Framing, thresholds, borrowed views, water and controlled movement.",
+          "stop_rule": "Leave while the garden still feels readable; a second garden is not automatically better.",
+          "main_friction": "Reservations, queues, weather, crowd density and body comfort need checks.",
+          "route_shape": "One garden as an instrument of attention, not a garden checklist.",
+          "body_budget": "Moderate walking and high visual attention; queues and crowding change the experience.",
+          "low_energy_version": "Leave when proportion, thresholds and water movement become legible.",
+          "rain_version": "Keep one confirmed garden and use a covered craft/cultural contrast."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "Museum and contemporary interpretation",
+      "modules": [
+        {
+          "name": "Museum and contemporary interpretation",
+          "question": "How do I add architectural or collection context without overbooking?",
+          "practical_note": "Use museum/architecture as an optional lens with reservation check.",
+          "confirmations": [],
+          "anchor": "Use Museum and contemporary interpretation to answer one concrete question, not to accumulate another stop.",
+          "what_to_notice": "How do I add architectural or collection context without overbooking?",
+          "stop_rule": "Stop when the route question is answered; preserve time for rest and unexpected city life.",
+          "main_friction": "Current access, weather, crowding and walking conditions need confirmation.",
+          "route_shape": "One museum/contemporary interpretation paired with a garden or canal question, not two attention-heavy interiors.",
+          "body_budget": "Lower physical load but high attention fatigue.",
+          "low_energy_version": "Choose one museum question and leave time for the city outside.",
+          "rain_version": "Use after dated opening, reservation and exhibition checks."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "Canal city and ordinary movement + Shanghai–Suzhou–Hangzhou Jiangnan choice",
+      "modules": [
+        {
+          "name": "Canal city and ordinary movement",
+          "question": "How do I connect gardens to the city's water and streets?",
+          "practical_note": "Build a public walk with time/heat exits; do not make residents or private homes an attraction.",
+          "confirmations": [],
+          "anchor": "Connect one garden to the canal streets so water becomes an urban system, not a backdrop.",
+          "what_to_notice": "Bridges, loading, homes, commerce and ordinary movement beside heritage fabric.",
+          "stop_rule": "Keep the canal layer compact; do not force a water-town detour into a short stay.",
+          "main_friction": "Transfers, rain, crowding and route continuity can change the pace.",
+          "route_shape": "One canal-city sequence linking water, streets and ordinary movement.",
+          "body_budget": "Moderate walking with weather, bridges and commercial noise.",
+          "low_energy_version": "Keep one public water/street section and remove the far end.",
+          "rain_version": "Shorten the canal walk and preserve the question indoors."
+        },
+        {
+          "name": "Shanghai–Suzhou–Hangzhou Jiangnan choice",
+          "question": "Which Jiangnan city earns the available days?",
+          "practical_note": "Match garden/canal/craft to Suzhou, lake/tea/temple to Hangzhou; do not force both.",
+          "confirmations": [],
+          "anchor": "Use the available nights to decide whether Suzhou adds a distinct question to Shanghai/Hangzhou.",
+          "what_to_notice": "What is genuinely different: gardens, canals, craft or pace—not just another famous place.",
+          "stop_rule": "If the city choice is not adding a new layer, keep the time in the stronger base city.",
+          "main_friction": "Rail timing, hotel location and transfer fatigue are central.",
+          "route_shape": "A Jiangnan choice comparing Suzhou’s distinct question with Shanghai or Hangzhou.",
+          "body_budget": "Rail timing, hotel location and transfer fatigue are central.",
+          "low_energy_version": "Keep the stronger base city when the contrast is not meaningful.",
+          "rain_version": "Use current rail and indoor programme conditions before changing cities."
+        }
+      ]
+    }
+  ],
+  "what_we_deliberately_leave_out": [],
+  "deliberate_tradeoff": "A second garden is not automatically better; the route needs time to observe proportion, thresholds and water movement.",
+  "fallback_logic": "If queues or rain interfere, keep one confirmed garden and use a canal or craft layer as the contrast.",
+  "checks_before_delivery": [
+    "Current opening, reservation, transport, weather and access conditions for the selected dates.",
+    "This is a draft for human review. Recheck garden/museum access, rail, weather, programme and local movement before delivery."
+  ],
+  "delivery_boundary": "Research draft until dated human checks support release. This does not create a booking, private-access promise or supplier recommendation.",
+  "markdown": "# A Deeper China | Suzhou draft\n\n**Shape:** 3 days, built around Garden as an instrument of attention · Museum and contemporary interpretation · Canal city and ordinary movement · Shanghai–Suzhou–Hangzhou Jiangnan choice.\n\n## Why this Suzhou\nThis is not a garden checklist. It uses one garden, one city-water layer and one meaningful contrast.\n\n\n## Trip brief used for this draft\n- Dates: 2026-09-10 → 2026-09-13 (3 nights)\n- Travelers: 2 travelers\n- Pace: slow\n- Overnight area: to confirm\n- Output language: English\n\n### What we heard\n- Priorities: gardens; architecture\n- Avoidances: rushing\n\n## Day structure\n\n### Day 1 — Garden as an instrument of attention\n- **Garden as an instrument of attention** — Which garden suits the way you want to look, move and rest?\n\n### Day 2 — Museum and contemporary interpretation\n- **Museum and contemporary interpretation** — How do I add architectural or collection context without overbooking?\n\n### Day 3 — Canal city and ordinary movement + Shanghai–Suzhou–Hangzhou Jiangnan choice\n- **Canal city and ordinary movement** — How do I connect gardens to the city's water and streets?\n- **Shanghai–Suzhou–Hangzhou Jiangnan choice** — Which Jiangnan city earns the available days?\n\n## On-the-ground notes\n- **Humble Administrator's Garden decision:** A major garden anchor when the visitor wants layered water, pavilions and a first encounter with Suzhou garden composition. **Check:** reservation, crowds, weather.\n- **Lingering Garden decision:** A different garden lens for visitors interested in sequence, interiors, rockery and framed movement. **Check:** ticketing, crowds, walking.\n- **Suzhou Museum decision:** A potential bridge between garden/urban history and contemporary museum architecture, if reservation and crowd constraints fit. **Check:** reservation, crowds, opening_time.\n- **Museum-plus-garden pacing card:** Two attention-heavy interiors can overwhelm a single day; the product has to leave room for water and streets. **Check:** fatigue, overpacking.\n- **Pingjiang Road public-street decision:** A legible old-city water/street layer, useful when framed as public movement and commerce rather than timeless authenticity. **Check:** crowds, retail_noise, weather.\n- **Shantang decision:** A canal-side commercial/night layer that can fit lively visitors but is not automatically the best old-city experience. **Check:** crowds, commercialization, late_return.\n- **Shanghai day-trip decision:** A same-day Suzhou route should be one garden plus canal/old-city movement, not museum, Tiger Hill and water town together. **Check:** rail, transfer, overpacking.\n- **Suzhou overnight decision:** Overnight is valuable for a second garden, a calm evening water layer or a deliberate water-town decision. **Check:** hotel_area, weather, arrival_time.\n\n## Verification boundary\n- Dynamic details need a date-specific check before delivery.\n- We do not book, bundle or sell third-party travel services.\n\n## Important\n- This is a draft for human review. Recheck garden/museum access, rail, weather, programme and local movement before delivery.\n\n## Decision layer\n\n**Route thesis:** Read Suzhou through one garden, one water layer and one meaningful contrast—not a garden checklist.\n\n### Why this route is not a list\n- The selected modules are a small information budget, not a ranking of every attraction.\n- Each day should answer one question and leave a realistic exit for weather, energy or access changes.\n- The route gets shorter when the guest has understood the idea; more stops are not automatically better.\n- **Garden as an instrument of attention** — Which garden suits the way you want to look, move and rest?\n  - **Anchor:** Choose one garden as an instrument of attention, matched to how the guest wants to look and rest.\n  - **Notice:** Framing, thresholds, borrowed views, water and controlled movement.\n  - **Stop rule:** Leave while the garden still feels readable; a second garden is not automatically better.\n  - **Main friction:** Reservations, queues, weather, crowd density and body comfort need checks.\n  - **Route shape:** One garden as an instrument of attention, not a garden checklist.\n  - **Body and time budget:** Moderate walking and high visual attention; queues and crowding change the experience.\n  - **Low-energy version:** Leave when proportion, thresholds and water movement become legible.\n  - **Rain version:** Keep one confirmed garden and use a covered craft/cultural contrast.\n- **Museum and contemporary interpretation** — How do I add architectural or collection context without overbooking?\n  - **Anchor:** Use Museum and contemporary interpretation to answer one concrete question, not to accumulate another stop.\n  - **Notice:** How do I add architectural or collection context without overbooking?\n  - **Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n  - **Main friction:** Current access, weather, crowding and walking conditions need confirmation.\n  - **Route shape:** One museum/contemporary interpretation paired with a garden or canal question, not two attention-heavy interiors.\n  - **Body and time budget:** Lower physical load but high attention fatigue.\n  - **Low-energy version:** Choose one museum question and leave time for the city outside.\n  - **Rain version:** Use after dated opening, reservation and exhibition checks.\n- **Canal city and ordinary movement** — How do I connect gardens to the city's water and streets?\n  - **Anchor:** Connect one garden to the canal streets so water becomes an urban system, not a backdrop.\n  - **Notice:** Bridges, loading, homes, commerce and ordinary movement beside heritage fabric.\n  - **Stop rule:** Keep the canal layer compact; do not force a water-town detour into a short stay.\n  - **Main friction:** Transfers, rain, crowding and route continuity can change the pace.\n  - **Route shape:** One canal-city sequence linking water, streets and ordinary movement.\n  - **Body and time budget:** Moderate walking with weather, bridges and commercial noise.\n  - **Low-energy version:** Keep one public water/street section and remove the far end.\n  - **Rain version:** Shorten the canal walk and preserve the question indoors.\n- **Shanghai–Suzhou–Hangzhou Jiangnan choice** — Which Jiangnan city earns the available days?\n  - **Anchor:** Use the available nights to decide whether Suzhou adds a distinct question to Shanghai/Hangzhou.\n  - **Notice:** What is genuinely different: gardens, canals, craft or pace—not just another famous place.\n  - **Stop rule:** If the city choice is not adding a new layer, keep the time in the stronger base city.\n  - **Main friction:** Rail timing, hotel location and transfer fatigue are central.\n  - **Route shape:** A Jiangnan choice comparing Suzhou’s distinct question with Shanghai or Hangzhou.\n  - **Body and time budget:** Rail timing, hotel location and transfer fatigue are central.\n  - **Low-energy version:** Keep the stronger base city when the contrast is not meaningful.\n  - **Rain version:** Use current rail and indoor programme conditions before changing cities.\n\n### Deliberate trade-off\n- A second garden is not automatically better; the route needs time to observe proportion, thresholds and water movement.\n\n### Fallback logic\n- If queues or rain interfere, keep one confirmed garden and use a canal or craft layer as the contrast.\n\n### Checks before delivery\n- Choose one primary garden and a contrast, not a garden marathon.\n- Use museum/architecture as an optional lens with reservation check.\n- Build a public walk with time/heat exits; do not make residents or private homes an attraction.\n- Match garden/canal/craft to Suzhou, lake/tea/temple to Hangzhou; do not force both.\n- This is a draft for human review. Recheck garden/museum access, rail, weather, programme and local movement before delivery.\n\n### Delivery boundary\n- This is a research draft until dated human checks support release.\n- Do not turn a research candidate into a booking, private-access promise or supplier recommendation."
+}

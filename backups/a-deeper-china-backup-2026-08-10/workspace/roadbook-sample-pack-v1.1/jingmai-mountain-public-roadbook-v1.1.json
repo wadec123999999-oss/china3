@@ -1,0 +1,177 @@
+{
+  "schema_version": "1.1",
+  "renderer_version": "jingmai-v1.2",
+  "status": "draft_for_human_review",
+  "city": "Jingmai Mountain",
+  "delivery_status": {
+    "public_state": "draft_for_human_review",
+    "current_checks_required": true,
+    "human_review_required": true,
+    "booking_created": false,
+    "explanation": "This route is a research or human-review draft. Current checks and human review are required before client delivery."
+  },
+  "route_thesis": "Read Jingmai as a living tea-forest cultural landscape of forest, villages and mountain practice—not an old-tree-tea shopping trip.",
+  "why_this_route": [
+    "The selected modules are a small information budget, not a ranking of every attraction.",
+    "Each day answers one question and leaves a realistic exit for weather, energy or access changes."
+  ],
+  "route_controls": {
+    "one_question_per_day": true,
+    "stop_when_answered": true,
+    "protect_recovery_time": true,
+    "explanation": "The route gets shorter when the guest has understood the idea; more stops are not automatically better."
+  },
+  "trip_context": {
+    "arrival_date": "2026-09-10",
+    "departure_date": "2026-09-13",
+    "nights": 3,
+    "adults": 2,
+    "children": 0,
+    "party_size": 2,
+    "pace": "slow",
+    "overnight_area": "to confirm",
+    "output_language": "English",
+    "explicit_priorities": [
+      "tea landscape",
+      "walking"
+    ],
+    "explicit_avoidances": [
+      "rushing"
+    ],
+    "inferred_needs": [
+      {
+        "question": "Are you mainly learning, tasting/making, buying for personal use, or looking for a private introduction?",
+        "why": "material-culture interest can mean learning, buying, collecting or a hoped-for private encounter."
+      }
+    ]
+  },
+  "explicit_priorities": [
+    "tea landscape",
+    "walking"
+  ],
+  "explicit_avoidances": [
+    "rushing"
+  ],
+  "decision_brief": {
+    "what_we_heard": [
+      "tea landscape",
+      "walking"
+    ],
+    "what_we_are_protecting": [
+      "rushing"
+    ],
+    "inferred_needs": [
+      "Are you mainly learning, tasting/making, buying for personal use, or looking for a private introduction?"
+    ]
+  },
+  "hypotheses_to_confirm": [
+    {
+      "question": "Are you mainly learning, tasting/making, buying for personal use, or looking for a private introduction?",
+      "why": "material-culture interest can mean learning, buying, collecting or a hoped-for private encounter."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Tea landscape as a living system + Tea understanding and purchase boundary",
+      "modules": [
+        {
+          "name": "Tea landscape as a living system",
+          "question": "What connects forest, old tea groves, villages and livelihoods?",
+          "practical_note": "Start with landscape and community, not product claims.",
+          "confirmations": [],
+          "anchor": "Read tea as a forest, livelihood and settlement system rather than an old-tree-tea purchase.",
+          "what_to_notice": "Canopy, cultivation, labour, villages and what is publicly observable.",
+          "stop_rule": "Leave once the tea-forest relationship is clear; do not imply authenticity or private access.",
+          "main_friction": "Roads, weather, season, language and community rules need checks.",
+          "route_shape": "One living tea-landscape question linking forest, old groves, villages and livelihoods.",
+          "body_budget": "Moderate outdoor and transfer load with weather and ecology sensitivity.",
+          "low_energy_version": "Keep one low-impact public landscape route and protect recovery.",
+          "rain_version": "Remove exposed forest movement until footing and weather are checked."
+        },
+        {
+          "name": "Tea understanding and purchase boundary",
+          "question": "Is the visitor learning, tasting, buying or collecting?",
+          "practical_note": "No authenticity, tree-age, health, value, price, storage, shipping or export claim.",
+          "confirmations": [],
+          "anchor": "Use Tea understanding and purchase boundary to answer one concrete question, not to accumulate another stop.",
+          "what_to_notice": "Is the visitor learning, tasting, buying or collecting?",
+          "stop_rule": "Stop when the route question is answered; preserve time for rest and unexpected city life.",
+          "main_friction": "Current access, weather, crowding and walking conditions need confirmation.",
+          "route_shape": "Separate learning, tasting, buying and collecting before any tea purchase is discussed.",
+          "body_budget": "Low walking load but high trust, quality and payment friction.",
+          "low_energy_version": "Keep public tea ecology and tasting context; defer purchase decisions.",
+          "rain_version": "Use confirmed indoor tea context."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "Village etiquette and consent + Arrival and protected pace",
+      "modules": [
+        {
+          "name": "Village etiquette and consent",
+          "question": "How can a visitor observe without treating residents as attractions?",
+          "practical_note": "Community/site rules and explicit consent prevail.",
+          "confirmations": [],
+          "anchor": "Observe village life through consent and public space, never as an arranged “authentic” encounter.",
+          "what_to_notice": "What can be seen respectfully and what belongs to residents alone.",
+          "stop_rule": "Remove private homes, ceremonies and farmer access unless explicitly released.",
+          "main_friction": "Consent, photography, translation and local rules require human checks.",
+          "route_shape": "One village/public-space observation with consent, never an arranged “authentic” encounter.",
+          "body_budget": "Low walking load but high privacy, translation and local-rules sensitivity.",
+          "low_energy_version": "Keep public observation and remove private homes or ceremonies.",
+          "rain_version": "Use confirmed public/covered spaces only."
+        },
+        {
+          "name": "Arrival and protected pace",
+          "question": "Do the traveller's actual nights and transfer days make a mountain stay sensible?",
+          "practical_note": "No static timing or road-condition promise.",
+          "confirmations": [],
+          "anchor": "Protect nights and transfer time before promising a deep mountain stay.",
+          "what_to_notice": "Whether the actual itinerary leaves recovery time for a remote landscape.",
+          "stop_rule": "If the timing is too short, recommend a shallower public landscape product instead.",
+          "main_friction": "Road conditions, accommodation, connectivity and arrival/departure are decisive.",
+          "route_shape": "A nights-and-arrival decision before promising a deep mountain stay.",
+          "body_budget": "Transfer days can consume the experience; short stays may not earn the route.",
+          "low_energy_version": "Add nights or keep Jingmai as a future product rather than compressing it.",
+          "rain_version": "Use the base with the strongest transport and shelter fallback."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "Walking, weather and ecology",
+      "modules": [
+        {
+          "name": "Walking, weather and ecology",
+          "question": "What risks and low-impact behaviour shape a safe day?",
+          "practical_note": "Weather and local instructions override static routing.",
+          "confirmations": [],
+          "anchor": "Use walking and ecology to explain the tea forest while keeping the physical route low-impact.",
+          "what_to_notice": "Weather, ground, water, wildlife and how visitors affect the landscape.",
+          "stop_rule": "Turn back early when conditions or body capacity change; the landscape is not a test.",
+          "main_friction": "Rain, heat, footing, guides and emergency access need current confirmation.",
+          "route_shape": "One low-impact walking/ecology route with a pre-set turnaround and emergency fallback.",
+          "body_budget": "Weather, footing, water and access can change the route quickly.",
+          "low_energy_version": "Turn back early; the landscape is not a fitness test.",
+          "rain_version": "Remove the forest route until same-day conditions support it."
+        }
+      ]
+    }
+  ],
+  "what_we_deliberately_leave_out": [
+    "An old-tree-tea shopping trip presented as a cultural-landscape route.",
+    "Private homes, ceremonies, tea-maker meetings or resident portraits without consent.",
+    "A deep mountain product compressed into too few nights or unsupported transport."
+  ],
+  "deliberate_tradeoff": "Tea purchase, private homes, ceremonies and village observation are distinct consent and safety questions.",
+  "fallback_logic": "If community access is not confirmed, keep public landscape, tea ecology and walking without inventing an encounter.",
+  "checks_before_delivery": [
+    "Current opening, reservation, transport, weather and access conditions for the selected dates.",
+    "This is a research draft. Recheck road conditions, weather, access, community rules, accommodation and communication before any client-specific output.",
+    "Do not promise mist, sunrise, clear views, trail access, road state, vehicle availability or safe self-drive conditions."
+  ],
+  "delivery_boundary": "Research draft until dated human checks support release. This does not create a booking, private-access promise or supplier recommendation.",
+  "markdown": "# A Deeper China | Jingmai Mountain research draft\n\n**Shape:** 3 nights, built around Tea landscape as a living system · Tea understanding and purchase boundary · Walking, weather and ecology · Village etiquette and consent · Arrival and protected pace.\n\n## Why Jingmai\nRead Jingmai as a living tea-forest cultural landscape of forest, villages and mountain practice - not an old-tree-tea shopping trip or a private-community-access product.\n\n\n## Trip brief used for this draft\n- Dates: 2026-09-10 → 2026-09-13 (3 nights)\n- Travelers: 2 travelers\n- Pace: slow\n- Overnight area: to confirm\n- Output language: English\n\n### What we heard\n- Priorities: tea landscape; walking\n- Avoidances: rushing\n\n### Hypotheses to confirm\n- Are you mainly learning, tasting/making, buying for personal use, or looking for a private introduction?\n  - Why this came up: material-culture interest can mean learning, buying, collecting or a hoped-for private encounter.\n\n## Day structure\n\n### Day 1 — Tea landscape as a living system + Tea understanding and purchase boundary\n- **Tea landscape as a living system** — What connects forest, old tea groves, villages and livelihoods?\n- **Tea understanding and purchase boundary** — Is the visitor learning, tasting, buying or collecting?\n\n### Day 2 — Village etiquette and consent + Arrival and protected pace\n- **Village etiquette and consent** — How can a visitor observe without treating residents as attractions?\n- **Arrival and protected pace** — Do the traveller's actual nights and transfer days make a mountain stay sensible?\n\n### Day 3 — Walking, weather and ecology\n- **Walking, weather and ecology** — What risks and low-impact behaviour shape a safe day?\n\n## On-the-ground notes\n- **UNESCO cultural-landscape card:** The old tea forests are part of an evolved mountain system with forest, villages and long-standing Blang and Dai practices. **Check:** oversimplification, cultural_appropriation.\n- **Understorey cultivation lens:** The heritage story is not simply old trees; it includes cultivation shaped by mountain ecology and forest conditions. **Check:** technical_translation, marketing_noise.\n- **Tasting-learning card:** A visitor can learn to compare aroma, processing, batch information and seller questions without receiving purchase advice. **Check:** language, marketing, taste_variation.\n- **Old-tree/provenance boundary:** Claims about tree age, origin, purity and producer identity cannot be authenticated through a travel database. **Check:** fraud, provenance, price.\n- **Weather/mud/visibility card:** Rain, fog and mud can change route safety and visibility; scenic images are not operational evidence. **Check:** rain, fog, slips, landslide.\n- **Low-impact trail conduct:** Staying on permitted routes, carrying waste and respecting fire/ecology rules is part of the product quality. **Check:** environment, route_access, fire_risk.\n- **Public-space etiquette card:** Quiet conduct, consent and observing local rules protect residents, visitors and the landscape. **Check:** language, photography, cultural_norms.\n- **Photo/ceremony refusal:** Ceremonies, homes, children and work processes cannot be assumed available for filming or visitor participation. **Check:** privacy, religious_respect, consent.\n- **Three-night feasibility card:** Three protected nights allow one landscape thread plus a weather buffer; they do not justify a rushed multi-village sweep. **Check:** transfer_fatigue, weather, road_conditions.\n- **Four-night slow observation card:** An additional night makes room for rest, a fallback day and a separately vetted low-impact interaction discussion. **Check:** provider_availability, seasonality.\n\n## Before I finalize it\n- What walking, mud, road, licence, child-safety or mobility constraints need human review?\n\n## Important\n- This is a research draft. Recheck road conditions, weather, access, community rules, accommodation and communication before any client-specific output.\n- Do not promise mist, sunrise, clear views, trail access, road state, vehicle availability or safe self-drive conditions.\n\n## Decision layer\n\n**Route thesis:** Read Jingmai as a living tea-forest cultural landscape of forest, villages and mountain practice—not an old-tree-tea shopping trip.\n\n### Why this route is not a list\n- The selected modules are a small information budget, not a ranking of every attraction.\n- Each day should answer one question and leave a realistic exit for weather, energy or access changes.\n- The route gets shorter when the guest has understood the idea; more stops are not automatically better.\n- **Tea landscape as a living system** — What connects forest, old tea groves, villages and livelihoods?\n  - **Anchor:** Read tea as a forest, livelihood and settlement system rather than an old-tree-tea purchase.\n  - **Notice:** Canopy, cultivation, labour, villages and what is publicly observable.\n  - **Stop rule:** Leave once the tea-forest relationship is clear; do not imply authenticity or private access.\n  - **Main friction:** Roads, weather, season, language and community rules need checks.\n  - **Route shape:** One living tea-landscape question linking forest, old groves, villages and livelihoods.\n  - **Body and time budget:** Moderate outdoor and transfer load with weather and ecology sensitivity.\n  - **Low-energy version:** Keep one low-impact public landscape route and protect recovery.\n  - **Rain version:** Remove exposed forest movement until footing and weather are checked.\n- **Tea understanding and purchase boundary** — Is the visitor learning, tasting, buying or collecting?\n  - **Anchor:** Use Tea understanding and purchase boundary to answer one concrete question, not to accumulate another stop.\n  - **Notice:** Is the visitor learning, tasting, buying or collecting?\n  - **Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n  - **Main friction:** Current access, weather, crowding and walking conditions need confirmation.\n  - **Route shape:** Separate learning, tasting, buying and collecting before any tea purchase is discussed.\n  - **Body and time budget:** Low walking load but high trust, quality and payment friction.\n  - **Low-energy version:** Keep public tea ecology and tasting context; defer purchase decisions.\n  - **Rain version:** Use confirmed indoor tea context.\n- **Village etiquette and consent** — How can a visitor observe without treating residents as attractions?\n  - **Anchor:** Observe village life through consent and public space, never as an arranged “authentic” encounter.\n  - **Notice:** What can be seen respectfully and what belongs to residents alone.\n  - **Stop rule:** Remove private homes, ceremonies and farmer access unless explicitly released.\n  - **Main friction:** Consent, photography, translation and local rules require human checks.\n  - **Route shape:** One village/public-space observation with consent, never an arranged “authentic” encounter.\n  - **Body and time budget:** Low walking load but high privacy, translation and local-rules sensitivity.\n  - **Low-energy version:** Keep public observation and remove private homes or ceremonies.\n  - **Rain version:** Use confirmed public/covered spaces only.\n- **Arrival and protected pace** — Do the traveller's actual nights and transfer days make a mountain stay sensible?\n  - **Anchor:** Protect nights and transfer time before promising a deep mountain stay.\n  - **Notice:** Whether the actual itinerary leaves recovery time for a remote landscape.\n  - **Stop rule:** If the timing is too short, recommend a shallower public landscape product instead.\n  - **Main friction:** Road conditions, accommodation, connectivity and arrival/departure are decisive.\n  - **Route shape:** A nights-and-arrival decision before promising a deep mountain stay.\n  - **Body and time budget:** Transfer days can consume the experience; short stays may not earn the route.\n  - **Low-energy version:** Add nights or keep Jingmai as a future product rather than compressing it.\n  - **Rain version:** Use the base with the strongest transport and shelter fallback.\n- **Walking, weather and ecology** — What risks and low-impact behaviour shape a safe day?\n  - **Anchor:** Use walking and ecology to explain the tea forest while keeping the physical route low-impact.\n  - **Notice:** Weather, ground, water, wildlife and how visitors affect the landscape.\n  - **Stop rule:** Turn back early when conditions or body capacity change; the landscape is not a test.\n  - **Main friction:** Rain, heat, footing, guides and emergency access need current confirmation.\n  - **Route shape:** One low-impact walking/ecology route with a pre-set turnaround and emergency fallback.\n  - **Body and time budget:** Weather, footing, water and access can change the route quickly.\n  - **Low-energy version:** Turn back early; the landscape is not a fitness test.\n  - **Rain version:** Remove the forest route until same-day conditions support it.\n\n### Deliberate trade-off\n- Tea purchase, private homes, ceremonies and village observation are distinct consent and safety questions.\n\n### Fallback logic\n- If community access is not confirmed, keep public landscape, tea ecology and walking without inventing an encounter.\n\n### Checks before delivery\n- Start with landscape and community, not product claims.\n- No authenticity, tree-age, health, value, price, storage, shipping or export claim.\n- Community/site rules and explicit consent prevail.\n- No static timing or road-condition promise.\n- Weather and local instructions override static routing.\n- This is a research draft. Recheck road conditions, weather, access, community rules, accommodation and communication before any client-specific output.\n- Do not promise mist, sunrise, clear views, trail access, road state, vehicle availability or safe self-drive conditions.\n\n### Delivery boundary\n- This is a research draft until dated human checks support release.\n- Do not turn a research candidate into a booking, private-access promise or supplier recommendation."
+}

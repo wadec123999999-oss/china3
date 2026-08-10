@@ -1,0 +1,192 @@
+{
+  "schema_version": "1.1",
+  "renderer_version": "chengdu-v1.2",
+  "status": "draft_for_human_review",
+  "city": "Chengdu",
+  "delivery_status": {
+    "public_state": "draft_for_human_review",
+    "current_checks_required": true,
+    "human_review_required": true,
+    "booking_created": false,
+    "explanation": "This route is a research or human-review draft. Current checks and human review are required before client delivery."
+  },
+  "route_thesis": "Use tea-house pace, food and public life to make Chengdu legible before adding one regional or historical layer.",
+  "why_this_route": [
+    "The selected modules are a small information budget, not a ranking of every attraction.",
+    "Each day answers one question and leaves a realistic exit for weather, energy or access changes."
+  ],
+  "route_controls": {
+    "one_question_per_day": true,
+    "stop_when_answered": true,
+    "protect_recovery_time": true,
+    "explanation": "The route gets shorter when the guest has understood the idea; more stops are not automatically better."
+  },
+  "trip_context": {
+    "arrival_date": "2026-09-10",
+    "departure_date": "2026-09-13",
+    "nights": 3,
+    "adults": 2,
+    "children": 0,
+    "party_size": 2,
+    "pace": "slow",
+    "overnight_area": "to confirm",
+    "output_language": "English",
+    "explicit_priorities": [
+      "tea",
+      "food"
+    ],
+    "explicit_avoidances": [
+      "rushing"
+    ],
+    "inferred_needs": [
+      {
+        "question": "Would you rather understand one city clearly than try to cover its famous places?",
+        "why": "first-visit wording can mean the traveller needs a legible starting point, not more landmarks."
+      },
+      {
+        "question": "Are you mainly learning, tasting/making, buying for personal use, or looking for a private introduction?",
+        "why": "material-culture interest can mean learning, buying, collecting or a hoped-for private encounter."
+      }
+    ]
+  },
+  "explicit_priorities": [
+    "tea",
+    "food"
+  ],
+  "explicit_avoidances": [
+    "rushing"
+  ],
+  "decision_brief": {
+    "what_we_heard": [
+      "tea",
+      "food"
+    ],
+    "what_we_are_protecting": [
+      "rushing"
+    ],
+    "inferred_needs": [
+      "Would you rather understand one city clearly than try to cover its famous places?",
+      "Are you mainly learning, tasting/making, buying for personal use, or looking for a private introduction?"
+    ]
+  },
+  "hypotheses_to_confirm": [
+    {
+      "question": "Would you rather understand one city clearly than try to cover its famous places?",
+      "why": "first-visit wording can mean the traveller needs a legible starting point, not more landmarks."
+    },
+    {
+      "question": "Are you mainly learning, tasting/making, buying for personal use, or looking for a private introduction?",
+      "why": "material-culture interest can mean learning, buying, collecting or a hoped-for private encounter."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Pandas as a real operational decision + Tea, park and public life",
+      "modules": [
+        {
+          "name": "Pandas as a real operational decision",
+          "question": "Is the Panda Base worth my time and how should it shape the day?",
+          "practical_note": "Confirm reservation, passport matching, entry, weather and crowd strategy; do not promise animal activity or queue length.",
+          "confirmations": [],
+          "anchor": "Treat pandas as a morning operations decision, not the emotional centre of every Chengdu day.",
+          "what_to_notice": "Opening window, visitor flow, animal welfare boundaries and the cost of crossing the city.",
+          "stop_rule": "Leave after the planned animal/conservation question is answered; do not add a second far-side attraction by default.",
+          "main_friction": "Timed entry, heat, crowds, transport and language support are dynamic.",
+          "route_shape": "A panda operations decision: early access, animal activity, transfer cost and the rest of the day.",
+          "body_budget": "Low-to-moderate walking but high early-start, crowd and reservation friction.",
+          "low_energy_version": "Leave after the planned conservation question; do not add a distant attraction.",
+          "rain_version": "Keep only after current admission, weather and animal-activity conditions are checked."
+        },
+        {
+          "name": "Tea, park and public life",
+          "question": "Where does Chengdu's slow-city feeling become legible?",
+          "practical_note": "Use a public park/tea structure, not a hard-coded commercial venue. Verify current venues separately.",
+          "confirmations": [],
+          "anchor": "Spend time in one tea-and-park loop long enough to see how public life is paced.",
+          "what_to_notice": "Seating, conversation, games, care, shade and how people share public space.",
+          "stop_rule": "Protect the unstructured time; do not turn the slow-city idea into a rapid café crawl.",
+          "main_friction": "Weather, seating, etiquette and accessibility need current checking.",
+          "route_shape": "One tea-and-park loop long enough to observe how Chengdu shares public time.",
+          "body_budget": "Low transfer cost; heat, rain, seating and etiquette matter more than distance.",
+          "low_energy_version": "Stay within one park and let unstructured time do the work.",
+          "rain_version": "Use a covered tea or cultural layer after current opening is confirmed."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "The Chengdu rhythm",
+      "modules": [
+        {
+          "name": "The Chengdu rhythm",
+          "question": "How do I experience Chengdu without turning it into a rush between attractions?",
+          "practical_note": "Reserve unprogrammed sitting, eating and walking time; do not place more than two high-friction anchors in one day.",
+          "confirmations": [],
+          "anchor": "Build the day around one neighbourhood rhythm instead of moving between iconic names.",
+          "what_to_notice": "How breakfast, tea, errands and evening streets create a local tempo.",
+          "stop_rule": "When the rhythm is legible, stop adding sights; use the remaining time for rest or food.",
+          "main_friction": "Heat, meal timing, traffic and transfer distance can quietly break the pace.",
+          "route_shape": "One neighbourhood rhythm—tea, public space, food and ordinary movement—not a rush between landmarks.",
+          "body_budget": "Low-to-moderate walking, but heat, humidity and unstructured time determine whether the day works.",
+          "low_energy_version": "Keep one public-life loop and protect a long seated break.",
+          "rain_version": "Use indoor cultural or food layers and let the slower pace remain the point."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "Sichuan flavour as social geography",
+      "modules": [
+        {
+          "name": "Sichuan flavour as social geography",
+          "question": "How do I eat Sichuan food without being sent to a generic tourist list?",
+          "practical_note": "Ask spice tolerance, dietary needs, meal style, queue tolerance and whether the client wants hotpot, snacks, tea or a single regional dish; never promise a restaurant.",
+          "confirmations": [],
+          "anchor": "Use one meal to understand ordering, flavour and social geography rather than collecting restaurants.",
+          "what_to_notice": "Chilli/savoury balance, shared dishes, table timing and who the meal is designed for.",
+          "stop_rule": "One well-matched meal beats a generic list; do not overpromise a “must-eat” venue.",
+          "main_friction": "Spice, allergies, queues and payment rules need confirmation.",
+          "route_shape": "One meal or snack progression that explains ordering, spice and sharing—not a restaurant ranking.",
+          "body_budget": "Low walking load but high dietary, spice, waiting and language sensitivity.",
+          "low_energy_version": "Keep one confirmed food context and remove any second meal stop.",
+          "rain_version": "Food is a strong weather branch, subject to written dietary and venue checks."
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "theme": "Memory, poetry and religion",
+      "modules": [
+        {
+          "name": "Memory, poetry and religion",
+          "question": "What does Chengdu offer beyond cute pandas and food?",
+          "practical_note": "Use Wuhou, Du Fu and Wenshu as distinct cultural lenses; do not stack all three by default.",
+          "confirmations": [],
+          "anchor": "Add one memory, poetry or religious layer only if it deepens the city frame.",
+          "what_to_notice": "How memory and belief remain part of an ordinary modern city.",
+          "stop_rule": "Keep the extension compact; do not sacrifice Chengdu’s pace to complete a theme.",
+          "main_friction": "Opening, programme and respectful behaviour are date-sensitive.",
+          "route_shape": "One memory/poetry/religion question in a calm cultural area, not a historic-site checklist.",
+          "body_budget": "Low-to-moderate walking with attention and etiquette requirements.",
+          "low_energy_version": "Choose one cultural anchor and finish before adding another temple or memorial.",
+          "rain_version": "Protect the confirmed indoor/covered core and cut the garden extension."
+        }
+      ]
+    }
+  ],
+  "what_we_deliberately_leave_out": [
+    "A panda visit, hotpot meal and distant day trip compressed into the same day.",
+    "A second food venue added only to make the itinerary look fuller.",
+    "A day trip added automatically when Chengdu itself has not been understood.",
+    "Private homes, staged “local” encounters or unconsented portraits."
+  ],
+  "deliberate_tradeoff": "Pandas, food and a regional extension compete for time; choosing all three usually destroys the slow rhythm.",
+  "fallback_logic": "If energy drops, keep one tea/public-life loop and one food context instead of adding another transfer.",
+  "checks_before_delivery": [
+    "Current opening, reservation, transport, weather and access conditions for the selected dates.",
+    "This is a draft for human review. Recheck live reservations, animal access, weather, transport, food, venues and payment before delivery."
+  ],
+  "delivery_boundary": "Research draft until dated human checks support release. This does not create a booking, private-access promise or supplier recommendation.",
+  "markdown": "# A Deeper China | Chengdu draft\n\n**Shape:** 4 days, built around The Chengdu rhythm · Pandas as a real operational decision · Tea, park and public life · Sichuan flavour as social geography · Memory, poetry and religion.\n\n## Why this Chengdu\nThis is not a panda-and-hotpot checklist. It gives one strong anchor, a food and public-life rhythm, and enough unplanned time for Chengdu to work as a city.\n\n\n## Trip brief used for this draft\n- Dates: 2026-09-10 → 2026-09-13 (3 nights)\n- Travelers: 2 travelers\n- Pace: slow\n- Overnight area: to confirm\n- Output language: English\n\n### What we heard\n- Priorities: tea; food\n- Avoidances: rushing\n\n### Hypotheses to confirm\n- Would you rather understand one city clearly than try to cover its famous places?\n  - Why this came up: first-visit wording can mean the traveller needs a legible starting point, not more landmarks.\n- Are you mainly learning, tasting/making, buying for personal use, or looking for a private introduction?\n  - Why this came up: material-culture interest can mean learning, buying, collecting or a hoped-for private encounter.\n\n## Client decision brief\n- **What we heard:** a slower rhythm, food and everyday eating.\n- **What we inferred:**\n  - A first visit needs Chengdu to become legible as a rhythm before adding regional extensions.\n  - Food is treated as social geography and ordering practice, not a list of famous restaurants.\n  - The draft stays provisional until the highest-value operating questions are answered.\n- **Route promise:** one readable Chengdu question per day, with a shorter version when weather, energy or access changes.\n\n## What we deliberately leave out\n- A panda visit, hotpot meal and distant day trip compressed into the same day.\n- A second food venue added only to make the itinerary look fuller.\n- A day trip added automatically when Chengdu itself has not been understood.\n- Private homes, staged “local” encounters or unconsented portraits.\n\n## Day structure\n\n### Day 1 — Pandas as a real operational decision + Tea, park and public life\n- **Pandas as a real operational decision**\n  - **Reading question:** Is the Panda Base worth my time and how should it shape the day?\n  - **Route shape:** A panda operations decision: early access, animal activity, transfer cost and the rest of the day.\n  - **Body and time budget:** Low-to-moderate walking but high early-start, crowd and reservation friction.\n  - **Low-energy version:** Leave after the planned conservation/animal question; do not add a distant attraction by default.\n  - **Rain version:** Keep only after current admission, weather and animal-activity conditions are checked.\n  - **Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n- **Tea, park and public life**\n  - **Reading question:** Where does Chengdu's slow-city feeling become legible?\n  - **Route shape:** One tea-and-park loop long enough to observe how Chengdu shares public time.\n  - **Body and time budget:** Low transfer cost; heat, rain, seating and etiquette matter more than distance.\n  - **Low-energy version:** Stay within one park and let unstructured time do the work.\n  - **Rain version:** Use a covered tea or cultural layer after current opening is confirmed.\n  - **Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n\n### Day 2 — The Chengdu rhythm\n- **The Chengdu rhythm**\n  - **Reading question:** How do I experience Chengdu without turning it into a rush between attractions?\n  - **Route shape:** One neighbourhood rhythm—tea, public space, food and ordinary movement—not a rush between landmarks.\n  - **Body and time budget:** Low-to-moderate walking, but heat, humidity and unstructured time determine whether the day works.\n  - **Low-energy version:** Keep one public-life loop and protect a long seated break; remove the extra district.\n  - **Rain version:** Use indoor cultural or food layers and let the slower pace remain the point.\n  - **Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n\n### Day 3 — Sichuan flavour as social geography\n- **Sichuan flavour as social geography**\n  - **Reading question:** How do I eat Sichuan food without being sent to a generic tourist list?\n  - **Route shape:** One meal or snack progression that explains ordering, spice and sharing—not a restaurant ranking.\n  - **Body and time budget:** Low walking load but high dietary, spice, waiting and language sensitivity.\n  - **Low-energy version:** Keep one confirmed food context and remove any second meal stop.\n  - **Rain version:** Food is a strong weather branch, subject to written dietary and venue checks where needed.\n  - **Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n\n### Day 4 — Memory, poetry and religion\n- **Memory, poetry and religion**\n  - **Reading question:** What does Chengdu offer beyond cute pandas and food?\n  - **Route shape:** One memory/poetry/religion question in a calm cultural area, not a historic-site checklist.\n  - **Body and time budget:** Low-to-moderate walking with attention and etiquette requirements.\n  - **Low-energy version:** Choose one cultural anchor and finish before adding another temple or memorial.\n  - **Rain version:** Protect the confirmed indoor/covered core and cut the garden extension.\n  - **Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n\n## On-the-ground notes\n- **Kuanzhai Alleys decision:** A legible historic-commercial district that may suit a first-time visitor but can conflict with a client seeking less retail noise. **Check:** crowds, retail_noise, photo_expectations.\n- **Arrival and Metro setup:** Independent travel begins with payment, data, mapping and a realistic first-day energy estimate. **Check:** payment, connectivity, app_setup, jetlag.\n- **Chengdu Research Base of Giant Panda Breeding:** For many first-time international visitors it is the strongest single reason to include Chengdu, but it should consume only the part of a day it genuinely needs. **Check:** reservation, passport_match, crowds, weather, animal_activity.\n- **Panda Base versus Dujiangyan Panda Valley decision:** The choice changes the entire day: city convenience versus a wider day-trip purpose. **Check:** transport, reservation, weather, day_length.\n- **People's Park tea-time structure:** A public-space lens for Chengdu's rhythm: sitting, watching and allowing the city to unfold rather than moving through a sight list. **Check:** weather, crowds, venue_turnover.\n- **Hotpot / chuanchuan meal logic:** The value is shared decision-making and a local meal format, not a generic 'must-eat' restaurant ranking. **Check:** spice, dietary_needs, queues, ordering_language.\n- **Sichuan snacks and tea as a low-commitment food layer:** Lets a visitor approach flavour with smaller commitments when a communal hotpot meal is not a fit. **Check:** ingredients, allergens, translation.\n- **Wenshu Monastery area:** A useful cultural and slower urban area for a visitor who wants a religious and neighbourhood texture rather than another retail street. **Check:** worship_etiquette, opening_time, crowds.\n- **Wuhou Shrine and Jinli decision:** One site can serve different reasons: Three Kingdoms memory, museum interest, or a recognisable evening street; these should not be conflated. **Check:** ticketing, tourist_density, commercial_noise.\n\n## Before I finalize it\n- What is your spice tolerance, dietary/allergy situation, group size and shared-pot comfort?\n\n## Verification boundary\n- Dynamic details need a date-specific check before delivery.\n- We do not book, bundle or sell third-party travel services.\n\n## Important\n- This is a draft for human review. Recheck live reservations, animal access, weather, transport, food, venues and payment before delivery.\n\n## Decision layer\n\n**Route thesis:** Use tea-house pace, food and public life to make Chengdu legible before adding one regional or historical layer.\n\n### Why this route is not a list\n- The selected modules are a small information budget, not a ranking of every attraction.\n- Each day should answer one question and leave a realistic exit for weather, energy or access changes.\n- The route gets shorter when the guest has understood the idea; more stops are not automatically better.\n- **Pandas as a real operational decision** — Is the Panda Base worth my time and how should it shape the day?\n  - **Anchor:** Treat pandas as a morning operations decision, not the emotional centre of every Chengdu day.\n  - **Notice:** Opening window, visitor flow, animal welfare boundaries and the cost of crossing the city.\n  - **Stop rule:** Leave after the planned animal/conservation question is answered; do not add a second far-side attraction by default.\n  - **Main friction:** Timed entry, heat, crowds, transport and language support are dynamic.\n  - **Route shape:** A panda operations decision: early access, animal activity, transfer cost and the rest of the day.\n  - **Body and time budget:** Low-to-moderate walking but high early-start, crowd and reservation friction.\n  - **Low-energy version:** Leave after the planned conservation question; do not add a distant attraction.\n  - **Rain version:** Keep only after current admission, weather and animal-activity conditions are checked.\n- **Tea, park and public life** — Where does Chengdu's slow-city feeling become legible?\n  - **Anchor:** Spend time in one tea-and-park loop long enough to see how public life is paced.\n  - **Notice:** Seating, conversation, games, care, shade and how people share public space.\n  - **Stop rule:** Protect the unstructured time; do not turn the slow-city idea into a rapid café crawl.\n  - **Main friction:** Weather, seating, etiquette and accessibility need current checking.\n  - **Route shape:** One tea-and-park loop long enough to observe how Chengdu shares public time.\n  - **Body and time budget:** Low transfer cost; heat, rain, seating and etiquette matter more than distance.\n  - **Low-energy version:** Stay within one park and let unstructured time do the work.\n  - **Rain version:** Use a covered tea or cultural layer after current opening is confirmed.\n- **The Chengdu rhythm** — How do I experience Chengdu without turning it into a rush between attractions?\n  - **Anchor:** Build the day around one neighbourhood rhythm instead of moving between iconic names.\n  - **Notice:** How breakfast, tea, errands and evening streets create a local tempo.\n  - **Stop rule:** When the rhythm is legible, stop adding sights; use the remaining time for rest or food.\n  - **Main friction:** Heat, meal timing, traffic and transfer distance can quietly break the pace.\n  - **Route shape:** One neighbourhood rhythm—tea, public space, food and ordinary movement—not a rush between landmarks.\n  - **Body and time budget:** Low-to-moderate walking, but heat, humidity and unstructured time determine whether the day works.\n  - **Low-energy version:** Keep one public-life loop and protect a long seated break.\n  - **Rain version:** Use indoor cultural or food layers and let the slower pace remain the point.\n- **Sichuan flavour as social geography** — How do I eat Sichuan food without being sent to a generic tourist list?\n  - **Anchor:** Use one meal to understand ordering, flavour and social geography rather than collecting restaurants.\n  - **Notice:** Chilli/savoury balance, shared dishes, table timing and who the meal is designed for.\n  - **Stop rule:** One well-matched meal beats a generic list; do not overpromise a “must-eat” venue.\n  - **Main friction:** Spice, allergies, queues and payment rules need confirmation.\n  - **Route shape:** One meal or snack progression that explains ordering, spice and sharing—not a restaurant ranking.\n  - **Body and time budget:** Low walking load but high dietary, spice, waiting and language sensitivity.\n  - **Low-energy version:** Keep one confirmed food context and remove any second meal stop.\n  - **Rain version:** Food is a strong weather branch, subject to written dietary and venue checks.\n- **Memory, poetry and religion** — What does Chengdu offer beyond cute pandas and food?\n  - **Anchor:** Add one memory, poetry or religious layer only if it deepens the city frame.\n  - **Notice:** How memory and belief remain part of an ordinary modern city.\n  - **Stop rule:** Keep the extension compact; do not sacrifice Chengdu’s pace to complete a theme.\n  - **Main friction:** Opening, programme and respectful behaviour are date-sensitive.\n  - **Route shape:** One memory/poetry/religion question in a calm cultural area, not a historic-site checklist.\n  - **Body and time budget:** Low-to-moderate walking with attention and etiquette requirements.\n  - **Low-energy version:** Choose one cultural anchor and finish before adding another temple or memorial.\n  - **Rain version:** Protect the confirmed indoor/covered core and cut the garden extension.\n\n### Deliberate trade-off\n- Pandas, food and a regional extension compete for time; choosing all three usually destroys the slow rhythm.\n\n### Fallback logic\n- If energy drops, keep one tea/public-life loop and one food context instead of adding another transfer.\n\n### Checks before delivery\n- Confirm reservation, passport matching, entry, weather and crowd strategy; do not promise animal activity or queue length.\n- Use a public park/tea structure, not a hard-coded commercial venue. Verify current venues separately.\n- Reserve unprogrammed sitting, eating and walking time; do not place more than two high-friction anchors in one day.\n- Ask spice tolerance, dietary needs, meal style, queue tolerance and whether the client wants hotpot, snacks, tea or a single regional dish; never promise a restaurant.\n- Use Wuhou, Du Fu and Wenshu as distinct cultural lenses; do not stack all three by default.\n- This is a draft for human review. Recheck live reservations, animal access, weather, transport, food, venues and payment before delivery.\n\n### Delivery boundary\n- This is a research draft until dated human checks support release.\n- Do not turn a research candidate into a booking, private-access promise or supplier recommendation."
+}

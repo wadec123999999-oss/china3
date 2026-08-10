@@ -1,0 +1,22 @@
+{
+  "schema_version":"1.0",
+  "instructions":"Copy this file once per launch check. Fill with dated evidence; do not mark pass from a web page or supplier self-description alone.",
+  "launch_check_id":"",
+  "city":"",
+  "object":"",
+  "reviewer":"",
+  "field_date":"",
+  "weather":"",
+  "traveller_profile_tested":"",
+  "method":"",
+  "status":"not_started",
+  "route_reality":{"entry":"","exit":"","minutes":null,"steps_or_elevation":"","toilets":"","seating":"","water":"","low_energy_version":"","rain_version":""},
+  "dynamic_checks":{"opening_or_access":"","reservation_or_ticket":"","transport_or_road":"","weather_or_warning":"","last_checked_at":""},
+  "foreign_visitor_usability":{"english_names":"","coordinates_and_navigation":"","payment_and_data":"","passport_or_foreign_card":"","language_or_dietary":""},
+  "ethical_and_commercial_gate":{"privacy_and_consent":"","provider_credentials":"","safety_and_emergency":"","price_and_cancellation":"","photo_rules":"","may_quote":false,"may_take_payment":false},
+  "evidence":[{"type":"","path_or_url":"","captured_at":"","notes":""}],
+  "blocking_conditions":[],
+  "decision":"",
+  "follow_up_actions":[],
+  "sign_off":{"reviewer":"","signed_at":"","second_review_required":true}
+}

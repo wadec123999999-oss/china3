@@ -1,0 +1,183 @@
+{
+  "schema_version": "1.1",
+  "renderer_version": "beijing-v1.2",
+  "status": "draft_for_human_review",
+  "city": "Beijing",
+  "delivery_status": {
+    "public_state": "draft_for_human_review",
+    "current_checks_required": true,
+    "human_review_required": true,
+    "booking_created": false,
+    "explanation": "This route is a research or human-review draft. Current checks and human review are required before client delivery."
+  },
+  "route_thesis": "Read Beijing through imperial order, hutong life, one Wall decision and a contemporary layer—not a monument checklist.",
+  "why_this_route": [
+    "The selected modules are a small information budget, not a ranking of every attraction.",
+    "Each day answers one question and leaves a realistic exit for weather, energy or access changes."
+  ],
+  "route_controls": {
+    "one_question_per_day": true,
+    "stop_when_answered": true,
+    "protect_recovery_time": true,
+    "explanation": "The route gets shorter when the guest has understood the idea; more stops are not automatically better."
+  },
+  "trip_context": {
+    "arrival_date": "2026-09-10",
+    "departure_date": "2026-09-13",
+    "nights": 3,
+    "adults": 2,
+    "children": 0,
+    "party_size": 2,
+    "pace": "slow",
+    "overnight_area": "to confirm",
+    "output_language": "English",
+    "explicit_priorities": [
+      "architecture",
+      "history"
+    ],
+    "explicit_avoidances": [
+      "rushing"
+    ],
+    "inferred_needs": [
+      {
+        "question": "Would you rather understand one city clearly than try to cover its famous places?",
+        "why": "first-visit wording can mean the traveller needs a legible starting point, not more landmarks."
+      }
+    ]
+  },
+  "explicit_priorities": [
+    "architecture",
+    "history"
+  ],
+  "explicit_avoidances": [
+    "rushing"
+  ],
+  "decision_brief": {
+    "what_we_heard": [
+      "architecture",
+      "history"
+    ],
+    "what_we_are_protecting": [
+      "rushing"
+    ],
+    "inferred_needs": [
+      "Would you rather understand one city clearly than try to cover its famous places?"
+    ]
+  },
+  "hypotheses_to_confirm": [
+    {
+      "question": "Would you rather understand one city clearly than try to cover its famous places?",
+      "why": "first-visit wording can mean the traveller needs a legible starting point, not more landmarks."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Imperial axis, read as a system",
+      "modules": [
+        {
+          "name": "Imperial axis, read as a system",
+          "question": "How do I make the Forbidden City meaningful rather than overwhelming?",
+          "practical_note": "Pair a bounded Palace Museum visit with one high viewpoint or surrounding street; never prescribe same-day ticket inventory.",
+          "confirmations": [],
+          "anchor": "Read the imperial axis as a system of thresholds, labour and power, not as a race through courtyards.",
+          "what_to_notice": "Scale, alignment, gates, empty space and how visitors are managed through the sequence.",
+          "stop_rule": "Stop when the system becomes clear; one complete reading is better than exhausting every hall.",
+          "main_friction": "Timed entry, security, heat and long exposed walks can dominate the day.",
+          "route_shape": "One imperial-axis reading with a clear entry, one contrast and a planned exit—not every hall.",
+          "body_budget": "Moderate walking and high attention load; heat, screening and queues can dominate the day.",
+          "low_energy_version": "Keep one palace/civic sequence and use a short elevation reset.",
+          "rain_version": "Protect the confirmed indoor core and cut exposed park movement."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "The Great Wall decision",
+      "modules": [
+        {
+          "name": "The Great Wall decision",
+          "question": "Which Wall section fits my day and ability?",
+          "practical_note": "State trade-offs and a verification checklist; do not make transport or cable-car promises.",
+          "confirmations": [],
+          "anchor": "Choose the Wall section by transfer, body and weather before choosing it for reputation.",
+          "what_to_notice": "Terrain, crowd density, restoration, transport and what the Wall looks like away from the iconic angle.",
+          "stop_rule": "Set a turnaround point before arrival; do not treat reaching the highest point as the only success condition.",
+          "main_friction": "Travel time, stairs, weather, queues and return transport need dated confirmation.",
+          "route_shape": "A Wall decision based on transfer, terrain, weather and turnaround—not reputation alone.",
+          "body_budget": "High transfer and variable step load; the return plan matters as much as the ascent.",
+          "low_energy_version": "Choose the lower-load section or remove the Wall rather than making it an endurance test.",
+          "rain_version": "Do not release the Wall route without a current weather, surface and transport check."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "Hutong as neighbourhood, not set",
+      "modules": [
+        {
+          "name": "Hutong as neighbourhood, not set",
+          "question": "How do I explore hutongs respectfully?",
+          "practical_note": "Offer a walking logic, quieter alternatives and photo etiquette; do not imply access to private courtyards.",
+          "confirmations": [],
+          "anchor": "Use one hutong sequence as a neighbourhood, not a themed photo set.",
+          "what_to_notice": "Entrances, shade, small commerce, courtyards from the public street and everyday movement.",
+          "stop_rule": "Leave when the neighbourhood logic is understood; do not enter private compounds or stage encounters.",
+          "main_friction": "Residential privacy, traffic, heat and route continuity need active care.",
+          "route_shape": "One hutong neighbourhood sequence, not a commercial street checklist or private-home tour.",
+          "body_budget": "Moderate walking with crossings, shade changes, crowds and resident-privacy friction.",
+          "low_energy_version": "Use the shortest public lane sequence and finish at a calm public stop.",
+          "rain_version": "Keep one covered/indoor neighbourhood layer and avoid forcing a long lane walk."
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "theme": "Ritual, park and the lived capital + Water, gardens and imperial leisure",
+      "modules": [
+        {
+          "name": "Ritual, park and the lived capital",
+          "question": "Where can I see Beijing beyond palace architecture?",
+          "practical_note": "Use Temple of Heaven as a lens on ritual space and public everyday use; field-check entrance and park conditions.",
+          "confirmations": [],
+          "anchor": "Use a park or ritual space to observe how the capital is lived beyond palace architecture.",
+          "what_to_notice": "Body practice, shade, social rhythm and the relationship between sacred and civic space.",
+          "stop_rule": "Observe without photographing people as performers; leave room for the city to remain ordinary.",
+          "main_friction": "Crowd etiquette, weather, access and respectful photography need confirmation.",
+          "route_shape": "One ritual-and-public-life contrast linking a civic or sacred space to how Beijing is used now.",
+          "body_budget": "Low-to-moderate walking with large open areas and weather exposure.",
+          "low_energy_version": "Choose one park or ritual anchor and preserve time for sitting.",
+          "rain_version": "Keep the indoor/covered interpretation and remove the long park segment."
+        },
+        {
+          "name": "Water, gardens and imperial leisure",
+          "question": "Do I need the Summer Palace after the Forbidden City?",
+          "practical_note": "Frame it as a different spatial experience—water, movement and distance—rather than another palace.",
+          "confirmations": [],
+          "anchor": "Use Water, gardens and imperial leisure to answer one concrete question, not to accumulate another stop.",
+          "what_to_notice": "Do I need the Summer Palace after the Forbidden City?",
+          "stop_rule": "Stop when the route question is answered; preserve time for rest and unexpected city life.",
+          "main_friction": "Current access, weather, crowding and walking conditions need confirmation.",
+          "route_shape": "One water-and-garden contrast to the compact imperial axis, only when it adds a new question.",
+          "body_budget": "Large-site walking and weather exposure can create hidden fatigue.",
+          "low_energy_version": "Use the smaller central option or shorten the garden route.",
+          "rain_version": "Keep only the confirmed indoor/covered layer and remove long lakeside movement."
+        }
+      ]
+    }
+  ],
+  "what_we_deliberately_leave_out": [
+    "A second imperial monument added after the main question is already answered.",
+    "A Wall section chosen only because it is famous, without checking transfer, terrain and return cost.",
+    "Private courtyards, residential interiors or staged encounters with hutong residents.",
+    "A full Summer Palace day added automatically after the Forbidden City."
+  ],
+  "deliberate_tradeoff": "A Wall visit is a route decision with real transfer and weather costs; it should not be added automatically.",
+  "fallback_logic": "If the Wall or long outdoor sections become impractical, keep the city frame with a hutong and one indoor cultural layer.",
+  "checks_before_delivery": [
+    "Current opening, reservation, transport, weather and access conditions for the selected dates.",
+    "This is a draft for human review. Re-check live entry, reservations, weather, transport, exhibitions and payment details immediately before delivery."
+  ],
+  "delivery_boundary": "Research draft until dated human checks support release. This does not create a booking, private-access promise or supplier recommendation.",
+  "markdown": "# A Deeper China | Beijing draft\n\n**Shape:** 4 days, built around Imperial axis, read as a system · The Great Wall decision · Hutong as neighbourhood, not set · Ritual, park and the lived capital · Water, gardens and imperial leisure.\n\n## Why this Beijing\nThis is not a monument checklist. It connects imperial order, public everyday life, a Wall landscape decision and one contemporary layer at a pace the traveller can actually absorb.\n\n\n## Trip brief used for this draft\n- Dates: 2026-09-10 → 2026-09-13 (3 nights)\n- Travelers: 2 travelers\n- Pace: slow\n- Overnight area: to confirm\n- Output language: English\n\n### What we heard\n- Priorities: architecture; history\n- Avoidances: rushing\n\n### Hypotheses to confirm\n- Would you rather understand one city clearly than try to cover its famous places?\n  - Why this came up: first-visit wording can mean the traveller needs a legible starting point, not more landmarks.\n\n## Client decision brief\n- **What we heard:** imperial history and architecture.\n- **What we inferred:**\n  - A first visit needs a legible Beijing frame before detail accumulates.\n- **Route promise:** one readable Beijing question per day, with a shorter version when weather, energy or access changes.\n\n## What we deliberately leave out\n- A second imperial monument added after the main question is already answered.\n- A Wall section chosen only because it is famous, without checking transfer, terrain and return cost.\n- Private courtyards, residential interiors or staged encounters with hutong residents.\n- A full Summer Palace day added automatically after the Forbidden City.\n\n## Day structure\n\n### Day 1 — Imperial axis, read as a system\n- **Imperial axis, read as a system**\n  - **Reading question:** How do I make the Forbidden City meaningful rather than overwhelming?\n  - **Route shape:** One imperial-axis reading with a clear entry, one contrast and a planned exit—not every hall.\n  - **Body and time budget:** Moderate walking and high attention load; exposed heat, screening and queues can dominate the day.\n  - **Low-energy version:** Keep one palace/civic sequence and use a short elevation reset; do not add another monumental site.\n  - **Rain version:** Protect the confirmed indoor core and cut exposed park movement if weather or queues rise.\n  - **Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n\n### Day 2 — The Great Wall decision\n- **The Great Wall decision**\n  - **Reading question:** Which Wall section fits my day and ability?\n  - **Route shape:** A Wall decision based on transfer, terrain, weather and turnaround—not reputation alone.\n  - **Body and time budget:** High transfer and variable step load; the return plan matters as much as the ascent.\n  - **Low-energy version:** Choose the lower-load section or remove the Wall rather than turning the day into an endurance test.\n  - **Rain version:** Do not release the Wall route without a current weather, surface and transport check.\n  - **Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n\n### Day 3 — Hutong as neighbourhood, not set\n- **Hutong as neighbourhood, not set**\n  - **Reading question:** How do I explore hutongs respectfully?\n  - **Route shape:** One hutong neighbourhood sequence, not a commercial street checklist or a private-home tour.\n  - **Body and time budget:** Moderate walking with crossings, shade changes, crowd and resident-privacy friction.\n  - **Low-energy version:** Use the shortest public lane sequence and finish at a calm public stop.\n  - **Rain version:** Keep one covered/indoor neighbourhood layer and avoid forcing a long lane walk.\n  - **Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n\n### Day 4 — Ritual, park and the lived capital + Water, gardens and imperial leisure\n- **Ritual, park and the lived capital**\n  - **Reading question:** Where can I see Beijing beyond palace architecture?\n  - **Route shape:** One ritual-and-public-life contrast linking a civic or sacred space to how Beijing is used now.\n  - **Body and time budget:** Low-to-moderate walking, with large open areas and weather exposure.\n  - **Low-energy version:** Choose one park or ritual anchor and preserve time for sitting rather than adding another district.\n  - **Rain version:** Keep the indoor/covered interpretation and remove the long park segment.\n  - **Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n- **Water, gardens and imperial leisure**\n  - **Reading question:** Do I need the Summer Palace after the Forbidden City?\n  - **Route shape:** One water-and-garden contrast to the compact imperial axis, only when it adds a new question.\n  - **Body and time budget:** Large-site walking and weather exposure can create hidden fatigue.\n  - **Low-energy version:** Use the smaller central option or shorten the garden route before adding another landmark.\n  - **Rain version:** Keep only the confirmed indoor/covered layer and remove long lakeside movement.\n  - **Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n\n## On-the-ground notes\n- **Palace Museum / Forbidden City:** The highest-density encounter with imperial spatial order, but its value comes from a clear reading question rather than trying to consume every hall. **Check:** time_specific_reservation, passport_identity, crowds, closed_day.\n- **Jingshan Park:** A short elevation reset after the Palace Museum; useful to read the city from above rather than remain inside a sequence of halls. **Check:** weather, crowds, ticket_policy.\n- **Mutianyu Great Wall:** A Wall day combining a well-preserved Ming section, mountain setting and multiple ascent/return choices. **Check:** weather, distance, reservation, transfer, cable_car_decision.\n- **Badaling versus Mutianyu decision:** The meaningful choice is not which is 'best' but whether the visitor prioritises rail-like access/landmark recognition, mountain setting, or a particular physical challenge. **Check:** transport_variability, seasonality, crowding.\n- **Drum and Bell Towers:** A strong entry point to the northern end of the historic city and to Beijing as a city organised by time as well as axis. **Check:** stairs, time_specific_hours, ticketing.\n- **Shichahai–Yandaixiejie walking fabric:** An accessible way to connect water, old-city lanes, former residences and the Drum Tower area without reducing hutongs to a single photo street. **Check:** crowds, night_noise, commercialization.\n- **Temple of Heaven:** Lets a visitor connect imperial ritual architecture with a large public park and everyday urban rhythms. **Check:** multi_zone_ticketing, opening_time, weather.\n- **Qianmen–Dashilar:** A useful south-of-axis transition from monumental Beijing to commerce, streets and adaptive reuse. **Check:** tourist_density, commercial_noise, closing_times.\n- **Summer Palace:** A contrast to the compact ceremonial logic of the Palace Museum: landscape, water, long movement and imperial retreat. **Check:** large_site_fatigue, weather, ticketing.\n- **Beihai Park:** A central water-and-garden option that can reduce a dense north-city day without requiring a full Summer Palace commitment. **Check:** opening_time, weather, walking.\n\n## Verification boundary\n- Dynamic details need a date-specific check before delivery.\n- We do not book, bundle or sell third-party travel services, and do not direct visitors into private homes.\n\n## Important\n- This is a draft for human review. Re-check live entry, reservations, weather, transport, exhibitions and payment details immediately before delivery.\n\n## Decision layer\n\n**Route thesis:** Read Beijing through imperial order, hutong life, one Wall decision and a contemporary layer—not a monument checklist.\n\n### Why this route is not a list\n- The selected modules are a small information budget, not a ranking of every attraction.\n- Each day should answer one question and leave a realistic exit for weather, energy or access changes.\n- The route gets shorter when the guest has understood the idea; more stops are not automatically better.\n- **Imperial axis, read as a system** — How do I make the Forbidden City meaningful rather than overwhelming?\n  - **Anchor:** Read the imperial axis as a system of thresholds, labour and power, not as a race through courtyards.\n  - **Notice:** Scale, alignment, gates, empty space and how visitors are managed through the sequence.\n  - **Stop rule:** Stop when the system becomes clear; one complete reading is better than exhausting every hall.\n  - **Main friction:** Timed entry, security, heat and long exposed walks can dominate the day.\n  - **Route shape:** One imperial-axis reading with a clear entry, one contrast and a planned exit—not every hall.\n  - **Body and time budget:** Moderate walking and high attention load; heat, screening and queues can dominate the day.\n  - **Low-energy version:** Keep one palace/civic sequence and use a short elevation reset.\n  - **Rain version:** Protect the confirmed indoor core and cut exposed park movement.\n- **The Great Wall decision** — Which Wall section fits my day and ability?\n  - **Anchor:** Choose the Wall section by transfer, body and weather before choosing it for reputation.\n  - **Notice:** Terrain, crowd density, restoration, transport and what the Wall looks like away from the iconic angle.\n  - **Stop rule:** Set a turnaround point before arrival; do not treat reaching the highest point as the only success condition.\n  - **Main friction:** Travel time, stairs, weather, queues and return transport need dated confirmation.\n  - **Route shape:** A Wall decision based on transfer, terrain, weather and turnaround—not reputation alone.\n  - **Body and time budget:** High transfer and variable step load; the return plan matters as much as the ascent.\n  - **Low-energy version:** Choose the lower-load section or remove the Wall rather than making it an endurance test.\n  - **Rain version:** Do not release the Wall route without a current weather, surface and transport check.\n- **Hutong as neighbourhood, not set** — How do I explore hutongs respectfully?\n  - **Anchor:** Use one hutong sequence as a neighbourhood, not a themed photo set.\n  - **Notice:** Entrances, shade, small commerce, courtyards from the public street and everyday movement.\n  - **Stop rule:** Leave when the neighbourhood logic is understood; do not enter private compounds or stage encounters.\n  - **Main friction:** Residential privacy, traffic, heat and route continuity need active care.\n  - **Route shape:** One hutong neighbourhood sequence, not a commercial street checklist or private-home tour.\n  - **Body and time budget:** Moderate walking with crossings, shade changes, crowds and resident-privacy friction.\n  - **Low-energy version:** Use the shortest public lane sequence and finish at a calm public stop.\n  - **Rain version:** Keep one covered/indoor neighbourhood layer and avoid forcing a long lane walk.\n- **Ritual, park and the lived capital** — Where can I see Beijing beyond palace architecture?\n  - **Anchor:** Use a park or ritual space to observe how the capital is lived beyond palace architecture.\n  - **Notice:** Body practice, shade, social rhythm and the relationship between sacred and civic space.\n  - **Stop rule:** Observe without photographing people as performers; leave room for the city to remain ordinary.\n  - **Main friction:** Crowd etiquette, weather, access and respectful photography need confirmation.\n  - **Route shape:** One ritual-and-public-life contrast linking a civic or sacred space to how Beijing is used now.\n  - **Body and time budget:** Low-to-moderate walking with large open areas and weather exposure.\n  - **Low-energy version:** Choose one park or ritual anchor and preserve time for sitting.\n  - **Rain version:** Keep the indoor/covered interpretation and remove the long park segment.\n- **Water, gardens and imperial leisure** — Do I need the Summer Palace after the Forbidden City?\n  - **Anchor:** Use Water, gardens and imperial leisure to answer one concrete question, not to accumulate another stop.\n  - **Notice:** Do I need the Summer Palace after the Forbidden City?\n  - **Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n  - **Main friction:** Current access, weather, crowding and walking conditions need confirmation.\n  - **Route shape:** One water-and-garden contrast to the compact imperial axis, only when it adds a new question.\n  - **Body and time budget:** Large-site walking and weather exposure can create hidden fatigue.\n  - **Low-energy version:** Use the smaller central option or shorten the garden route.\n  - **Rain version:** Keep only the confirmed indoor/covered layer and remove long lakeside movement.\n\n### Deliberate trade-off\n- A Wall visit is a route decision with real transfer and weather costs; it should not be added automatically.\n\n### Fallback logic\n- If the Wall or long outdoor sections become impractical, keep the city frame with a hutong and one indoor cultural layer.\n\n### Checks before delivery\n- Pair a bounded Palace Museum visit with one high viewpoint or surrounding street; never prescribe same-day ticket inventory.\n- State trade-offs and a verification checklist; do not make transport or cable-car promises.\n- Offer a walking logic, quieter alternatives and photo etiquette; do not imply access to private courtyards.\n- Use Temple of Heaven as a lens on ritual space and public everyday use; field-check entrance and park conditions.\n- Frame it as a different spatial experience—water, movement and distance—rather than another palace.\n- This is a draft for human review. Re-check live entry, reservations, weather, transport, exhibitions and payment details immediately before delivery.\n\n### Delivery boundary\n- This is a research draft until dated human checks support release.\n- Do not turn a research candidate into a booking, private-access promise or supplier recommendation."
+}

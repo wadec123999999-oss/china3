@@ -1,0 +1,83 @@
+{
+  "metadata": {
+    "city": "Wudang Mountains",
+    "version": "0.1",
+    "as_of": "2026-08-02",
+    "status": "experimental_content_foundation_not_field_verified",
+    "audience": "English-speaking independent visitors interested in heritage, mountain walking, architecture or a carefully bounded beginner Tai Chi observation, 2–4 nights",
+    "promise": "Read Wudang as a mountain-based Taoist architectural and historical system, with an itinerary that respects weather, stairs, etiquette and uncertainty—not as a guaranteed kung fu or spiritual-transformation experience.",
+    "commercial_boundary": "Research and human-checked digital roadbook only. No booking, transport, tickets, lodging, guide, physical training, medical/wellness claim, religious access, bundled travel or third-party experience sale.",
+    "source_pack_ref": "../a-deeper-china-quality-system-v0.1/武当山来源包_V0.1.json",
+    "decision_layer_ref": "武当山决策字段_V1.0.json",
+    "point_decision_layer_ref": "武当山点位决策字段_V1.0.json",
+    "runtime_contract": "decision_profile_and_point_profile_required_before_guest_release"
+  },
+  "source_policy": {
+    "rule": "Opening hours, entry rules, weather, cable-car operation, routes, transport, religious-space rules and every instructor/provider are dynamic. Human verification must precede client-specific output.",
+    "sources": [
+      {"id":"WDS01","title":"UNESCO: Ancient Building Complex in the Wudang Mountains","url":"https://whc.unesco.org/en/list/705/","use":"heritage-system framing","dynamic":false},
+      {"id":"WDS02","title":"UNESCO documents: Wudang Mountains","url":"https://whc.unesco.org/en/list/705/documents/","use":"heritage-protection context; not visitor operations","dynamic":false}
+    ]
+  },
+  "modules": [
+    {"id":"WDM01","name":"Heritage system, not fantasy","question":"What connects mountain, architecture, Taoism and Ming-era state building?","output_rule":"Begin with public heritage interpretation; do not promise religious access."},
+    {"id":"WDM02","name":"Arrival and protected pace","question":"How many nights and how much transfer/step capacity does this trip actually have?","output_rule":"No exact travel-time claim without current check."},
+    {"id":"WDM03","name":"Mountain movement and weather","question":"What walking, stairs, cable-car and weather contingencies fit this visitor?","output_rule":"Dynamic operational information overrides database."},
+    {"id":"WDM04","name":"Public architectural route","question":"Which public heritage layer is meaningful without overpacking the day?","output_rule":"Use a primary route and a fallback, never a static checklist."},
+    {"id":"WDM05","name":"Religion, etiquette and photography","question":"How can a non-religious visitor engage respectfully?","output_rule":"Site rules and consent prevail; no ritual or sacred-access promise."},
+    {"id":"WDM06","name":"Tai Chi / martial-arts boundary","question":"Is the person seeking observation, a beginner movement session, training or healing?","output_rule":"Only partner_ready providers may be named; no medical, lineage or authenticity claims."},
+    {"id":"WDM07","name":"Accommodation, food and recovery","question":"Where should the traveller base themselves to protect rest, early starts and fallback capacity?","output_rule":"No hotel or restaurant ranking without date-specific human check."},
+    {"id":"WDM08","name":"Roadbook release and escalation","question":"What needs a human check, and when should the agent stop?","output_rule":"Escalate health, mobility, weather, transport and all partner requests."}
+  ],
+  "points": [
+    {"id":"WDG001","name":"UNESCO heritage-system card","module_id":"WDM01","role":"anchor","why_it_matters":"The World Heritage property connects mountain landscapes with a long Taoist building tradition and surviving monumental architecture.","friction":["interpretation","religious_simplification"],"agent_use":"Frame the visit as architecture, landscape and history together.","field_status":"content_ready"},
+    {"id":"WDG002","name":"Ming state-building lens","module_id":"WDM01","role":"anchor","why_it_matters":"A stronger story than generic mysticism: imperial patronage, construction and religious legitimacy shaped the complex.","friction":["historical_depth","translation"],"agent_use":"Adjust historical depth to the visitor.","field_status":"content_ready"},
+    {"id":"WDG003","name":"Public-vs-private access boundary","module_id":"WDM01","role":"friction_card","why_it_matters":"Temples, practitioners and training spaces are not automatically tourism inventory.","friction":["privacy","religious_respect","commercial_release"],"agent_use":"Never infer access from online marketing.","field_status":"content_ready"},
+    {"id":"WDG004","name":"Two-night feasibility decision","module_id":"WDM02","role":"pace_card","why_it_matters":"Two nights can support a focused heritage/mountain visit only if arrivals, weather and mobility remain workable.","friction":["transfer_fatigue","weather","stairs"],"agent_use":"Do not add training or remote detours by default.","field_status":"content_ready"},
+    {"id":"WDG005","name":"Three-to-four-night slow route decision","module_id":"WDM02","role":"pace_card","why_it_matters":"Extra time creates a weather buffer and allows a separately vetted, low-intensity activity discussion.","friction":["seasonality","provider_availability"],"agent_use":"Still no partner recommendation without release.","field_status":"content_ready"},
+    {"id":"WDG006","name":"Arrival and final-connection audit","module_id":"WDM02","role":"friction_card","why_it_matters":"Last-mile arrival can decide whether a first day is usable or simply exhausting.","friction":["live_transport","language","late_arrival"],"agent_use":"Human-check date-specific connections.","field_status":"needs_arrival_run"},
+    {"id":"WDG007","name":"Stairs and exertion disclosure","module_id":"WDM03","role":"safety_card","why_it_matters":"Mountain routes can be stair-heavy and condition-sensitive; photos do not convey exertion.","friction":["mobility","cardiac_risk","fatigue"],"agent_use":"Ask mobility and exertion tolerance; no fitness assurance.","field_status":"needs_field_walk"},
+    {"id":"WDG008","name":"Rain, storm and cold fallback","module_id":"WDM03","role":"safety_card","why_it_matters":"Weather may alter visibility, comfort and operations; it must change the day plan, not merely add a warning.","friction":["rain","lightning","wind","cold"],"agent_use":"Use official same-day information and a low-exposure fallback.","field_status":"content_ready"},
+    {"id":"WDG009","name":"Cable-car operation boundary","module_id":"WDM03","role":"friction_card","why_it_matters":"Operating status and queues are dynamic; static availability claims are unsafe.","friction":["weather","maintenance","queue","ticketing"],"agent_use":"Ask client to verify official current status; never promise operation.","field_status":"content_ready"},
+    {"id":"WDG010","name":"Primary public heritage route","module_id":"WDM04","role":"anchor","why_it_matters":"One coherent public route can connect building, slope and viewpoint without turning a mountain day into a race.","friction":["crowds","wayfinding","stairs"],"agent_use":"Release only after operational field walk.","field_status":"needs_field_walk"},
+    {"id":"WDG011","name":"Low-exposure fallback route","module_id":"WDM04","role":"safety_card","why_it_matters":"A useful roadbook needs a weather/energy fallback rather than a failed version of the main plan.","friction":["rain","fatigue","closures"],"agent_use":"Verify current accessible public areas.","field_status":"needs_operational_check"},
+    {"id":"WDG012","name":"Sunrise/photo expectation boundary","module_id":"WDM04","role":"friction_card","why_it_matters":"Mist, sunrise, clear peaks and empty scenes cannot be sold as outcomes.","friction":["weather","crowds","safety","photo_rules"],"agent_use":"Give decision conditions, never an image guarantee.","field_status":"content_ready"},
+    {"id":"WDG013","name":"Temple etiquette card","module_id":"WDM05","role":"anchor","why_it_matters":"Respectful clothing, quiet behaviour, photography consent and local rules protect both visitors and worshippers.","friction":["cultural_norms","photography","ritual"],"agent_use":"State that on-site rules supersede all guidance.","field_status":"needs_field_check"},
+    {"id":"WDG014","name":"Non-religious visitor route","module_id":"WDM05","role":"decision_card","why_it_matters":"Architecture and landscape can be meaningful without requiring participation in worship.","friction":["comfort","interpretation"],"agent_use":"Do not pressure participation or imply access.","field_status":"content_ready"},
+    {"id":"WDG015","name":"Sacred/private-space refusal","module_id":"WDM05","role":"friction_card","why_it_matters":"A request to meet a master, join ritual or enter non-public space has privacy and religious boundaries.","friction":["privacy","access","misrepresentation"],"agent_use":"Decline promise; collect research request only.","field_status":"content_ready"},
+    {"id":"WDG016","name":"Beginner Tai Chi intent split","module_id":"WDM06","role":"decision_card","why_it_matters":"Observation, a recreational session, serious training and healthcare are distinct needs.","friction":["language","injury","expectation"],"agent_use":"Ask goal, fitness and language before any resource discussion.","field_status":"content_ready"},
+    {"id":"WDG017","name":"Tai Chi partner release gate","module_id":"WDM06","role":"safety_card","why_it_matters":"Provider credentials, language, venue, emergency plan, capacity, waiver, pricing and cancellation evidence must exist.","friction":["safety","commercial_release","medical_claims"],"agent_use":"No name, quote, booking link or recommendation until partner_ready.","field_status":"content_ready"},
+    {"id":"WDG018","name":"Training/healing refusal","module_id":"WDM06","role":"friction_card","why_it_matters":"The roadbook is neither a martial-arts school broker nor healthcare service.","friction":["visa","injury","medical_claim","professional_scope"],"agent_use":"State boundary and offer a research-only brief if appropriate.","field_status":"content_ready"},
+    {"id":"WDG019","name":"Rest-and-base audit","module_id":"WDM07","role":"friction_card","why_it_matters":"The right base depends on actual arrival, early start, sleep, recovery and weather fallback—not promotional hotel lists.","friction":["location","noise","late_arrival","mobility"],"agent_use":"Human-check current options and client needs.","field_status":"needs_field_audit"},
+    {"id":"WDG020","name":"Human-check release gate","module_id":"WDM08","role":"release_card","why_it_matters":"The safety and commercial quality of a roadbook depend on dated evidence, not confident prose.","friction":["dynamic_information","liability","scope"],"agent_use":"Do not label a product Human-checked unless audit records exist.","field_status":"content_ready"}
+  ],
+  "signals": [
+    {"id":"WDSG01","signal":"heritage_architecture","meaning":"Heritage-system route."},{"id":"WDSG02","signal":"taoism_interest","meaning":"Etiquette and public interpretation."},{"id":"WDSG03","signal":"tai_chi","meaning":"Intent split and release gate."},{"id":"WDSG04","signal":"martial_arts_training","meaning":"Training boundary."},{"id":"WDSG05","signal":"wellness_healing","meaning":"Medical/wellness refusal."},{"id":"WDSG06","signal":"two_nights","meaning":"Focused feasibility."},{"id":"WDSG07","signal":"three_or_four_nights","meaning":"Slow route decision."},{"id":"WDSG08","signal":"day_trip","meaning":"No full-experience promise."},{"id":"WDSG09","signal":"limited_mobility","meaning":"Human review required."},{"id":"WDSG10","signal":"fitness_concern","meaning":"Exertion disclosure."},{"id":"WDSG11","signal":"weather_sensitive","meaning":"Fallback first."},{"id":"WDSG12","signal":"sunrise_photo","meaning":"No image guarantee."},{"id":"WDSG13","signal":"private_master_access","meaning":"Private-access refusal."},{"id":"WDSG14","signal":"religious_ritual","meaning":"No participation/access promise."},{"id":"WDSG15","signal":"family","meaning":"Age/safety review."},{"id":"WDSG16","signal":"booking_help_requested","meaning":"Direct-booking boundary."},{"id":"WDSG17","signal":"experience_booking_requested","meaning":"No third-party sale."},{"id":"WDSG18","signal":"rainy_season","meaning":"Dynamic verification."},{"id":"WDSG19","signal":"cable_car","meaning":"Operation boundary."},{"id":"WDSG20","signal":"photography","meaning":"Consent/site-rule protocol."}
+  ],
+  "follow_up_questions": [
+    {"id":"WDQ01","when":["heritage_architecture","taoism_interest"],"ask":"Are you primarily here for public heritage/architecture, mountain walking, or an introduction to Taoist history?"},
+    {"id":"WDQ02","when":["two_nights","three_or_four_nights","day_trip"],"ask":"Where do you arrive from, how many actual nights are protected, and can one day change for weather?"},
+    {"id":"WDQ03","when":["limited_mobility","fitness_concern","family"],"ask":"Are there mobility, stair, altitude, heart, injury or child-safety limits that require a human review?"},
+    {"id":"WDQ04","when":["tai_chi"],"ask":"Do you want observation, a recreational beginner session, or serious training? Which language and physical limits matter?"},
+    {"id":"WDQ05","when":["martial_arts_training","wellness_healing"],"ask":"Are you asking for professional training or health support? Those are outside this roadbook and cannot be represented as a travel experience."},
+    {"id":"WDQ06","when":["private_master_access","religious_ritual"],"ask":"Would a respectful public heritage route meet your interest? Private religious access and ritual participation cannot be promised."},
+    {"id":"WDQ07","when":["sunrise_photo","weather_sensitive","cable_car"],"ask":"Can you accept a weather-dependent fallback and verify same-day official operating information?"},
+    {"id":"WDQ08","when":["booking_help_requested","experience_booking_requested"],"ask":"Would you like a human-checked brief and official links while you make all bookings directly?"}
+  ],
+  "output_guardrails": [
+    "Never promise a master, monk, temple residence, ritual participation, private space or religious outcome.",
+    "Never call a course authentic, official, medically beneficial, therapeutic or suitable for a particular condition.",
+    "Never promise weather, sunrise, mist, cable-car operation, open routes, crowds, tickets or transport.",
+    "Never give a high-exertion route to a visitor with disclosed health/mobility risk without human review.",
+    "Never name, price, book or promote a Tai Chi/martial provider before partner_ready evidence exists.",
+    "No booking, payment collection, guiding, packaged travel, ticket/transport/lodging sales or third-party experience sales."
+  ],
+  "launch_checks": [
+    {"id":"WDLFV001","name":"Arrival and last-mile run","purpose":"Actual transfer, station, payment, language and late-arrival friction."},
+    {"id":"WDLFV002","name":"Two-night field walk","purpose":"Time, stairs, toilets, shelter, hydration, signal and exit points."},
+    {"id":"WDLFV003","name":"Weather/cable-car protocol","purpose":"Official dynamic-information sources and fallback decisions."},
+    {"id":"WDLFV004","name":"Etiquette/photo rule audit","purpose":"On-site public/private, photography and conduct rules."},
+    {"id":"WDLFV005","name":"Tai Chi provider release audit","purpose":"Credentials, language, safety, waiver, consent, commercial evidence and trial feedback."},
+    {"id":"WDLFV006","name":"Accommodation/recovery audit","purpose":"Base, rest, food, early-start and fallback feasibility."}
+  ]
+}

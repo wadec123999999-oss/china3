@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.1",
+  "renderer_version": "hangzhou-v1.2",
+  "status": "draft_for_human_review",
+  "city": "Hangzhou",
+  "delivery_status": {
+    "public_state": "draft_for_human_review",
+    "current_checks_required": true,
+    "human_review_required": true,
+    "booking_created": false,
+    "explanation": "This route is a research or human-review draft. Current checks and human review are required before client delivery."
+  },
+  "route_thesis": "Use water, hills, tea and sacred landscape to create a genuine change of pace from Shanghai.",
+  "why_this_route": [
+    "The selected modules are a small information budget, not a ranking of every attraction.",
+    "Each day answers one question and leaves a realistic exit for weather, energy or access changes."
+  ],
+  "route_controls": {
+    "one_question_per_day": true,
+    "stop_when_answered": true,
+    "protect_recovery_time": true,
+    "explanation": "The route gets shorter when the guest has understood the idea; more stops are not automatically better."
+  },
+  "trip_context": {
+    "arrival_date": "2026-09-10",
+    "departure_date": "2026-09-13",
+    "nights": 3,
+    "adults": 2,
+    "children": 0,
+    "party_size": 2,
+    "pace": "slow",
+    "overnight_area": "to confirm",
+    "output_language": "English",
+    "explicit_priorities": [
+      "tea",
+      "landscape"
+    ],
+    "explicit_avoidances": [
+      "rushing"
+    ],
+    "inferred_needs": [
+      {
+        "question": "Are you mainly learning, tasting/making, buying for personal use, or looking for a private introduction?",
+        "why": "material-culture interest can mean learning, buying, collecting or a hoped-for private encounter."
+      }
+    ]
+  },
+  "explicit_priorities": [
+    "tea",
+    "landscape"
+  ],
+  "explicit_avoidances": [
+    "rushing"
+  ],
+  "decision_brief": {
+    "what_we_heard": [
+      "tea",
+      "landscape"
+    ],
+    "what_we_are_protecting": [
+      "rushing"
+    ],
+    "inferred_needs": [
+      "Are you mainly learning, tasting/making, buying for personal use, or looking for a private introduction?"
+    ]
+  },
+  "hypotheses_to_confirm": [
+    {
+      "question": "Are you mainly learning, tasting/making, buying for personal use, or looking for a private introduction?",
+      "why": "material-culture interest can mean learning, buying, collecting or a hoped-for private encounter."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Tea as landscape, labour and taste + Weather, mobility and seasonal friction",
+      "modules": [
+        {
+          "name": "Tea as landscape, labour and taste",
+          "question": "What does Longjing mean beyond buying tea or staging a ceremony?",
+          "practical_note": "Separate tea landscape, tea museum/learning, village walking, tea purchasing and a verified participatory experience.",
+          "confirmations": [],
+          "anchor": "Use tea as landscape, labour and taste; do not reduce it to a purchase or staged ceremony.",
+          "what_to_notice": "Slope, cultivation, work, processing and how taste is explained.",
+          "stop_rule": "Leave once the tea system is legible; private farmer access is not implied.",
+          "main_friction": "Weather, season, transport, language and commercial claims need checks.",
+          "route_shape": "One tea landscape/labour/taste sequence, not a buying stop or staged ceremony.",
+          "body_budget": "Moderate transfer and hill exposure; local access and consent matter.",
+          "low_energy_version": "Keep one public tea landscape and remove the second village or hill.",
+          "rain_version": "Use a confirmed indoor tea or cultural layer; do not promise a private encounter."
+        },
+        {
+          "name": "Weather, mobility and seasonal friction",
+          "question": "Can this route survive heat, rain, crowds and hilly walking?",
+          "practical_note": "Build weather exits and shorter alternatives before output.",
+          "confirmations": [],
+          "anchor": "Use Weather, mobility and seasonal friction to answer one concrete question, not to accumulate another stop.",
+          "what_to_notice": "Can this route survive heat, rain, crowds and hilly walking?",
+          "stop_rule": "Stop when the route question is answered; preserve time for rest and unexpected city life.",
+          "main_friction": "Current access, weather, crowding and walking conditions need confirmation.",
+          "route_shape": "A weather, mobility and seasonal checkpoint before releasing a scenic route.",
+          "body_budget": "Low sightseeing load; it protects the body and avoids false certainty.",
+          "low_energy_version": "Shorten the route before removing the core question.",
+          "rain_version": "Default branch when heat, rain, crowds or footing make the original plan fragile."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "West Lake as a slow landscape",
+      "modules": [
+        {
+          "name": "West Lake as a slow landscape",
+          "question": "How do I experience West Lake without treating it as a lap around a postcard?",
+          "practical_note": "Choose a season, a pace and one relation—water, hill, garden, city edge or morning/evening light; do not force the whole lake.",
+          "confirmations": [],
+          "anchor": "Choose one West Lake segment and stay long enough for water, hill and shade to change.",
+          "what_to_notice": "Edges, bridges, changing sightlines and how visitors share the landscape.",
+          "stop_rule": "Do not complete a symbolic lap; stop when the lake’s rhythm is understood.",
+          "main_friction": "Crowds, heat, weather, boat access and walking distance need checking.",
+          "route_shape": "One West Lake landscape loop with a clear reading question, not a full postcard lap.",
+          "body_budget": "Moderate walking with heat, shade gaps, crowds and water-edge fatigue.",
+          "low_energy_version": "Choose one shoreline section and protect a long rest.",
+          "rain_version": "Shorten the lake edge and use a confirmed indoor cultural layer."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "Wetland and quiet alternatives",
+      "modules": [
+        {
+          "name": "Wetland and quiet alternatives",
+          "question": "What should replace an over-crowded or weather-poor West Lake day?",
+          "practical_note": "Use Xixi or a museum/tea alternative after current conditions and purpose are checked.",
+          "confirmations": [],
+          "anchor": "Use Wetland and quiet alternatives to answer one concrete question, not to accumulate another stop.",
+          "what_to_notice": "What should replace an over-crowded or weather-poor West Lake day?",
+          "stop_rule": "Stop when the route question is answered; preserve time for rest and unexpected city life.",
+          "main_friction": "Current access, weather, crowding and walking conditions need confirmation.",
+          "route_shape": "A quiet-weather alternative built around wetland, public landscape or a lower-crowd loop.",
+          "body_budget": "Lower crowd load but weather, footing and transport remain decisive.",
+          "low_energy_version": "Keep the shortest accessible loop and preserve recovery time.",
+          "rain_version": "Use only after same-day surface and access checks."
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "theme": "Protected weather or recovery buffer",
+      "modules": []
+    }
+  ],
+  "what_we_deliberately_leave_out": [],
+  "deliberate_tradeoff": "West Lake, tea and temples need different time budgets; adding every famous edge makes the day less readable.",
+  "fallback_logic": "Keep one water or tea loop and one quiet cultural layer when heat, crowds or transfers rise.",
+  "checks_before_delivery": [
+    "Current opening, reservation, transport, weather and access conditions for the selected dates.",
+    "This is a draft for human review. Recheck train, entry, weather, local transport, crowd conditions and tea/venue details immediately before delivery."
+  ],
+  "delivery_boundary": "Research draft until dated human checks support release. This does not create a booking, private-access promise or supplier recommendation.",
+  "markdown": "# A Deeper China | Hangzhou draft\n\n**Shape:** 4 days, built around Tea as landscape, labour and taste · Weather, mobility and seasonal friction · West Lake as a slow landscape · Wetland and quiet alternatives.\n\n## Why this Hangzhou\nThis is not Shanghai with a lake attached. It uses water, hills, tea and sacred landscape to give the traveller a real change of pace.\n\n\n## Trip brief used for this draft\n- Dates: 2026-09-10 → 2026-09-13 (3 nights)\n- Travelers: 2 travelers\n- Pace: slow\n- Overnight area: to confirm\n- Output language: English\n\n### What we heard\n- Priorities: tea; landscape\n- Avoidances: rushing\n\n### Hypotheses to confirm\n- Are you mainly learning, tasting/making, buying for personal use, or looking for a private introduction?\n  - Why this came up: material-culture interest can mean learning, buying, collecting or a hoped-for private encounter.\n\n## Day structure\n\n### Day 1 — Tea as landscape, labour and taste + Weather, mobility and seasonal friction\n- **Tea as landscape, labour and taste** — What does Longjing mean beyond buying tea or staging a ceremony?\n- **Weather, mobility and seasonal friction** — Can this route survive heat, rain, crowds and hilly walking?\n\n### Day 2 — West Lake as a slow landscape\n- **West Lake as a slow landscape** — How do I experience West Lake without treating it as a lap around a postcard?\n\n### Day 3 — Wetland and quiet alternatives\n- **Wetland and quiet alternatives** — What should replace an over-crowded or weather-poor West Lake day?\n\n### Day 4 — Protected weather or recovery buffer\n\n## On-the-ground notes\n- **Longjing tea landscape decision:** Tea fields can connect landscape, seasonal agriculture and taste, but they are not a guaranteed harvest, ceremony or shopping experience. **Check:** seasonality, weather, transport, commercialization.\n- **Tea purchase boundary:** A roadbook can help a visitor ask better questions about tea, but cannot authenticate quality, price, provenance or seller claims. **Check:** quality, price, provenance, language.\n- **Arrival, payment and local movement:** The city starts with an actual station/airport arrival, data/payment, hotel location and a weather-aware movement plan. **Check:** payment, connectivity, app_setup, arrival_fatigue.\n- **Mobility / hills / stairs decision:** Lake circuits, temple terrain and tea villages have very different walking burdens. **Check:** stairs, terrain, weather.\n- **West Lake intention card:** West Lake has different meanings for a walker, photographer, garden reader, first visitor and someone wanting quiet; a generic circuit serves none well. **Check:** weather, crowds, walking_distance.\n- **West Lake morning/evening decision:** Time of day changes crowd, heat and light more than adding a second landmark. **Check:** weather, crowds, transport.\n- **Xixi Wetland decision:** A possible quieter ecological/water alternative when the traveller seeks wetlands and time rather than a compressed scenic circuit. **Check:** weather, distance, ticketing, walking.\n- **Rain/heat recovery block:** Rain and humidity change lake, hill and tea walks; a protected learning/seated block keeps the route humane. **Check:** weather, fatigue.\n\n## Before I finalize it\n- Are you interested in tea landscape, learning, buying tea, or a verified participatory experience?\n\n## Verification boundary\n- Dynamic details need a date-specific check before delivery.\n- We do not book, bundle or sell third-party travel services.\n\n## Important\n- This is a draft for human review. Recheck train, entry, weather, local transport, crowd conditions and tea/venue details immediately before delivery.\n\n## Decision layer\n\n**Route thesis:** Use water, hills, tea and sacred landscape to create a genuine change of pace from Shanghai.\n\n### Why this route is not a list\n- The selected modules are a small information budget, not a ranking of every attraction.\n- Each day should answer one question and leave a realistic exit for weather, energy or access changes.\n- The route gets shorter when the guest has understood the idea; more stops are not automatically better.\n- **Tea as landscape, labour and taste** — What does Longjing mean beyond buying tea or staging a ceremony?\n  - **Anchor:** Use tea as landscape, labour and taste; do not reduce it to a purchase or staged ceremony.\n  - **Notice:** Slope, cultivation, work, processing and how taste is explained.\n  - **Stop rule:** Leave once the tea system is legible; private farmer access is not implied.\n  - **Main friction:** Weather, season, transport, language and commercial claims need checks.\n  - **Route shape:** One tea landscape/labour/taste sequence, not a buying stop or staged ceremony.\n  - **Body and time budget:** Moderate transfer and hill exposure; local access and consent matter.\n  - **Low-energy version:** Keep one public tea landscape and remove the second village or hill.\n  - **Rain version:** Use a confirmed indoor tea or cultural layer; do not promise a private encounter.\n- **Weather, mobility and seasonal friction** — Can this route survive heat, rain, crowds and hilly walking?\n  - **Anchor:** Use Weather, mobility and seasonal friction to answer one concrete question, not to accumulate another stop.\n  - **Notice:** Can this route survive heat, rain, crowds and hilly walking?\n  - **Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n  - **Main friction:** Current access, weather, crowding and walking conditions need confirmation.\n  - **Route shape:** A weather, mobility and seasonal checkpoint before releasing a scenic route.\n  - **Body and time budget:** Low sightseeing load; it protects the body and avoids false certainty.\n  - **Low-energy version:** Shorten the route before removing the core question.\n  - **Rain version:** Default branch when heat, rain, crowds or footing make the original plan fragile.\n- **West Lake as a slow landscape** — How do I experience West Lake without treating it as a lap around a postcard?\n  - **Anchor:** Choose one West Lake segment and stay long enough for water, hill and shade to change.\n  - **Notice:** Edges, bridges, changing sightlines and how visitors share the landscape.\n  - **Stop rule:** Do not complete a symbolic lap; stop when the lake’s rhythm is understood.\n  - **Main friction:** Crowds, heat, weather, boat access and walking distance need checking.\n  - **Route shape:** One West Lake landscape loop with a clear reading question, not a full postcard lap.\n  - **Body and time budget:** Moderate walking with heat, shade gaps, crowds and water-edge fatigue.\n  - **Low-energy version:** Choose one shoreline section and protect a long rest.\n  - **Rain version:** Shorten the lake edge and use a confirmed indoor cultural layer.\n- **Wetland and quiet alternatives** — What should replace an over-crowded or weather-poor West Lake day?\n  - **Anchor:** Use Wetland and quiet alternatives to answer one concrete question, not to accumulate another stop.\n  - **Notice:** What should replace an over-crowded or weather-poor West Lake day?\n  - **Stop rule:** Stop when the route question is answered; preserve time for rest and unexpected city life.\n  - **Main friction:** Current access, weather, crowding and walking conditions need confirmation.\n  - **Route shape:** A quiet-weather alternative built around wetland, public landscape or a lower-crowd loop.\n  - **Body and time budget:** Lower crowd load but weather, footing and transport remain decisive.\n  - **Low-energy version:** Keep the shortest accessible loop and preserve recovery time.\n  - **Rain version:** Use only after same-day surface and access checks.\n\n### Deliberate trade-off\n- West Lake, tea and temples need different time budgets; adding every famous edge makes the day less readable.\n\n### Fallback logic\n- Keep one water or tea loop and one quiet cultural layer when heat, crowds or transfers rise.\n\n### Checks before delivery\n- Separate tea landscape, tea museum/learning, village walking, tea purchasing and a verified participatory experience.\n- Build weather exits and shorter alternatives before output.\n- Choose a season, a pace and one relation—water, hill, garden, city edge or morning/evening light; do not force the whole lake.\n- Use Xixi or a museum/tea alternative after current conditions and purpose are checked.\n- This is a draft for human review. Recheck train, entry, weather, local transport, crowd conditions and tea/venue details immediately before delivery.\n\n### Delivery boundary\n- This is a research draft until dated human checks support release.\n- Do not turn a research candidate into a booking, private-access promise or supplier recommendation."
+}

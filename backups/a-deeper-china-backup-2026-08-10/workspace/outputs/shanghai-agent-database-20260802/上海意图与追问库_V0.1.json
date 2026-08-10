@@ -1,0 +1,46 @@
+{
+  "version": "0.1",
+  "signals": [
+    ["first time in China","orientation confidence","SHM01|SHM04|SHM02"],
+    ["real Shanghai","anti-template without invading privacy","SHM02|SHM05|SHM06"],
+    ["old and new","historical continuity rather than skyline contrast only","SHM01|SHM02|SHM03"],
+    ["architecture","history, street form or visual composition","SHM02|SHM01|SHM06"],
+    ["art/design","current programme and urban regeneration","SHM06|SHM04"],
+    ["Chinese culture","which period or form of culture","SHM04|SHM03|SHM05"],
+    ["food","social geography rather than a restaurant list","SHM03"],
+    ["photography","light, pace and permission","SHM01|SHM02|SHM07"],
+    ["slow travel","shade, rest, public life","SHM05|SHM02"],
+    ["Tai Chi","safe, English-led participation","SHM05"],
+    ["solo traveller","evening confidence and paced navigation","SHM01|SHM07"],
+    ["parents","seating, toilets, low transfers","SHM04|SHM01"],
+    ["children","engagement and recovery time","SHM04|SHM05"],
+    ["rain","indoor resilience","SHM04|SHM03"],
+    ["summer heat","shade, hydration, shorter legs","SHM04|SHM02"],
+    ["two days","fear of missing out","SHM01|SHM02 plus one interest module"],
+    ["four days","permission to slow down or extend","SHM06|SHM05|SHM08"],
+    ["shopping","wanting city texture as well as consumption","SHM02|SHM01"],
+    ["nightlife","night rhythm, not necessarily clubs","SHM07|SHM01"],
+    ["Hangzhou/Suzhou","whether the extension adds contrast","SHM08"]
+  ],
+  "follow_up_rules": [
+    {"when":"days missing","ask":"How many full days do you have, and what are your arrival/departure constraints?"},
+    {"when":"interest missing","ask":"Would you rather understand the city through architecture, history, art/design, food, public life or photography?"},
+    {"when":"first visit unclear","ask":"Is this your first trip to China, or are you already comfortable navigating Chinese cities?"},
+    {"when":"mobility unknown","ask":"Any mobility needs, children, older relatives or limits on stairs and long walks?"},
+    {"when":"weather season unknown","ask":"What dates are you visiting, and how willing are you to start early or adjust for heat/rain?"},
+    {"when":"real/local request","ask":"When you say local, do you mean everyday streets, food, a creative scene, or a participatory experience?"},
+    {"when":"architecture request","ask":"Do you want facades and photos, historical context, or contemporary urban reuse?"},
+    {"when":"museum request","ask":"Would you like a broad China-history frame or one current art/design exhibition?"},
+    {"when":"food request","ask":"Any dietary needs, spice tolerance, and interest in a meal versus a market/breakfast context?"},
+    {"when":"photo request","ask":"Do you prioritise daylight architecture, blue-hour skyline, or candid street texture?"},
+    {"when":"Tai Chi request","ask":"What date, group size, physical limitations and English-instruction requirement do you have?"},
+    {"when":"Hangzhou/Suzhou request","ask":"Do you have an extra night and want Jiangnan gardens/canals, or would another Shanghai day be more valuable?"}
+  ],
+  "output_guardrails": [
+    "Never infer interest in private residential life from a request for authenticity.",
+    "Never sell, quote or reserve Tai Chi before commercial_release evidence exists.",
+    "Never state a dynamic venue fact as certain without a current first-party check.",
+    "Never turn a day plan into a list of more than one major cross-city-scale transition.",
+    "Explain why one recommended choice excludes another."
+  ]
+}

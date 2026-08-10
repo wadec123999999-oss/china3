@@ -1,0 +1,1556 @@
+{
+  "metadata": {
+    "database": "A Deeper China | Shanghai Core",
+    "version": "1.0",
+    "status": "content_foundation_not_field_verified",
+    "scope": "Shanghai core, English independent travellers, 2-4 days",
+    "checked_at": "2026-08-02",
+    "hard_rule": "Dynamic operating facts require re-check before guest output; candidate experiences cannot be sold or collected for.",
+    "v1_definition": "40 points, 24 modules, 24 controlled localizations, 30 signals, 15 follow-up rules, 15 story cards, 60 regression cases",
+    "source_pack_ref": "../a-deeper-china-quality-system-v0.1/上海来源包_V0.1.json",
+    "decision_layer_ref": "上海决策字段_V1.0.json",
+    "point_decision_layer_ref": "上海点位决策字段_V1.0.json"
+  },
+  "route_modules": [
+    {
+      "id": "SHM01",
+      "name": "River city: Bund to Lujiazui",
+      "question": "How did one river hold treaty-port Shanghai and its finance-led future in the same view?",
+      "roles": "first_visit|photo|low_energy",
+      "dynamic_checks": "cross-river route|viewing access|crowds|weather"
+    },
+    {
+      "id": "SHM02",
+      "name": "Walkable modernity: Hengfu",
+      "question": "What did the former concession make possible, and how is that inheritance lived in now?",
+      "roles": "architecture|walk|design",
+      "dynamic_checks": "resident boundaries|roadworks|weather"
+    },
+    {
+      "id": "SHM03",
+      "name": "Old city without the theme-park script",
+      "question": "How do commerce, ritual and old-city form survive inside a megacity?",
+      "roles": "history|food|first_visit",
+      "dynamic_checks": "reservation|crowds|religious access"
+    },
+    {
+      "id": "SHM04",
+      "name": "Museums that make China legible",
+      "question": "Which single museum answers the guest's actual China question?",
+      "roles": "culture|rain|family",
+      "dynamic_checks": "opening|reservation|special exhibition|bag rules"
+    },
+    {
+      "id": "SHM05",
+      "name": "Public Shanghai: parks and Tai Chi",
+      "question": "How is public space used for leisure, care and body practice?",
+      "roles": "slow|wellness|repeat_visit",
+      "dynamic_checks": "park hours|weather|class release status"
+    },
+    {
+      "id": "SHM06",
+      "name": "Working waterfront and regeneration",
+      "question": "How did industrial edges become civic, cultural and leisure space?",
+      "roles": "urbanism|design|older_kids",
+      "dynamic_checks": "riverside continuity|venue opening|night lighting"
+    },
+    {
+      "id": "SHM07",
+      "name": "Shanghai after dark",
+      "question": "What changes after office hours without depending on nightlife venues?",
+      "roles": "evening|solo|photo",
+      "dynamic_checks": "weather|crowds|return transport"
+    },
+    {
+      "id": "SHM08",
+      "name": "Gateway to Hangzhou or Suzhou",
+      "question": "Should the visitor add Jiangnan, or spend another day in Shanghai?",
+      "roles": "3plus_days|jiangnan",
+      "dynamic_checks": "rail schedule|destination database status"
+    },
+    {
+      "id": "SHM09",
+      "name": "Suzhou Creek: a working waterway remade",
+      "question": "How does a former industrial waterway become a cultural and public corridor?",
+      "roles": "urbanism|walk|repeat_visit",
+      "dynamic_checks": "walk continuity|venue hours|weather"
+    },
+    {
+      "id": "SHM10",
+      "name": "North Bund: port, refuge and skyline",
+      "question": "What does Shanghai’s port-facing edge reveal that the central Bund does not?",
+      "roles": "history|photo|repeat_visit",
+      "dynamic_checks": "museum hours|river access|weather"
+    },
+    {
+      "id": "SHM11",
+      "name": "Jewish refugee Shanghai",
+      "question": "How did a global war become part of one Shanghai neighbourhood’s memory?",
+      "roles": "history|diaspora|education",
+      "dynamic_checks": "reservation|museum access|sensitivity"
+    },
+    {
+      "id": "SHM12",
+      "name": "Sacred Shanghai: Longhua and Jade Buddha",
+      "question": "What does religious practice look like inside a global commercial city?",
+      "roles": "religion|history|slow",
+      "dynamic_checks": "temple rules|photography|festival crowds"
+    },
+    {
+      "id": "SHM13",
+      "name": "Jing’an: temple, towers and consumption",
+      "question": "How can sacred space, luxury retail and everyday mobility coexist?",
+      "roles": "architecture|urbanism|first_visit",
+      "dynamic_checks": "crowds|temple access|weather"
+    },
+    {
+      "id": "SHM14",
+      "name": "Shanghai cinema, print and visual culture",
+      "question": "How did Shanghai learn to see itself through film, posters and mass culture?",
+      "roles": "film|design|history",
+      "dynamic_checks": "programme|ticketing|venue access"
+    },
+    {
+      "id": "SHM15",
+      "name": "1933 and adaptive reuse",
+      "question": "When does preservation become a new public use rather than a frozen façade?",
+      "roles": "architecture|design|photo",
+      "dynamic_checks": "access|events|crowds"
+    },
+    {
+      "id": "SHM16",
+      "name": "Duolun and modern Chinese literature",
+      "question": "Which streets reveal the literary and political debates of modern Shanghai?",
+      "roles": "literature|history|walk",
+      "dynamic_checks": "opening|street works|weather"
+    },
+    {
+      "id": "SHM17",
+      "name": "Shanghai food as social geography",
+      "question": "What can breakfast, ordering and table rhythm reveal without treating food as a stunt?",
+      "roles": "food|culture|repeat_visit",
+      "dynamic_checks": "shop availability|dietary needs|queues"
+    },
+    {
+      "id": "SHM18",
+      "name": "A humane first 24 hours",
+      "question": "How can a visitor land, pay, navigate and still have one meaningful Shanghai moment?",
+      "roles": "arrival|first_visit|low_energy",
+      "dynamic_checks": "airport transport|payment|hotel location"
+    },
+    {
+      "id": "SHM19",
+      "name": "Shanghai for the creative worker",
+      "question": "Which spaces reveal contemporary design, making and work—not just cafés?",
+      "roles": "creative|design|repeat_visit",
+      "dynamic_checks": "programme|access|weekday hours"
+    },
+    {
+      "id": "SHM20",
+      "name": "Family Shanghai beyond theme parks",
+      "question": "How can families read the city without exhausting children or adults?",
+      "roles": "family|education|rain",
+      "dynamic_checks": "entry|toilets|recovery time"
+    },
+    {
+      "id": "SHM21",
+      "name": "Shanghai after a week",
+      "question": "What changes when the visitor has time to observe routines rather than landmarks?",
+      "roles": "slow|repeat_visit|remote_work",
+      "dynamic_checks": "neighbourhood conditions|events|weather"
+    },
+    {
+      "id": "SHM22",
+      "name": "Ethical neighbourhood observation",
+      "question": "How can a visitor notice everyday city life without intruding on it?",
+      "roles": "ethics|slow|photo",
+      "dynamic_checks": "privacy|photography|resident boundaries"
+    },
+    {
+      "id": "SHM23",
+      "name": "Shanghai to Suzhou: decision, not default",
+      "question": "When does Suzhou add a genuinely different question to a Shanghai trip?",
+      "roles": "jiangnan|gardens|3plus_days",
+      "dynamic_checks": "rail|destination availability|weather"
+    },
+    {
+      "id": "SHM24",
+      "name": "Shanghai to Hangzhou: decision, not default",
+      "question": "When does Hangzhou add landscape and tea culture rather than another rushed day?",
+      "roles": "jiangnan|nature|3plus_days",
+      "dynamic_checks": "rail|destination availability|weather"
+    }
+  ],
+  "points": [
+    {
+      "id": "SH001",
+      "name": "The Bund architectural waterfront",
+      "module": "SHM01",
+      "role": "city contrast anchor",
+      "why": "A legible first frame for treaty-port finance, river trade and the Pudong skyline opposite.",
+      "best_time": "Early morning or blue hour",
+      "friction": "Crowding and weather; do not promise a specific photo position.",
+      "evidence": "A",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-TravelinShanghai/"
+    },
+    {
+      "id": "SH002",
+      "name": "Lujiazui public-realm / skyline view",
+      "module": "SHM01",
+      "role": "contemporary finance counterpoint",
+      "why": "Use after the Bund to read the city as two riverbanks, not as an observation-deck checklist.",
+      "best_time": "Late afternoon into evening",
+      "friction": "Long crossings and commercial detours can exhaust a short itinerary.",
+      "evidence": "B",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-Overview/20231212/c9aa0f22df154557bbbbb30d996eb2b2.html"
+    },
+    {
+      "id": "SH003",
+      "name": "Huangpu River crossing (mode selected at runtime)",
+      "module": "SHM01",
+      "role": "transition rather than attraction",
+      "why": "A physical crossing makes the old/new-bank comparison felt instead of narrated.",
+      "best_time": "Daylight or early evening",
+      "friction": "Timetables and boarding rules are dynamic.",
+      "evidence": "A",
+      "dynamic": true,
+      "source": "https://www.meet-in-shanghai.net/en/news/hai-guide-your-guide-to-the-latest-huangpu-river-cruises-131513/"
+    },
+    {
+      "id": "SH004",
+      "name": "Wukang Road",
+      "module": "SHM02",
+      "role": "street-scale historical reading",
+      "why": "A compact entry to twentieth-century residential, cultural and street history; use it as a question-led walk.",
+      "best_time": "Weekday morning",
+      "friction": "Residential privacy and crowding; no trespass or intrusive photography.",
+      "evidence": "A",
+      "dynamic": false,
+      "source": "https://www.meet-in-shanghai.net/en/news/celebrating-national-day-and-midautumn-festival-a-selection-of-recommended-travel-routes-in-shanghai-523978/"
+    },
+    {
+      "id": "SH005",
+      "name": "Wukang Building (exterior reading)",
+      "module": "SHM02",
+      "role": "architecture detail",
+      "why": "Useful as a short visual stop, not a whole itinerary or a reason to queue.",
+      "best_time": "Morning",
+      "friction": "Photo congestion and private-residence boundary.",
+      "evidence": "A",
+      "dynamic": false,
+      "source": "https://www.meet-in-shanghai.net/en/news/celebrating-national-day-and-midautumn-festival-a-selection-of-recommended-travel-routes-in-shanghai-523978/"
+    },
+    {
+      "id": "SH006",
+      "name": "Fuxing Park",
+      "module": "SHM05",
+      "role": "public-life observation",
+      "why": "A counterweight to monumental Shanghai: public green space, social rhythm and a possible body-practice context.",
+      "best_time": "Morning or late afternoon",
+      "friction": "Observe rather than stage strangers; park conditions and group activity vary.",
+      "evidence": "A",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-Parks/index.html"
+    },
+    {
+      "id": "SH007",
+      "name": "Hengfu street network (specific loop after field walk)",
+      "module": "SHM02",
+      "role": "slow route substrate",
+      "why": "Lets the agent create a coherent shaded walk instead of listing isolated colonial-era buildings.",
+      "best_time": "Morning or late afternoon",
+      "friction": "Exact loop awaits field verification for shade, toilets and construction.",
+      "evidence": "B",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-TravelinShanghai/"
+    },
+    {
+      "id": "SH008",
+      "name": "Yu Garden / old-city edge",
+      "module": "SHM03",
+      "role": "classical-form entry",
+      "why": "Pair the garden's designed space with a wider explanation of old-city commerce and ritual geography.",
+      "best_time": "Opening period or late afternoon",
+      "friction": "Ticketing, reservation and queues are dynamic; avoid treating nearby retail as proof of authenticity.",
+      "evidence": "A",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-TravelinShanghai/"
+    },
+    {
+      "id": "SH009",
+      "name": "City God Temple precinct (external/contextual)",
+      "module": "SHM03",
+      "role": "ritual economy context",
+      "why": "Useful only if the guest wants religion, urban history or food geography; explain etiquette first.",
+      "best_time": "Non-peak daytime",
+      "friction": "Religious access and photography require respectful, current checking.",
+      "evidence": "B",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-TravelinShanghai/"
+    },
+    {
+      "id": "SH010",
+      "name": "Shanghai Museum, People's Square",
+      "module": "SHM04",
+      "role": "China-history interpreter",
+      "why": "Best for guests who need a broad material-culture frame before neighborhood wandering.",
+      "best_time": "Reserved/confirmed early slot",
+      "friction": "Opening and reservation requirements are dynamic; do not use an outdated instruction.",
+      "evidence": "A",
+      "dynamic": true,
+      "source": "https://www.shanghaimuseum.net/mu/frontend/pg/m/en/open-info"
+    },
+    {
+      "id": "SH011",
+      "name": "Shanghai Museum East Branch",
+      "module": "SHM04",
+      "role": "Pudong culture-day anchor",
+      "why": "A large museum alternative when the guest is already spending a day on the east bank.",
+      "best_time": "Confirmed opening hours",
+      "friction": "Different rules from People's Square branch; verify which branch the guest means.",
+      "evidence": "A",
+      "dynamic": true,
+      "source": "https://www.shanghaimuseum.net/mu/frontend/pg/m/en/service/visit-east"
+    },
+    {
+      "id": "SH012",
+      "name": "Museum of Art Pudong (programme-led)",
+      "module": "SHM04",
+      "role": "contemporary-art choice",
+      "why": "Recommend only when the current show matches the guest's interests; it is not a default substitute for history.",
+      "best_time": "After exhibit check",
+      "friction": "Exhibition, ticket and opening data dynamic.",
+      "evidence": "A",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-TravelinShanghai/"
+    },
+    {
+      "id": "SH013",
+      "name": "China Art Museum (programme-led)",
+      "module": "SHM04",
+      "role": "modern-China art choice",
+      "why": "A possible lens on modern Chinese visual culture, selected by exhibition and travel radius.",
+      "best_time": "After exhibit check",
+      "friction": "Not added merely because it is free or large.",
+      "evidence": "A",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-TravelinShanghai/"
+    },
+    {
+      "id": "SH014",
+      "name": "Yangpu Riverside",
+      "module": "SHM06",
+      "role": "industrial-waterfront narrative",
+      "why": "Lets visitors read manufacturing, working riverfront and civic regeneration beyond the postcard skyline.",
+      "best_time": "Late afternoon",
+      "friction": "Continuity, access and lighting must be walked before a paid route is released.",
+      "evidence": "A",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-CityTour/20260521/4b118b5779a0485595391c90cc457747.html"
+    },
+    {
+      "id": "SH015",
+      "name": "WorldSkills Museum (programme-led)",
+      "module": "SHM06",
+      "role": "skills-and-labour interpretive stop",
+      "why": "Useful only for guests interested in work, making or family learning; verify current programme.",
+      "best_time": "Confirmed open day",
+      "friction": "Opening, ticketing and language support dynamic.",
+      "evidence": "A",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-CityTour/20260521/4b118b5779a0485595391c90cc457747.html"
+    },
+    {
+      "id": "SH016",
+      "name": "M50 arts district (field-check candidate)",
+      "module": "SHM06",
+      "role": "artist/industrial reuse candidate",
+      "why": "Potentially useful for art-minded guests, but gallery turnover makes a generic recommendation weak.",
+      "best_time": "After gallery and access check",
+      "friction": "Do not sell a visit until active venues and walking conditions are field-confirmed.",
+      "evidence": "C",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-TravelinShanghai/"
+    },
+    {
+      "id": "SH017",
+      "name": "West Bund / Tank Shanghai area (field-check candidate)",
+      "module": "SHM06",
+      "role": "art-riverfront candidate",
+      "why": "A potentially strong contemporary-art plus riverfront line, selected only by current programming and distance tolerance.",
+      "best_time": "Late afternoon after programme check",
+      "friction": "Venue schedules, exhibitions and weather are dynamic.",
+      "evidence": "A",
+      "dynamic": true,
+      "source": "https://www.meet-in-shanghai.net/en/news/hai-guide-your-guide-to-the-latest-huangpu-river-cruises-131513/"
+    },
+    {
+      "id": "SH018",
+      "name": "People's Square civic core",
+      "module": "SHM04",
+      "role": "orientation and civic-scale anchor",
+      "why": "Pairs well with Shanghai Museum for a first-day explanation of contemporary centrality.",
+      "best_time": "Morning",
+      "friction": "Do not overfill the day with nearby retail streets.",
+      "evidence": "A",
+      "dynamic": false,
+      "source": "https://english.shanghai.gov.cn/en-TravelinShanghai/"
+    },
+    {
+      "id": "SH019",
+      "name": "Bund early-morning walk",
+      "module": "SHM07",
+      "role": "crowd-avoidance variant",
+      "why": "The same landmark can serve a calm visual and bodily experience before the evening crowd.",
+      "best_time": "Early morning",
+      "friction": "Weather and seasonal sunrise change; give a time window, not a guarantee.",
+      "evidence": "C",
+      "dynamic": true,
+      "source": "https://www.reddit.com/r/travelchina/comments/1onnh8r/need_advice_for_a_trip_to_shanghai/"
+    },
+    {
+      "id": "SH020",
+      "name": "Tai Chi with verified English-speaking teacher",
+      "module": "SHM05",
+      "role": "participatory local experience",
+      "why": "Potential signature experience linking public-space etiquette, embodied practice and the user's local resource.",
+      "best_time": "To be supplier-confirmed",
+      "friction": "STATUS: research_candidate. No booking, price or availability output until all seven supplier gates pass.",
+      "evidence": "F",
+      "dynamic": true,
+      "source": "internal supplier due diligence"
+    },
+    {
+      "id": "SH021",
+      "name": "Hangzhou extension decision",
+      "module": "SHM08",
+      "role": "post-Shanghai branch",
+      "why": "Recommend only when guest has at least one extra full day, Jiangnan interest and accepts a change of urban pace.",
+      "best_time": "After Shanghai plan settles",
+      "friction": "No detailed Hangzhou itinerary until its own database exists.",
+      "evidence": "C",
+      "dynamic": true,
+      "source": "https://www.reddit.com/r/chinatravel/comments/1u7a0ns/looking_for_a_4day_itinerary_starting_from/"
+    },
+    {
+      "id": "SH022",
+      "name": "Suzhou extension decision",
+      "module": "SHM08",
+      "role": "post-Shanghai branch",
+      "why": "Recommend only for garden/canal/heritage intent, not as a compulsory day trip.",
+      "best_time": "After Shanghai plan settles",
+      "friction": "No detailed Suzhou itinerary until its own database exists.",
+      "evidence": "C",
+      "dynamic": true,
+      "source": "https://www.reddit.com/r/travelchina/comments/1jut866/itinerary_china_check_for_april/"
+    },
+    {
+      "id": "SH023",
+      "name": "Suzhou Creek river walk (field-check candidate)",
+      "module": "SHM09",
+      "role": "waterway renewal lens",
+      "why": "A candidate for reading industry, ecology and public space along a less postcard-driven water edge.",
+      "best_time": "Late afternoon",
+      "friction": "Continuity and construction must be field-checked.",
+      "evidence": "B",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+      "status": "content_foundation_not_field_verified"
+    },
+    {
+      "id": "SH024",
+      "name": "North Bund waterfront",
+      "module": "SHM10",
+      "role": "port-facing skyline lens",
+      "why": "A broader port and river perspective that shifts the story away from the central Bund alone.",
+      "best_time": "Morning or blue hour",
+      "friction": "Wind, crowding and access are dynamic.",
+      "evidence": "A",
+      "dynamic": true,
+      "source": "https://www.meet-in-shanghai.net/en/news/explore-the-wonders-of-urban-tourism-in-shanghai-at-north-bund-481171/",
+      "status": "content_foundation_not_field_verified"
+    },
+    {
+      "id": "SH025",
+      "name": "Shanghai Jewish Refugees Museum",
+      "module": "SHM11",
+      "role": "diaspora-history interpreter",
+      "why": "A focused entry into Shanghai’s role as refuge during World War II, best handled with historical care.",
+      "best_time": "Confirmed opening slot",
+      "friction": "Reservation, access and emotional pacing need checking.",
+      "evidence": "A",
+      "dynamic": true,
+      "source": "https://www.meet-in-shanghai.net/en/news/explore-the-wonders-of-urban-tourism-in-shanghai-at-north-bund-481171/",
+      "status": "content_foundation_not_field_verified"
+    },
+    {
+      "id": "SH026",
+      "name": "Longhua Temple area",
+      "module": "SHM12",
+      "role": "religious-practice context",
+      "why": "A possible lens on ritual, time and temple-city relationships beyond a generic sightseeing stop.",
+      "best_time": "Non-peak daytime",
+      "friction": "Temple etiquette, photography and festivals are dynamic.",
+      "evidence": "B",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+      "status": "content_foundation_not_field_verified"
+    },
+    {
+      "id": "SH027",
+      "name": "Jade Buddha Temple",
+      "module": "SHM12",
+      "role": "urban religion counterpoint",
+      "why": "A potential comparison with Longhua when a guest explicitly wants living religious practice.",
+      "best_time": "Confirmed opening slot",
+      "friction": "Do not combine by default; access and rules must be checked.",
+      "evidence": "A",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+      "status": "content_foundation_not_field_verified"
+    },
+    {
+      "id": "SH028",
+      "name": "Jing’an Temple district",
+      "module": "SHM13",
+      "role": "sacred-commercial contrast",
+      "why": "A concise urban contrast between temple, metro, retail and high-density city life.",
+      "best_time": "Late afternoon",
+      "friction": "Crowds and temple rules vary.",
+      "evidence": "B",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+      "status": "content_foundation_not_field_verified"
+    },
+    {
+      "id": "SH029",
+      "name": "Shanghai Film Museum (programme-led)",
+      "module": "SHM14",
+      "role": "visual-culture candidate",
+      "why": "Choose only for guests interested in cinema, media or twentieth-century visual culture.",
+      "best_time": "After programme check",
+      "friction": "Programme, language support and opening are dynamic.",
+      "evidence": "A",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+      "status": "content_foundation_not_field_verified"
+    },
+    {
+      "id": "SH030",
+      "name": "Shanghai Propaganda Poster Art Centre (candidate)",
+      "module": "SHM14",
+      "role": "visual-culture candidate",
+      "why": "Potentially useful for design and political-visual-culture questions, not as a default stop.",
+      "best_time": "After access check",
+      "friction": "Access, location and ticketing must be verified.",
+      "evidence": "C",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+      "status": "content_foundation_not_field_verified"
+    },
+    {
+      "id": "SH031",
+      "name": "1933 Old Millfun",
+      "module": "SHM15",
+      "role": "adaptive-reuse detail",
+      "why": "A strong architectural case when the guest wants form, reuse and changing public use.",
+      "best_time": "Weekday daytime",
+      "friction": "Events, access and crowding vary.",
+      "evidence": "B",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+      "status": "content_foundation_not_field_verified"
+    },
+    {
+      "id": "SH032",
+      "name": "Duolun Road cultural street (field-check candidate)",
+      "module": "SHM16",
+      "role": "literary-street candidate",
+      "why": "A potential route for modern Chinese literary and civic history, requiring a coherent field-checked loop.",
+      "best_time": "Weekday daytime",
+      "friction": "Current venues and pedestrian conditions need verification.",
+      "evidence": "C",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+      "status": "content_foundation_not_field_verified"
+    },
+    {
+      "id": "SH033",
+      "name": "Shanghai breakfast context (field-check candidate)",
+      "module": "SHM17",
+      "role": "food-social-geography candidate",
+      "why": "A future participatory food layer centred on timing, ordering and table rhythm rather than a ranked restaurant list.",
+      "best_time": "Morning",
+      "friction": "No specific venue or price before field and dietary checks.",
+      "evidence": "F",
+      "dynamic": true,
+      "source": "internal field research required",
+      "status": "content_foundation_not_field_verified"
+    },
+    {
+      "id": "SH034",
+      "name": "Shanghai first-evening orientation walk",
+      "module": "SHM18",
+      "role": "arrival recovery module",
+      "why": "A short, low-decision first-evening block after a long-haul arrival, tailored to hotel location and energy.",
+      "best_time": "Arrival evening",
+      "friction": "No fixed route until arrival conditions and hotel are known.",
+      "evidence": "F",
+      "dynamic": true,
+      "source": "internal operational design",
+      "status": "content_foundation_not_field_verified"
+    },
+    {
+      "id": "SH035",
+      "name": "Power Station of Art (programme-led)",
+      "module": "SHM19",
+      "role": "creative-industry candidate",
+      "why": "Potentially valuable when a current programme supports a question about contemporary art and industrial reuse.",
+      "best_time": "After programme check",
+      "friction": "Exhibition and transport must be rechecked.",
+      "evidence": "A",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+      "status": "content_foundation_not_field_verified"
+    },
+    {
+      "id": "SH036",
+      "name": "Shanghai Natural History Museum (family candidate)",
+      "module": "SHM20",
+      "role": "family learning anchor",
+      "why": "A possible indoor learning anchor for family plans when current access and interest align.",
+      "best_time": "Confirmed opening slot",
+      "friction": "Reservation, queues and age fit are dynamic.",
+      "evidence": "A",
+      "dynamic": true,
+      "source": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+      "status": "content_foundation_not_field_verified"
+    },
+    {
+      "id": "SH037",
+      "name": "Neighbourhood routine observation protocol",
+      "module": "SHM21",
+      "role": "slow-travel method",
+      "why": "A method card, not a destination: allow time for one repeated street, park or market edge without extracting private life.",
+      "best_time": "Morning or late afternoon",
+      "friction": "Must stay within public, non-intrusive boundaries.",
+      "evidence": "F",
+      "dynamic": true,
+      "source": "internal ethics protocol",
+      "status": "content_foundation_not_field_verified"
+    },
+    {
+      "id": "SH038",
+      "name": "Public-space photography protocol",
+      "module": "SHM22",
+      "role": "ethical photo method",
+      "why": "A method card that helps photographers distinguish public composition from intrusive capture of strangers.",
+      "best_time": "Any daylight",
+      "friction": "Local restrictions and consent always take priority.",
+      "evidence": "F",
+      "dynamic": true,
+      "source": "internal ethics protocol",
+      "status": "content_foundation_not_field_verified"
+    },
+    {
+      "id": "SH039",
+      "name": "Suzhou extension handoff",
+      "module": "SHM23",
+      "role": "destination handoff",
+      "why": "A decision node: hand off to the future Suzhou database only after time, pacing and garden/canal intent are explicit.",
+      "best_time": "After Shanghai plan",
+      "friction": "Rail and destination facts dynamic.",
+      "evidence": "F",
+      "dynamic": true,
+      "source": "internal routing rule",
+      "status": "content_foundation_not_field_verified"
+    },
+    {
+      "id": "SH040",
+      "name": "Hangzhou extension handoff",
+      "module": "SHM24",
+      "role": "destination handoff",
+      "why": "A decision node: hand off to the future Hangzhou database only after landscape/tea intent and overnight capacity are explicit.",
+      "best_time": "After Shanghai plan",
+      "friction": "Rail and destination facts dynamic.",
+      "evidence": "F",
+      "dynamic": true,
+      "source": "internal routing rule",
+      "status": "content_foundation_not_field_verified"
+    }
+  ],
+  "signals": [
+    {
+      "signal": "first time in China",
+      "latent_need": "orientation confidence",
+      "priority": "SHM01|SHM04|SHM02"
+    },
+    {
+      "signal": "real Shanghai",
+      "latent_need": "anti-template without invading privacy",
+      "priority": "SHM02|SHM05|SHM06"
+    },
+    {
+      "signal": "old and new",
+      "latent_need": "historical continuity rather than skyline contrast only",
+      "priority": "SHM01|SHM02|SHM03"
+    },
+    {
+      "signal": "architecture",
+      "latent_need": "history, street form or visual composition",
+      "priority": "SHM02|SHM01|SHM06"
+    },
+    {
+      "signal": "art/design",
+      "latent_need": "current programme and urban regeneration",
+      "priority": "SHM06|SHM04"
+    },
+    {
+      "signal": "Chinese culture",
+      "latent_need": "which period or form of culture",
+      "priority": "SHM04|SHM03|SHM05"
+    },
+    {
+      "signal": "food",
+      "latent_need": "social geography rather than a restaurant list",
+      "priority": "SHM03"
+    },
+    {
+      "signal": "photography",
+      "latent_need": "light, pace and permission",
+      "priority": "SHM01|SHM02|SHM07"
+    },
+    {
+      "signal": "slow travel",
+      "latent_need": "shade, rest, public life",
+      "priority": "SHM05|SHM02"
+    },
+    {
+      "signal": "Tai Chi",
+      "latent_need": "safe, English-led participation",
+      "priority": "SHM05"
+    },
+    {
+      "signal": "solo traveller",
+      "latent_need": "evening confidence and paced navigation",
+      "priority": "SHM01|SHM07"
+    },
+    {
+      "signal": "parents",
+      "latent_need": "seating, toilets, low transfers",
+      "priority": "SHM04|SHM01"
+    },
+    {
+      "signal": "children",
+      "latent_need": "engagement and recovery time",
+      "priority": "SHM04|SHM05"
+    },
+    {
+      "signal": "rain",
+      "latent_need": "indoor resilience",
+      "priority": "SHM04|SHM03"
+    },
+    {
+      "signal": "summer heat",
+      "latent_need": "shade, hydration, shorter legs",
+      "priority": "SHM04|SHM02"
+    },
+    {
+      "signal": "two days",
+      "latent_need": "fear of missing out",
+      "priority": "SHM01|SHM02 plus one interest module"
+    },
+    {
+      "signal": "four days",
+      "latent_need": "permission to slow down or extend",
+      "priority": "SHM06|SHM05|SHM08"
+    },
+    {
+      "signal": "shopping",
+      "latent_need": "wanting city texture as well as consumption",
+      "priority": "SHM02|SHM01"
+    },
+    {
+      "signal": "nightlife",
+      "latent_need": "night rhythm, not necessarily clubs",
+      "priority": "SHM07|SHM01"
+    },
+    {
+      "signal": "Hangzhou/Suzhou",
+      "latent_need": "whether the extension adds contrast",
+      "priority": "SHM08"
+    },
+    {
+      "signal": "jet lag",
+      "latent_need": "low-decision recovery",
+      "priority": "SHM18"
+    },
+    {
+      "signal": "religion",
+      "latent_need": "etiquette and living practice",
+      "priority": "SHM12|SHM13"
+    },
+    {
+      "signal": "Jewish history",
+      "latent_need": "diaspora and wartime Shanghai",
+      "priority": "SHM11"
+    },
+    {
+      "signal": "film",
+      "latent_need": "visual culture and programme quality",
+      "priority": "SHM14"
+    },
+    {
+      "signal": "literature",
+      "latent_need": "modern Chinese debate and streets",
+      "priority": "SHM16"
+    },
+    {
+      "signal": "creative work",
+      "latent_need": "contemporary making not café lists",
+      "priority": "SHM19|SHM06"
+    },
+    {
+      "signal": "one week",
+      "latent_need": "routines and repeat observation",
+      "priority": "SHM21|SHM22"
+    },
+    {
+      "signal": "airport layover",
+      "latent_need": "buffer time and low-risk orientation",
+      "priority": "SHM18"
+    },
+    {
+      "signal": "accessibility",
+      "latent_need": "step, seat and indoor resilience",
+      "priority": "SHM20|SHM04"
+    },
+    {
+      "signal": "ethical photography",
+      "latent_need": "composition without intrusion",
+      "priority": "SHM22"
+    }
+  ],
+  "output_rules": [
+    "Never output a dynamic fact without a current-source check.",
+    "Do not call a neighborhood hidden, authentic or local as a sales claim.",
+    "Do not recommend entering residential compounds or photographing strangers at park practice.",
+    "For 2-4 days: use one city-orientation module, one street-life module and only one or two interest modules per day.",
+    "Tai Chi is not bookable until supplier status changes to commercial_release.",
+    "Hangzhou and Suzhou are decision branches only until separate city databases are approved."
+  ],
+  "field_checks": [
+    "People's Square museum entry, English wayfinding, bag rules and actual dwell time",
+    "Bund-to-Pudong crossing friction, shade, rest points and blue-hour crowd load",
+    "Hengfu loop shade, toilets, resident boundaries and rain cover",
+    "Yangpu or West Bund route continuity, night lighting and programme reality",
+    "Tai Chi teacher's seven-gate supplier record"
+  ],
+  "route_module_localizations": [
+    {
+      "module_id": "SHM01",
+      "english_title": "River city: Bund to Lujiazui",
+      "guest_promise": "How did one river hold treaty-port Shanghai and its finance-led future in the same view?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM02",
+      "english_title": "Walkable modernity: Hengfu",
+      "guest_promise": "What did the former concession make possible, and how is that inheritance lived in now?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM03",
+      "english_title": "Old city without the theme-park script",
+      "guest_promise": "How do commerce, ritual and old-city form survive inside a megacity?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM04",
+      "english_title": "Museums that make China legible",
+      "guest_promise": "Which single museum answers the guest's actual China question?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM05",
+      "english_title": "Public Shanghai: parks and Tai Chi",
+      "guest_promise": "How is public space used for leisure, care and body practice?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM06",
+      "english_title": "Working waterfront and regeneration",
+      "guest_promise": "How did industrial edges become civic, cultural and leisure space?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM07",
+      "english_title": "Shanghai after dark",
+      "guest_promise": "What changes after office hours without depending on nightlife venues?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM08",
+      "english_title": "Gateway to Hangzhou or Suzhou",
+      "guest_promise": "Should the visitor add Jiangnan, or spend another day in Shanghai?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM09",
+      "english_title": "Suzhou Creek: a working waterway remade",
+      "guest_promise": "How does a former industrial waterway become a cultural and public corridor?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM10",
+      "english_title": "North Bund: port, refuge and skyline",
+      "guest_promise": "What does Shanghai’s port-facing edge reveal that the central Bund does not?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM11",
+      "english_title": "Jewish refugee Shanghai",
+      "guest_promise": "How did a global war become part of one Shanghai neighbourhood’s memory?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM12",
+      "english_title": "Sacred Shanghai: Longhua and Jade Buddha",
+      "guest_promise": "What does religious practice look like inside a global commercial city?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM13",
+      "english_title": "Jing’an: temple, towers and consumption",
+      "guest_promise": "How can sacred space, luxury retail and everyday mobility coexist?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM14",
+      "english_title": "Shanghai cinema, print and visual culture",
+      "guest_promise": "How did Shanghai learn to see itself through film, posters and mass culture?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM15",
+      "english_title": "1933 and adaptive reuse",
+      "guest_promise": "When does preservation become a new public use rather than a frozen façade?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM16",
+      "english_title": "Duolun and modern Chinese literature",
+      "guest_promise": "Which streets reveal the literary and political debates of modern Shanghai?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM17",
+      "english_title": "Shanghai food as social geography",
+      "guest_promise": "What can breakfast, ordering and table rhythm reveal without treating food as a stunt?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM18",
+      "english_title": "A humane first 24 hours",
+      "guest_promise": "How can a visitor land, pay, navigate and still have one meaningful Shanghai moment?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM19",
+      "english_title": "Shanghai for the creative worker",
+      "guest_promise": "Which spaces reveal contemporary design, making and work—not just cafés?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM20",
+      "english_title": "Family Shanghai beyond theme parks",
+      "guest_promise": "How can families read the city without exhausting children or adults?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM21",
+      "english_title": "Shanghai after a week",
+      "guest_promise": "What changes when the visitor has time to observe routines rather than landmarks?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM22",
+      "english_title": "Ethical neighbourhood observation",
+      "guest_promise": "How can a visitor notice everyday city life without intruding on it?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM23",
+      "english_title": "Shanghai to Suzhou: decision, not default",
+      "guest_promise": "When does Suzhou add a genuinely different question to a Shanghai trip?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    },
+    {
+      "module_id": "SHM24",
+      "english_title": "Shanghai to Hangzhou: decision, not default",
+      "guest_promise": "When does Hangzhou add landscape and tea culture rather than another rushed day?",
+      "controlled_output": "Use as a building block; re-check every dynamic operating fact before delivery."
+    }
+  ],
+  "story_cards": [
+    {
+      "id": "SC01",
+      "title": "River as city structure",
+      "module": "SHM01",
+      "status": "controlled_editorial"
+    },
+    {
+      "id": "SC02",
+      "title": "Institutional Bund",
+      "module": "SHM01",
+      "status": "controlled_editorial"
+    },
+    {
+      "id": "SC03",
+      "title": "Lived historic district",
+      "module": "SHM02",
+      "status": "controlled_editorial"
+    },
+    {
+      "id": "SC04",
+      "title": "Old city continuity",
+      "module": "SHM03",
+      "status": "controlled_editorial"
+    },
+    {
+      "id": "SC05",
+      "title": "One museum, one question",
+      "module": "SHM04",
+      "status": "controlled_editorial"
+    },
+    {
+      "id": "SC06",
+      "title": "Public life without spectacle",
+      "module": "SHM05",
+      "status": "controlled_editorial"
+    },
+    {
+      "id": "SC07",
+      "title": "Industrial public space",
+      "module": "SHM06",
+      "status": "controlled_editorial"
+    },
+    {
+      "id": "SC08",
+      "title": "Night as tempo",
+      "module": "SHM07",
+      "status": "controlled_editorial"
+    },
+    {
+      "id": "SC09",
+      "title": "Waterway reuse",
+      "module": "SHM09",
+      "status": "controlled_editorial"
+    },
+    {
+      "id": "SC10",
+      "title": "Port and refuge",
+      "module": "SHM10",
+      "status": "controlled_editorial"
+    },
+    {
+      "id": "SC11",
+      "title": "Diaspora memory",
+      "module": "SHM11",
+      "status": "controlled_editorial"
+    },
+    {
+      "id": "SC12",
+      "title": "Religion in the megacity",
+      "module": "SHM12",
+      "status": "controlled_editorial"
+    },
+    {
+      "id": "SC13",
+      "title": "Visual culture",
+      "module": "SHM14",
+      "status": "controlled_editorial"
+    },
+    {
+      "id": "SC14",
+      "title": "Ethical observation",
+      "module": "SHM22",
+      "status": "controlled_editorial"
+    },
+    {
+      "id": "SC15",
+      "title": "Jiangnan extension choice",
+      "module": "SHM23",
+      "status": "controlled_editorial"
+    }
+  ],
+  "follow_up_rules": [
+    {
+      "when": "days missing",
+      "ask": "How many full days do you have, and what are your arrival/departure constraints?"
+    },
+    {
+      "when": "interest missing",
+      "ask": "Would you rather understand the city through architecture, history, art/design, food, public life or photography?"
+    },
+    {
+      "when": "first visit unclear",
+      "ask": "Is this your first trip to China, or are you already comfortable navigating Chinese cities?"
+    },
+    {
+      "when": "mobility unknown",
+      "ask": "Any mobility needs, children, older relatives or limits on stairs and long walks?"
+    },
+    {
+      "when": "weather season unknown",
+      "ask": "What dates are you visiting, and how willing are you to start early or adjust for heat/rain?"
+    },
+    {
+      "when": "real/local request",
+      "ask": "When you say local, do you mean everyday streets, food, a creative scene, or a participatory experience?"
+    },
+    {
+      "when": "architecture request",
+      "ask": "Do you want facades and photos, historical context, or contemporary urban reuse?"
+    },
+    {
+      "when": "museum request",
+      "ask": "Would you like a broad China-history frame or one current art/design exhibition?"
+    },
+    {
+      "when": "food request",
+      "ask": "Any dietary needs, spice tolerance, and interest in a meal versus a market/breakfast context?"
+    },
+    {
+      "when": "photo request",
+      "ask": "Do you prioritise daylight architecture, blue-hour skyline, or candid street texture?"
+    },
+    {
+      "when": "Tai Chi request",
+      "ask": "What date, group size, physical limitations and English-instruction requirement do you have?"
+    },
+    {
+      "when": "Hangzhou/Suzhou request",
+      "ask": "Do you have an extra night and want Jiangnan gardens/canals, or would another Shanghai day be more valuable?"
+    },
+    {
+      "when": "religion request",
+      "ask": "Are you looking for history, living practice, architecture, or quiet observation?"
+    },
+    {
+      "when": "arrival request",
+      "ask": "Which airport/station, arrival time, hotel area and energy level should the first evening accommodate?"
+    },
+    {
+      "when": "creative request",
+      "ask": "Which matters more: contemporary art, design retail, industrial reuse, film, or meeting makers?"
+    }
+  ],
+  "profiles": [
+    {
+      "id": "first_time_city_reader",
+      "status": "supported"
+    },
+    {
+      "id": "architecture_walker",
+      "status": "supported"
+    },
+    {
+      "id": "family_low_friction",
+      "status": "supported"
+    },
+    {
+      "id": "art_design_repeat",
+      "status": "supported"
+    },
+    {
+      "id": "slow_ethical_observer",
+      "status": "supported"
+    },
+    {
+      "id": "arrival_layover",
+      "status": "supported"
+    }
+  ],
+  "regression_tests": [
+    {
+      "id": "SH-R001",
+      "scenario": "first_visit",
+      "must_include": "dynamic_recheck",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R002",
+      "scenario": "architecture",
+      "must_include": "no_unverified_sale",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R003",
+      "scenario": "family",
+      "must_include": "route_pacing",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R004",
+      "scenario": "rain",
+      "must_include": "dynamic_recheck",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R005",
+      "scenario": "tai_chi",
+      "must_include": "no_unverified_sale",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R006",
+      "scenario": "art_design",
+      "must_include": "route_pacing",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R007",
+      "scenario": "history",
+      "must_include": "dynamic_recheck",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R008",
+      "scenario": "arrival",
+      "must_include": "no_unverified_sale",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R009",
+      "scenario": "slow",
+      "must_include": "route_pacing",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R010",
+      "scenario": "jiangnan",
+      "must_include": "dynamic_recheck",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R011",
+      "scenario": "first_visit",
+      "must_include": "no_unverified_sale",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R012",
+      "scenario": "architecture",
+      "must_include": "route_pacing",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R013",
+      "scenario": "family",
+      "must_include": "dynamic_recheck",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R014",
+      "scenario": "rain",
+      "must_include": "no_unverified_sale",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R015",
+      "scenario": "tai_chi",
+      "must_include": "route_pacing",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R016",
+      "scenario": "art_design",
+      "must_include": "dynamic_recheck",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R017",
+      "scenario": "history",
+      "must_include": "no_unverified_sale",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R018",
+      "scenario": "arrival",
+      "must_include": "route_pacing",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R019",
+      "scenario": "slow",
+      "must_include": "dynamic_recheck",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R020",
+      "scenario": "jiangnan",
+      "must_include": "no_unverified_sale",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R021",
+      "scenario": "first_visit",
+      "must_include": "route_pacing",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R022",
+      "scenario": "architecture",
+      "must_include": "dynamic_recheck",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R023",
+      "scenario": "family",
+      "must_include": "no_unverified_sale",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R024",
+      "scenario": "rain",
+      "must_include": "route_pacing",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R025",
+      "scenario": "tai_chi",
+      "must_include": "dynamic_recheck",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R026",
+      "scenario": "art_design",
+      "must_include": "no_unverified_sale",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R027",
+      "scenario": "history",
+      "must_include": "route_pacing",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R028",
+      "scenario": "arrival",
+      "must_include": "dynamic_recheck",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R029",
+      "scenario": "slow",
+      "must_include": "no_unverified_sale",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R030",
+      "scenario": "jiangnan",
+      "must_include": "route_pacing",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R031",
+      "scenario": "first_visit",
+      "must_include": "dynamic_recheck",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R032",
+      "scenario": "architecture",
+      "must_include": "no_unverified_sale",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R033",
+      "scenario": "family",
+      "must_include": "route_pacing",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R034",
+      "scenario": "rain",
+      "must_include": "dynamic_recheck",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R035",
+      "scenario": "tai_chi",
+      "must_include": "no_unverified_sale",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R036",
+      "scenario": "art_design",
+      "must_include": "route_pacing",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R037",
+      "scenario": "history",
+      "must_include": "dynamic_recheck",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R038",
+      "scenario": "arrival",
+      "must_include": "no_unverified_sale",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R039",
+      "scenario": "slow",
+      "must_include": "route_pacing",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R040",
+      "scenario": "jiangnan",
+      "must_include": "dynamic_recheck",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R041",
+      "scenario": "first_visit",
+      "must_include": "no_unverified_sale",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R042",
+      "scenario": "architecture",
+      "must_include": "route_pacing",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R043",
+      "scenario": "family",
+      "must_include": "dynamic_recheck",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R044",
+      "scenario": "rain",
+      "must_include": "no_unverified_sale",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R045",
+      "scenario": "tai_chi",
+      "must_include": "route_pacing",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R046",
+      "scenario": "art_design",
+      "must_include": "dynamic_recheck",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R047",
+      "scenario": "history",
+      "must_include": "no_unverified_sale",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R048",
+      "scenario": "arrival",
+      "must_include": "route_pacing",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R049",
+      "scenario": "slow",
+      "must_include": "dynamic_recheck",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R050",
+      "scenario": "jiangnan",
+      "must_include": "no_unverified_sale",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R051",
+      "scenario": "first_visit",
+      "must_include": "route_pacing",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R052",
+      "scenario": "architecture",
+      "must_include": "dynamic_recheck",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R053",
+      "scenario": "family",
+      "must_include": "no_unverified_sale",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R054",
+      "scenario": "rain",
+      "must_include": "route_pacing",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R055",
+      "scenario": "tai_chi",
+      "must_include": "dynamic_recheck",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R056",
+      "scenario": "art_design",
+      "must_include": "no_unverified_sale",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R057",
+      "scenario": "history",
+      "must_include": "route_pacing",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R058",
+      "scenario": "arrival",
+      "must_include": "dynamic_recheck",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R059",
+      "scenario": "slow",
+      "must_include": "no_unverified_sale",
+      "expected": "draft_for_human_review"
+    },
+    {
+      "id": "SH-R060",
+      "scenario": "jiangnan",
+      "must_include": "route_pacing",
+      "expected": "draft_for_human_review"
+    }
+  ],
+  "machine_regression": {
+    "version": "1.0",
+    "required_case_count": 60,
+    "invariants": [
+      "no_unverified_sale",
+      "dynamic_recheck",
+      "resident_privacy",
+      "route_pacing",
+      "no_internal_ids"
+    ]
+  },
+  "v1_release_gate": {
+    "content": "complete",
+    "runtime": "pending_v1",
+    "field": "0_of_6",
+    "commercial_experience": "not_released"
+  }
+}

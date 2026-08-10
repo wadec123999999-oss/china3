@@ -1,0 +1,21 @@
+{
+  "run_id": "SHRUN001",
+  "field_date": "2026-08-02",
+  "tester": "EXAMPLE ONLY — replace with real tester",
+  "object": "People’s Square museum and civic-core route",
+  "weather_crowd": "Replace with actual weather and crowd condition",
+  "actual_minutes": null,
+  "route_entry_exit": null,
+  "toilet_seating_water": null,
+  "english_access": null,
+  "rain_heat_fallback": null,
+  "resident_privacy": null,
+  "safety_blocking": false,
+  "result": "incomplete",
+  "conditions": null,
+  "issues_changes": "Example record only; it never counts as field evidence.",
+  "evidence": [
+    {"type":"photo","reference":"replace-with-real-photo","description":"Replace with a real entry or wayfinding photo."},
+    {"type":"map_card","reference":"replace-with-real-map","description":"Replace with real route evidence."}
+  ]
+}

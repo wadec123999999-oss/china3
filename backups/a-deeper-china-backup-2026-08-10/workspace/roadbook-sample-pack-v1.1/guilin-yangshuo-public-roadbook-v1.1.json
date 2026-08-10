@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.1",
+  "renderer_version": "guilin-yangshuo-v1.2",
+  "status": "draft_for_human_review",
+  "city": "Guilin–Yangshuo",
+  "delivery_status": {
+    "public_state": "draft_for_human_review",
+    "current_checks_required": true,
+    "human_review_required": true,
+    "booking_created": false,
+    "explanation": "This route is a research or human-review draft. Current checks and human review are required before client delivery."
+  },
+  "route_thesis": "Choose one water decision, one land-based landscape layer and enough recovery time; this is not a scenery conveyor belt.",
+  "why_this_route": [
+    "The selected modules are a small information budget, not a ranking of every attraction.",
+    "Each day answers one question and leaves a realistic exit for weather, energy or access changes."
+  ],
+  "route_controls": {
+    "one_question_per_day": true,
+    "stop_when_answered": true,
+    "protect_recovery_time": true,
+    "explanation": "The route gets shorter when the guest has understood the idea; more stops are not automatically better."
+  },
+  "trip_context": {
+    "arrival_date": "2026-09-10",
+    "departure_date": "2026-09-13",
+    "nights": 3,
+    "adults": 2,
+    "children": 0,
+    "party_size": 2,
+    "pace": "slow",
+    "overnight_area": "to confirm",
+    "output_language": "English",
+    "explicit_priorities": [
+      "landscape",
+      "walking"
+    ],
+    "explicit_avoidances": [
+      "rushing"
+    ],
+    "inferred_needs": []
+  },
+  "explicit_priorities": [
+    "landscape",
+    "walking"
+  ],
+  "explicit_avoidances": [
+    "rushing"
+  ],
+  "decision_brief": {
+    "what_we_heard": [
+      "landscape",
+      "walking"
+    ],
+    "what_we_are_protecting": [
+      "rushing"
+    ],
+    "inferred_needs": []
+  },
+  "hypotheses_to_confirm": [],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Li River as a water decision",
+      "modules": [
+        {
+          "name": "Li River as a water decision",
+          "question": "Do I want a cruise, a shorter river section, or land-based views?",
+          "practical_note": "Check water, weather, motion tolerance, luggage and usable time; no boat promise.",
+          "confirmations": [],
+          "anchor": "Make the water choice first: cruise, shorter river section or land-based views.",
+          "what_to_notice": "Scale, weather, boat rhythm and how the landscape changes from water level.",
+          "stop_rule": "Once the chosen water experience answers the landscape question, stop adding another river product.",
+          "main_friction": "Water conditions, weather, boarding, crowds and transfers require dated checks.",
+          "route_shape": "A water decision between cruise, shorter river section and land-based views—not all three.",
+          "body_budget": "Lower walking load but high weather, boarding and water-condition dependence.",
+          "low_energy_version": "Choose the simplest public water/land option with the clearest return.",
+          "rain_version": "Do not release water movement without same-day weather and operating checks."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "Karst landscape, not a checklist",
+      "modules": [
+        {
+          "name": "Karst landscape, not a checklist",
+          "question": "What relationship to the landscape do you actually want?",
+          "practical_note": "Choose river, walking, cycling, photography, adventure or rest before places.",
+          "confirmations": [],
+          "anchor": "Choose one land-based relationship to karst—walk, village edge, viewpoint or quiet observation.",
+          "what_to_notice": "Distance, cultivation, rock forms and human use rather than only panoramic beauty.",
+          "stop_rule": "One landscape layer is enough for a short stay; do not chase every famous angle.",
+          "main_friction": "Heat, rain, uneven ground and transport can change the usable route.",
+          "route_shape": "Choose one relationship to the karst landscape—water, walking, farming or quiet observation—before choosing sites.",
+          "body_budget": "Moderate outdoor exposure with heat, footing and weather sensitivity.",
+          "low_energy_version": "Keep one land-based landscape frame and protect recovery time.",
+          "rain_version": "Remove exposed movement and keep a confirmed indoor or low-risk landscape interpretation."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "Yulong River and slow countryside movement",
+      "modules": [
+        {
+          "name": "Yulong River and slow countryside movement",
+          "question": "How can I experience Yangshuo without assuming a bike or raft?",
+          "practical_note": "Offer walking, vehicle-assisted, public-route and water alternatives; field-check each.",
+          "confirmations": [],
+          "anchor": "Use Yulong River for slower countryside movement without assuming cycling or rafting.",
+          "what_to_notice": "Pace, water edge, farms, bridges and the difference between public scenery and private life.",
+          "stop_rule": "Keep the activity within the group’s actual physical comfort; do not force a signature activity.",
+          "main_friction": "Weather, water, equipment, consent and road safety need human checks.",
+          "route_shape": "One slow countryside movement pattern without assuming cycling, rafting or private access.",
+          "body_budget": "Low-to-moderate movement, with heat, road surface and transport friction.",
+          "low_energy_version": "Use a short public countryside section and remove the second activity.",
+          "rain_version": "Keep the land-based public route only if footing and access are acceptable."
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "theme": "Weather, water and route handoffs",
+      "modules": [
+        {
+          "name": "Weather, water and route handoffs",
+          "question": "Can this plan survive rain, fog, water changes and intercity transfers?",
+          "practical_note": "Build a weather branch and protect full travel days.",
+          "confirmations": [],
+          "anchor": "Treat weather, water and transfer conditions as route decisions, not footnotes.",
+          "what_to_notice": "What can be safely kept, shortened or removed on the actual date.",
+          "stop_rule": "If the landscape cannot be enjoyed safely, switch to the land-based fallback rather than forcing the plan.",
+          "main_friction": "Live conditions can invalidate a scenic sequence quickly.",
+          "route_shape": "A release checkpoint for rain, fog, water changes and intercity handoffs.",
+          "body_budget": "Low sightseeing load; it prevents fragile nature plans from becoming promises.",
+          "low_energy_version": "Shorten the route before removing the core landscape question.",
+          "rain_version": "Default branch when visibility, water or transfers become uncertain."
+        }
+      ]
+    }
+  ],
+  "what_we_deliberately_leave_out": [
+    "A scenery conveyor belt combining cruise, cycling, rafting and terraces in a short stay.",
+    "Private village access or staged rural encounters.",
+    "A water activity released without current weather and operating checks."
+  ],
+  "deliberate_tradeoff": "River, terraces and cycling are different physical products. A short stay should not promise all of them.",
+  "fallback_logic": "If rain or conditions change, keep a land-based landscape route and remove the water segment rather than forcing it.",
+  "checks_before_delivery": [
+    "Current opening, reservation, transport, weather and access conditions for the selected dates.",
+    "This is a draft for human review. Recheck water, weather, transport, access, tickets and safety before delivery."
+  ],
+  "delivery_boundary": "Research draft until dated human checks support release. This does not create a booking, private-access promise or supplier recommendation.",
+  "markdown": "# A Deeper China | Guilin–Yangshuo draft\n\n**Shape:** 4 days, built around Karst landscape, not a checklist · Li River as a water decision · Yulong River and slow countryside movement · Weather, water and route handoffs.\n\n## Why this landscape\nThis is not a scenery conveyor belt. It chooses one water decision, one land-based layer and room for weather and recovery.\n\n\n## Trip brief used for this draft\n- Dates: 2026-09-10 → 2026-09-13 (3 nights)\n- Travelers: 2 travelers\n- Pace: slow\n- Overnight area: to confirm\n- Output language: English\n\n### What we heard\n- Priorities: landscape; walking\n- Avoidances: rushing\n\n## Day structure\n\n### Day 1 — Li River as a water decision\n- **Li River as a water decision** — Do I want a cruise, a shorter river section, or land-based views?\n\n### Day 2 — Karst landscape, not a checklist\n- **Karst landscape, not a checklist** — What relationship to the landscape do you actually want?\n\n### Day 3 — Yulong River and slow countryside movement\n- **Yulong River and slow countryside movement** — How can I experience Yangshuo without assuming a bike or raft?\n\n### Day 4 — Weather, water and route handoffs\n- **Weather, water and route handoffs** — Can this plan survive rain, fog, water changes and intercity transfers?\n\n## On-the-ground notes\n- **Landscape-intent interview:** Karst scenery serves very different visitors: a photographer, a child, a non-cyclist, a climber and someone who wants rest do not need the same Yangshuo. **Check:** vague_intent, overpacking.\n- **Xingping / iconic karst-view decision:** A recognisable river-and-peak landscape choice, best when image, walking tolerance and crowd expectations are made explicit. **Check:** weather, crowds, transport, terrain.\n- **Li River cruise decision:** A cruise can be a major landscape day, not merely transport from Guilin to Yangshuo. **Check:** water_level, weather, motion_sickness, luggage, ticketing.\n- **Yulong River slow-movement decision:** The quieter countryside/river relationship often suits visitors who want movement at their own pace. **Check:** weather, water_level, transport, crowds.\n- **Non-cycling Yangshuo branch:** Karst travel is viable without cycling or scooters; forcing unfamiliar road riding is a product failure. **Check:** mobility, transport, road_safety.\n- **Three-night core decision:** For three nights, use arrival/recovery, one river/karst anchor and one slower countryside day; do not add Longji by default. **Check:** overpacking, weather, transfer_fatigue.\n- **Five-night depth decision:** Only at this scale can Longji or a second landscape mode become meaningful without erasing rest and weather flexibility. **Check:** weather, fatigue, transport.\n\n## Verification boundary\n- Dynamic details need a date-specific check before delivery.\n- We do not book, bundle or sell third-party travel services.\n\n## Important\n- This is a draft for human review. Recheck water, weather, transport, access, tickets and safety before delivery.\n\n## Decision layer\n\n**Route thesis:** Choose one water decision, one land-based landscape layer and enough recovery time; this is not a scenery conveyor belt.\n\n### Why this route is not a list\n- The selected modules are a small information budget, not a ranking of every attraction.\n- Each day should answer one question and leave a realistic exit for weather, energy or access changes.\n- The route gets shorter when the guest has understood the idea; more stops are not automatically better.\n- **Li River as a water decision** — Do I want a cruise, a shorter river section, or land-based views?\n  - **Anchor:** Make the water choice first: cruise, shorter river section or land-based views.\n  - **Notice:** Scale, weather, boat rhythm and how the landscape changes from water level.\n  - **Stop rule:** Once the chosen water experience answers the landscape question, stop adding another river product.\n  - **Main friction:** Water conditions, weather, boarding, crowds and transfers require dated checks.\n  - **Route shape:** A water decision between cruise, shorter river section and land-based views—not all three.\n  - **Body and time budget:** Lower walking load but high weather, boarding and water-condition dependence.\n  - **Low-energy version:** Choose the simplest public water/land option with the clearest return.\n  - **Rain version:** Do not release water movement without same-day weather and operating checks.\n- **Karst landscape, not a checklist** — What relationship to the landscape do you actually want?\n  - **Anchor:** Choose one land-based relationship to karst—walk, village edge, viewpoint or quiet observation.\n  - **Notice:** Distance, cultivation, rock forms and human use rather than only panoramic beauty.\n  - **Stop rule:** One landscape layer is enough for a short stay; do not chase every famous angle.\n  - **Main friction:** Heat, rain, uneven ground and transport can change the usable route.\n  - **Route shape:** Choose one relationship to the karst landscape—water, walking, farming or quiet observation—before choosing sites.\n  - **Body and time budget:** Moderate outdoor exposure with heat, footing and weather sensitivity.\n  - **Low-energy version:** Keep one land-based landscape frame and protect recovery time.\n  - **Rain version:** Remove exposed movement and keep a confirmed indoor or low-risk landscape interpretation.\n- **Yulong River and slow countryside movement** — How can I experience Yangshuo without assuming a bike or raft?\n  - **Anchor:** Use Yulong River for slower countryside movement without assuming cycling or rafting.\n  - **Notice:** Pace, water edge, farms, bridges and the difference between public scenery and private life.\n  - **Stop rule:** Keep the activity within the group’s actual physical comfort; do not force a signature activity.\n  - **Main friction:** Weather, water, equipment, consent and road safety need human checks.\n  - **Route shape:** One slow countryside movement pattern without assuming cycling, rafting or private access.\n  - **Body and time budget:** Low-to-moderate movement, with heat, road surface and transport friction.\n  - **Low-energy version:** Use a short public countryside section and remove the second activity.\n  - **Rain version:** Keep the land-based public route only if footing and access are acceptable.\n- **Weather, water and route handoffs** — Can this plan survive rain, fog, water changes and intercity transfers?\n  - **Anchor:** Treat weather, water and transfer conditions as route decisions, not footnotes.\n  - **Notice:** What can be safely kept, shortened or removed on the actual date.\n  - **Stop rule:** If the landscape cannot be enjoyed safely, switch to the land-based fallback rather than forcing the plan.\n  - **Main friction:** Live conditions can invalidate a scenic sequence quickly.\n  - **Route shape:** A release checkpoint for rain, fog, water changes and intercity handoffs.\n  - **Body and time budget:** Low sightseeing load; it prevents fragile nature plans from becoming promises.\n  - **Low-energy version:** Shorten the route before removing the core landscape question.\n  - **Rain version:** Default branch when visibility, water or transfers become uncertain.\n\n### Deliberate trade-off\n- River, terraces and cycling are different physical products. A short stay should not promise all of them.\n\n### Fallback logic\n- If rain or conditions change, keep a land-based landscape route and remove the water segment rather than forcing it.\n\n### Checks before delivery\n- Check water, weather, motion tolerance, luggage and usable time; no boat promise.\n- Choose river, walking, cycling, photography, adventure or rest before places.\n- Offer walking, vehicle-assisted, public-route and water alternatives; field-check each.\n- Build a weather branch and protect full travel days.\n- This is a draft for human review. Recheck water, weather, transport, access, tickets and safety before delivery.\n\n### Delivery boundary\n- This is a research draft until dated human checks support release.\n- Do not turn a research candidate into a booking, private-access promise or supplier recommendation."
+}

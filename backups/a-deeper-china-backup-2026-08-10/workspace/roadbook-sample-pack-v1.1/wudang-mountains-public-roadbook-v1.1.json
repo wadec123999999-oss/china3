@@ -1,0 +1,161 @@
+{
+  "schema_version": "1.1",
+  "renderer_version": "wudang-v1.2",
+  "status": "draft_for_human_review",
+  "city": "Wudang Mountains",
+  "delivery_status": {
+    "public_state": "draft_for_human_review",
+    "current_checks_required": true,
+    "human_review_required": true,
+    "booking_created": false,
+    "explanation": "This route is a research or human-review draft. Current checks and human review are required before client delivery."
+  },
+  "route_thesis": "Read Wudang through mountain architecture, Taoist rhythm, movement and etiquette—not a guaranteed martial-arts encounter.",
+  "why_this_route": [
+    "The selected modules are a small information budget, not a ranking of every attraction.",
+    "Each day answers one question and leaves a realistic exit for weather, energy or access changes."
+  ],
+  "route_controls": {
+    "one_question_per_day": true,
+    "stop_when_answered": true,
+    "protect_recovery_time": true,
+    "explanation": "The route gets shorter when the guest has understood the idea; more stops are not automatically better."
+  },
+  "trip_context": {
+    "arrival_date": "2026-09-10",
+    "departure_date": "2026-09-13",
+    "nights": 3,
+    "adults": 2,
+    "children": 0,
+    "party_size": 2,
+    "pace": "slow",
+    "overnight_area": "to confirm",
+    "output_language": "English",
+    "explicit_priorities": [
+      "heritage architecture"
+    ],
+    "explicit_avoidances": [
+      "rushing"
+    ],
+    "inferred_needs": []
+  },
+  "explicit_priorities": [
+    "heritage architecture"
+  ],
+  "explicit_avoidances": [
+    "rushing"
+  ],
+  "decision_brief": {
+    "what_we_heard": [
+      "heritage architecture"
+    ],
+    "what_we_are_protecting": [
+      "rushing"
+    ],
+    "inferred_needs": []
+  },
+  "hypotheses_to_confirm": [],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Public architectural route + Mountain movement and weather",
+      "modules": [
+        {
+          "name": "Public architectural route",
+          "question": "Which public heritage layer is meaningful without overpacking the day?",
+          "practical_note": "Use a primary route and a fallback, never a static checklist.",
+          "confirmations": [],
+          "anchor": "Build a public architectural route around one heritage layer and a realistic body budget.",
+          "what_to_notice": "Mountain placement, thresholds, movement and what is genuinely public.",
+          "stop_rule": "Do not add martial-arts or private instruction claims to fill the day.",
+          "main_friction": "Steps, cable-car, weather, crowding and opening conditions need checks.",
+          "route_shape": "One public architectural route, not every palace, temple or ridge in one day.",
+          "body_budget": "Moderate walking and heritage attention load.",
+          "low_energy_version": "Keep one public heritage anchor.",
+          "rain_version": "Use confirmed covered/public heritage areas."
+        },
+        {
+          "name": "Mountain movement and weather",
+          "question": "What walking, stairs, cable-car and weather contingencies fit this visitor?",
+          "practical_note": "Dynamic operational information overrides database.",
+          "confirmations": [],
+          "anchor": "Choose walking, stairs, cable-car and weather contingencies before choosing a scenic sequence.",
+          "what_to_notice": "How terrain changes the meaning and feasibility of the route.",
+          "stop_rule": "Turn back before fatigue turns heritage into a safety problem.",
+          "main_friction": "Mountain weather, step intensity, transport and recovery are decisive.",
+          "route_shape": "One mountain movement plan with stairs, cable-car and weather contingencies.",
+          "body_budget": "Potentially high steps and exposure; safety sets the route.",
+          "low_energy_version": "Choose the lowest-load public option and set a turnaround.",
+          "rain_version": "Remove exposed movement until same-day footing and weather checks pass."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "Heritage system, not fantasy + Arrival and protected pace",
+      "modules": [
+        {
+          "name": "Heritage system, not fantasy",
+          "question": "What connects mountain, architecture, Taoism and Ming-era state building?",
+          "practical_note": "Begin with public heritage interpretation; do not promise religious access.",
+          "confirmations": [],
+          "anchor": "Connect mountain, architecture, Taoism and state building without inventing a mystical encounter.",
+          "what_to_notice": "Spatial order, ritual boundaries and the difference between public history and belief practice.",
+          "stop_rule": "Keep private ritual, healing and master access outside the route unless separately released.",
+          "main_friction": "Etiquette, access, weather and interpretation need human review.",
+          "route_shape": "One heritage-system explanation linking mountain, architecture, Taoism and state building.",
+          "body_budget": "Moderate-to-high attention and transfer load; the mountain is not a backdrop only.",
+          "low_energy_version": "Keep one public architectural layer and remove extra ascent.",
+          "rain_version": "Use confirmed public/covered heritage access."
+        },
+        {
+          "name": "Arrival and protected pace",
+          "question": "How many nights and how much transfer/step capacity does this trip actually have?",
+          "practical_note": "No exact travel-time claim without current check.",
+          "confirmations": [],
+          "anchor": "Use nights and transfer days to protect a mountain pace before adding another site.",
+          "what_to_notice": "What the body can actually do after arrival and before departure.",
+          "stop_rule": "If the protected pace is not possible, do not sell a deep mountain product.",
+          "main_friction": "Arrival time, accommodation, transport and step load are operational gates.",
+          "route_shape": "A nights-and-transfer decision protecting early starts, recovery and realistic step capacity.",
+          "body_budget": "Transfer and accommodation location determine feasibility.",
+          "low_energy_version": "Add nights or reduce modules before adding mountain movement.",
+          "rain_version": "Use the base with the strongest indoor and transport fallback."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "Roadbook release and escalation",
+      "modules": [
+        {
+          "name": "Roadbook release and escalation",
+          "question": "What needs a human check, and when should the agent stop?",
+          "practical_note": "Escalate health, mobility, weather, transport and all partner requests.",
+          "confirmations": [],
+          "anchor": "Make the agent stop and escalate when the route depends on human access or safety judgement.",
+          "what_to_notice": "Which claims are research-only and which have dated evidence.",
+          "stop_rule": "No release until the required human checks are complete.",
+          "main_friction": "The entire product is sensitive to live conditions and access.",
+          "route_shape": "A release checkpoint that tells the agent when to stop, escalate or keep the route public.",
+          "body_budget": "Low sightseeing load; safety and evidence are the product boundary.",
+          "low_energy_version": "Remove every unreleased practice, ritual or private-access claim.",
+          "rain_version": "Default escalation branch when mountain conditions are uncertain."
+        }
+      ]
+    }
+  ],
+  "what_we_deliberately_leave_out": [
+    "A guaranteed master, healing or martial-arts encounter.",
+    "Private ritual or photography access without consent and release.",
+    "A mountain route released without current weather, steps and recovery checks."
+  ],
+  "deliberate_tradeoff": "Heritage, physical practice and private instruction have different release gates and should not be bundled by default.",
+  "fallback_logic": "If practice access is not confirmed, keep the public mountain and architectural route.",
+  "checks_before_delivery": [
+    "Current opening, reservation, transport, weather and access conditions for the selected dates.",
+    "This is a research draft. Recheck weather, warnings, access, transport, cable-car operations and on-site rules before any client-specific output."
+  ],
+  "delivery_boundary": "Research draft until dated human checks support release. This does not create a booking, private-access promise or supplier recommendation.",
+  "markdown": "# A Deeper China | Wudang Mountains research draft\n\n**Shape:** 3 nights, built around Heritage system, not fantasy · Public architectural route · Arrival and protected pace · Mountain movement and weather · Roadbook release and escalation.\n\n## Why Wudang\nRead Wudang as mountain-based Taoist architectural heritage: landscape, public buildings, movement and etiquette - not a guaranteed kung fu or spiritual-transformation experience.\n\n\n## Trip brief used for this draft\n- Dates: 2026-09-10 → 2026-09-13 (3 nights)\n- Travelers: 2 travelers\n- Pace: slow\n- Overnight area: to confirm\n- Output language: English\n\n### What we heard\n- Priorities: heritage architecture\n- Avoidances: rushing\n\n## Day structure\n\n### Day 1 — Public architectural route + Mountain movement and weather\n- **Public architectural route** — Which public heritage layer is meaningful without overpacking the day?\n- **Mountain movement and weather** — What walking, stairs, cable-car and weather contingencies fit this visitor?\n\n### Day 2 — Heritage system, not fantasy + Arrival and protected pace\n- **Heritage system, not fantasy** — What connects mountain, architecture, Taoism and Ming-era state building?\n- **Arrival and protected pace** — How many nights and how much transfer/step capacity does this trip actually have?\n\n### Day 3 — Roadbook release and escalation\n- **Roadbook release and escalation** — What needs a human check, and when should the agent stop?\n\n## On-the-ground notes\n- **UNESCO heritage-system card:** The World Heritage property connects mountain landscapes with a long Taoist building tradition and surviving monumental architecture. **Check:** interpretation, religious_simplification.\n- **Ming state-building lens:** A stronger story than generic mysticism: imperial patronage, construction and religious legitimacy shaped the complex. **Check:** historical_depth, translation.\n- **Primary public heritage route:** One coherent public route can connect building, slope and viewpoint without turning a mountain day into a race. **Check:** crowds, wayfinding, stairs.\n- **Low-exposure fallback route:** A useful roadbook needs a weather/energy fallback rather than a failed version of the main plan. **Check:** rain, fatigue, closures.\n- **Two-night feasibility decision:** Two nights can support a focused heritage/mountain visit only if arrivals, weather and mobility remain workable. **Check:** transfer_fatigue, weather, stairs.\n- **Three-to-four-night slow route decision:** Extra time creates a weather buffer and allows a separately vetted, low-intensity activity discussion. **Check:** seasonality, provider_availability.\n- **Stairs and exertion disclosure:** Mountain routes can be stair-heavy and condition-sensitive; photos do not convey exertion. **Check:** mobility, cardiac_risk, fatigue.\n- **Rain, storm and cold fallback:** Weather may alter visibility, comfort and operations; it must change the day plan, not merely add a warning. **Check:** rain, lightning, wind, cold.\n- **Human-check release gate:** The safety and commercial quality of a roadbook depend on dated evidence, not confident prose. **Check:** dynamic_information, liability, scope.\n\n## Important\n- This is a research draft. Recheck weather, warnings, access, transport, cable-car operations and on-site rules before any client-specific output.\n\n## Decision layer\n\n**Route thesis:** Read Wudang through mountain architecture, Taoist rhythm, movement and etiquette—not a guaranteed martial-arts encounter.\n\n### Why this route is not a list\n- The selected modules are a small information budget, not a ranking of every attraction.\n- Each day should answer one question and leave a realistic exit for weather, energy or access changes.\n- The route gets shorter when the guest has understood the idea; more stops are not automatically better.\n- **Public architectural route** — Which public heritage layer is meaningful without overpacking the day?\n  - **Anchor:** Build a public architectural route around one heritage layer and a realistic body budget.\n  - **Notice:** Mountain placement, thresholds, movement and what is genuinely public.\n  - **Stop rule:** Do not add martial-arts or private instruction claims to fill the day.\n  - **Main friction:** Steps, cable-car, weather, crowding and opening conditions need checks.\n  - **Route shape:** One public architectural route, not every palace, temple or ridge in one day.\n  - **Body and time budget:** Moderate walking and heritage attention load.\n  - **Low-energy version:** Keep one public heritage anchor.\n  - **Rain version:** Use confirmed covered/public heritage areas.\n- **Mountain movement and weather** — What walking, stairs, cable-car and weather contingencies fit this visitor?\n  - **Anchor:** Choose walking, stairs, cable-car and weather contingencies before choosing a scenic sequence.\n  - **Notice:** How terrain changes the meaning and feasibility of the route.\n  - **Stop rule:** Turn back before fatigue turns heritage into a safety problem.\n  - **Main friction:** Mountain weather, step intensity, transport and recovery are decisive.\n  - **Route shape:** One mountain movement plan with stairs, cable-car and weather contingencies.\n  - **Body and time budget:** Potentially high steps and exposure; safety sets the route.\n  - **Low-energy version:** Choose the lowest-load public option and set a turnaround.\n  - **Rain version:** Remove exposed movement until same-day footing and weather checks pass.\n- **Heritage system, not fantasy** — What connects mountain, architecture, Taoism and Ming-era state building?\n  - **Anchor:** Connect mountain, architecture, Taoism and state building without inventing a mystical encounter.\n  - **Notice:** Spatial order, ritual boundaries and the difference between public history and belief practice.\n  - **Stop rule:** Keep private ritual, healing and master access outside the route unless separately released.\n  - **Main friction:** Etiquette, access, weather and interpretation need human review.\n  - **Route shape:** One heritage-system explanation linking mountain, architecture, Taoism and state building.\n  - **Body and time budget:** Moderate-to-high attention and transfer load; the mountain is not a backdrop only.\n  - **Low-energy version:** Keep one public architectural layer and remove extra ascent.\n  - **Rain version:** Use confirmed public/covered heritage access.\n- **Arrival and protected pace** — How many nights and how much transfer/step capacity does this trip actually have?\n  - **Anchor:** Use nights and transfer days to protect a mountain pace before adding another site.\n  - **Notice:** What the body can actually do after arrival and before departure.\n  - **Stop rule:** If the protected pace is not possible, do not sell a deep mountain product.\n  - **Main friction:** Arrival time, accommodation, transport and step load are operational gates.\n  - **Route shape:** A nights-and-transfer decision protecting early starts, recovery and realistic step capacity.\n  - **Body and time budget:** Transfer and accommodation location determine feasibility.\n  - **Low-energy version:** Add nights or reduce modules before adding mountain movement.\n  - **Rain version:** Use the base with the strongest indoor and transport fallback.\n- **Roadbook release and escalation** — What needs a human check, and when should the agent stop?\n  - **Anchor:** Make the agent stop and escalate when the route depends on human access or safety judgement.\n  - **Notice:** Which claims are research-only and which have dated evidence.\n  - **Stop rule:** No release until the required human checks are complete.\n  - **Main friction:** The entire product is sensitive to live conditions and access.\n  - **Route shape:** A release checkpoint that tells the agent when to stop, escalate or keep the route public.\n  - **Body and time budget:** Low sightseeing load; safety and evidence are the product boundary.\n  - **Low-energy version:** Remove every unreleased practice, ritual or private-access claim.\n  - **Rain version:** Default escalation branch when mountain conditions are uncertain.\n\n### Deliberate trade-off\n- Heritage, physical practice and private instruction have different release gates and should not be bundled by default.\n\n### Fallback logic\n- If practice access is not confirmed, keep the public mountain and architectural route.\n\n### Checks before delivery\n- Use a primary route and a fallback, never a static checklist.\n- Dynamic operational information overrides database.\n- Begin with public heritage interpretation; do not promise religious access.\n- No exact travel-time claim without current check.\n- Escalate health, mobility, weather, transport and all partner requests.\n- This is a research draft. Recheck weather, warnings, access, transport, cable-car operations and on-site rules before any client-specific output.\n\n### Delivery boundary\n- This is a research draft until dated human checks support release.\n- Do not turn a research candidate into a booking, private-access promise or supplier recommendation."
+}

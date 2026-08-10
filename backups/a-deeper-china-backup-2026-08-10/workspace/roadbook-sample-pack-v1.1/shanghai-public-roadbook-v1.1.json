@@ -1,0 +1,165 @@
+{
+  "schema_version": "1.1",
+  "renderer_version": "shanghai-v1.2",
+  "status": "draft_for_human_review",
+  "city": "Shanghai",
+  "delivery_status": {
+    "public_state": "draft_for_human_review",
+    "current_checks_required": true,
+    "human_review_required": true,
+    "booking_created": false,
+    "explanation": "This route is a research or human-review draft. Current checks and human review are required before client delivery."
+  },
+  "route_thesis": "Read Shanghai through river finance, one cultural frame and lived twentieth-century streets—not a checklist of famous façades.",
+  "why_this_route": [
+    "The selected modules are a small information budget, not a ranking of every attraction.",
+    "Each day answers one question and leaves a realistic exit for weather, energy or access changes."
+  ],
+  "route_controls": {
+    "one_question_per_day": true,
+    "stop_when_answered": true,
+    "protect_recovery_time": true,
+    "explanation": "The route gets shorter when the guest has understood the idea; more stops are not automatically better."
+  },
+  "trip_context": {
+    "arrival_date": "2026-09-10",
+    "departure_date": "2026-09-13",
+    "nights": 3,
+    "adults": 2,
+    "children": 0,
+    "party_size": 2,
+    "pace": "slow",
+    "overnight_area": "to confirm",
+    "output_language": "English",
+    "explicit_priorities": [
+      "architecture"
+    ],
+    "explicit_avoidances": [
+      "rushing"
+    ],
+    "inferred_needs": [
+      {
+        "question": "Would you rather understand one city clearly than try to cover its famous places?",
+        "why": "first-visit wording can mean the traveller needs a legible starting point, not more landmarks."
+      }
+    ]
+  },
+  "explicit_priorities": [
+    "architecture"
+  ],
+  "explicit_avoidances": [
+    "rushing"
+  ],
+  "decision_brief": {
+    "what_we_heard": [
+      "architecture"
+    ],
+    "what_we_are_protecting": [
+      "rushing"
+    ],
+    "inferred_needs": [
+      "Would you rather understand one city clearly than try to cover its famous places?"
+    ]
+  },
+  "hypotheses_to_confirm": [
+    {
+      "question": "Would you rather understand one city clearly than try to cover its famous places?",
+      "why": "first-visit wording can mean the traveller needs a legible starting point, not more landmarks."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "River city: Bund to Lujiazui",
+      "modules": [
+        {
+          "name": "River city: Bund to Lujiazui",
+          "question": "How did one river hold treaty-port Shanghai and its finance-led future in the same view?",
+          "practical_note": null,
+          "confirmations": [],
+          "anchor": "Read the river from one bank before crossing it; the contrast is the point, not the number of viewpoints.",
+          "what_to_notice": "Institutional scale, river movement and the old/new skyline relationship.",
+          "stop_rule": "Stop once the two riverbanks make sense; do not add an observation deck merely to collect a higher view.",
+          "main_friction": "Crowds, heat and cross-river transfers can consume the day faster than expected.",
+          "route_shape": "One riverbank reading, one deliberate crossing, then stop once the old/new city contrast is clear.",
+          "body_budget": "Moderate walking with one exposed river segment; protect shade and a seated break.",
+          "low_energy_version": "Keep the Bund-side reading and skip the cross-river segment.",
+          "rain_version": "Shorten the waterfront and use one confirmed indoor cultural stop."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "Museums that make China legible",
+      "modules": [
+        {
+          "name": "Museums that make China legible",
+          "question": "Which single museum answers the guest's actual China question?",
+          "practical_note": null,
+          "confirmations": [],
+          "anchor": "Choose one museum and give it one question; a second museum usually dilutes the first.",
+          "what_to_notice": "Which objects or displays answer the guest’s China question, rather than which museum is most famous.",
+          "stop_rule": "Leave with a usable mental frame, not after exhausting every gallery.",
+          "main_friction": "Timed entry, bag rules, temporary exhibitions and English interpretation must be checked for the date.",
+          "route_shape": "One museum, one question, one exit—not a museum marathon.",
+          "body_budget": "Lower physical friction, but attention fatigue is real; leave time to process.",
+          "low_energy_version": "Choose the shorter gallery route; do not compensate with another museum.",
+          "rain_version": "Use as the primary weather branch after dated opening and reservation checks."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "Walkable modernity: Hengfu",
+      "modules": [
+        {
+          "name": "Walkable modernity: Hengfu",
+          "question": "What did the former concession make possible, and how is that inheritance lived in now?",
+          "practical_note": null,
+          "confirmations": [],
+          "anchor": "Walk one continuous historic-street sequence slowly enough to see how grand façades meet ordinary life.",
+          "what_to_notice": "Setbacks, trees, entrances, reused buildings and the boundary between public street and private home.",
+          "stop_rule": "End the walk when the street pattern is legible; do not turn residential life into a photo hunt.",
+          "main_friction": "Shade, pavement, traffic crossings and resident privacy need active management.",
+          "route_shape": "One continuous Hengfu street loop, not a hunt for isolated famous façades.",
+          "body_budget": "Low-to-moderate walking; crossings, heat and uneven shade matter more than map distance.",
+          "low_energy_version": "Use one short street section around Wukang Building and finish with a seated stop.",
+          "rain_version": "Keep the street reading brief and move the main interpretation indoors."
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "theme": "Working waterfront and regeneration",
+      "modules": [
+        {
+          "name": "Working waterfront and regeneration",
+          "question": "How did industrial edges become civic, cultural and leisure space?",
+          "practical_note": null,
+          "confirmations": [],
+          "anchor": "Use the waterfront as evidence of work becoming public space, not as another skyline promenade.",
+          "what_to_notice": "Industrial traces, path continuity, bridges, shade and who uses the river edge now.",
+          "stop_rule": "Keep the segment only while the regeneration question is visible; cut the far end before adding a forced transfer.",
+          "main_friction": "Long distances, uneven shade and incomplete continuity can make the route look easier on a map than it feels.",
+          "route_shape": "One readable waterfront segment showing work becoming public space; cut the far end early.",
+          "body_budget": "Potentially long and exposed; distance, shade and toilets are design inputs.",
+          "low_energy_version": "Use the nearest coherent section and leave before continuity breaks.",
+          "rain_version": "Replace it with an indoor design or making layer only if current access is confirmed."
+        }
+      ]
+    }
+  ],
+  "what_we_deliberately_leave_out": [
+    "A second museum on the same day unless the first cannot answer the chosen question.",
+    "An observation-deck stop added only for height or a guaranteed photograph.",
+    "Residential compounds, private interiors or staged encounters with residents.",
+    "Nanjing Road as a standalone sightseeing objective for an architecture-led, slow first visit."
+  ],
+  "deliberate_tradeoff": "The first visit needs a coherent city frame; adding another district is less valuable than protecting time to observe and recover.",
+  "fallback_logic": "If heat, rain or crowding rises, keep the same urban question and shorten the outdoor segment before adding another transfer.",
+  "checks_before_delivery": [
+    "Current opening, reservation, transport, weather and access conditions for the selected dates."
+  ],
+  "delivery_boundary": "Research draft until dated human checks support release. This does not create a booking, private-access promise or supplier recommendation.",
+  "markdown": "# A Deeper China | Shanghai\n\n## Research roadbook draft\n\n**Shape:** 4 days · River city: Bund to Lujiazui · Museums that make China legible · Walkable modernity: Hengfu · Working waterfront and regeneration\n**Status:** draft_for_human_review\n\n\n## Trip brief used for this draft\n- Dates: 2026-09-10 → 2026-09-13 (3 nights)\n- Travelers: 2 travelers\n- Pace: slow\n- Overnight area: to confirm\n- Output language: English\n\n### What we heard\n- Priorities: architecture\n- Avoidances: rushing\n\n### Hypotheses to confirm\n- Would you rather understand one city clearly than try to cover its famous places?\n  - Why this came up: first-visit wording can mean the traveller needs a legible starting point, not more landmarks.\n\n## The route thesis\nUse architecture as a way to understand how Shanghai changes scale, time and public life.\n\n## Client decision brief\n- **What we heard:** architecture.\n- **What we are protecting:** rushing.\n- **What we inferred:**\n  - A first-time visitor needs a legible city frame before detail.\n  - Architecture is being used to understand history, money and public life—not only to collect façades.\n  - Recovery time and route continuity are part of the product, not spare time left over.\n- **Route promise:** one readable urban question per day, with a shorter version available when weather, energy or access changes.\n\n## Why this route fits\n- It gives a first-time visitor an orientation frame before asking for detail.\n- It turns architecture into questions about money, migration, public life and reuse—not just façades.\n- It keeps one main idea per day and leaves an exit when heat, rain or tired feet change the plan.\n\n## What makes this a different kind of roadbook\n- This is not a ranking of Shanghai attractions and it is not a fixed booking promise.\n- Every day has one reading question, one physical anchor and one stop rule.\n- The route is allowed to become shorter when the guest has understood the idea; more stops are not automatically better.\n\n## What we deliberately leave out\n- Do not try to cover every famous building in one district.\n- Do not treat residential streets or private compounds as attractions.\n- Do not promise a specific photo position, sunset or skyline condition.\n- Do not add a second museum simply because it is nearby; one museum should answer one clear question.\n- A second museum on the same day, unless the first museum cannot answer the chosen question.\n- An observation-deck stop added only for height or a guaranteed photograph.\n- Residential compounds, private interiors or staged encounters with residents.\n- A long waterfront extension when the route question has already been answered.\n- Nanjing Road as a standalone sightseeing objective; it is useful only if the guest wants a retail/public-movement contrast.\n\n## Day structure\n\n### Day 1 — River city: Bund to Lujiazui\n- **Reading question:** How did one river hold treaty-port Shanghai and its finance-led future in the same view?\n- **Story lens:** Institutional Bund\n- **Why it is here:** first_visit, photo, low_energy.\n- **Physical anchor:** Read the river from one bank before crossing it; the contrast is the point, not the number of viewpoints.\n- **What to notice:** Institutional scale, river movement and the old/new skyline relationship.\n- **Stop rule:** Once the two riverbanks make sense, stop. Do not add an observation deck merely to collect a higher view.\n- **Main friction:** Crowds, heat and cross-river transfers can consume the day faster than expected.\n- **Route shape:** One riverbank reading, one deliberate crossing, then stop once the old/new city contrast is clear.\n- **Body and time budget:** Usually a moderate walking day with one exposed river segment; protect shade and a seated break.\n- **Low-energy version:** Keep the Bund-side reading and skip the cross-river segment; the city contrast can still be explained from one bank.\n- **Rain version:** Shorten the waterfront and use one confirmed indoor cultural stop; do not add a second skyline viewpoint.\n\n### Day 2 — Museums that make China legible\n- **Reading question:** Which single museum answers the guest's actual China question?\n- **Story lens:** One museum, one question\n- **Why it is here:** culture, rain, family.\n- **Physical anchor:** Choose one museum and give it one question; a second museum usually dilutes the first.\n- **What to notice:** Which objects or displays answer the guest’s China question, rather than which museum is most famous.\n- **Stop rule:** Leave with a usable mental frame, not after exhausting every gallery.\n- **Main friction:** Timed entry, bag rules, temporary exhibitions and English interpretation must be checked for the date.\n- **Route shape:** One museum, one question, one exit—not a museum marathon.\n- **Body and time budget:** Mostly indoor and lower-friction physically, but attention fatigue is real; leave time to process what was seen.\n- **Low-energy version:** Choose the smaller question and the shorter gallery route; do not compensate with another museum.\n- **Rain version:** This is the primary weather branch, subject to dated opening, reservation and exhibition checks.\n\n### Day 3 — Walkable modernity: Hengfu\n- **Reading question:** What did the former concession make possible, and how is that inheritance lived in now?\n- **Story lens:** Lived historic district\n- **Why it is here:** architecture, walk, design.\n- **Physical anchor:** Walk one continuous historic-street sequence slowly enough to see how grand façades meet ordinary life.\n- **What to notice:** Setbacks, trees, entrances, reused buildings and the boundary between public street and private home.\n- **Stop rule:** End the walk when the street pattern has become legible; do not turn residential life into a photo hunt.\n- **Main friction:** Shade, pavement, traffic crossings and resident privacy need active management.\n- **Route shape:** One continuous Hengfu street loop, not a hunt for isolated famous façades.\n- **Body and time budget:** Low-to-moderate walking intensity, but crossings, heat and uneven shade matter more than the map distance.\n- **Low-energy version:** Use one short street section around Wukang Building and finish with a nearby seated stop.\n- **Rain version:** Keep the street reading brief and move the main interpretation indoors; resident privacy remains non-negotiable.\n\n### Day 4 — Working waterfront and regeneration\n- **Reading question:** How did industrial edges become civic, cultural and leisure space?\n- **Story lens:** Industrial public space\n- **Why it is here:** urbanism, design, older_kids.\n- **Physical anchor:** Use the waterfront as evidence of work becoming public space, not as another skyline promenade.\n- **What to notice:** Industrial traces, path continuity, bridges, shade and who uses the river edge now.\n- **Stop rule:** Keep the segment only while the regeneration question is visible; cut the far end before adding a forced transfer.\n- **Main friction:** Long distances, uneven shade and incomplete continuity can make the route look easier on a map than it feels.\n- **Route shape:** One readable waterfront segment showing work becoming public space; cut the far end before the route becomes a transfer exercise.\n- **Body and time budget:** Potentially long and exposed; treat distance, shade and toilets as design inputs, not footnotes.\n- **Low-energy version:** Use the nearest coherent section and leave before continuity breaks; do not force the full river edge.\n- **Rain version:** Replace the outdoor segment with an indoor design or making layer only if current access is confirmed.\n\n## Suggested points and how to use them\n- **The Bund architectural waterfront** — A legible first frame for treaty-port finance, river trade and the Pudong skyline opposite.\n  - Best used: Early morning or blue hour.\n  - Friction: Crowding and weather; do not promise a specific photo position.\n- **Lujiazui public-realm / skyline view** — Use after the Bund to read the city as two riverbanks, not as an observation-deck checklist.\n  - Best used: Late afternoon into evening.\n  - Friction: Long crossings and commercial detours can exhaust a short itinerary.\n- **Shanghai Museum, People's Square** — Best for guests who need a broad material-culture frame before neighborhood wandering.\n  - Best used: Reserved/confirmed early slot.\n  - Friction: Opening and reservation requirements are dynamic; do not use an outdated instruction.\n- **Shanghai Museum East Branch** — A large museum alternative when the guest is already spending a day on the east bank.\n  - Best used: Confirmed opening hours.\n  - Friction: Different rules from People's Square branch; verify which branch the guest means.\n- **Wukang Road** — A compact entry to twentieth-century residential, cultural and street history; use it as a question-led walk.\n  - Best used: Weekday morning.\n  - Friction: Residential privacy and crowding; no trespass or intrusive photography.\n- **Wukang Building (exterior reading)** — Useful as a short visual stop, not a whole itinerary or a reason to queue.\n  - Best used: Morning.\n  - Friction: Photo congestion and private-residence boundary.\n- **Yangpu Riverside** — Lets visitors read manufacturing, working riverfront and civic regeneration beyond the postcard skyline.\n  - Best used: Late afternoon.\n  - Friction: Continuity, access and lighting must be walked before a paid route is released.\n- **WorldSkills Museum (programme-led)** — Useful only for guests interested in work, making or family learning; verify current programme.\n  - Best used: Confirmed open day.\n  - Friction: Opening, ticketing and language support dynamic.\n\n## Fallback logic\n- If heat, rain or crowding makes a long walk uncomfortable, keep the same question but shorten the outdoor segment and use one indoor cultural frame.\n- If arrival or departure reduces usable time, keep the river frame and one neighborhood walk; drop the second district rather than rushing both.\n- If the travelers prefer a quieter day, stay within one walkable area and add a longer meal or rest instead of another transfer.\n\n## Checks required before delivery\n- Museum opening arrangements, reservations and current programmes.\n- Weather, shade, rest points and crowd load for the planned walking windows.\n- Transport time and any roadworks or temporary access restrictions.\n- cross-river route for the selected route.\n- viewing access for the selected route.\n- crowds for the selected route.\n- weather for the selected route.\n- opening for the selected route.\n- reservation for the selected route.\n- special exhibition for the selected route.\n- bag rules for the selected route.\n- resident boundaries for the selected route.\n- roadworks for the selected route.\n- riverside continuity for the selected route.\n- venue opening for the selected route.\n- night lighting for the selected route.\n\n## Verification boundary\n- This is a tailored research draft, not a booking, live-availability check or guarantee of access.\n- We do not direct guests into residential compounds or frame strangers’ everyday activity as a spectacle."
+}

@@ -1,0 +1,371 @@
+{
+  "metadata": {
+    "database": "A Deeper China | Shanghai point decision layer",
+    "version": "1.0",
+    "status": "editorial_point_layer_not_field_verified",
+    "scope": "上海全部40个点位",
+    "checked_at": "2026-08-03"
+  },
+  "points": {
+    "SH001": {
+      "point_role": "entry_anchor",
+      "guest_value": "Give a first-time visitor one readable river-scale frame.",
+      "choose_rule": "Use before any cross-river movement.",
+      "stop_after": "The guest can see the Bund as an institutional waterfront, not only a photo wall.",
+      "alternative_to": [],
+      "field_focus": ["shade", "crowd pressure", "seated pause", "safe crossing points"],
+      "release_status": "current_source_and_field_route_check"
+    },
+    "SH002": {
+      "point_role": "sequence_counterpoint",
+      "guest_value": "Make the historic/contemporary contrast physical rather than purely narrated.",
+      "choose_rule": "Use only when the guest still has energy after the Bund-side reading.",
+      "stop_after": "The two-bank relationship is clear; do not add a tower for height.",
+      "alternative_to": ["SH007", "SH024"],
+      "field_focus": ["cross-river transfer", "public realm continuity", "return route"],
+      "release_status": "current_source_and_field_route_check"
+    },
+    "SH003": {
+      "point_role": "conditional_transition",
+      "guest_value": "Turn the crossing into part of the architectural reading, not another attraction.",
+      "choose_rule": "Select the mode only after date, weather and boarding conditions are checked.",
+      "stop_after": "The crossing has served the comparison; no scenic cruise is added by default.",
+      "alternative_to": [],
+      "field_focus": ["timetable", "boarding", "accessibility", "weather fallback"],
+      "release_status": "current_source_required"
+    },
+    "SH004": {
+      "point_role": "walk_entry",
+      "guest_value": "Begin with street scale, trees and the relationship between public façade and lived neighbourhood.",
+      "choose_rule": "Use as the start of one continuous loop, not as a standalone selfie stop.",
+      "stop_after": "The street pattern is legible and privacy boundaries remain intact.",
+      "alternative_to": ["SH007"],
+      "field_focus": ["shade", "crossings", "rest points", "resident privacy"],
+      "release_status": "field_route_check"
+    },
+    "SH005": {
+      "point_role": "short_visual_anchor",
+      "guest_value": "Give the architecture-led visitor one precise form-reading moment.",
+      "choose_rule": "Keep it brief and exterior; never make a queue or private interior part of the promise.",
+      "stop_after": "The building’s massing and setting have been understood.",
+      "alternative_to": [],
+      "field_focus": ["photo congestion", "safe viewing position", "resident boundary"],
+      "release_status": "current_source_and_field_route_check"
+    },
+    "SH006": {
+      "point_role": "public_life_reset",
+      "guest_value": "Provide a quieter public-space observation and a seated recovery option.",
+      "choose_rule": "Use when the guest values slow rhythm or needs a low-transfer break.",
+      "stop_after": "The guest has observed public use without staging or photographing strangers intrusively.",
+      "alternative_to": ["SH037"],
+      "field_focus": ["shade", "seating", "toilets", "weather", "social etiquette"],
+      "release_status": "current_source_and_field_route_check"
+    },
+    "SH007": {
+      "point_role": "route_substrate",
+      "guest_value": "Convert a famous neighbourhood into a continuous, slower street reading.",
+      "choose_rule": "Use only after an actual loop is checked for construction, shade and recovery points.",
+      "stop_after": "The loop remains comfortable and the question has been answered; do not complete it for distance alone.",
+      "alternative_to": ["SH004", "SH032"],
+      "field_focus": ["exact loop", "construction", "shade", "toilets", "seated breaks"],
+      "release_status": "field_route_check_required"
+    },
+    "SH008": {
+      "point_role": "heritage_anchor",
+      "guest_value": "Pair designed garden form with an explanation of old-city commerce and ritual geography.",
+      "choose_rule": "Use when history or garden form matters; do not let nearby retail define the visit.",
+      "stop_after": "The garden/old-city relationship is clear and crowd load begins to dominate.",
+      "alternative_to": [],
+      "field_focus": ["reservation", "queue", "quiet edge", "rain shelter"],
+      "release_status": "current_source_required"
+    },
+    "SH009": {
+      "point_role": "contextual_counterpoint",
+      "guest_value": "Explain ritual economy and current commerce without claiming a staged local experience.",
+      "choose_rule": "Add only for explicit religion, history or food-geography intent.",
+      "stop_after": "The contextual question is answered; omit retail wandering when sensory load rises.",
+      "alternative_to": ["SH026", "SH028"],
+      "field_focus": ["religious access", "photography rules", "crowds", "quiet exit"],
+      "release_status": "current_source_and_etiquette_check"
+    },
+    "SH010": {
+      "point_role": "museum_branch",
+      "guest_value": "Offer a broad material-culture frame for a first visit.",
+      "choose_rule": "Choose only if its date-specific opening and reservation status fit the route.",
+      "stop_after": "One China question has a usable answer; leave before gallery fatigue.",
+      "alternative_to": ["SH011", "SH012", "SH013"],
+      "field_focus": ["reservation", "bag rules", "English interpretation", "gallery length"],
+      "release_status": "current_source_plus_human_review"
+    },
+    "SH011": {
+      "point_role": "museum_branch",
+      "guest_value": "Offer a museum choice that fits an east-bank day.",
+      "choose_rule": "Use instead of People’s Square when geography or programme makes it materially better.",
+      "stop_after": "The selected question is answered; do not visit both branches by default.",
+      "alternative_to": ["SH010", "SH012", "SH013"],
+      "field_focus": ["reservation", "opening", "branch-specific rules", "transport"],
+      "release_status": "current_source_plus_human_review"
+    },
+    "SH012": {
+      "point_role": "programme_branch",
+      "guest_value": "Provide a contemporary-art lens only when the live exhibition matches the guest.",
+      "choose_rule": "Never substitute it for history merely because it is nearby or visually impressive.",
+      "stop_after": "The current programme has answered the guest’s art/design question.",
+      "alternative_to": ["SH010", "SH011", "SH013"],
+      "field_focus": ["exhibition fit", "ticket", "opening", "language support"],
+      "release_status": "current_source_plus_human_review"
+    },
+    "SH013": {
+      "point_role": "programme_branch",
+      "guest_value": "Offer a modern-China visual-culture lens when the exhibition and radius fit.",
+      "choose_rule": "Use by programme and guest question, not by size or free admission.",
+      "stop_after": "The selected exhibition has provided the intended visual frame.",
+      "alternative_to": ["SH010", "SH011", "SH012"],
+      "field_focus": ["exhibition fit", "opening", "ticket", "transport"],
+      "release_status": "current_source_plus_human_review"
+    },
+    "SH014": {
+      "point_role": "waterfront_core",
+      "guest_value": "Show how a working industrial edge becomes public space.",
+      "choose_rule": "Use only for guests willing to trade postcard efficiency for urban-process reading.",
+      "stop_after": "Industrial traces, path continuity and current public use are all visible.",
+      "alternative_to": ["SH023", "SH024"],
+      "field_focus": ["continuity", "shade", "toilets", "lighting", "return transport"],
+      "release_status": "field_route_check_required"
+    },
+    "SH015": {
+      "point_role": "indoor_conditional",
+      "guest_value": "Translate work, making and skills into a family- or design-relevant indoor layer.",
+      "choose_rule": "Add only when programme, language and transfer fit.",
+      "stop_after": "One skills or labour idea is clear; do not add a second museum to compensate.",
+      "alternative_to": ["SH016", "SH017"],
+      "field_focus": ["opening", "programme", "ticketing", "language support", "toilets"],
+      "release_status": "current_source_plus_human_review"
+    },
+    "SH016": {
+      "point_role": "candidate_branch",
+      "guest_value": "Potentially connect industrial reuse with active contemporary galleries.",
+      "choose_rule": "Never publish as a guaranteed art circuit until active venues are field-confirmed.",
+      "stop_after": "The selected gallery or reuse question is answered; do not browse empty units.",
+      "alternative_to": ["SH014", "SH015", "SH017"],
+      "field_focus": ["active venues", "opening", "gallery turnover", "walking conditions"],
+      "release_status": "research_candidate"
+    },
+    "SH017": {
+      "point_role": "candidate_branch",
+      "guest_value": "Potentially combine contemporary art and riverfront change for a creative visitor.",
+      "choose_rule": "Select by current programme and distance tolerance, not by reputation alone.",
+      "stop_after": "The programme and riverfront question are both legible; cut the far end if not.",
+      "alternative_to": ["SH014", "SH015", "SH016"],
+      "field_focus": ["programme", "opening", "weather", "transfer", "lighting"],
+      "release_status": "research_candidate_until_current_and_field_checks"
+    },
+    "SH018": {
+      "point_role": "orientation_reset",
+      "guest_value": "Give a first-time visitor a civic-scale orientation without adding a retail circuit.",
+      "choose_rule": "Use as a short contextual stop with the museum, not as an extra attraction.",
+      "stop_after": "The central-city frame is understood and attention is still fresh.",
+      "alternative_to": ["SH001", "SH028"],
+      "field_focus": ["shade", "seating", "crowd pressure", "transfer"],
+      "release_status": "current_source_and_field_route_check"
+    },
+    "SH019": {
+      "point_role": "time_variant",
+      "guest_value": "Offer a calmer version of a famous view by changing time rather than adding places.",
+      "choose_rule": "Use as a morning variant, not in addition to a full evening skyline plan.",
+      "stop_after": "The quiet public-space quality is achieved; return before heat or fatigue rises.",
+      "alternative_to": ["SH001", "SH024"],
+      "field_focus": ["sunrise window", "weather", "crowds", "safe return"],
+      "release_status": "current_source_required"
+    },
+    "SH020": {
+      "point_role": "research_candidate",
+      "guest_value": "Potentially connect public-space etiquette, embodied practice and the guest’s Shanghai resource.",
+      "choose_rule": "Mention only as a research candidate when English teaching and a suitable date are explicit needs.",
+      "stop_after": "Do not treat a teacher lead as an experience until language, credentials, venue, capacity, price, filming consent, booking and safety gates are all passed.",
+      "alternative_to": ["SH006"],
+      "field_focus": ["English instruction", "credentials", "fixed venue", "rain backup", "capacity", "price", "cancellation", "safety", "filming consent"],
+      "release_status": "research_candidate_no_quote_no_booking_no_payment"
+    },
+    "SH021": {
+      "point_role": "extension_decision",
+      "guest_value": "Help the guest decide whether Hangzhou adds landscape and tea culture rather than another rushed city day.",
+      "choose_rule": "Use only when there is at least one extra full day, a clear Jiangnan interest and acceptance of a slower pace.",
+      "stop_after": "The guest can name the different question Hangzhou adds and accept the transfer/overnight cost.",
+      "alternative_to": ["SH039", "SH040"],
+      "field_focus": ["rail", "overnight capacity", "weather", "destination database status"],
+      "release_status": "decision_handoff_only"
+    },
+    "SH022": {
+      "point_role": "extension_decision",
+      "guest_value": "Help the guest decide whether Suzhou adds gardens, canals and heritage rather than another checklist day.",
+      "choose_rule": "Use only when garden/canal intent is explicit and the transfer does not damage the main Shanghai plan.",
+      "stop_after": "The guest can name the new question Suzhou answers and accept the pacing trade-off.",
+      "alternative_to": ["SH039", "SH040"],
+      "field_focus": ["rail", "garden access", "weather", "destination database status"],
+      "release_status": "decision_handoff_only"
+    },
+    "SH023": {
+      "point_role": "candidate_route",
+      "guest_value": "Offer a less postcard-driven waterway lens on industry, ecology and public space.",
+      "choose_rule": "Use only after continuity, construction and rest points are field-checked.",
+      "stop_after": "One industrial trace and one current public use are legible; stop at the first continuity break.",
+      "alternative_to": ["SH014", "SH024"],
+      "field_focus": ["walk continuity", "construction", "shade", "toilets", "weather"],
+      "release_status": "research_candidate_until_field_check"
+    },
+    "SH024": {
+      "point_role": "repeat_visit_counterpoint",
+      "guest_value": "Show the port-facing edge that the central Bund cannot explain.",
+      "choose_rule": "Use for repeat visitors or explicit port/history interest, not as a second skyline stop by default.",
+      "stop_after": "The guest can state what the North Bund adds to the central Bund story.",
+      "alternative_to": ["SH001", "SH019"],
+      "field_focus": ["river access", "wind", "crowds", "blue-hour timing", "return transport"],
+      "release_status": "current_source_and_field_route_check"
+    },
+    "SH025": {
+      "point_role": "focused_history_anchor",
+      "guest_value": "Provide a careful, focused entry into refugee and diaspora history.",
+      "choose_rule": "Use when the guest explicitly wants this history; do not turn trauma into a neighbourhood spectacle.",
+      "stop_after": "The guest has a grounded historical frame and enough emotional space to process it.",
+      "alternative_to": ["SH011", "SH029"],
+      "field_focus": ["reservation", "opening", "English interpretation", "emotional pacing"],
+      "release_status": "current_source_plus_human_review"
+    },
+    "SH026": {
+      "point_role": "religious_context_branch",
+      "guest_value": "Show how ritual time and temple-city relationships operate beyond generic sightseeing.",
+      "choose_rule": "Use for explicit religion/history interest and explain etiquette before entry or photography.",
+      "stop_after": "One relationship between ritual practice and urban life is understood.",
+      "alternative_to": ["SH027", "SH028"],
+      "field_focus": ["temple rules", "photography", "festival crowds", "opening"],
+      "release_status": "current_source_and_etiquette_check"
+    },
+    "SH027": {
+      "point_role": "religious_comparison_branch",
+      "guest_value": "Offer a second urban-religion lens only when comparison is the guest’s actual question.",
+      "choose_rule": "Do not combine with Longhua by default; choose one temple unless the comparison earns the transfer.",
+      "stop_after": "The comparison question is answered without treating worshippers as content.",
+      "alternative_to": ["SH026", "SH028"],
+      "field_focus": ["opening", "temple rules", "photography", "crowds", "transfer"],
+      "release_status": "current_source_and_etiquette_check"
+    },
+    "SH028": {
+      "point_role": "compact_urban_contrast",
+      "guest_value": "Read temple, metro, retail and high-density movement in one compact district.",
+      "choose_rule": "Use when the guest wants urban contrast, not a shopping itinerary.",
+      "stop_after": "The sacred-commercial coexistence is clear and crowd load has not taken over.",
+      "alternative_to": ["SH026", "SH027", "SH013"],
+      "field_focus": ["crowds", "temple access", "crossings", "weather", "quiet exit"],
+      "release_status": "current_source_and_field_route_check"
+    },
+    "SH029": {
+      "point_role": "programme_branch",
+      "guest_value": "Give cinema and media visitors a programme-led visual-culture frame.",
+      "choose_rule": "Select only when the current programme and language support match the guest.",
+      "stop_after": "One film/media idea has been understood; do not add another visual-culture venue automatically.",
+      "alternative_to": ["SH030", "SH035"],
+      "field_focus": ["programme", "opening", "ticketing", "language support", "transport"],
+      "release_status": "current_source_plus_human_review"
+    },
+    "SH030": {
+      "point_role": "candidate_visual_culture_branch",
+      "guest_value": "Potentially answer a design and political-visual-culture question through posters and mass imagery.",
+      "choose_rule": "Use only after access, location and ticketing are verified; never as a generic hidden gem claim.",
+      "stop_after": "The selected visual system answers the guest’s question; do not add a second museum to compensate.",
+      "alternative_to": ["SH029", "SH012", "SH013"],
+      "field_focus": ["access", "opening", "ticketing", "language support"],
+      "release_status": "research_candidate_until_current_check"
+    },
+    "SH031": {
+      "point_role": "adaptive_reuse_case",
+      "guest_value": "Give an architecture visitor one clear case of preservation becoming public use.",
+      "choose_rule": "Use as a short case study, not as a reason to tour unrelated façades.",
+      "stop_after": "The guest can identify what was preserved, changed and made public.",
+      "alternative_to": ["SH014", "SH035"],
+      "field_focus": ["access", "events", "crowds", "interior route", "weather"],
+      "release_status": "current_source_and_field_route_check"
+    },
+    "SH032": {
+      "point_role": "candidate_literary_loop",
+      "guest_value": "Connect a street-scale walk with modern Chinese literary and civic history.",
+      "choose_rule": "Use only when a coherent loop and current venues are field-checked.",
+      "stop_after": "One street, author or debate has become legible; do not keep walking for plaque collection.",
+      "alternative_to": ["SH004", "SH023"],
+      "field_focus": ["venue opening", "street works", "shade", "pedestrian continuity", "rain"],
+      "release_status": "research_candidate_until_field_check"
+    },
+    "SH033": {
+      "point_role": "method_led_food_candidate",
+      "guest_value": "Use breakfast timing, ordering and table rhythm to read food as social geography.",
+      "choose_rule": "No specific shop, price or participatory promise before venue, dietary and language checks.",
+      "stop_after": "The guest understands one timing or ordering pattern and has eaten safely.",
+      "alternative_to": ["SH008", "SH017"],
+      "field_focus": ["venue", "dietary needs", "queues", "payment", "language", "hygiene"],
+      "release_status": "research_candidate_no_specific_venue_promise"
+    },
+    "SH034": {
+      "point_role": "arrival_recovery_anchor",
+      "guest_value": "Give a long-haul arrival one meaningful, low-decision Shanghai moment.",
+      "choose_rule": "Build only after hotel area, arrival time, payment and return route are known.",
+      "stop_after": "The guest is oriented, fed, connected and safely back without performing tourism.",
+      "alternative_to": ["SH001", "SH018"],
+      "field_focus": ["hotel-linked route", "airport transfer", "payment", "lighting", "return safety"],
+      "release_status": "research_draft_until_hotel_linked_route_check"
+    },
+    "SH035": {
+      "point_role": "creative_programme_branch",
+      "guest_value": "Connect contemporary art with industrial reuse for a creative worker or design visitor.",
+      "choose_rule": "Choose by current programme, not by institution name alone.",
+      "stop_after": "One contemporary practice or institutional choice is clear; avoid a second art district by default.",
+      "alternative_to": ["SH012", "SH016", "SH031"],
+      "field_focus": ["programme", "opening", "transport", "weekday hours", "language support"],
+      "release_status": "current_source_plus_human_review"
+    },
+    "SH036": {
+      "point_role": "family_indoor_anchor",
+      "guest_value": "Give families an age-fit indoor learning layer with recovery time built in.",
+      "choose_rule": "Select by age, queue tolerance, toilets and current programme, not adult interest alone.",
+      "stop_after": "Child and adult can each name one thing they noticed before attention collapses.",
+      "alternative_to": ["SH010", "SH015"],
+      "field_focus": ["entry", "queues", "toilets", "age fit", "food", "recovery time"],
+      "release_status": "current_source_plus_human_review"
+    },
+    "SH037": {
+      "point_role": "ethical_method_card",
+      "guest_value": "Create depth through repeated public observation without extracting private life.",
+      "choose_rule": "Use one public route or park edge; never direct guests into residential compounds or private routines.",
+      "stop_after": "A public pattern has been observed across visits without intrusive recording or staged contact.",
+      "alternative_to": ["SH038", "SH006"],
+      "field_focus": ["public boundary", "privacy", "repeatability", "weather", "resident sensitivity"],
+      "release_status": "method_draft_until_ethics_review"
+    },
+    "SH038": {
+      "point_role": "ethical_method_card",
+      "guest_value": "Help photographers make strong public compositions without assuming consent from strangers.",
+      "choose_rule": "Use explicit stop rules for faces, children, worship, private thresholds and restricted venues.",
+      "stop_after": "One visual question is answered without relying on intrusive capture.",
+      "alternative_to": ["SH019", "SH037"],
+      "field_focus": ["privacy", "consent", "photography rules", "resident boundaries", "venue restrictions"],
+      "release_status": "method_draft_until_ethics_review"
+    },
+    "SH039": {
+      "point_role": "destination_handoff",
+      "guest_value": "Pass a Suzhou decision to a separate approved database instead of improvising a generic itinerary.",
+      "choose_rule": "Use only after time, pacing and garden/canal intent are explicit.",
+      "stop_after": "The guest has made a transfer decision; do not pretend this handoff is a full Suzhou roadbook.",
+      "alternative_to": ["SH022", "SH040"],
+      "field_focus": ["rail", "destination database status", "weather", "overnight plan"],
+      "release_status": "handoff_only_until_suzhou_database_approved"
+    },
+    "SH040": {
+      "point_role": "destination_handoff",
+      "guest_value": "Pass a Hangzhou decision to a separate approved database instead of improvising a generic itinerary.",
+      "choose_rule": "Use only after landscape/tea intent and overnight capacity are explicit.",
+      "stop_after": "The guest has made a transfer decision; do not present the handoff as a full Hangzhou roadbook.",
+      "alternative_to": ["SH021", "SH039"],
+      "field_focus": ["rail", "destination database status", "weather", "overnight capacity"],
+      "release_status": "handoff_only_until_hangzhou_database_approved"
+    }
+  }
+}

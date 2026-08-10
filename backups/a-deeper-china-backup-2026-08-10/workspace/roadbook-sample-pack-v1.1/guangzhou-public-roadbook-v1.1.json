@@ -1,0 +1,163 @@
+{
+  "schema_version": "1.1",
+  "renderer_version": "guangzhou-v1.2",
+  "status": "draft_for_human_review",
+  "city": "Guangzhou",
+  "delivery_status": {
+    "public_state": "draft_for_human_review",
+    "current_checks_required": true,
+    "human_review_required": true,
+    "booking_created": false,
+    "explanation": "This route is a research or human-review draft. Current checks and human review are required before client delivery."
+  },
+  "route_thesis": "Read Guangzhou as a port city through food, trade, old-city texture and one contemporary contrast.",
+  "why_this_route": [
+    "The selected modules are a small information budget, not a ranking of every attraction.",
+    "Each day answers one question and leaves a realistic exit for weather, energy or access changes."
+  ],
+  "route_controls": {
+    "one_question_per_day": true,
+    "stop_when_answered": true,
+    "protect_recovery_time": true,
+    "explanation": "The route gets shorter when the guest has understood the idea; more stops are not automatically better."
+  },
+  "trip_context": {
+    "arrival_date": "2026-09-10",
+    "departure_date": "2026-09-13",
+    "nights": 3,
+    "adults": 2,
+    "children": 0,
+    "party_size": 2,
+    "pace": "slow",
+    "overnight_area": "to confirm",
+    "output_language": "English",
+    "explicit_priorities": [
+      "architecture",
+      "food"
+    ],
+    "explicit_avoidances": [
+      "rushing"
+    ],
+    "inferred_needs": [
+      {
+        "question": "Would you rather understand one city clearly than try to cover its famous places?",
+        "why": "first-visit wording can mean the traveller needs a legible starting point, not more landmarks."
+      }
+    ]
+  },
+  "explicit_priorities": [
+    "architecture",
+    "food"
+  ],
+  "explicit_avoidances": [
+    "rushing"
+  ],
+  "decision_brief": {
+    "what_we_heard": [
+      "architecture",
+      "food"
+    ],
+    "what_we_are_protecting": [
+      "rushing"
+    ],
+    "inferred_needs": [
+      "Would you rather understand one city clearly than try to cover its famous places?"
+    ]
+  },
+  "hypotheses_to_confirm": [
+    {
+      "question": "Would you rather understand one city clearly than try to cover its famous places?",
+      "why": "first-visit wording can mean the traveller needs a legible starting point, not more landmarks."
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "theme": "Cantonese food as a social system + Liwan: old city, water and trade",
+      "modules": [
+        {
+          "name": "Cantonese food as a social system",
+          "question": "How do I eat Guangzhou without receiving a stale restaurant list?",
+          "practical_note": "Ask meal time, group size, spice/diet/allergies, queue tolerance and desired form; recommend a food logic, not a guaranteed table.",
+          "confirmations": [],
+          "anchor": "Make one meal the entry point to Cantonese social rules, ingredients and timing.",
+          "what_to_notice": "Ordering language, dim sum rhythm, tea, sharing and neighbourhood context.",
+          "stop_rule": "Leave after the food system is understood; do not replace interpretation with a restaurant ranking.",
+          "main_friction": "Queues, allergies, peak hours and English ordering support need current checks.",
+          "route_shape": "One food-and-city sequence explaining ordering, ingredients, timing and social geography—not a restaurant list.",
+          "body_budget": "Low-to-moderate walking, but heat, queues, language and dietary details carry the real cost.",
+          "low_energy_version": "Keep one confirmed meal and one short public-life layer.",
+          "rain_version": "Food remains a strong indoor branch after current venue and dietary checks."
+        },
+        {
+          "name": "Liwan: old city, water and trade",
+          "question": "How do Shamian, Xiguan and Liwan fit together?",
+          "practical_note": "Pair trading-port history with living streets and water; never call a commercial lane inherently authentic.",
+          "confirmations": [],
+          "anchor": "Connect one old-city walk to water and trade instead of treating Liwan as a photo backdrop.",
+          "what_to_notice": "Canals, arcades, thresholds, commerce and how old fabric is still used.",
+          "stop_rule": "Stop before heat and transfers flatten the walk; one readable district is enough.",
+          "main_friction": "Humidity, road crossings, crowding and route continuity matter.",
+          "route_shape": "One old-city water/trade sequence linking Liwan, Xiguan or Shamian without trying to cover every historic edge.",
+          "body_budget": "Moderate walking with humidity, shade gaps and commercial noise.",
+          "low_energy_version": "Choose the most coherent public loop and remove the farthest district.",
+          "rain_version": "Keep covered arcades, museums or food context and shorten exposed lanes."
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "theme": "Craft, clan and architectural language",
+      "modules": [
+        {
+          "name": "Craft, clan and architectural language",
+          "question": "What makes traditional Guangzhou visible?",
+          "practical_note": "Use Chen Clan Academy as a material/collective-history anchor; field-check access and avoid adding too many heritage sites.",
+          "confirmations": [],
+          "anchor": "Use craft and clan architecture to ask how a visual language was produced and maintained.",
+          "what_to_notice": "Materials, ornament, family/community function and what is publicly accessible.",
+          "stop_rule": "Keep public interpretation separate from private access or workshop promises.",
+          "main_friction": "Opening, permissions, language and etiquette need verification.",
+          "route_shape": "One craft/clan/architectural question with a public-facing material layer.",
+          "body_budget": "Low-to-moderate walking; programme and access matter more than distance.",
+          "low_energy_version": "Use one confirmed craft or architectural anchor.",
+          "rain_version": "Prefer an indoor making or heritage layer after current opening checks."
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "theme": "Pearl River and contemporary Guangzhou",
+      "modules": [
+        {
+          "name": "Pearl River and contemporary Guangzhou",
+          "question": "Is Canton Tower and Zhujiang New Town worth a half-day?",
+          "practical_note": "Frame it as a contemporary city/river contrast, not a compulsory observation-deck sale.",
+          "confirmations": [],
+          "anchor": "Use the Pearl River skyline as a contemporary contrast after the old-city layer, not as the whole city story.",
+          "what_to_notice": "New public space, towers, transport and who uses the waterfront after work.",
+          "stop_rule": "Leave when the old/new contrast is clear; do not add towers just for altitude.",
+          "main_friction": "Heat, lighting, crowding and venue access are dynamic.",
+          "route_shape": "One Pearl River/contemporary contrast, not an observation-deck checklist.",
+          "body_budget": "Lower walking load but high heat, skyline-weather and return-transport sensitivity.",
+          "low_energy_version": "Keep one public riverfront section and end before the route becomes a transfer.",
+          "rain_version": "Use a confirmed indoor contemporary layer and remove the exposed promenade."
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "theme": null,
+      "modules": []
+    }
+  ],
+  "what_we_deliberately_leave_out": [],
+  "deliberate_tradeoff": "A restaurant list is not a cultural route; the day should protect time for ingredients, ordering and urban history.",
+  "fallback_logic": "In heat or rain, shorten the old-city walk and retain one food or port-city question indoors.",
+  "checks_before_delivery": [
+    "Current opening, reservation, transport, weather and access conditions for the selected dates.",
+    "This is a draft for human review. Recheck live access, weather, transport, food, markets, payments and event details before delivery."
+  ],
+  "delivery_boundary": "Research draft until dated human checks support release. This does not create a booking, private-access promise or supplier recommendation.",
+  "markdown": "# A Deeper China | Guangzhou draft\n\n**Shape:** 4 days, built around Cantonese food as a social system · Liwan: old city, water and trade · Craft, clan and architectural language · Pearl River and contemporary Guangzhou.\n\n## Why this Guangzhou\nThis is not a restaurant ranking plus a colonial-photo stop. It connects eating, port-city layers, public old-city texture and one contemporary contrast.\n\n\n## Trip brief used for this draft\n- Dates: 2026-09-10 → 2026-09-13 (3 nights)\n- Travelers: 2 travelers\n- Pace: slow\n- Overnight area: to confirm\n- Output language: English\n\n### What we heard\n- Priorities: architecture; food\n- Avoidances: rushing\n\n### Hypotheses to confirm\n- Would you rather understand one city clearly than try to cover its famous places?\n  - Why this came up: first-visit wording can mean the traveller needs a legible starting point, not more landmarks.\n\n## Day structure\n\n### Day 1 — Cantonese food as a social system + Liwan: old city, water and trade\n- **Cantonese food as a social system** — How do I eat Guangzhou without receiving a stale restaurant list?\n- **Liwan: old city, water and trade** — How do Shamian, Xiguan and Liwan fit together?\n\n### Day 2 — Craft, clan and architectural language\n- **Craft, clan and architectural language** — What makes traditional Guangzhou visible?\n\n### Day 3 — Pearl River and contemporary Guangzhou\n- **Pearl River and contemporary Guangzhou** — Is Canton Tower and Zhujiang New Town worth a half-day?\n\n### Day 4 — \n\n## On-the-ground notes\n- **Morning yum cha decision:** Dim sum is a time-based, shared meal format and an introduction to Cantonese social rhythm, not merely a list of dishes. **Check:** queues, dietary_needs, ordering_language, meal_timing.\n- **Roast meat / noodle / snack decision:** A smaller food format can be a better match than a major dim-sum or banquet commitment, especially for solo visitors or dietary caution. **Check:** ingredients, allergens, translation, queues.\n- **Shamian Island:** A compact entry to Guangzhou's trading-port and colonial-era built environment, best read as one historical layer rather than as a claim about the whole city. **Check:** weather, tourist_density, commercial_noise.\n- **Liwan Lake–Xiguan walking fabric:** A slower way to connect water, older residential/commercial fabric and a food-oriented district. **Check:** heat, rain, walking_distance, venue_turnover.\n- **Chen Clan Ancestral Hall:** A strong material lens on clan organisation, carving and architecture; it gives traditional Guangzhou a specific reading question. **Check:** ticketing, crowds, opening_time.\n- **Canton Tower / Zhujiang New Town decision:** The deliberate contrast to Liwan: Guangzhou's contemporary skyline, cultural buildings and river-oriented public realm. **Check:** weather, crowds, ticketing, late_return.\n- **Pearl River night decision:** A choice between riverwalk, current public realm and a potentially ticketed/structured evening; it should be driven by mood rather than assumed necessity. **Check:** weather, ticketing, crowds, late_return.\n\n## Before I finalize it\n- What meal format, dietary/allergy needs, queue tolerance and group size should shape the food layer?\n\n## Verification boundary\n- Dynamic details need a date-specific check before delivery.\n- We do not book, bundle or sell third-party travel services.\n\n## Important\n- This is a draft for human review. Recheck live access, weather, transport, food, markets, payments and event details before delivery.\n\n## Decision layer\n\n**Route thesis:** Read Guangzhou as a port city through food, trade, old-city texture and one contemporary contrast.\n\n### Why this route is not a list\n- The selected modules are a small information budget, not a ranking of every attraction.\n- Each day should answer one question and leave a realistic exit for weather, energy or access changes.\n- The route gets shorter when the guest has understood the idea; more stops are not automatically better.\n- **Cantonese food as a social system** — How do I eat Guangzhou without receiving a stale restaurant list?\n  - **Anchor:** Make one meal the entry point to Cantonese social rules, ingredients and timing.\n  - **Notice:** Ordering language, dim sum rhythm, tea, sharing and neighbourhood context.\n  - **Stop rule:** Leave after the food system is understood; do not replace interpretation with a restaurant ranking.\n  - **Main friction:** Queues, allergies, peak hours and English ordering support need current checks.\n  - **Route shape:** One food-and-city sequence explaining ordering, ingredients, timing and social geography—not a restaurant list.\n  - **Body and time budget:** Low-to-moderate walking, but heat, queues, language and dietary details carry the real cost.\n  - **Low-energy version:** Keep one confirmed meal and one short public-life layer.\n  - **Rain version:** Food remains a strong indoor branch after current venue and dietary checks.\n- **Liwan: old city, water and trade** — How do Shamian, Xiguan and Liwan fit together?\n  - **Anchor:** Connect one old-city walk to water and trade instead of treating Liwan as a photo backdrop.\n  - **Notice:** Canals, arcades, thresholds, commerce and how old fabric is still used.\n  - **Stop rule:** Stop before heat and transfers flatten the walk; one readable district is enough.\n  - **Main friction:** Humidity, road crossings, crowding and route continuity matter.\n  - **Route shape:** One old-city water/trade sequence linking Liwan, Xiguan or Shamian without trying to cover every historic edge.\n  - **Body and time budget:** Moderate walking with humidity, shade gaps and commercial noise.\n  - **Low-energy version:** Choose the most coherent public loop and remove the farthest district.\n  - **Rain version:** Keep covered arcades, museums or food context and shorten exposed lanes.\n- **Craft, clan and architectural language** — What makes traditional Guangzhou visible?\n  - **Anchor:** Use craft and clan architecture to ask how a visual language was produced and maintained.\n  - **Notice:** Materials, ornament, family/community function and what is publicly accessible.\n  - **Stop rule:** Keep public interpretation separate from private access or workshop promises.\n  - **Main friction:** Opening, permissions, language and etiquette need verification.\n  - **Route shape:** One craft/clan/architectural question with a public-facing material layer.\n  - **Body and time budget:** Low-to-moderate walking; programme and access matter more than distance.\n  - **Low-energy version:** Use one confirmed craft or architectural anchor.\n  - **Rain version:** Prefer an indoor making or heritage layer after current opening checks.\n- **Pearl River and contemporary Guangzhou** — Is Canton Tower and Zhujiang New Town worth a half-day?\n  - **Anchor:** Use the Pearl River skyline as a contemporary contrast after the old-city layer, not as the whole city story.\n  - **Notice:** New public space, towers, transport and who uses the waterfront after work.\n  - **Stop rule:** Leave when the old/new contrast is clear; do not add towers just for altitude.\n  - **Main friction:** Heat, lighting, crowding and venue access are dynamic.\n  - **Route shape:** One Pearl River/contemporary contrast, not an observation-deck checklist.\n  - **Body and time budget:** Lower walking load but high heat, skyline-weather and return-transport sensitivity.\n  - **Low-energy version:** Keep one public riverfront section and end before the route becomes a transfer.\n  - **Rain version:** Use a confirmed indoor contemporary layer and remove the exposed promenade.\n\n### Deliberate trade-off\n- A restaurant list is not a cultural route; the day should protect time for ingredients, ordering and urban history.\n\n### Fallback logic\n- In heat or rain, shorten the old-city walk and retain one food or port-city question indoors.\n\n### Checks before delivery\n- Ask meal time, group size, spice/diet/allergies, queue tolerance and desired form; recommend a food logic, not a guaranteed table.\n- Pair trading-port history with living streets and water; never call a commercial lane inherently authentic.\n- Use Chen Clan Academy as a material/collective-history anchor; field-check access and avoid adding too many heritage sites.\n- Frame it as a contemporary city/river contrast, not a compulsory observation-deck sale.\n- This is a draft for human review. Recheck live access, weather, transport, food, markets, payments and event details before delivery.\n\n### Delivery boundary\n- This is a research draft until dated human checks support release.\n- Do not turn a research candidate into a booking, private-access promise or supplier recommendation."
+}

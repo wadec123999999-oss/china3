@@ -1,0 +1,329 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A Deeper China helps independent travelers make their China itinerary work in real life.">
+  <title>A Deeper China — Make the route work</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%23151512'/%3E%3Cpath d='M17 45 31 15h3l13 30h-8l-3-8H25l-3 8Zm10-14h7l-3-9Z' fill='%23f5f1e9'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --paper: #f5f1e9;
+      --paper-deep: #e7e1d6;
+      --white: #fbf9f4;
+      --ink: #151512;
+      --muted: #706a62;
+      --faint: rgba(21,21,18,.18);
+      --accent: #a63d2d;
+      --green: #526a56;
+      --gold: #b48d4e;
+      --serif: 'Instrument Serif', Georgia, serif;
+      --sans: 'Manrope', system-ui, sans-serif;
+      --mono: 'DM Mono', ui-monospace, monospace;
+      --ease: cubic-bezier(.2,.85,.2,1);
+      --max: 1240px;
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; color: var(--ink); background: var(--paper); font-family: var(--sans); }
+    body::before { content: ''; position: fixed; inset: 0; pointer-events: none; z-index: 20; opacity: .055; background-image: radial-gradient(rgba(0,0,0,.55) .45px, transparent .55px); background-size: 5px 5px; }
+    a { color: inherit; text-decoration: none; }
+    button, input, textarea { font: inherit; }
+    button { cursor: pointer; }
+    .wrap { width: min(var(--max), calc(100% - 64px)); margin-inline: auto; }
+    .mono { font-family: var(--mono); font-size: 10px; line-height: 1.2; letter-spacing: .1em; text-transform: uppercase; }
+    .serif { font-family: var(--serif); }
+    .skip { position: absolute; left: -999px; top: 0; padding: 12px 16px; background: var(--ink); color: var(--paper); z-index: 99; }
+    .skip:focus { left: 14px; top: 14px; }
+    .eyebrow { display: flex; align-items: center; gap: 10px; color: var(--accent); }
+    .eyebrow::before { content: ''; width: 26px; height: 1px; background: currentColor; }
+    .site-header { border-bottom: 1px solid var(--faint); }
+    .nav { height: 84px; display: flex; align-items: center; justify-content: space-between; gap: 24px; }
+    .wordmark { font-size: 20px; font-weight: 800; letter-spacing: -.06em; }
+    .wordmark span { display: block; margin-top: 4px; color: var(--muted); font: 400 9px/1 var(--mono); letter-spacing: .08em; text-transform: uppercase; }
+    .navlinks { display: flex; align-items: center; gap: 28px; color: #5f5952; font-size: 12px; }
+    .navlinks a:not(.nav-cta):hover { color: var(--accent); }
+    .nav-cta, .button { display: inline-flex; align-items: center; justify-content: center; min-height: 46px; padding: 0 19px; border: 1px solid var(--ink); background: var(--ink); color: var(--paper); font-size: 12px; font-weight: 800; transition: transform 160ms var(--ease), background 160ms var(--ease), color 160ms var(--ease); }
+    .nav-cta:hover, .button:hover { transform: translateY(-2px); }
+    .button.accent { background: var(--accent); border-color: var(--accent); color: white; }
+    .button.ghost { background: transparent; color: var(--ink); }
+    .button.ghost:hover { background: var(--ink); color: var(--paper); }
+
+    .hero { padding: 88px 0 74px; }
+    .hero-grid { display: grid; grid-template-columns: 1.05fr .95fr; gap: 72px; align-items: end; }
+    h1 { max-width: 730px; margin: 22px 0 26px; font: 400 clamp(4.4rem, 8.8vw, 9rem)/.84 var(--serif); letter-spacing: -.065em; }
+    h1 em { color: var(--accent); font-style: normal; }
+    .hero-copy { max-width: 520px; margin: 0; color: #5e5951; font-size: 16px; line-height: 1.75; }
+    .hero-actions { display: flex; align-items: center; gap: 18px; margin-top: 31px; }
+    .inline-link { border-bottom: 1px solid var(--ink); padding: 8px 0; font-size: 12px; font-weight: 800; }
+    .inline-link:hover { color: var(--accent); border-color: var(--accent); }
+    .hero-note { display: flex; flex-wrap: wrap; gap: 10px 20px; margin-top: 22px; color: var(--muted); font-size: 11px; }
+    .hero-note strong { color: var(--ink); }
+    .hero-media { position: relative; min-height: 525px; overflow: hidden; background: #32312c; }
+    .hero-media img { width: 100%; height: 100%; min-height: 525px; display: block; object-fit: cover; filter: saturate(.78) contrast(1.04); transition: transform 700ms var(--ease); }
+    .hero-media:hover img { transform: scale(1.02); }
+    .media-caption { position: absolute; left: 20px; top: 20px; color: white; writing-mode: vertical-rl; text-orientation: mixed; font: 400 10px/1.4 var(--mono); letter-spacing: .12em; text-transform: uppercase; }
+    .media-credit { position: absolute; right: 16px; bottom: 14px; color: rgba(255,255,255,.7); font-size: 9px; }
+    .audit-slip { position: absolute; left: 26px; right: 26px; bottom: 25px; padding: 17px 18px; background: rgba(251,249,244,.96); border-left: 3px solid var(--accent); }
+    .audit-slip-top { display: flex; align-items: center; justify-content: space-between; gap: 15px; color: var(--muted); }
+    .audit-slip h2 { margin: 10px 0 0; font-size: 17px; letter-spacing: -.04em; }
+    .audit-slip p { margin: 5px 0 0; color: var(--muted); font-size: 11px; line-height: 1.5; }
+    .grade { color: var(--accent); font: 400 30px/.8 var(--serif); }
+
+    .signal-strip { border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); background: var(--ink); color: var(--paper); }
+    .signal-inner { min-height: 54px; display: flex; align-items: center; gap: 22px; overflow: hidden; white-space: nowrap; }
+    .signal-inner .mono { color: var(--gold); }
+    .signal-inner span:not(.mono) { font: 400 16px var(--serif); }
+    .dot { width: 5px; height: 5px; flex: 0 0 auto; border-radius: 50%; background: var(--accent); }
+
+    section { padding: 118px 0; }
+    .section-head { display: grid; grid-template-columns: 1fr 280px; gap: 60px; align-items: end; margin-bottom: 44px; }
+    .section-head h2 { max-width: 700px; margin: 14px 0 0; font: 400 clamp(3.2rem, 5.8vw, 6rem)/.88 var(--serif); letter-spacing: -.06em; }
+    .section-head p { margin: 0 0 3px; color: var(--muted); font-size: 13px; line-height: 1.7; }
+
+    .audit-section { background: var(--white); border-bottom: 1px solid var(--faint); }
+    .before-after { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
+    .before-after article { min-height: 390px; padding: 31px; }
+    .before-after article + article { border-left: 1px solid var(--ink); background: var(--ink); color: var(--paper); }
+    .before-after h3 { margin: 13px 0 30px; font-size: 21px; letter-spacing: -.045em; }
+    .route-list { margin: 0; padding: 0; list-style: none; }
+    .route-list li { display: flex; gap: 13px; padding: 14px 0; border-top: 1px solid var(--faint); color: #5d5851; font-size: 13px; line-height: 1.55; }
+    .route-list li::before { content: '—'; color: var(--accent); font-weight: 800; }
+    .after .route-list li { color: rgba(245,241,233,.8); border-color: rgba(245,241,233,.2); }
+    .after .route-list li::before { content: '＋'; color: var(--gold); }
+    .decision { margin-top: 25px; padding: 15px 16px; border-left: 2px solid var(--gold); background: rgba(180,141,78,.14); color: var(--gold); font-size: 12px; line-height: 1.6; }
+    .audit-footnote { display: flex; justify-content: space-between; gap: 20px; margin-top: 14px; color: var(--muted); font: 400 10px var(--mono); letter-spacing: .03em; }
+
+    .method { background: var(--paper-deep); border-bottom: 1px solid var(--faint); }
+    .method-grid { display: grid; grid-template-columns: repeat(3, 1fr); border-top: 1px solid var(--ink); border-bottom: 1px solid var(--ink); }
+    .method-item { min-height: 240px; padding: 25px; }
+    .method-item + .method-item { border-left: 1px solid var(--ink); }
+    .method-number { color: var(--accent); font: 400 50px/.85 var(--serif); }
+    .method-item h3 { margin: 30px 0 10px; font-size: 17px; letter-spacing: -.035em; }
+    .method-item p { max-width: 30ch; margin: 0; color: var(--muted); font-size: 13px; line-height: 1.7; }
+    .review-note { display: grid; grid-template-columns: 1fr 1.3fr; gap: 35px; margin-top: 42px; padding-top: 20px; border-top: 1px solid var(--faint); }
+    .review-note h3 { margin: 0; font: 400 28px/.98 var(--serif); letter-spacing: -.045em; }
+    .review-note p { margin: 0; color: var(--muted); font-size: 13px; line-height: 1.7; }
+    .review-note strong { color: var(--ink); }
+
+    .products { background: var(--white); border-bottom: 1px solid var(--faint); }
+    .product-table { border-top: 1px solid var(--ink); }
+    .product-row { display: grid; grid-template-columns: 1.25fr .75fr 1.5fr auto; gap: 22px; align-items: center; padding: 24px 0; border-bottom: 1px solid var(--faint); }
+    .product-row h3 { margin: 0 0 7px; font-size: 17px; letter-spacing: -.035em; }
+    .product-row p { max-width: 38ch; margin: 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
+    .price { color: var(--accent); font: 400 39px/.8 var(--serif); white-space: nowrap; }
+    .delivery { color: var(--muted); font: 400 10px/1.5 var(--mono); text-transform: uppercase; letter-spacing: .06em; }
+    .product-row .button { min-width: 125px; }
+    .boundary { margin-top: 21px; color: var(--muted); font-size: 11px; line-height: 1.6; }
+    .boundary strong { color: var(--ink); }
+
+    .cities { border-bottom: 1px solid var(--ink); }
+    .city-grid { display: grid; grid-template-columns: repeat(4, 1fr); border-top: 1px solid var(--ink); }
+    .city { min-height: 115px; padding: 18px 19px; border-right: 1px solid var(--ink); border-bottom: 1px solid var(--ink); transition: background 160ms var(--ease), color 160ms var(--ease); }
+    .city:nth-child(4n) { border-right: 0; }
+    .city:hover { background: var(--ink); color: var(--paper); }
+    .city small { color: var(--accent); }
+    .city strong { display: block; margin-top: 25px; font: 400 24px var(--serif); letter-spacing: -.035em; }
+    .city-note { margin-top: 20px; color: var(--muted); font-size: 12px; line-height: 1.6; }
+
+    .start { padding: 108px 0 112px; background: var(--ink); color: var(--paper); }
+    .start-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 70px; align-items: end; }
+    .start h2 { max-width: 620px; margin: 14px 0 0; font: 400 clamp(3.5rem, 6.4vw, 6.5rem)/.87 var(--serif); letter-spacing: -.065em; }
+    .intake { padding: 22px; border: 1px solid rgba(245,241,233,.32); background: rgba(245,241,233,.055); }
+    .intake label { display: block; margin-bottom: 12px; color: var(--gold); }
+    .intake textarea { width: 100%; min-height: 128px; padding: 14px; resize: vertical; border: 1px solid rgba(245,241,233,.25); border-radius: 0; outline: 0; background: rgba(0,0,0,.13); color: var(--paper); font-size: 13px; line-height: 1.6; }
+    .intake textarea:focus { border-color: var(--gold); box-shadow: 0 0 0 2px rgba(180,141,78,.25); }
+    .intake textarea::placeholder { color: rgba(245,241,233,.52); }
+    .intake .button { width: 100%; margin-top: 13px; background: var(--gold); border-color: var(--gold); color: var(--ink); }
+    .form-status { display: none; margin: 13px 0 0; padding: 12px 13px; border-left: 2px solid var(--gold); color: rgba(245,241,233,.82); font-size: 12px; line-height: 1.6; }
+    .form-status.show { display: block; }
+    .form-meta { display: flex; flex-wrap: wrap; gap: 8px 18px; margin-top: 16px; color: rgba(245,241,233,.54); font-size: 10px; line-height: 1.5; }
+    footer { padding: 23px 0 31px; background: var(--ink); color: rgba(245,241,233,.52); border-top: 1px solid rgba(245,241,233,.18); font: 400 10px var(--mono); }
+    .footer-inner { display: flex; justify-content: space-between; gap: 20px; }
+
+    .reveal { opacity: 1; transform: none; }
+    @media (max-width: 900px) {
+      .wrap { width: min(100% - 40px, 680px); }
+      .nav { height: 70px; }
+      .navlinks a:not(.nav-cta) { display: none; }
+      .hero { padding: 67px 0 58px; }
+      .hero-grid, .start-grid { grid-template-columns: 1fr; gap: 45px; }
+      .hero-media, .hero-media img { min-height: 470px; }
+      .section-head { display: block; }
+      .section-head p { margin-top: 21px; max-width: 45ch; }
+      .review-note { grid-template-columns: 1fr; gap: 16px; }
+      .product-row { grid-template-columns: 1fr auto; gap: 14px; }
+      .product-row p { grid-column: 1 / -1; order: 3; }
+      .product-row .button { grid-column: 2; grid-row: 1; }
+      .delivery { grid-column: 1; grid-row: 2; }
+      .city-grid { grid-template-columns: repeat(2, 1fr); }
+      .city:nth-child(4n) { border-right: 1px solid var(--ink); }
+      .city:nth-child(2n) { border-right: 0; }
+    }
+    @media (max-width: 600px) {
+      .wrap { width: calc(100% - 32px); }
+      h1 { font-size: 4.6rem; }
+      .hero-actions { display: block; }
+      .hero-actions .inline-link { display: inline-block; margin-top: 15px; }
+      .hero-media, .hero-media img { min-height: 420px; }
+      section { padding: 88px 0; }
+      .before-after, .method-grid { display: block; }
+      .before-after article { min-height: 0; }
+      .before-after article + article, .method-item + .method-item { border-left: 0; border-top: 1px solid var(--ink); }
+      .method-item { min-height: 0; padding: 27px 23px 32px; }
+      .audit-footnote, .footer-inner { display: block; }
+      .audit-footnote span + span, .footer-inner span + span { display: block; margin-top: 8px; }
+      .product-row { padding: 21px 0; }
+      .price { font-size: 35px; }
+      .city { min-height: 96px; }
+      .city strong { margin-top: 18px; font-size: 21px; }
+      .start { padding: 84px 0 88px; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after { animation-duration: .001ms !important; animation-iteration-count: 1 !important; transition-duration: .001ms !important; scroll-behavior: auto !important; }
+      .reveal { opacity: 1; transform: none; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap nav">
+      <a class="wordmark" href="#top" aria-label="A Deeper China home">A Deeper China<span>China, closely.</span></a>
+      <nav class="navlinks" aria-label="Primary navigation">
+        <a href="#audit">The work</a>
+        <a href="#method">Method</a>
+        <a href="#cities">Cities</a>
+        <a class="nav-cta" href="#start">Check my itinerary ↗</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="top">
+      <div class="wrap hero-grid">
+        <div class="reveal">
+          <div class="eyebrow mono">Independent China travel / route review</div>
+          <h1>Is your China itinerary actually <em>doable?</em></h1>
+          <p class="hero-copy">Send us the plan you already have. We find the overloaded days, fragile transfers and hidden assumptions before they become your trip.</p>
+          <div class="hero-actions">
+            <a class="button accent" href="#start">Check my itinerary →</a>
+            <a class="inline-link" href="#audit">See a route repaired</a>
+          </div>
+          <div class="hero-note"><span><strong>US$39</strong> Reality Check</span><span>48-hour delivery</span><span>No bookings</span></div>
+        </div>
+        <figure class="hero-media reveal">
+          <img src="https://images.unsplash.com/photo-1548919973-5cef591cdbc9?auto=format&fit=crop&w=1500&q=85" alt="Shanghai skyline and river at dusk">
+          <figcaption class="media-caption">Shanghai / first reading</figcaption>
+          <span class="media-credit">Temporary image asset · replace before launch</span>
+          <div class="audit-slip">
+            <div class="audit-slip-top"><span class="mono">Sample route audit / 001</span><span class="grade">B</span></div>
+            <h2>Shanghai → Chengdu → Chongqing</h2>
+            <p>12 nights · first China trip · architecture + food</p>
+          </div>
+        </figure>
+      </div>
+    </section>
+
+    <div class="signal-strip"><div class="wrap signal-inner"><span class="mono">The useful signal</span><span class="dot"></span><span>Keep what matters.</span><span class="dot"></span><span>Rethink the friction.</span><span class="dot"></span><span>Verify what changes.</span></div></div>
+
+    <section class="audit-section" id="audit">
+      <div class="wrap reveal">
+        <div class="section-head"><div><div class="eyebrow mono">The work, made visible</div><h2>A better route is usually a shorter one.</h2></div><p>Not another list of places. A clear decision about what deserves your limited time, energy and attention.</p></div>
+        <div class="before-after">
+          <article>
+            <div class="mono">Before / generated itinerary</div>
+            <h3>14 days · 6 cities · every famous thing</h3>
+            <ul class="route-list">
+              <li>Beijing, Xi’an, Chengdu, Chongqing, Zhangjiajie, Shanghai</li>
+              <li>Three major transfers inside four days</li>
+              <li>No arrival-day recovery or rain branch</li>
+              <li>“Take a day trip” used as a universal answer</li>
+            </ul>
+          </article>
+          <article class="after">
+            <div class="mono">After / route decision</div>
+            <h3>14 days · 4 cities · two protected slow days</h3>
+            <ul class="route-list">
+              <li>Remove Zhangjiajie; save a full transfer and early start</li>
+              <li>Pair Chengdu and Chongqing around a real contrast</li>
+              <li>Put Shanghai at the end for a lower-friction exit</li>
+              <li>Keep one indoor anchor and one low-energy version per day</li>
+            </ul>
+            <div class="decision">The value is not the prose. It is knowing what to delete before you book.</div>
+          </article>
+        </div>
+        <div class="audit-footnote"><span>Illustrative example based on route-review patterns</span><span>AI-assisted · human-edited · not field-verified</span></div>
+      </div>
+    </section>
+
+    <section class="method" id="method">
+      <div class="wrap reveal">
+        <div class="section-head"><div><div class="eyebrow mono">A small human layer</div><h2>AI finds possibilities. We check the decisions.</h2></div><p>When access, timing, pace or local friction matters, the review layer makes uncertainty visible instead of pretending it away.</p></div>
+        <div class="method-grid">
+          <article class="method-item"><div class="method-number">01</div><h3>Bring the plan you already have</h3><p>Paste a ChatGPT itinerary, upload a document or start with one question. A city and a number of nights is enough.</p></article>
+          <article class="method-item"><div class="method-number">02</div><h3>We read the need underneath</h3><p>Pace, transfers, weather, payments, language and the reason behind each city. The route is shaped around the traveler, not the list.</p></article>
+          <article class="method-item"><div class="method-number">03</div><h3>You receive a route you can use</h3><p>Keep, rethink and verify decisions; a main line; a fallback; and the next action you should take yourself.</p></article>
+        </div>
+        <div class="review-note"><h3>“Human-checked” means dated and scoped—not guaranteed.</h3><p>We do not promise clear skies, open doors, private access or ticket availability. We record what was reviewed, when it was reviewed and what you still need to confirm. <strong>You book and pay directly.</strong></p></div>
+      </div>
+    </section>
+
+    <section class="products" id="products">
+      <div class="wrap reveal">
+        <div class="section-head"><div><div class="eyebrow mono">Choose your depth</div><h2>Start with one decision.</h2></div><p>Small first purchase. Clear scope. A natural path from route signal to a complete digital roadbook.</p></div>
+        <div class="product-table">
+          <article class="product-row"><div><h3>Free Route Preview</h3><p>One route direction, two candidate ideas and the questions still to answer.</p></div><div class="price">$0</div><div class="delivery">For early planning<br>Instant preview</div><a class="button ghost" href="#start">Try it</a></article>
+          <article class="product-row"><div><h3>China Trip Reality Check</h3><p>Three critical route risks, what to cut or reorder, and a transfer + fatigue check.</p></div><div class="price">$39</div><div class="delivery">Most useful first step<br>48-hour delivery</div><a class="button accent" href="#start">Start here</a></article>
+          <article class="product-row"><div><h3>Deep City Roadbook</h3><p>A complete English route rebuilt around your pace, interests, constraints and fallback options.</p></div><div class="price">$99+</div><div class="delivery">Trip-specific research<br>Scope quoted clearly</div><a class="button ghost" href="#start">Ask about it</a></article>
+        </div>
+        <p class="boundary"><strong>Scope boundary:</strong> digital research and planning only. We do not sell tours, tickets, hotels, transport, guiding or third-party experiences.</p>
+      </div>
+    </section>
+
+    <section class="cities" id="cities">
+      <div class="wrap reveal">
+        <div class="section-head"><div><div class="eyebrow mono">The research portfolio</div><h2>Four launch cities. More when the question is right.</h2></div><p>A city is not a checklist. Each database begins with the question the place can answer for you.</p></div>
+        <div class="city-grid">
+          <a class="city" href="#start"><small class="mono">01 / core</small><strong>Shanghai</strong></a>
+          <a class="city" href="#start"><small class="mono">02 / core</small><strong>Chongqing</strong></a>
+          <a class="city" href="#start"><small class="mono">03 / core</small><strong>Beijing</strong></a>
+          <a class="city" href="#start"><small class="mono">04 / core</small><strong>Chengdu</strong></a>
+          <a class="city" href="#start"><small class="mono">05 / south</small><strong>Guangzhou–Shenzhen</strong></a>
+          <a class="city" href="#start"><small class="mono">06 / landscape</small><strong>Guilin–Yangshuo</strong></a>
+          <a class="city" href="#start"><small class="mono">07 / craft</small><strong>Jingdezhen</strong></a>
+          <a class="city" href="#start"><small class="mono">08 / port</small><strong>Quanzhou–Dehua</strong></a>
+        </div>
+        <p class="city-note">Research portfolio also includes Hangzhou, Suzhou, Wudang Mountain and Jingmai Mountain. They are recommended by fit and trip shape—not by a “top destinations” ranking.</p>
+      </div>
+    </section>
+
+    <section class="start" id="start">
+      <div class="wrap start-grid reveal">
+        <div><div class="eyebrow mono">Free route preview</div><h2>Bring us the plan you are not sure about.</h2></div>
+        <form class="intake" id="intake">
+          <label class="mono" for="plan">Paste a route, a question or a rough idea</label>
+          <textarea id="plan" required placeholder="We have 12 days and want Beijing, Shanghai, Chengdu and Chongqing. Is that too much?"></textarea>
+          <button class="button" type="submit">Get a free route signal →</button>
+          <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+          <div class="form-meta"><span>No card required</span><span>English-first</span><span>We ask only what changes the route</span></div>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer><div class="wrap footer-inner"><span>© 2026 A Deeper China</span><span>Independent travel information · AI-assisted · human-edited · no bookings</span></div></footer>
+  <script>
+    const form = document.getElementById('intake');
+    const status = document.getElementById('form-status');
+    form.addEventListener('submit', (event) => {
+      event.preventDefault();
+      const value = document.getElementById('plan').value.trim();
+      status.textContent = value ? 'Route signal received. In the live site, the next step would ask for dates, nights and pace, then return a short direction before offering the US$39 Reality Check.' : 'Start with a city, a number of nights and the part of the trip you are worried about.';
+      status.classList.add('show');
+    });
+  </script>
+</body>
+</html>

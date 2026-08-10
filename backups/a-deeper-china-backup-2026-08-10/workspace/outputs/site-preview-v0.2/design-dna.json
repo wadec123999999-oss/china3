@@ -1,0 +1,64 @@
+{
+  "meta": {
+    "name": "A Deeper China — Editorial Route Intelligence",
+    "description": "A restrained, premium editorial system for selling decision-led China itinerary review and digital roadbooks.",
+    "source_references": ["A Deeper China product strategy", "V0.1 homepage feedback", "Swiss Modernism 2.0", "Editorial Grid", "Trust & Authority + Conversion"],
+    "created_at": "2026-08-07"
+  },
+  "design_system": {
+    "color": {
+      "palette_type": "complementary",
+      "primary": {"hex": "#151512", "role": "ink, primary text, dark conversion surface"},
+      "secondary": {"hex": "#F5F1E9", "role": "warm paper background"},
+      "accent": {"hex": "#A63D2D", "role": "single vermilion action and editorial signal"},
+      "neutral": {"scale": ["#FBF9F4", "#F5F1E9", "#E7E1D6", "#B9B2A8", "#706A62", "#151512"], "usage": "warm surfaces, rules, muted copy, ink"},
+      "semantic": {"success": "#526A56", "warning": "#8B6A24", "error": "#9A3029", "info": "#365C68"},
+      "surface": {"background": "#F5F1E9", "card": "#FBF9F4", "elevated": "#151512"},
+      "contrast_strategy": "dark-on-warm-light dominant, with vermilion reserved for action and route decisions"
+    },
+    "typography": {
+      "type_scale": {
+        "display": {"size": "clamp(4.25rem, 8.7vw, 9rem)", "weight": 400, "line_height": 0.86, "tracking": "-0.065em"},
+        "heading_1": {"size": "clamp(3rem, 6vw, 5.8rem)", "weight": 400, "line_height": 0.92, "tracking": "-0.055em"},
+        "heading_2": {"size": "clamp(2.2rem, 4.2vw, 4.2rem)", "weight": 400, "line_height": 0.94, "tracking": "-0.05em"},
+        "heading_3": {"size": "1.3rem", "weight": 600, "line_height": 1.2, "tracking": "-0.025em"},
+        "body": {"size": "1rem", "weight": 400, "line_height": 1.7, "tracking": "0"},
+        "body_small": {"size": "0.84rem", "weight": 400, "line_height": 1.6, "tracking": "0"},
+        "caption": {"size": "0.7rem", "weight": 500, "line_height": 1.4, "tracking": "0.08em"},
+        "overline": {"size": "0.67rem", "weight": 600, "line_height": 1.2, "tracking": "0.12em"}
+      },
+      "font_families": {"heading": "Instrument Serif, Georgia, serif", "body": "Manrope, system-ui, sans-serif", "mono": "DM Mono, ui-monospace, monospace"},
+      "font_style_notes": "Literary serif for judgment and atmosphere; neutral sans for operational clarity; mono only for metadata."
+    },
+    "spacing": {"base_unit": "4px", "scale": [4, 8, 12, 16, 24, 32, 48, 64, 96, 128], "content_density": "spacious", "section_rhythm": "large editorial pauses with tight local grouping"},
+    "layout": {"grid_system": "12-column editorial grid", "max_content_width": "1240px", "columns": 12, "gutter": "24px", "breakpoints": ["640px", "900px", "1200px"], "alignment_tendency": "strict grid with deliberate asymmetry"},
+    "shape": {"border_radius": {"small": "0px", "medium": "0px", "large": "0px", "pill": "999px"}, "border_usage": "subtle 1px rules; no floating rounded cards", "divider_style": "hairline solid #151512 at reduced opacity"},
+    "elevation": {"shadow_style": "minimal", "levels": {"low": "0 4px 14px rgba(21,21,18,.06)", "medium": "0 16px 40px rgba(21,21,18,.12)", "high": "0 28px 80px rgba(21,21,18,.16)"}, "depth_cues": "overlap, tonal contrast and crop; not card shadows"},
+    "iconography": {"style": "typographic marks and simple inline SVG", "stroke_weight": "1.5px", "size_scale": [16, 20, 24], "preferred_set": "Lucide-compatible stroke icons"},
+    "motion": {"easing": "cubic-bezier(.2,.85,.2,1)", "duration_scale": {"micro": "160ms", "normal": "260ms", "macro": "480ms"}, "entrance_pattern": "one staged rise for hero and subtle scroll reveals", "exit_pattern": "short fade", "philosophy": "minimal functional"},
+    "components": {"button_style": "rectangular, ink or vermilion fill, 44px minimum height", "input_style": "paper or dark field with visible label and hairline border", "card_style": "editorial panels divided by rules, not rounded cards", "navigation_pattern": "quiet text navigation with one dark CTA", "modal_style": "not used in landing preview", "list_style": "numbered or ruled lists", "component_notes": "Every view has one primary CTA; trust language stays adjacent to price and scope."}
+  },
+  "design_style": {
+    "aesthetic": {"mood": ["composed", "curious", "trustworthy", "warm", "discerning"], "visual_metaphor": "a well-edited route dossier on a worktable", "era_influence": "Swiss editorial modernism with contemporary travel publishing", "genre": "premium editorial service", "personality_traits": ["meticulous", "direct", "cultured", "calm"], "adjectives": ["quietly premium", "specific", "human", "unhurried"]},
+    "visual_language": {"complexity": "minimal", "ornamentation": "subtle accents", "whitespace_usage": "generous", "visual_weight_distribution": "heavy ink anchors against open paper", "focal_strategy": "single hero photograph plus one real decision artifact", "contrast_level": "high", "texture_usage": "very subtle paper grain only"},
+    "composition": {"hierarchy_method": "typographic scale and spatial isolation", "balance_type": "asymmetric", "flow_direction": "left-to-right editorial reading", "grouping_strategy": "ruled sections and short clusters", "negative_space_role": "signals confidence and slows the decision"},
+    "imagery": {"photo_treatment": "documentary crop, slightly desaturated, no stock-photo overlays", "illustration_style": "none", "graphic_elements": "hairlines, route marks, small marginalia", "pattern_usage": "none beyond grain", "image_shape": "full-bleed rectangle with one inset caption"},
+    "interaction_feel": {"feedback_style": "clear, immediate, quiet", "hover_behavior": "underline or 2px translate only", "transition_personality": "smooth glide", "loading_style": "plain text status", "microinteraction_density": "low"},
+    "brand_voice_in_ui": {"tone": "specific and candid", "formality": "professional but not corporate", "cta_style": "direct imperative", "empty_state_approach": "ask for the smallest useful next detail", "error_tone": "calm, actionable, non-blaming"}
+  },
+  "visual_effects": {
+    "overview": {"effect_intensity": "subtle-accent", "performance_tier": "lightweight", "fallback_strategy": "static snapshot with all content available", "primary_technology": "CSS only"},
+    "background_effects": {"type": "none", "description": "No decorative gradient background", "technology": "none", "params": {"color_palette": [], "speed": 0, "density": 0, "opacity": 0, "blend_mode": "normal"}},
+    "particle_systems": {"enabled": false, "type": "none", "description": "Not used", "technology": "none", "params": {"count": 0, "shape": "none", "size_range": "none", "movement_pattern": "none", "color_behavior": "none", "interaction": "none", "spawn_area": "none"}},
+    "3d_elements": {"enabled": false, "type": "none", "description": "Not used", "technology": "none", "params": {"renderer": "none", "lighting": "none", "camera": "none", "materials": "none", "geometry": "none", "post_processing": [], "interaction_model": "none"}},
+    "shader_effects": {"enabled": false, "type": "none", "description": "Not used", "technology": "none", "params": {"uniforms": [], "vertex_manipulation": "none", "fragment_output": "none", "noise_type": "none", "distortion": "none"}},
+    "scroll_effects": {"parallax": {"enabled": false, "layers": 0, "depth_range": "none", "speed_curve": "none"}, "scroll_triggered_animations": {"enabled": true, "trigger_points": ["20%", "60%"], "animation_type": "fade-up", "scrub_behavior": "triggered"}, "scroll_morphing": {"enabled": false, "description": "Not used"}},
+    "text_effects": {"type": "none", "description": "Typography remains legible and still", "technology": "none", "params": {"split_strategy": "none", "animation_per_unit": "none", "stagger": "none", "effect_style": "none"}},
+    "cursor_effects": {"enabled": false, "type": "none", "description": "No custom cursor", "params": {"shape": "none", "size": "none", "blend_mode": "normal", "trail": false, "interaction_zone": "none"}},
+    "image_effects": {"type": "reveal-clip", "description": "A restrained crop reveal on hover", "technology": "CSS transition", "params": {"filter_pipeline": "desaturate(.12)", "hover_transform": "scale(1.02)", "reveal_animation": "clip inset", "distortion_type": "none"}},
+    "glassmorphism_neumorphism": {"enabled": false, "style": "none", "params": {"blur_radius": 0, "transparency": 0, "border_treatment": "none", "shadow_type": "none", "light_source_angle": "none"}},
+    "canvas_drawings": {"enabled": false, "type": "none", "description": "Not used", "technology": "none", "params": {"draw_method": "none", "animation_loop": "none", "color_scheme": "none", "responsiveness": "none", "interaction": "none"}},
+    "svg_animations": {"enabled": false, "type": "none", "description": "Not used", "params": {"animation_method": "none", "path_morphing": "none", "stroke_animation": "none", "filter_effects": "none"}},
+    "composite_notes": "The signature move is editorial sequencing, not visual effects: a real route audit becomes the proof object."
+  }
+}
