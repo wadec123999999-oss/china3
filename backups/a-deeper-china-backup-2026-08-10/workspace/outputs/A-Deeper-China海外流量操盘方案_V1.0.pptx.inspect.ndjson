@@ -1,0 +1,325 @@
+{"kind":"deck","id":"pr/vpuuob","name":"Deck"}
+{"kind":"layout","layoutId":"c4e29d2b-930c-4bbe-b8fb-aac04d84d97a","name":"Master","type":"master"}
+{"kind":"layout","layoutId":"6c425ff4-576f-4958-83e3-dfc84eb1adf5","name":"Title Slide","type":"title"}
+{"kind":"slide","id":"sl/2jxc3t","slide":1,"title":"A DEEPER CHINA  /  OVERSEAS GROWTH PLAN","textShapes":6}
+{"kind":"shape","id":"sh/3yh0n61g","slide":1,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/2x8ze10v","slide":1,"bbox":[0,0,650,720]}
+{"kind":"textbox","id":"sh/1wfilwjq","slide":1,"text":"A DEEPER CHINA  /  OVERSEAS GROWTH PLAN","textPreview":"A DEEPER CHINA  /  OVERSEAS GROWTH PLAN","textChars":39,"textLines":1,"bbox":[72,62,600,22]}
+{"kind":"textbox","id":"sh/gv6hcri5","slide":1,"text":"流量不是发布内容，\n是让正确的人在正确的问题上遇见你。","textPreview":"流量不是发布内容， | 是让正确的人在正确的问题上遇见你。","textChars":27,"textLines":2,"bbox":[72,150,860,196]}
+{"kind":"textbox","id":"sh/fux0jm1k","slide":1,"text":"海外获客方案 · 30天验证版","textPreview":"海外获客方案 · 30天验证版","textChars":15,"textLines":1,"bbox":[76,386,520,32]}
+{"kind":"textbox","id":"sh/etoza10z","slide":1,"text":"深度数据库 + 付费路书 + 人工校验","textPreview":"深度数据库 + 付费路书 + 人工校验","textChars":19,"textLines":1,"bbox":[76,430,590,34]}
+{"kind":"shape","id":"sh/lsjix0zu","slide":1,"bbox":[76,500,220,2]}
+{"kind":"textbox","id":"sh/kra1ovi9","slide":1,"text":"先卖一个判断，再把判断变成可复制的获客系统。","textPreview":"先卖一个判断，再把判断变成可复制的获客系统。","textChars":22,"textLines":1,"bbox":[76,524,580,56]}
+{"kind":"textbox","id":"sh/ex8nadcr","slide":1,"text":"2026.08","textPreview":"2026.08","textChars":7,"textLines":1,"bbox":[1080,654,118,24]}
+{"kind":"image","id":"im/xwbudwv2","slide":1,"name":"","alt":"A Deeper China Shanghai site preview","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/2jxc3t","slide":1,"text":"[Sources]\n- 项目设计系统：design-system/a-deeper-china/MASTER.md（暖纸张、黑色、朱砂红、纪录片式影像）\n- 图片：output/playwright/site-preview-v0.3-desktop.png（项目现有独立站预览图，作为内部视觉素材）"}
+{"kind":"slide","id":"sl/lzer1o","slide":2,"title":"01  /  先说结论","textShapes":11}
+{"kind":"textbox","id":"sh/p4rm1cf6","slide":2,"text":"01  /  先说结论","textPreview":"01  /  先说结论","textChars":11,"textLines":1,"bbox":[72,54,600,22]}
+{"kind":"textbox","id":"sh/21036xwf","slide":2,"text":"先卖一个判断，再建立一套流量系统。","textPreview":"先卖一个判断，再建立一套流量系统。","textChars":17,"textLines":1,"bbox":[72,88,910,70]}
+{"kind":"textbox","id":"sh/n29kz2x0","slide":2,"text":"游客并不缺“更多中国信息”。他们缺的是：有人敢告诉他删掉什么。","textPreview":"游客并不缺“更多中国信息”。他们缺的是：有人敢告诉他删掉什么。","textChars":31,"textLines":1,"bbox":[74,176,740,48]}
+{"kind":"textbox","id":"sh/0zil47ep","slide":2,"text":"US$39","textPreview":"US$39","textChars":5,"textLines":1,"bbox":[74,268,330,120]}
+{"kind":"textbox","id":"sh/10r2xcfa","slide":2,"text":"China Trip Reality Check","textPreview":"China Trip Reality Check","textChars":24,"textLines":1,"bbox":[78,386,340,28]}
+{"kind":"textbox","id":"sh/edg32xwj","slide":2,"text":"3个路线风险\nKeep / Cut / Reorder\n48小时交付 + 1次补充","textPreview":"3个路线风险 | Keep / Cut / Reorder | 48小时交付 + 1次补充","textChars":41,"textLines":3,"bbox":[78,430,360,110]}
+{"kind":"shape","id":"sh/fy9kv2x4","slide":2,"bbox":[540,260,1,306]}
+{"kind":"textbox","id":"sh/sbyl0nyd","slide":2,"text":"你真正卖的不是数据库。","textPreview":"你真正卖的不是数据库。","textChars":11,"textLines":1,"bbox":[594,270,500,40]}
+{"kind":"textbox","id":"sh/dc72tsfy","slide":2,"text":"数据库是后台资产；客户买的是“这条路线能不能舒服地走完”的确定性。","textPreview":"数据库是后台资产；客户买的是“这条路线能不能舒服地走完”的确定性。","textChars":33,"textLines":1,"bbox":[594,328,500,80]}
+{"kind":"shape","id":"sh/dobe9cb2","slide":2,"bbox":[594,442,430,2]}
+{"kind":"textbox","id":"sh/cn2d07uh","slide":2,"text":"外部流量 → Route Signal → US$39 → US$99+路书 → 案例与转介绍","textPreview":"外部流量 → Route Signal → US$39 → US$99+路书 → 案例与转介绍","textChars":47,"textLines":1,"bbox":[594,468,520,70]}
+{"kind":"shape","id":"sh/bm9w72tw","slide":2,"bbox":[72,676,1136,1]}
+{"kind":"textbox","id":"sh/ql0vyxcr","slide":2,"text":"A DEEPER CHINA / GROWTH OPERATING PLAN","textPreview":"A DEEPER CHINA / GROWTH OPERATING PLAN","textChars":38,"textLines":1,"bbox":[72,688,570,18]}
+{"kind":"textbox","id":"sh/pkre5sv6","slide":2,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[1170,686,38,20]}
+{"kind":"notes","id":"nt/lzer1o","slide":2,"text":"[Sources]\n- 产品与价格依据：outputs/A-Deeper-China真正流量操盘方案_V2.0.md\n- 商业层级依据：design-system/a-deeper-china/MASTER.md"}
+{"kind":"slide","id":"sl/emaagg","slide":3,"title":"02  /  需求已经存在","textShapes":19}
+{"kind":"textbox","id":"sh/c32xk321","slide":3,"text":"02  /  需求已经存在","textPreview":"02  /  需求已经存在","textChars":13,"textLines":1,"bbox":[72,54,600,22]}
+{"kind":"textbox","id":"sh/bitgry1w","slide":3,"text":"问题已经存在，游客只是把它问错了。","textPreview":"问题已经存在，游客只是把它问错了。","textChars":17,"textLines":1,"bbox":[72,88,860,70]}
+{"kind":"textbox","id":"sh/qhkfitkb","slide":3,"text":"Google / YouTube 自动补全采样，不是搜索量报告，但足够告诉我们：人们反复寻找的不是“景点”，而是取舍。","textPreview":"Google / YouTube 自动补全采样，不是搜索量报告，但足够告诉我们：人们反复寻找的不是“景点”，而是取舍。","textChars":59,"textLines":1,"bbox":[74,170,920,42]}
+{"kind":"textbox","id":"sh/pgbyp8jq","slide":3,"text":"238","textPreview":"238","textChars":3,"textLines":1,"bbox":[74,260,240,90]}
+{"kind":"textbox","id":"sh/of2xg325","slide":3,"text":"个不重复英文建议词","textPreview":"个不重复英文建议词","textChars":9,"textLines":1,"bbox":[80,350,270,28]}
+{"kind":"textbox","id":"sh/3e9gny1k","slide":3,"text":"111","textPreview":"111","textChars":3,"textLines":1,"bbox":[390,260,220,90]}
+{"kind":"textbox","id":"sh/2d0fetkz","slide":3,"text":"个与天数 / 路线 / 城市组合有关","textPreview":"个与天数 / 路线 / 城市组合有关","textChars":18,"textLines":1,"bbox":[394,350,330,36]}
+{"kind":"shape","id":"sh/1cryloje","slide":3,"bbox":[74,420,650,1]}
+{"kind":"textbox","id":"sh/gbixcj29","slide":3,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[74,458,42,24]}
+{"kind":"textbox","id":"sh/65ozqhgz","slide":3,"text":"我的路线是不是太满？","textPreview":"我的路线是不是太满？","textChars":10,"textLines":1,"bbox":[126,456,660,28]}
+{"kind":"textbox","id":"sh/r6x0jmhk","slide":3,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[74,502,42,24]}
+{"kind":"textbox","id":"sh/s76hsry5","slide":3,"text":"北京、上海、成都、重庆能放在两周内吗？","textPreview":"北京、上海、成都、重庆能放在两周内吗？","textChars":19,"textLines":1,"bbox":[126,500,660,28]}
+{"kind":"textbox","id":"sh/t8filwzq","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[74,546,42,24]}
+{"kind":"textbox","id":"sh/i14zmhg3","slide":3,"text":"高铁时间为什么不等于旅行时间？","textPreview":"高铁时间为什么不等于旅行时间？","textChars":15,"textLines":1,"bbox":[126,544,660,28]}
+{"kind":"textbox","id":"sh/j2xgfmho","slide":3,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[74,590,42,24]}
+{"kind":"textbox","id":"sh/436hory9","slide":3,"text":"第一次来中国，哪个城市应该删掉？","textPreview":"第一次来中国，哪个城市应该删掉？","textChars":16,"textLines":1,"bbox":[126,588,660,28]}
+{"kind":"shape","id":"sh/54fihcze","slide":3,"bbox":[870,246,316,310]}
+{"kind":"textbox","id":"sh/ud4zixgr","slide":3,"text":"把一个问题\n变成一次付费判断。","textPreview":"把一个问题 | 变成一次付费判断。","textChars":15,"textLines":2,"bbox":[906,286,250,106]}
+{"kind":"textbox","id":"sh/vydgb2hc","slide":3,"text":"这就是 Route Signal 的入口：公开回答先建立可信度，付费审查再交付确定性。","textPreview":"这就是 Route Signal 的入口：公开回答先建立可信度，付费审查再交付确定性。","textChars":43,"textLines":1,"bbox":[906,432,236,84]}
+{"kind":"shape","id":"sh/zitwjyx4","slide":3,"bbox":[72,676,1136,1]}
+{"kind":"textbox","id":"sh/yh0fqtwj","slide":3,"text":"A DEEPER CHINA / GROWTH OPERATING PLAN","textPreview":"A DEEPER CHINA / GROWTH OPERATING PLAN","textChars":38,"textLines":1,"bbox":[72,688,570,18]}
+{"kind":"textbox","id":"sh/l4bel8fa","slide":3,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[1170,686,38,20]}
+{"kind":"notes","id":"nt/emaagg","slide":3,"text":"[Sources]\n- 关键词样本：outputs/traffic-research-v1/autocomplete-keywords-20260808.csv\n- 关键词归类与判断：outputs/A-Deeper-China海外流量专业调查_V1.0.md"}
+{"kind":"slide","id":"sl/idwr6z","slide":4,"title":"03  /  入口策略","textShapes":18}
+{"kind":"textbox","id":"sh/ap4rex8z","slide":4,"text":"03  /  入口策略","textPreview":"03  /  入口策略","textChars":11,"textLines":1,"bbox":[72,54,600,22]}
+{"kind":"textbox","id":"sh/xsva9s7a","slide":4,"text":"把13个目的地，压缩成4个流量入口。","textPreview":"把13个目的地，压缩成4个流量入口。","textChars":18,"textLines":1,"bbox":[72,88,900,70]}
+{"kind":"textbox","id":"sh/wrm9gnqp","slide":4,"text":"数据库可以很深；广告、合作链接和落地页必须很窄。每个入口只回答一类路线问题。","textPreview":"数据库可以很深；广告、合作链接和落地页必须很窄。每个入口只回答一类路线问题。","textChars":38,"textLines":1,"bbox":[74,170,900,40]}
+{"kind":"shape","id":"sh/nmts3ip8","slide":4,"bbox":[74,316,1050,1]}
+{"kind":"textbox","id":"sh/mlkrad8n","slide":4,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[74,262,52,30]}
+{"kind":"textbox","id":"sh/9oba5s7e","slide":4,"text":"上海 — 杭州 — 苏州","textPreview":"上海 — 杭州 — 苏州","textChars":12,"textLines":1,"bbox":[146,256,560,42]}
+{"kind":"textbox","id":"sh/on29cnqt","slide":4,"text":"第一次来中国 / 建筑 / 慢节奏","textPreview":"第一次来中国 / 建筑 / 慢节奏","textChars":17,"textLines":1,"bbox":[746,264,360,32]}
+{"kind":"shape","id":"sh/fytszipc","slide":4,"bbox":[74,400,1050,1]}
+{"kind":"textbox","id":"sh/ex0r6d8r","slide":4,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[74,346,52,30]}
+{"kind":"textbox","id":"sh/sje1g7qt","slide":4,"text":"北京 — 长城","textPreview":"北京 — 长城","textChars":7,"textLines":1,"bbox":[146,340,560,42]}
+{"kind":"textbox","id":"sh/tkn2pcre","slide":4,"text":"首访刚需 / 历史 / 真实体力","textPreview":"首访刚需 / 历史 / 真实体力","textChars":16,"textLines":1,"bbox":[746,348,360,32]}
+{"kind":"shape","id":"sh/6xwjex8n","slide":4,"bbox":[74,484,1050,1]}
+{"kind":"textbox","id":"sh/7y5kn298","slide":4,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[74,430,52,30]}
+{"kind":"textbox","id":"sh/kvu1c7qx","slide":4,"text":"成都 — 重庆","textPreview":"成都 — 重庆","textChars":7,"textLines":1,"bbox":[146,424,560,42]}
+{"kind":"textbox","id":"sh/5w3ilcr2","slide":4,"text":"城市体验 / 转场取舍 / 社交流量","textPreview":"城市体验 / 转场取舍 / 社交流量","textChars":18,"textLines":1,"bbox":[746,432,360,32]}
+{"kind":"shape","id":"sh/ytcjax8r","slide":4,"bbox":[74,568,1050,1]}
+{"kind":"textbox","id":"sh/jul0j29c","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[74,514,52,30]}
+{"kind":"textbox","id":"sh/4ry1orq1","slide":4,"text":"广州 — 深圳 + 桂林 — 阳朔","textPreview":"广州 — 深圳 + 桂林 — 阳朔","textChars":17,"textLines":1,"bbox":[146,508,560,42]}
+{"kind":"textbox","id":"sh/ps72xwrm","slide":4,"text":"华南组合 / 科技游 / 山水","textPreview":"华南组合 / 科技游 / 山水","textChars":15,"textLines":1,"bbox":[746,516,360,32]}
+{"kind":"shape","id":"sh/dwjalsve","slide":4,"bbox":[74,620,1050,32]}
+{"kind":"textbox","id":"sh/cva9snet","slide":4,"text":"第二批：景德镇、泉州—德化     实验型：武当山、景迈茶山","textPreview":"第二批：景德镇、泉州—德化     实验型：武当山、景迈茶山","textChars":30,"textLines":1,"bbox":[92,625,1010,22]}
+{"kind":"shape","id":"sh/ru1sj2d8","slide":4,"bbox":[72,676,1136,1]}
+{"kind":"textbox","id":"sh/qtsrqxw3","slide":4,"text":"A DEEPER CHINA / GROWTH OPERATING PLAN","textPreview":"A DEEPER CHINA / GROWTH OPERATING PLAN","textChars":38,"textLines":1,"bbox":[72,688,570,18]}
+{"kind":"textbox","id":"sh/p8jahsfi","slide":4,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[1170,686,38,20]}
+{"kind":"notes","id":"nt/idwr6z","slide":4,"text":"[Sources]\n- 城市组合与批次策略：outputs/A-Deeper-China真正流量操盘方案_V2.0.md\n- 项目城市数据库资产总览：outputs/A-Deeper-China城市数据库资产总览_V1.0.md"}
+{"kind":"slide","id":"sl/j4d7ok","slide":5,"title":"04  /  承接系统","textShapes":19}
+{"kind":"textbox","id":"sh/dw3ipcfe","slide":5,"text":"04  /  承接系统","textPreview":"04  /  承接系统","textChars":11,"textLines":1,"bbox":[72,54,600,22]}
+{"kind":"textbox","id":"sh/qtsjehgn","slide":5,"text":"每个渠道，都必须落到同一个承接动作。","textPreview":"每个渠道，都必须落到同一个承接动作。","textChars":18,"textLines":1,"bbox":[72,88,970,70]}
+{"kind":"textbox","id":"sh/ru10nmx8","slide":5,"text":"不要把流量送进一个泛泛的首页；把它送进一个能立刻回答问题的页面。","textPreview":"不要把流量送进一个泛泛的首页；把它送进一个能立刻回答问题的页面。","textChars":32,"textLines":1,"bbox":[74,170,900,38]}
+{"kind":"shape","id":"sh/0zu1kry5","slide":5,"name":"flow-arrow-0","bbox":[214,344,38,18]}
+{"kind":"shape","id":"sh/1032twfa","slide":5,"name":"flow-arrow-1","bbox":[400,344,38,18]}
+{"kind":"shape","id":"sh/excjihgz","slide":5,"name":"flow-arrow-2","bbox":[586,344,38,18]}
+{"kind":"shape","id":"sh/zylkrmxk","slide":5,"name":"flow-arrow-3","bbox":[772,344,38,18]}
+{"kind":"shape","id":"sh/o3e1ory1","slide":5,"name":"flow-arrow-4","bbox":[958,344,38,18]}
+{"kind":"shape","id":"sh/94n2xwfm","slide":5,"name":"flow-node-0","bbox":[72,292,152,128]}
+{"kind":"textbox","id":"sh/tkvyh4nm","slide":5,"text":"外部受众","textPreview":"外部受众","textChars":4,"textLines":1,"bbox":[88,320,120,34]}
+{"kind":"textbox","id":"sh/sjmh8zm1","slide":5,"text":"创作者 / 社区 / 搜索","textPreview":"创作者 / 社区 / 搜索","textChars":13,"textLines":1,"bbox":[84,366,128,42]}
+{"kind":"shape","id":"sh/ridgfu5g","slide":5,"name":"flow-node-1","bbox":[258,292,152,128]}
+{"kind":"textbox","id":"sh/6h4z6p4v","slide":5,"text":"问题型页面","textPreview":"问题型页面","textChars":5,"textLines":1,"bbox":[274,320,120,34]}
+{"kind":"textbox","id":"sh/1ofil4ni","slide":5,"text":"一页只解决一问","textPreview":"一页只解决一问","textChars":7,"textLines":1,"bbox":[270,366,128,42]}
+{"kind":"shape","id":"sh/gn6hczmx","slide":5,"name":"flow-node-2","bbox":[444,292,152,128]}
+{"kind":"textbox","id":"sh/fmxgju5s","slide":5,"text":"免费 Route Signal","textPreview":"免费 Route Signal","textChars":15,"textLines":1,"bbox":[460,320,120,34]}
+{"kind":"textbox","id":"sh/eloza947","slide":5,"text":"提交已有路线","textPreview":"提交已有路线","textChars":6,"textLines":1,"bbox":[456,366,128,42]}
+{"kind":"shape","id":"sh/xsby9kne","slide":5,"name":"flow-node-3","bbox":[630,292,152,128]}
+{"kind":"textbox","id":"sh/wr2h0fmt","slide":5,"text":"US$39","textPreview":"US$39","textChars":5,"textLines":1,"bbox":[646,320,120,34]}
+{"kind":"textbox","id":"sh/ob6hgfup","slide":5,"text":"Reality Check","textPreview":"Reality Check","textChars":13,"textLines":1,"bbox":[642,366,128,42]}
+{"kind":"shape","id":"sh/9cfypkva","slide":5,"name":"flow-node-4","bbox":[816,292,152,128]}
+{"kind":"textbox","id":"sh/m9oze5cj","slide":5,"text":"US$99+","textPreview":"US$99+","textChars":6,"textLines":1,"bbox":[832,320,120,34]}
+{"kind":"textbox","id":"sh/naxgnad4","slide":5,"text":"Deep City Roadbook","textPreview":"Deep City Roadbook","textChars":18,"textLines":1,"bbox":[828,366,128,42]}
+{"kind":"shape","id":"sh/wzqhkzul","slide":5,"name":"flow-node-5","bbox":[1002,292,152,128]}
+{"kind":"textbox","id":"sh/x0zitkv6","slide":5,"text":"案例与转介绍","textPreview":"案例与转介绍","textChars":6,"textLines":1,"bbox":[1018,320,120,34]}
+{"kind":"textbox","id":"sh/axozipcv","slide":5,"text":"再次分发","textPreview":"再次分发","textChars":4,"textLines":1,"bbox":[1014,366,128,42]}
+{"kind":"shape","id":"sh/byxgrudg","slide":5,"bbox":[72,500,1054,2]}
+{"kind":"textbox","id":"sh/k3qhozux","slide":5,"text":"一个客户只需要走完一条清晰的路径：","textPreview":"一个客户只需要走完一条清晰的路径：","textChars":17,"textLines":1,"bbox":[72,532,380,24]}
+{"kind":"textbox","id":"sh/54zix4vi","slide":5,"text":"“我已经做了路线，但不确定它是否真的可行。”","textPreview":"“我已经做了路线，但不确定它是否真的可行。”","textChars":22,"textLines":1,"bbox":[452,524,670,42]}
+{"kind":"shape","id":"sh/fylknyxk","slide":5,"bbox":[72,676,1136,1]}
+{"kind":"textbox","id":"sh/uxsjetwz","slide":5,"text":"A DEEPER CHINA / GROWTH OPERATING PLAN","textPreview":"A DEEPER CHINA / GROWTH OPERATING PLAN","textChars":38,"textLines":1,"bbox":[72,688,570,18]}
+{"kind":"textbox","id":"sh/h032p8fq","slide":5,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[1170,686,38,20]}
+{"kind":"notes","id":"nt/j4d7ok","slide":5,"text":"[Sources]\n- 流量链路与产品路径：outputs/A-Deeper-China真正流量操盘方案_V2.0.md\n- 承接页原则：outputs/A-Deeper-China独立站首发页面规格_V1.0.md"}
+{"kind":"slide","id":"sl/twn5c9","slide":6,"title":"05  /  渠道优先级","textShapes":21}
+{"kind":"textbox","id":"sh/yx4f2xcf","slide":6,"text":"05  /  渠道优先级","textPreview":"05  /  渠道优先级","textChars":12,"textLines":1,"bbox":[72,54,600,22]}
+{"kind":"textbox","id":"sh/l0vydcb6","slide":6,"text":"五条流量管道，先用时间换验证。","textPreview":"五条流量管道，先用时间换验证。","textChars":15,"textLines":1,"bbox":[72,88,900,70]}
+{"kind":"textbox","id":"sh/kzmx47ul","slide":6,"text":"这里的“投入”是时间和精力比例，不等于一开始就花广告费。","textPreview":"这里的“投入”是时间和精力比例，不等于一开始就花广告费。","textChars":28,"textLines":1,"bbox":[74,170,900,38]}
+{"kind":"textbox","id":"sh/72dgf2tc","slide":6,"text":"借力分发","textPreview":"借力分发","textChars":4,"textLines":1,"bbox":[74,258,200,28]}
+{"kind":"shape","id":"sh/614z6hcr","slide":6,"bbox":[300,263,500,18]}
+{"kind":"shape","id":"sh/t4fyhcb2","slide":6,"bbox":[300,263,455,18]}
+{"kind":"textbox","id":"sh/836h87ux","slide":6,"text":"35%","textPreview":"35%","textChars":3,"textLines":1,"bbox":[820,258,70,28]}
+{"kind":"textbox","id":"sh/fqxgjmt8","slide":6,"text":"创作者、旅行社区、合作方","textPreview":"创作者、旅行社区、合作方","textChars":12,"textLines":1,"bbox":[930,260,250,32]}
+{"kind":"textbox","id":"sh/u5ozahcn","slide":6,"text":"高意向搜索","textPreview":"高意向搜索","textChars":5,"textLines":1,"bbox":[74,322,200,28]}
+{"kind":"shape","id":"sh/wfipcbad","slide":6,"bbox":[300,327,500,18]}
+{"kind":"shape","id":"sh/xgr6lgby","slide":6,"bbox":[300,327,260,18]}
+{"kind":"textbox","id":"sh/ad07a1sn","slide":6,"text":"20%","textPreview":"20%","textChars":3,"textLines":1,"bbox":[820,322,70,28]}
+{"kind":"textbox","id":"sh/ve9oj6ts","slide":6,"text":"问题型关键词 + 具体落地页","textPreview":"问题型关键词 + 具体落地页","textChars":14,"textLines":1,"bbox":[930,324,250,32]}
+{"kind":"textbox","id":"sh/kj2pgbap","slide":6,"text":"社交发现","textPreview":"社交发现","textChars":4,"textLines":1,"bbox":[74,386,200,28]}
+{"kind":"shape","id":"sh/5kb6pgba","slide":6,"bbox":[300,391,500,18]}
+{"kind":"shape","id":"sh/ih07elsj","slide":6,"bbox":[300,391,195,18]}
+{"kind":"textbox","id":"sh/ji9onqt4","slide":6,"text":"15%","textPreview":"15%","textChars":3,"textLines":1,"bbox":[820,386,70,28]}
+{"kind":"textbox","id":"sh/s72pkval","slide":6,"text":"TikTok / Reels / Shorts","textPreview":"TikTok / Reels / Shorts","textChars":23,"textLines":1,"bbox":[930,388,250,32]}
+{"kind":"textbox","id":"sh/t8bqt0b6","slide":6,"text":"付费放大","textPreview":"付费放大","textChars":4,"textLines":1,"bbox":[74,450,200,28]}
+{"kind":"shape","id":"sh/1476x03a","slide":6,"bbox":[300,455,500,18]}
+{"kind":"shape","id":"sh/g3yp4v2p","slide":6,"bbox":[300,455,195,18]}
+{"kind":"textbox","id":"sh/f2povql4","slide":6,"text":"15%","textPreview":"15%","textChars":3,"textLines":1,"bbox":[820,450,70,28]}
+{"kind":"textbox","id":"sh/e1g72lkz","slide":6,"text":"只放大已验证的内容","textPreview":"只放大已验证的内容","textChars":9,"textLines":1,"bbox":[930,452,250,32]}
+{"kind":"textbox","id":"sh/psr6103m","slide":6,"text":"邮件与转介绍","textPreview":"邮件与转介绍","textChars":6,"textLines":1,"bbox":[74,514,200,28]}
+{"kind":"shape","id":"sh/o7ip8v21","slide":6,"bbox":[300,519,500,18]}
+{"kind":"shape","id":"sh/369ozqlg","slide":6,"bbox":[300,519,195,18]}
+{"kind":"textbox","id":"sh/25076lkv","slide":6,"text":"15%","textPreview":"15%","textChars":3,"textLines":1,"bbox":[820,514,70,28]}
+{"kind":"textbox","id":"sh/5wn6pg32","slide":6,"text":"把一次访问变成长期资产","textPreview":"把一次访问变成长期资产","textChars":11,"textLines":1,"bbox":[930,516,250,32]}
+{"kind":"shape","id":"sh/4be5wb2h","slide":6,"bbox":[74,600,1106,42]}
+{"kind":"textbox","id":"sh/uhc36h0f","slide":6,"text":"优先级原则：先验证“有人愿意提交路线”，再验证“有人愿意付款”，最后才放大曝光。","textPreview":"优先级原则：先验证“有人愿意提交路线”，再验证“有人愿意付款”，最后才放大曝光。","textChars":40,"textLines":1,"bbox":[94,610,1068,24]}
+{"kind":"shape","id":"sh/v2l4z210","slide":6,"bbox":[72,676,1136,1]}
+{"kind":"textbox","id":"sh/w3ul87il","slide":6,"text":"A DEEPER CHINA / GROWTH OPERATING PLAN","textPreview":"A DEEPER CHINA / GROWTH OPERATING PLAN","textChars":38,"textLines":1,"bbox":[72,688,570,18]}
+{"kind":"textbox","id":"sh/h43m1cj6","slide":6,"text":"06","textPreview":"06","textChars":2,"textLines":1,"bbox":[1170,686,38,20]}
+{"kind":"notes","id":"nt/twn5c9","slide":6,"text":"[Sources]\n- 渠道投入比例：outputs/A-Deeper-China真正流量操盘方案_V2.0.md\n- 渠道职责与阶段判断：outputs/A-Deeper-China海外流量专业调查_V1.0.md"}
+{"kind":"slide","id":"sl/aacfhv","slide":7,"title":"06  /  最快的第一批客户","textShapes":18}
+{"kind":"shape","id":"sh/ux0rul8r","slide":7,"bbox":[0,0,1280,720]}
+{"kind":"shape","id":"sh/fy98nq9w","slide":7,"bbox":[0,0,1280,720]}
+{"kind":"textbox","id":"sh/4n290fqt","slide":7,"text":"06  /  最快的第一批客户","textPreview":"06  /  最快的第一批客户","textChars":15,"textLines":1,"bbox":[72,58,600,22]}
+{"kind":"textbox","id":"sh/pobqtkre","slide":7,"text":"最快的第一批客户，\n来自已经有受众的人。","textPreview":"最快的第一批客户， | 来自已经有受众的人。","textChars":20,"textLines":2,"bbox":[72,104,730,142]}
+{"kind":"textbox","id":"sh/2lkry58n","slide":7,"text":"把创作者当作长期分发节点，而不是买一条广告。","textPreview":"把创作者当作长期分发节点，而不是买一条广告。","textChars":22,"textLines":1,"bbox":[74,276,590,36]}
+{"kind":"shape","id":"sh/3mt8ra98","slide":7,"bbox":[744,398,450,1]}
+{"kind":"textbox","id":"sh/krypobq9","slide":7,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[744,348,42,26]}
+{"kind":"textbox","id":"sh/5s7qxgru","slide":7,"text":"提供一条真实路线","textPreview":"提供一条真实路线","textChars":8,"textLines":1,"bbox":[806,346,330,28]}
+{"kind":"textbox","id":"sh/d4japkfu","slide":7,"text":"从创作者受众最常问的问题开始","textPreview":"从创作者受众最常问的问题开始","textChars":14,"textLines":1,"bbox":[806,376,360,22]}
+{"kind":"shape","id":"sh/c3atgfy9","slide":7,"bbox":[744,464,450,1]}
+{"kind":"textbox","id":"sh/r2hsnaxo","slide":7,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[744,414,42,26]}
+{"kind":"textbox","id":"sh/q18be5g3","slide":7,"text":"免费做一次 Keep / Cut / Reorder","textPreview":"免费做一次 Keep / Cut / Reorder","textChars":26,"textLines":1,"bbox":[806,412,330,28]}
+{"kind":"textbox","id":"sh/1sjatkfq","slide":7,"text":"让判断本身成为内容","textPreview":"让判断本身成为内容","textChars":9,"textLines":1,"bbox":[806,442,360,22]}
+{"kind":"shape","id":"sh/0ratkzy5","slide":7,"bbox":[744,530,450,1]}
+{"kind":"textbox","id":"sh/zq1sruxk","slide":7,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[744,480,42,26]}
+{"kind":"textbox","id":"sh/epsbipgz","slide":7,"text":"联合发布前后对比","textPreview":"联合发布前后对比","textChars":8,"textLines":1,"bbox":[806,478,330,28]}
+{"kind":"textbox","id":"sh/9w3ux4fm","slide":7,"text":"观众看得见“删掉什么”","textPreview":"观众看得见“删掉什么”","textChars":11,"textLines":1,"bbox":[806,508,360,22]}
+{"kind":"shape","id":"sh/ovutozyh","slide":7,"bbox":[744,596,450,1]}
+{"kind":"textbox","id":"sh/8z2dk36d","slide":7,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[744,546,42,26]}
+{"kind":"textbox","id":"sh/t0bet8ny","slide":7,"text":"专属链接 + 20–30%佣金","textPreview":"专属链接 + 20–30%佣金","textChars":15,"textLines":1,"bbox":[806,544,330,28]}
+{"kind":"textbox","id":"sh/6x0vidon","slide":7,"text":"让分发变成可追踪收入","textPreview":"让分发变成可追踪收入","textChars":10,"textLines":1,"bbox":[806,574,360,22]}
+{"kind":"textbox","id":"sh/7ytcry5s","slide":7,"text":"30天目标：40人名单 / 30次个性化触达 / 3个联合内容","textPreview":"30天目标：40人名单 / 30次个性化触达 / 3个联合内容","textChars":31,"textLines":1,"bbox":[74,636,800,24]}
+{"kind":"shape","id":"sh/g32don6p","slide":7,"bbox":[72,676,1136,1]}
+{"kind":"textbox","id":"sh/h4bexsna","slide":7,"text":"A DEEPER CHINA / GROWTH OPERATING PLAN","textPreview":"A DEEPER CHINA / GROWTH OPERATING PLAN","textChars":38,"textLines":1,"bbox":[72,688,570,18]}
+{"kind":"textbox","id":"sh/u1kvmdoj","slide":7,"text":"07","textPreview":"07","textChars":2,"textLines":1,"bbox":[1170,686,38,20]}
+{"kind":"image","id":"im/8ret47mh","slide":7,"name":"","alt":"A Deeper China Chongqing site preview","bbox":[0,0,1280,720]}
+{"kind":"notes","id":"nt/aacfhv","slide":7,"text":"[Sources]\n- 创作者联盟机制与目标：outputs/A-Deeper-China真正流量操盘方案_V2.0.md\n- 图片：output/playwright/site-preview-v0.3-chongqing.png（项目现有独立站预览图，作为内部视觉素材）"}
+{"kind":"slide","id":"sl/ph2zaw","slide":8,"title":"07  /  平台分工","textShapes":18}
+{"kind":"textbox","id":"sh/ax8velk7","slide":8,"text":"07  /  平台分工","textPreview":"07  /  平台分工","textChars":11,"textLines":1,"bbox":[72,54,600,22]}
+{"kind":"textbox","id":"sh/x0zu90jy","slide":8,"text":"Reddit、短视频、YouTube，分别承担不同任务。","textPreview":"Reddit、短视频、YouTube，分别承担不同任务。","textChars":28,"textLines":1,"bbox":[72,88,1060,70]}
+{"kind":"textbox","id":"sh/wzqdgv2d","slide":8,"text":"不要让每个平台都说同一套话。让它们各自把用户推进下一步。","textPreview":"不要让每个平台都说同一套话。让它们各自把用户推进下一步。","textChars":28,"textLines":1,"bbox":[74,170,900,38]}
+{"kind":"textbox","id":"sh/jm1cba14","slide":8,"text":"REDDIT / 旅行社区","textPreview":"REDDIT / 旅行社区","textChars":13,"textLines":1,"bbox":[74,258,326,26]}
+{"kind":"textbox","id":"sh/ilsvi5kj","slide":8,"text":"让真实问题浮出水面","textPreview":"让真实问题浮出水面","textChars":9,"textLines":1,"bbox":[74,306,320,66]}
+{"kind":"textbox","id":"sh/5ojed0ju","slide":8,"text":"每周5条高质量回答","textPreview":"每周5条高质量回答","textChars":9,"textLines":1,"bbox":[74,400,300,30]}
+{"kind":"shape","id":"sh/knadkf29","slide":8,"bbox":[74,466,280,1]}
+{"kind":"textbox","id":"sh/rq1wfa10","slide":8,"text":"“我会删掉哪个城市，为什么”","textPreview":"“我会删掉哪个城市，为什么”","textChars":14,"textLines":1,"bbox":[74,492,300,64]}
+{"kind":"shape","id":"sh/6psvm5kf","slide":8,"bbox":[414,254,1,306]}
+{"kind":"textbox","id":"sh/cj6t87e1","slide":8,"text":"TIKTOK / REELS / SHORTS","textPreview":"TIKTOK / REELS / SHORTS","textChars":23,"textLines":1,"bbox":[442,258,326,26]}
+{"kind":"textbox","id":"sh/dkfahcvm","slide":8,"text":"获取发现和私信","textPreview":"获取发现和私信","textChars":7,"textLines":1,"bbox":[442,306,320,66]}
+{"kind":"textbox","id":"sh/qhor6hwv","slide":8,"text":"每周6条路线拆解","textPreview":"每周6条路线拆解","textChars":8,"textLines":1,"bbox":[442,400,300,30]}
+{"kind":"shape","id":"sh/bixsf2dg","slide":8,"bbox":[442,466,280,1]}
+{"kind":"textbox","id":"sh/076tcrex","slide":8,"text":"“Three beautiful AI itinerary mistakes”","textPreview":"“Three beautiful AI itinerary mistakes”","textChars":39,"textLines":1,"bbox":[442,492,300,64]}
+{"kind":"shape","id":"sh/l8zalwvi","slide":8,"bbox":[782,254,1,306]}
+{"kind":"textbox","id":"sh/ylobahw7","slide":8,"text":"YOUTUBE","textPreview":"YOUTUBE","textChars":7,"textLines":1,"bbox":[810,258,326,26]}
+{"kind":"textbox","id":"sh/zmxsjmdc","slide":8,"text":"建立信任和长尾","textPreview":"建立信任和长尾","textChars":7,"textLines":1,"bbox":[810,306,320,66]}
+{"kind":"textbox","id":"sh/8bqtgru9","slide":8,"text":"每月1条6–12分钟视频","textPreview":"每月1条6–12分钟视频","textChars":12,"textLines":1,"bbox":[810,400,300,30]}
+{"kind":"shape","id":"sh/9czapwvu","slide":8,"bbox":[810,466,280,1]}
+{"kind":"textbox","id":"sh/hsva9wny","slide":8,"text":"“Can you really do four cities in 14 days?”","textPreview":"“Can you really do four cities in 14 days?”","textChars":43,"textLines":1,"bbox":[810,492,300,64]}
+{"kind":"shape","id":"sh/wrm90rmd","slide":8,"bbox":[74,608,1070,34]}
+{"kind":"textbox","id":"sh/v6ds7m5s","slide":8,"text":"统一结尾：Comment your route and I’ll tell you what I would rethink first.","textPreview":"统一结尾：Comment your route and I’ll tell you what I would rethink first.","textChars":69,"textLines":1,"bbox":[94,615,1030,22]}
+{"kind":"shape","id":"sh/u54ryh47","slide":8,"bbox":[72,676,1136,1]}
+{"kind":"textbox","id":"sh/5wfadwnu","slide":8,"text":"A DEEPER CHINA / GROWTH OPERATING PLAN","textPreview":"A DEEPER CHINA / GROWTH OPERATING PLAN","textChars":38,"textLines":1,"bbox":[72,688,570,18]}
+{"kind":"textbox","id":"sh/4v6t4bm9","slide":8,"text":"08","textPreview":"08","textChars":2,"textLines":1,"bbox":[1170,686,38,20]}
+{"kind":"notes","id":"nt/ph2zaw","slide":8,"text":"[Sources]\n- 平台分工与内容示例：outputs/traffic-research-v1/A-Deeper-China_30天海外流量执行表_V1.0.md\n- 社区问答结构：outputs/A-Deeper-China海外流量小白落地方案_V1.0.md"}
+{"kind":"slide","id":"sl/1275oc","slide":9,"title":"08  /  搜索与广告","textShapes":27}
+{"kind":"textbox","id":"sh/x8zmp8fu","slide":9,"text":"08  /  搜索与广告","textPreview":"08  /  搜索与广告","textChars":12,"textLines":1,"bbox":[72,54,600,22]}
+{"kind":"textbox","id":"sh/a583utw3","slide":9,"text":"搜索和广告，只放大已经被证明有效的判断。","textPreview":"搜索和广告，只放大已经被证明有效的判断。","textChars":20,"textLines":1,"bbox":[72,88,1060,70]}
+{"kind":"textbox","id":"sh/v6h4nyxo","slide":9,"text":"先从高意向问题开始，不从“China travel”这种泛词开始。","textPreview":"先从高意向问题开始，不从“China travel”这种泛词开始。","textChars":33,"textLines":1,"bbox":[74,170,900,38]}
+{"kind":"textbox","id":"sh/kba503el","slide":9,"text":"关键词三层","textPreview":"关键词三层","textChars":5,"textLines":1,"bbox":[74,252,230,32]}
+{"kind":"textbox","id":"sh/5cjmt8fq","slide":9,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[74,306,36,24]}
+{"kind":"textbox","id":"sh/i983ydwf","slide":9,"text":"China itinerary review","textPreview":"China itinerary review","textChars":22,"textLines":1,"bbox":[132,302,420,30]}
+{"kind":"textbox","id":"sh/ja14rix0","slide":9,"text":"最接近付款","textPreview":"最接近付款","textChars":5,"textLines":1,"bbox":[132,337,360,22]}
+{"kind":"textbox","id":"sh/sfa54neh","slide":9,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[74,380,36,24]}
+{"kind":"textbox","id":"sh/tgjmxsf2","slide":9,"text":"Shanghai Hangzhou Suzhou itinerary","textPreview":"Shanghai Hangzhou Suzhou itinerary","textChars":34,"textLines":1,"bbox":[132,376,420,30]}
+{"kind":"textbox","id":"sh/9cn29w72","slide":9,"text":"具体路线组合","textPreview":"具体路线组合","textChars":6,"textLines":1,"bbox":[132,411,360,22]}
+{"kind":"textbox","id":"sh/obe1grqh","slide":9,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[74,454,36,24]}
+{"kind":"textbox","id":"sh/na5k7mpw","slide":9,"text":"China travel apps / payment","textPreview":"China travel apps / payment","textChars":27,"textLines":1,"bbox":[132,450,420,30]}
+{"kind":"textbox","id":"sh/m9cjeh8r","slide":9,"text":"流量大，建立信任","textPreview":"流量大，建立信任","textChars":8,"textLines":1,"bbox":[132,485,360,22]}
+{"kind":"shape","id":"sh/xgn2dg7e","slide":9,"bbox":[690,246,1,310]}
+{"kind":"textbox","id":"sh/wfe1kb6t","slide":9,"text":"测试上限","textPreview":"测试上限","textChars":4,"textLines":1,"bbox":[748,252,230,32]}
+{"kind":"textbox","id":"sh/be5kb6p8","slide":9,"text":"US$300","textPreview":"US$300","textChars":6,"textLines":1,"bbox":[748,300,260,70]}
+{"kind":"shape","id":"sh/adwji18n","slide":9,"bbox":[748,416,360,1]}
+{"kind":"textbox","id":"sh/dk3i1c7u","slide":9,"text":"Google Search","textPreview":"Google Search","textChars":13,"textLines":1,"bbox":[748,392,240,22]}
+{"kind":"textbox","id":"sh/cju187q9","slide":9,"text":"$150","textPreview":"$150","textChars":4,"textLines":1,"bbox":[1032,392,76,22]}
+{"kind":"shape","id":"sh/43y1o7y5","slide":9,"bbox":[748,448,360,1]}
+{"kind":"textbox","id":"sh/5472hcfq","slide":9,"text":"已验证短视频放大","textPreview":"已验证短视频放大","textChars":8,"textLines":1,"bbox":[748,424,240,22]}
+{"kind":"textbox","id":"sh/i1wjmhgf","slide":9,"text":"$60","textPreview":"$60","textChars":3,"textLines":1,"bbox":[1032,424,76,22]}
+{"kind":"shape","id":"sh/325kfmxk","slide":9,"bbox":[748,480,360,1]}
+{"kind":"textbox","id":"sh/sry1sryh","slide":9,"text":"创作者素材 / 样品","textPreview":"创作者素材 / 样品","textChars":10,"textLines":1,"bbox":[748,456,240,22]}
+{"kind":"textbox","id":"sh/ds72lwf2","slide":9,"text":"$40","textPreview":"$40","textChars":3,"textLines":1,"bbox":[1032,456,76,22]}
+{"kind":"shape","id":"sh/qpgjqhgb","slide":9,"bbox":[748,512,360,1]}
+{"kind":"textbox","id":"sh/rqpkjmxw","slide":9,"text":"邮箱、表单、域名","textPreview":"邮箱、表单、域名","textChars":8,"textLines":1,"bbox":[748,488,240,22]}
+{"kind":"textbox","id":"sh/0vi1wryd","slide":9,"text":"$30","textPreview":"$30","textChars":3,"textLines":1,"bbox":[1032,488,76,22]}
+{"kind":"shape","id":"sh/1wr2pwfy","slide":9,"bbox":[748,544,360,1]}
+{"kind":"textbox","id":"sh/bqt4fqh0","slide":9,"text":"备用","textPreview":"备用","textChars":2,"textLines":1,"bbox":[748,520,240,22]}
+{"kind":"textbox","id":"sh/apknm50f","slide":9,"text":"$20","textPreview":"$20","textChars":3,"textLines":1,"bbox":[1032,520,76,22]}
+{"kind":"shape","id":"sh/xsbmh0z6","slide":9,"bbox":[72,676,1136,1]}
+{"kind":"textbox","id":"sh/cr25ovil","slide":9,"text":"A DEEPER CHINA / GROWTH OPERATING PLAN","textPreview":"A DEEPER CHINA / GROWTH OPERATING PLAN","textChars":38,"textLines":1,"bbox":[72,688,570,18]}
+{"kind":"textbox","id":"sh/nm94bqh4","slide":9,"text":"09","textPreview":"09","textChars":2,"textLines":1,"bbox":[1170,686,38,20]}
+{"kind":"notes","id":"nt/1275oc","slide":9,"text":"[Sources]\n- 关键词分层：outputs/A-Deeper-China海外流量专业调查_V1.0.md\n- 预算上限：outputs/traffic-research-v1/A-Deeper-China_30天海外流量执行表_V1.0.md"}
+{"kind":"slide","id":"sl/9f1ms6","slide":10,"title":"09  /  30天验证","textShapes":25}
+{"kind":"textbox","id":"sh/u1kbi9gn","slide":10,"text":"09  /  30天验证","textPreview":"09  /  30天验证","textChars":12,"textLines":1,"bbox":[72,54,600,22]}
+{"kind":"textbox","id":"sh/hovatofy","slide":10,"text":"30天不追求做大账号，只验证3件事。","textPreview":"30天不追求做大账号，只验证3件事。","textChars":18,"textLines":1,"bbox":[72,88,920,70]}
+{"kind":"textbox","id":"sh/gnmtkjyd","slide":10,"text":"哪类问题最容易得到回复；哪个平台带来合格路线；是否有人愿意支付US$39。","textPreview":"哪类问题最容易得到回复；哪个平台带来合格路线；是否有人愿意支付US$39。","textChars":37,"textLines":1,"bbox":[74,170,960,38]}
+{"kind":"shape","id":"sh/7ytsnuxw","slide":10,"bbox":[112,322,1010,2]}
+{"kind":"shape","id":"sh/6xkbe9gb","slide":10,"bbox":[86,312,20,20]}
+{"kind":"textbox","id":"sh/t0bap4f2","slide":10,"text":"WEEK 1","textPreview":"WEEK 1","textChars":6,"textLines":1,"bbox":[78,370,130,22]}
+{"kind":"textbox","id":"sh/8z2tgzyh","slide":10,"text":"搭建最小系统","textPreview":"搭建最小系统","textChars":6,"textLines":1,"bbox":[78,404,220,44]}
+{"kind":"textbox","id":"sh/jutsjuxk","slide":10,"text":"英文承接页\n免费表单\n3个匿名案例","textPreview":"英文承接页 | 免费表单 | 3个匿名案例","textChars":17,"textLines":3,"bbox":[78,468,220,86]}
+{"kind":"shape","id":"sh/yt0bapgf","slide":10,"bbox":[371,312,20,20]}
+{"kind":"textbox","id":"sh/87ad0nql","slide":10,"text":"WEEK 2","textPreview":"WEEK 2","textChars":6,"textLines":1,"bbox":[363,370,130,22]}
+{"kind":"textbox","id":"sh/98ju9s76","slide":10,"text":"回答真实问题","textPreview":"回答真实问题","textChars":6,"textLines":1,"bbox":[363,404,220,44]}
+{"kind":"textbox","id":"sh/m58vyx8f","slide":10,"text":"5条社区回答 / 周\n6条路线短视频\n不急着投广告","textPreview":"5条社区回答 / 周 | 6条路线短视频 | 不急着投广告","textChars":25,"textLines":3,"bbox":[363,468,220,86]}
+{"kind":"shape","id":"sh/76hc7ip0","slide":10,"bbox":[656,312,20,20]}
+{"kind":"textbox","id":"sh/k3qdwnq9","slide":10,"text":"WEEK 3","textPreview":"WEEK 3","textChars":6,"textLines":1,"bbox":[648,370,130,22]}
+{"kind":"textbox","id":"sh/l4zu5s7u","slide":10,"text":"借力创作者","textPreview":"借力创作者","textChars":5,"textLines":1,"bbox":[648,404,220,44]}
+{"kind":"textbox","id":"sh/y18vud8j","slide":10,"text":"40人名单\n30次个性化触达\n1条长视频","textPreview":"40人名单 | 30次个性化触达 | 1条长视频","textChars":20,"textLines":3,"bbox":[648,468,220,86]}
+{"kind":"shape","id":"sh/z2hc3ipo","slide":10,"bbox":[941,312,20,20]}
+{"kind":"textbox","id":"sh/4zud87qt","slide":10,"text":"WEEK 4","textPreview":"WEEK 4","textChars":6,"textLines":1,"bbox":[933,370,130,22]}
+{"kind":"textbox","id":"sh/503ehc7e","slide":10,"text":"出售并复盘","textPreview":"出售并复盘","textChars":5,"textLines":1,"bbox":[933,404,220,44]}
+{"kind":"textbox","id":"sh/tkfm58v6","slide":10,"text":"开放10个名额\n记录来源与付款\n邀请匿名案例","textPreview":"开放10个名额 | 记录来源与付款 | 邀请匿名案例","textChars":22,"textLines":3,"bbox":[933,468,220,86]}
+{"kind":"textbox","id":"sh/sj6lcnel","slide":10,"text":"20–30","textPreview":"20–30","textChars":5,"textLines":1,"bbox":[74,610,110,28]}
+{"kind":"textbox","id":"sh/rix43id0","slide":10,"text":"合格路线提交","textPreview":"合格路线提交","textChars":6,"textLines":1,"bbox":[192,615,140,22]}
+{"kind":"textbox","id":"sh/6ho3adwf","slide":10,"text":"5–10","textPreview":"5–10","textChars":4,"textLines":1,"bbox":[350,610,110,28]}
+{"kind":"textbox","id":"sh/5gvm18vu","slide":10,"text":"US$39付费审查","textPreview":"US$39付费审查","textChars":9,"textLines":1,"bbox":[468,615,140,22]}
+{"kind":"textbox","id":"sh/4fml83ep","slide":10,"text":"2+","textPreview":"2+","textChars":2,"textLines":1,"bbox":[626,610,110,28]}
+{"kind":"textbox","id":"sh/jed4zyd4","slide":10,"text":"升级路书","textPreview":"升级路书","textChars":4,"textLines":1,"bbox":[744,615,140,22]}
+{"kind":"textbox","id":"sh/id436twj","slide":10,"text":"3","textPreview":"3","textChars":1,"textLines":1,"bbox":[902,610,110,28]}
+{"kind":"textbox","id":"sh/hcvmxovy","slide":10,"text":"创作者合作","textPreview":"创作者合作","textChars":5,"textLines":1,"bbox":[1020,615,140,22]}
+{"kind":"shape","id":"sh/wbml43ed","slide":10,"bbox":[72,676,1136,1]}
+{"kind":"textbox","id":"sh/mhkjepcb","slide":10,"text":"A DEEPER CHINA / GROWTH OPERATING PLAN","textPreview":"A DEEPER CHINA / GROWTH OPERATING PLAN","textChars":38,"textLines":1,"bbox":[72,688,570,18]}
+{"kind":"textbox","id":"sh/nit07utw","slide":10,"text":"10","textPreview":"10","textChars":2,"textLines":1,"bbox":[1170,686,38,20]}
+{"kind":"notes","id":"nt/9f1ms6","slide":10,"text":"[Sources]\n- 30天目标与周计划：outputs/traffic-research-v1/A-Deeper-China_30天海外流量执行表_V1.0.md\n- 第一周资产清单：outputs/traffic-research-v1/A-Deeper-China_第一周获客启动包_V1.0.md"}
+{"kind":"slide","id":"sl/6rycfk","slide":11,"title":"10  /  数据追踪","textShapes":19}
+{"kind":"textbox","id":"sh/n2p0nmlw","slide":11,"text":"10  /  数据追踪","textPreview":"10  /  数据追踪","textChars":11,"textLines":1,"bbox":[72,54,600,22]}
+{"kind":"textbox","id":"sh/83i1wrmh","slide":11,"text":"数据只看能不能进账，不看虚荣指标。","textPreview":"数据只看能不能进账，不看虚荣指标。","textChars":17,"textLines":1,"bbox":[72,88,900,70]}
+{"kind":"textbox","id":"sh/94ripw32","slide":11,"text":"每周复盘一次，把“点赞很多但没人提交路线”的渠道直接降级。","textPreview":"每周复盘一次，把“点赞很多但没人提交路线”的渠道直接降级。","textChars":29,"textLines":1,"bbox":[74,170,900,38]}
+{"kind":"shape","id":"sh/ydgzqh4f","slide":11,"bbox":[74,290,180,102]}
+{"kind":"textbox","id":"sh/zyp0jml0","slide":11,"text":"展示","textPreview":"展示","textChars":2,"textLines":1,"bbox":[90,315,148,28]}
+{"kind":"textbox","id":"sh/0zyhsrm5","slide":11,"text":"有人看到","textPreview":"有人看到","textChars":4,"textLines":1,"bbox":[84,354,160,24]}
+{"kind":"shape","id":"sh/l07ilc3q","slide":11,"bbox":[296,314,168,98]}
+{"kind":"textbox","id":"sh/q9wzmx43","slide":11,"text":"点击","textPreview":"点击","textChars":2,"textLines":1,"bbox":[312,339,136,28]}
+{"kind":"textbox","id":"sh/ba50f2lo","slide":11,"text":"有人愿意了解","textPreview":"有人愿意了解","textChars":6,"textLines":1,"bbox":[306,378,148,24]}
+{"kind":"shape","id":"sh/vm5gbahc","slide":11,"bbox":[518,338,156,94]}
+{"kind":"textbox","id":"sh/ulwf25gr","slide":11,"text":"提交","textPreview":"提交","textChars":2,"textLines":1,"bbox":[534,363,124,28]}
+{"kind":"textbox","id":"sh/honydkz2","slide":11,"text":"愿意交出自己的路线","textPreview":"愿意交出自己的路线","textChars":9,"textLines":1,"bbox":[528,402,136,24]}
+{"kind":"shape","id":"sh/gneh4fyx","slide":11,"bbox":[740,362,144,90]}
+{"kind":"textbox","id":"sh/3q5gfah8","slide":11,"text":"US$39","textPreview":"US$39","textChars":5,"textLines":1,"bbox":[756,387,112,28]}
+{"kind":"textbox","id":"sh/ipwz6pgn","slide":11,"text":"愿意为判断付款","textPreview":"愿意为判断付款","textChars":7,"textLines":1,"bbox":[750,426,124,24]}
+{"kind":"shape","id":"sh/5snyhkze","slide":11,"bbox":[962,386,132,86]}
+{"kind":"textbox","id":"sh/4reh8fyt","slide":11,"text":"US$99+","textPreview":"US$99+","textChars":6,"textLines":1,"bbox":[978,411,100,28]}
+{"kind":"textbox","id":"sh/julg3qh4","slide":11,"text":"愿意购买更深交付","textPreview":"愿意购买更深交付","textChars":8,"textLines":1,"bbox":[972,450,112,24]}
+{"kind":"shape","id":"sh/ytsfulgj","slide":11,"bbox":[74,500,1060,1]}
+{"kind":"textbox","id":"sh/m1kryx43","slide":11,"text":"加码","textPreview":"加码","textChars":2,"textLines":1,"bbox":[74,532,86,28]}
+{"kind":"textbox","id":"sh/nmtsri5o","slide":11,"text":"合格路线提交率上升；有人主动追问；US$39开始成交。","textPreview":"合格路线提交率上升；有人主动追问；US$39开始成交。","textChars":27,"textLines":1,"bbox":[170,534,420,28]}
+{"kind":"textbox","id":"sh/on2t0nm9","slide":11,"text":"停止","textPreview":"停止","textChars":2,"textLines":1,"bbox":[680,532,86,28]}
+{"kind":"textbox","id":"sh/9obatsnu","slide":11,"text":"只有点赞，没有路线；只带来泛流量；交付成本高于收入。","textPreview":"只有点赞，没有路线；只带来泛流量；交付成本高于收入。","textChars":26,"textLines":1,"bbox":[776,534,360,28]}
+{"kind":"shape","id":"sh/ex0rud47","slide":11,"bbox":[72,676,1136,1]}
+{"kind":"textbox","id":"sh/zytsni5s","slide":11,"text":"A DEEPER CHINA / GROWTH OPERATING PLAN","textPreview":"A DEEPER CHINA / GROWTH OPERATING PLAN","textChars":38,"textLines":1,"bbox":[72,688,570,18]}
+{"kind":"textbox","id":"sh/0z29wnmd","slide":11,"text":"11","textPreview":"11","textChars":2,"textLines":1,"bbox":[1170,686,38,20]}
+{"kind":"notes","id":"nt/6rycfk","slide":11,"text":"[Sources]\n- 追踪字段与复盘规则：outputs/A-Deeper-China真正流量操盘方案_V2.0.md\n- 30天复盘表：outputs/traffic-research-v1/A-Deeper-China_30天海外流量执行表_V1.0.md"}
+{"kind":"slide","id":"sl/sndx2q","slide":12,"title":"11  /  现在就做","textShapes":18}
+{"kind":"textbox","id":"sh/6xkv29cf","slide":12,"text":"11  /  现在就做","textPreview":"11  /  现在就做","textChars":11,"textLines":1,"bbox":[72,62,600,22]}
+{"kind":"textbox","id":"sh/tkbedob6","slide":12,"text":"现在的决策只有一个：\n先拿到10个付费客户。","textPreview":"现在的决策只有一个： | 先拿到10个付费客户。","textChars":22,"textLines":2,"bbox":[72,132,900,160]}
+{"kind":"textbox","id":"sh/sz2d4jul","slide":12,"text":"前7天只做五件事：","textPreview":"前7天只做五件事：","textChars":9,"textLines":1,"bbox":[76,338,420,30]}
+{"kind":"textbox","id":"sh/fmdwfytc","slide":12,"text":"01","textPreview":"01","textChars":2,"textLines":1,"bbox":[78,388,36,22]}
+{"kind":"textbox","id":"sh/ul4v6tcr","slide":12,"text":"一页英文承接页","textPreview":"一页英文承接页","textChars":7,"textLines":1,"bbox":[132,385,520,28]}
+{"kind":"textbox","id":"sh/hoveh8b2","slide":12,"text":"02","textPreview":"02","textChars":2,"textLines":1,"bbox":[78,430,36,22]}
+{"kind":"textbox","id":"sh/gnmx83uh","slide":12,"text":"免费路线提交表单","textPreview":"免费路线提交表单","textChars":8,"textLines":1,"bbox":[132,427,520,28]}
+{"kind":"textbox","id":"sh/3qdwjyt8","slide":12,"text":"03","textPreview":"03","textChars":2,"textLines":1,"bbox":[78,472,36,22]}
+{"kind":"textbox","id":"sh/2p4fatcn","slide":12,"text":"3个匿名前后对比案例","textPreview":"3个匿名前后对比案例","textChars":10,"textLines":1,"bbox":[132,469,520,28]}
+{"kind":"textbox","id":"sh/czatozyt","slide":12,"text":"04","textPreview":"04","textChars":2,"textLines":1,"bbox":[78,514,36,22]}
+{"kind":"textbox","id":"sh/x0jux4fe","slide":12,"text":"5条高质量社区回答","textPreview":"5条高质量社区回答","textChars":9,"textLines":1,"bbox":[132,511,520,28]}
+{"kind":"textbox","id":"sh/qd8bm9gn","slide":12,"text":"05","textPreview":"05","textChars":2,"textLines":1,"bbox":[78,556,36,22]}
+{"kind":"textbox","id":"sh/behcvex8","slide":12,"text":"10个创作者个性化触达","textPreview":"10个创作者个性化触达","textChars":11,"textLines":1,"bbox":[132,553,520,28]}
+{"kind":"shape","id":"sh/k3atsjyp","slide":12,"bbox":[770,344,352,212]}
+{"kind":"textbox","id":"sh/l4ju1ofa","slide":12,"text":"网站重做、13城长内容、广告放大，\n都等到付费证据之后。","textPreview":"网站重做、13城长内容、广告放大， | 都等到付费证据之后。","textChars":28,"textLines":2,"bbox":[802,386,286,116]}
+{"kind":"textbox","id":"sh/y1sbq9gj","slide":12,"text":"先证明“有人愿意为取舍付款”。","textPreview":"先证明“有人愿意为取舍付款”。","textChars":15,"textLines":1,"bbox":[802,520,286,28]}
+{"kind":"shape","id":"sh/z21czex4","slide":12,"bbox":[76,620,330,2]}
+{"kind":"textbox","id":"sh/87utw3y1","slide":12,"text":"A Deeper China · Overseas Growth Plan · 2026.08","textPreview":"A Deeper China · Overseas Growth Plan · 2026.08","textChars":47,"textLines":1,"bbox":[76,640,580,24]}
+{"kind":"shape","id":"sh/983u5of6","slide":12,"bbox":[72,676,1136,1]}
+{"kind":"textbox","id":"sh/hozupo7q","slide":12,"text":"A DEEPER CHINA / GROWTH OPERATING PLAN","textPreview":"A DEEPER CHINA / GROWTH OPERATING PLAN","textChars":38,"textLines":1,"bbox":[72,688,570,18]}
+{"kind":"textbox","id":"sh/gnqtgjq5","slide":12,"text":"12","textPreview":"12","textChars":2,"textLines":1,"bbox":[1170,686,38,20]}
+{"kind":"notes","id":"nt/sndx2q","slide":12,"text":"[Sources]\n- 第一周动作与优先级：outputs/traffic-research-v1/A-Deeper-China_第一周获客启动包_V1.0.md\n- 商业验证原则：outputs/A-Deeper-China真正流量操盘方案_V2.0.md"}
