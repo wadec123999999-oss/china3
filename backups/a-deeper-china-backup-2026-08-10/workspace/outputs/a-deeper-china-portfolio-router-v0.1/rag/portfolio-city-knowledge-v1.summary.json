@@ -1,0 +1,31 @@
+{
+  "version": "2026-08-09.v1",
+  "total_records": 1236,
+  "city_count": 13,
+  "by_city": {
+    "shanghai": 155,
+    "beijing": 82,
+    "chengdu": 81,
+    "chongqing": 262,
+    "guangzhou": 76,
+    "shenzhen": 76,
+    "guilin_yangshuo": 70,
+    "hangzhou": 76,
+    "suzhou": 76,
+    "quanzhou_dehua": 71,
+    "jingdezhen": 70,
+    "wudang": 71,
+    "jingmai": 70
+  },
+  "by_content_type": {
+    "positioning_overview": 13,
+    "route_seed": 136,
+    "attraction": 300,
+    "traveler_faq": 413,
+    "audience_fit": 12,
+    "source_note": 362
+  },
+  "with_external_source": 324,
+  "dynamic_check_required": 437,
+  "field_verified": 0
+}

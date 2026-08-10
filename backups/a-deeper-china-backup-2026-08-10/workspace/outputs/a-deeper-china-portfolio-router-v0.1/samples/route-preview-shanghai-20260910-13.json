@@ -1,0 +1,37 @@
+{
+  "valid": true,
+  "schema_version": "1.0",
+  "status": "preview_only",
+  "product_id": "route_preview",
+  "city": "Shanghai",
+  "route_thesis": "Use architecture as a way to understand how Shanghai changes scale, time and public life.",
+  "what_we_heard": [
+    "Priorities: architecture",
+    "Avoidances: rushing"
+  ],
+  "what_we_are_protecting": "Avoidances: rushing",
+  "candidate_modules": [
+    "River city: Bund to Lujiazui",
+    "Museums that make China legible"
+  ],
+  "why_this_route_fits": [
+    "It gives a first-time visitor an orientation frame before asking for detail.",
+    "It turns architecture into questions about money, migration, public life and reuse—not just façades."
+  ],
+  "hypotheses_to_confirm": [
+    "Would you rather understand one city clearly than try to cover its famous places?"
+  ],
+  "deliberately_not_included": [
+    "Complete day-by-day roadbook",
+    "Human operational review",
+    "Bookings or experience quotes"
+  ],
+  "commercial": {
+    "payment_allowed": false,
+    "quote_allowed": false,
+    "product_name": "Free Route Preview",
+    "upgrade_product_id": "deep_roadbook",
+    "upgrade_reason": "The paid roadbook adds the complete day-by-day route, decision ledger, fallback branches and human review scope."
+  },
+  "delivery_boundary": "This preview is a fit-check and lead-generation artifact. It is not a complete itinerary, booking, live availability check or experience quote."
+}

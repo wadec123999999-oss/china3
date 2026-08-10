@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1",
+  "city": "Shanghai",
+  "task_id": "SH-FIELD-001",
+  "route_modules": [
+    "SHM04"
+  ],
+  "object": "People's Square museum and civic-core route",
+  "method": "complete walk + timed museum entry check",
+  "field_date": null,
+  "applies_to_travel_start": null,
+  "checked_at": null,
+  "tester": null,
+  "companion_tester": null,
+  "weather_crowd": null,
+  "start_time": null,
+  "end_time": null,
+  "actual_minutes": null,
+  "result": "incomplete",
+  "safety_blocking": false,
+  "observations": {
+    "correct entrance": null,
+    "English wayfinding": null,
+    "passport/identity rules": null,
+    "security and bag storage": null,
+    "toilets and seating": null,
+    "actual dwell time": null,
+    "rain fallback": null
+  },
+  "finding": null,
+  "conditions": null,
+  "failure_reason": null,
+  "issues_changes": null,
+  "evidence": [],
+  "minimum_evidence": [
+    "entrance photo",
+    "official page or screenshot",
+    "time-stamped route note",
+    "tester observation"
+  ],
+  "pass_criteria": "A foreign visitor can identify the correct entrance, understand the basic rules and complete the planned museum segment without invented access assumptions.",
+  "blocking_condition": "No reliable foreign-visitor entry path, unresolved identity rule or no workable rainy-day exit.",
+  "cannot_promote_to": [
+    "guaranteed entry",
+    "fixed opening hours",
+    "museum guide service"
+  ],
+  "notes": "Template only. Do not change result to pass without real dated evidence."
+}

@@ -1,0 +1,141 @@
+{
+  "valid": true,
+  "directory": "/Users/apple/Documents/旅游视频/outputs/a-deeper-china-quality-system-v0.1/现场记录模板_P0_20260803",
+  "travel_start": "2026-09-10",
+  "total": 8,
+  "incomplete": 8,
+  "pass": 0,
+  "conditional_pass": 0,
+  "fail": 0,
+  "evidence_eligible": 0,
+  "records": [
+    {
+      "file": "CQ-FIELD-001.json",
+      "city": "Chongqing",
+      "task_id": "CQ-FIELD-001",
+      "result": "incomplete",
+      "valid": true,
+      "validation_errors": [],
+      "evidence_eligible": false,
+      "evidence_errors": [
+        "CQ-FIELD-001: only pass records can become release evidence"
+      ],
+      "evidence_count": 0,
+      "tester": null,
+      "field_date": null,
+      "applies_to_travel_start": null
+    },
+    {
+      "file": "CQ-FIELD-002.json",
+      "city": "Chongqing",
+      "task_id": "CQ-FIELD-002",
+      "result": "incomplete",
+      "valid": true,
+      "validation_errors": [],
+      "evidence_eligible": false,
+      "evidence_errors": [
+        "CQ-FIELD-002: only pass records can become release evidence"
+      ],
+      "evidence_count": 0,
+      "tester": null,
+      "field_date": null,
+      "applies_to_travel_start": null
+    },
+    {
+      "file": "CQ-FIELD-003.json",
+      "city": "Chongqing",
+      "task_id": "CQ-FIELD-003",
+      "result": "incomplete",
+      "valid": true,
+      "validation_errors": [],
+      "evidence_eligible": false,
+      "evidence_errors": [
+        "CQ-FIELD-003: only pass records can become release evidence"
+      ],
+      "evidence_count": 0,
+      "tester": null,
+      "field_date": null,
+      "applies_to_travel_start": null
+    },
+    {
+      "file": "CQ-FIELD-004.json",
+      "city": "Chongqing",
+      "task_id": "CQ-FIELD-004",
+      "result": "incomplete",
+      "valid": true,
+      "validation_errors": [],
+      "evidence_eligible": false,
+      "evidence_errors": [
+        "CQ-FIELD-004: only pass records can become release evidence"
+      ],
+      "evidence_count": 0,
+      "tester": null,
+      "field_date": null,
+      "applies_to_travel_start": null
+    },
+    {
+      "file": "SH-FIELD-001.json",
+      "city": "Shanghai",
+      "task_id": "SH-FIELD-001",
+      "result": "incomplete",
+      "valid": true,
+      "validation_errors": [],
+      "evidence_eligible": false,
+      "evidence_errors": [
+        "SH-FIELD-001: only pass records can become release evidence"
+      ],
+      "evidence_count": 0,
+      "tester": null,
+      "field_date": null,
+      "applies_to_travel_start": null
+    },
+    {
+      "file": "SH-FIELD-002.json",
+      "city": "Shanghai",
+      "task_id": "SH-FIELD-002",
+      "result": "incomplete",
+      "valid": true,
+      "validation_errors": [],
+      "evidence_eligible": false,
+      "evidence_errors": [
+        "SH-FIELD-002: only pass records can become release evidence"
+      ],
+      "evidence_count": 0,
+      "tester": null,
+      "field_date": null,
+      "applies_to_travel_start": null
+    },
+    {
+      "file": "SH-FIELD-003.json",
+      "city": "Shanghai",
+      "task_id": "SH-FIELD-003",
+      "result": "incomplete",
+      "valid": true,
+      "validation_errors": [],
+      "evidence_eligible": false,
+      "evidence_errors": [
+        "SH-FIELD-003: only pass records can become release evidence"
+      ],
+      "evidence_count": 0,
+      "tester": null,
+      "field_date": null,
+      "applies_to_travel_start": null
+    },
+    {
+      "file": "SH-FIELD-004.json",
+      "city": "Shanghai",
+      "task_id": "SH-FIELD-004",
+      "result": "incomplete",
+      "valid": true,
+      "validation_errors": [],
+      "evidence_eligible": false,
+      "evidence_errors": [
+        "SH-FIELD-004: only pass records can become release evidence"
+      ],
+      "evidence_count": 0,
+      "tester": null,
+      "field_date": null,
+      "applies_to_travel_start": null
+    }
+  ]
+}

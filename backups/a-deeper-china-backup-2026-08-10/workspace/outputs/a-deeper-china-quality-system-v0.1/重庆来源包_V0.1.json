@@ -1,0 +1,1355 @@
+[
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-001",
+    "legacy_source_id": "SRC001",
+    "platform": "official",
+    "url": "https://www.cq.gov.cn/zwgk/zfxxgkml/zdlyxxgk/ggwh/ly/zxdt/202511/t20251107_15146900.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2025-11",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "母城记忆、两江四岸、黄葛古道等官方线路节点",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 2025巴蜀文化旅游走廊精品线路. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-002",
+    "legacy_source_id": "SRC002",
+    "platform": "official",
+    "url": "https://whlyw.cq.gov.cn/hdjl_221/xzzq/202601/t20260115_15320860.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-01",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "opening_or_access",
+    "claim": "152家备案博物馆；主城场馆开放信息",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 2025年度重庆市博物馆名录. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-003",
+    "legacy_source_id": "SRC003",
+    "platform": "official",
+    "url": "https://whlyw.cq.gov.cn/zjwl/yzq/cqwlzy/zqwwzy/202405/t20240507_13182428.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2024-05",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "现存规模最大的古会馆建筑群之一；移民博物馆",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 湖广会馆. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-004",
+    "legacy_source_id": "SRC004",
+    "platform": "official",
+    "url": "https://whlyw.cq.gov.cn/zjwl/yzq/cqwlzy/zqwwzy/202405/t20240507_13182468.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2024-05",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "现存通远门段与东水门段的形制和保护价值",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 重庆古城墙. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-005",
+    "legacy_source_id": "SRC005",
+    "platform": "official",
+    "url": "https://www.cqyz.gov.cn/zjyz/lyyz/rmdkd/202202/t20220215_10397616.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-04",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "transport",
+    "claim": "十七城门；通远门为唯一不面水的开门",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 通远门古城墙步道. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-006",
+    "legacy_source_id": "SRC006",
+    "platform": "official",
+    "url": "https://www.cqyz.gov.cn/zjyz/lyyz/rmdkd/202210/t20221005_11164444.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-04",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "桂园、周公馆、特园等历史遗迹集中",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 中山四路. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-007",
+    "legacy_source_id": "SRC007",
+    "platform": "official",
+    "url": "https://www.cqyz.gov.cn/zjyz/lyyz/lswh/lsww/202306/t20230625_12089545.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-06",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "《双十协定》签字地等历史事实",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 桂园（张治中公馆旧址）. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-008",
+    "legacy_source_id": "SRC008",
+    "platform": "official",
+    "url": "https://www.cqyz.gov.cn/zjyz/lyyz/lswh/lsww/202210/t20221008_11166811.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-06",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "周公馆的办公、外交与宣传功能",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 中共中央南方局旧址（周公馆）. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-009",
+    "legacy_source_id": "SRC009",
+    "platform": "official",
+    "url": "https://whlyw.cq.gov.cn/hdjl_221/xzzq/202601/t20260115_15320860.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2025-12",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "opening_or_access",
+    "claim": "渝中区嘉陵新路63号；9:00—17:00",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 重庆史迪威博物馆名录信息. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-010",
+    "legacy_source_id": "SRC010",
+    "platform": "official",
+    "url": "https://www.3gmuseum.cn/web/article/1430010139317059584/web/content_1430010139317059584.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "持续更新",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "opening_or_access",
+    "claim": "主馆自2025-10起凭有效证件免预约入馆",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 三峡博物馆入馆规则. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-011",
+    "legacy_source_id": "SRC011",
+    "platform": "official",
+    "url": "https://www.cq.gov.cn/ywdt/zwhd/bmdt/202511/t20251113_15160016.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2025-11",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "近现代工商业、抗战与宗教遗存",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 慈云寺—米市街—龙门浩历史文化街区. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-012",
+    "legacy_source_id": "SRC012",
+    "platform": "official",
+    "url": "https://www.cq.gov.cn/ywdt/jrcq/202605/t20260506_15650945.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-05",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "开埠遗址公园和南滨路沿线更新现状",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 重庆城市更新催生文旅场景. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-013",
+    "legacy_source_id": "SRC013",
+    "platform": "official",
+    "url": "https://www.cq.gov.cn/ywdt/jrcq/202606/t20260613_15751500.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-06",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "opening_or_access",
+    "claim": "分区封闭施工；预计2026-12-30完工",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 李子坝站更新改造. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-014",
+    "legacy_source_id": "SRC014",
+    "platform": "official",
+    "url": "https://www.cq.gov.cn/ywdt/jrcq/202605/t20260528_15709853.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-05",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "transport",
+    "claim": "李子坝站垂直动线、客流与扶梯改造",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 轨道2号线电梯焕新. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-015",
+    "legacy_source_id": "SRC015",
+    "platform": "official",
+    "url": "https://doi.org/10.17645/up.v7i4.5810",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2022",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "地形塑造规划、治理和日常经验，不只等于高楼",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Urban Verticality Shaped by a Vertical Terrain. Original source level: S2.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-016",
+    "legacy_source_id": "SRC016",
+    "platform": "other",
+    "url": "https://eprints.whiterose.ac.uk/id/eprint/185301/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2024",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "外来奇观视角可能遮蔽日常、更新与公共/私人边界",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Towards Weird Verticality. Original source level: S2.",
+    "source_score": 17,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-017",
+    "legacy_source_id": "SRC017",
+    "platform": "other",
+    "url": "https://www.shplanning.com.cn/archive/download/id/487.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2020",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "transport",
+    "claim": "步道是交通、商业、休闲与社会交往的复合容器",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 重庆山城步道适老性研究. Original source level: S2.",
+    "source_score": 17,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-018",
+    "legacy_source_id": "SRC018",
+    "platform": "official",
+    "url": "https://ghzrzyj.cq.gov.cn/ztlm_186/ghgb/zxgh/202507/P020250716371670706300.pdf",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2025-07",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "transport",
+    "claim": "两江交汇历史城区、九开八闭格局与山城步道",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 重庆市历史文化名城保护规划. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-019",
+    "legacy_source_id": "SRC019",
+    "platform": "official",
+    "url": "https://www.cq.gov.cn/ywdt/jrcq/202605/t20260531_15716501_app.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-05",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "opening_or_access",
+    "claim": "朝天门、江北嘴、南滨路可观看；按月复核",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 2026无人机灯光秀安排. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-020",
+    "legacy_source_id": "SRC020",
+    "platform": "official",
+    "url": "https://whlyw.cq.gov.cn/zjwl/szq/zqms/202411/t20241111_13787035.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2024-11",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "food_or_accommodation",
+    "claim": "火锅的味型、共享性与城市文化符号",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 重庆火锅. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-021",
+    "legacy_source_id": "SRC021",
+    "platform": "official",
+    "url": "https://whlyw.cq.gov.cn/zwgk_221/zfgkzcwj/qtwj/202607/t20260709_15810099.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-07",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "food_or_accommodation",
+    "claim": "重庆火锅传统制作技艺及相关习俗入选市级非遗",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 重庆第七批市级非遗名录. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-022",
+    "legacy_source_id": "SRC022",
+    "platform": "official",
+    "url": "https://mzj.cq.gov.cn/sy_218/bmdt/mzyw/t_14233171.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2025-01",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "transport",
+    "claim": "黄桷坪、川美、涂鸦和交通茶馆的地方脉络",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 黄桷坪地名与交通茶馆. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-023",
+    "legacy_source_id": "SRC023",
+    "platform": "official",
+    "url": "https://ghzrzyj.cq.gov.cn/bsfw_186/dtfw/mzyt/202511/t20251124_15184222_wap.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2025-11",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "transport",
+    "claim": "山城巷、十八梯、龙门浩、黄桷坪等空间关系",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 中心城区旅游休闲街区地图. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-024",
+    "legacy_source_id": "SRC024",
+    "platform": "official",
+    "url": "https://cq.gov.cn/ywdt/bmts/202505/t20250529_14669045.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2025-05",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "opening_or_access",
+    "claim": "皇冠大扶梯常态参考时段；索道须以当日公告为准",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 皇冠大扶梯与索道节假日运营提示. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-025",
+    "legacy_source_id": "SRC025",
+    "platform": "other",
+    "url": "https://www.cqsuodao.com/zhangjiangsuodao.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "持续更新",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "opening_or_access",
+    "claim": "当日运营、停运、排队与票务入口",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 长江索道官方页. Original source level: S1.",
+    "source_score": 17,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-026",
+    "legacy_source_id": "SRC026",
+    "platform": "official",
+    "url": "https://cq.gov.cn/zwgk/zfxxgkml/zdlyxxgk/ggwh/ly/zxdt/202603/t20260304_15487802.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-03",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "opening_or_access",
+    "claim": "2026年1—2月两江游接待74.1万人次",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 2026年两江游数据. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-027",
+    "legacy_source_id": "SRC027",
+    "platform": "reddit",
+    "url": "https://www.reddit.com/r/travelchina/comments/1o74mfa/trip_report_for_chongqing_4_night_stay/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2025-10",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "4晚仍只游主城，说明主城内容容量足",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Reddit：重庆4晚只游主城. Original source level: S3.",
+    "source_score": 39,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-028",
+    "legacy_source_id": "SRC028",
+    "platform": "reddit",
+    "url": "https://www.reddit.com/r/travelchina/comments/1v4olqp/thoughts_on_my_chongqing_itinerary/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-07",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "opening_or_access",
+    "claim": "通用AI容易低估高差、排队和跨区成本",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Reddit：重庆行程是否过满. Original source level: S3.",
+    "source_score": 39,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-029",
+    "legacy_source_id": "SRC029",
+    "platform": "reddit",
+    "url": "https://www.reddit.com/r/travelchina/comments/1qvjkgb/chongqing_25_days_itinerary/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-02",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "traveller_friction",
+    "claim": "主城地标、步行、老街与夜景的组合",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Reddit：重庆2.5天行程. Original source level: S3.",
+    "source_score": 39,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-030",
+    "legacy_source_id": "SRC030",
+    "platform": "reddit",
+    "url": "https://www.reddit.com/r/travelchina/comments/1t4cdvm/help_planning_chongqing/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-05",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "transport",
+    "claim": "河流、地点和高差错误；Google地图在中国可能不准",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Reddit：AI生成重庆地图出错. Original source level: S3.",
+    "source_score": 39,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-031",
+    "legacy_source_id": "SRC031",
+    "platform": "official",
+    "url": "https://www.cqyz.gov.cn/bm_229/qwhlyw/zwxx_97154/dt/202606/t20260605_15733979.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-06",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "opening_or_access",
+    "claim": "多语种服务站、志愿者和护照预约覆盖",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 渝中入境游提质升级. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-032",
+    "legacy_source_id": "SRC032",
+    "platform": "official",
+    "url": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202601/t20260115_15320690.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2025-12",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "opening_or_access",
+    "claim": "较场口磁器街；10:00—17:30",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 重庆大轰炸遗址陈列馆名录. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-033",
+    "legacy_source_id": "SRC033",
+    "platform": "official",
+    "url": "https://www.cq.gov.cn/ywdt/zwhd/qxdt/202009/t20200907_8628081.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2020-09",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "江州城、重庆府、抗战大后方与渝中母城",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 重庆母城历史文脉. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-034",
+    "legacy_source_id": "SRC034",
+    "platform": "official",
+    "url": "https://www.cq.gov.cn/zwgk/zfxxgkml/zdlyxxgk/ggwh/wh/zxdt/202605/t20260518_15684252.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-05",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "史迪威博物馆飞虎队展进入优秀展览名单",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 2025年度博物馆优秀展览. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-035",
+    "legacy_source_id": "SRC035",
+    "platform": "official",
+    "url": "https://whlyw.cq.gov.cn/zwgk_221/zfxxgkml/jyta/zxta/202507/t20250723_14840113.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2025-07-23",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "transport",
+    "claim": "官方提出以山城步道串联景点、历史遗迹和文化空间，建设文化体验型立体线路。",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 中心城区山城步道与City Walk建设答复. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-036",
+    "legacy_source_id": "SRC036",
+    "platform": "other",
+    "url": "https://www.yedutrip.com/yedushop/p/chongqing-walking-tour",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "抓取于2026-07-30",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "transport",
+    "claim": "公开页提供全日/半日路线、多人价格、语言、订金、支付和取消信息；所有事实仍需直接联系复核。",
+    "commercial_signal": "seller_or_provider",
+    "independence": "seller_or_provider",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Walk Chongqing With a Local. Original source level: S3.",
+    "source_score": 0,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "seller/provider claim",
+      "risk-locked to research lead"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-037",
+    "legacy_source_id": "SRC037",
+    "platform": "other",
+    "url": "https://gowithguide.com/china/tour/chongqing-chongqing-bites-a-local-food-adventure-on-foot-23431",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "抓取于2026-07-30",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "provider_or_experience",
+    "claim": "公开页称3小时、最多6人、英语/中文、US$125/组并包含小吃和一顿正餐；需独立核验。",
+    "commercial_signal": "seller_or_provider",
+    "independence": "seller_or_provider",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Chongqing Bites: A Local Food Adventure on Foot. Original source level: S3.",
+    "source_score": 0,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "seller/provider claim",
+      "risk-locked to research lead"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-038",
+    "legacy_source_id": "SRC038",
+    "platform": "other",
+    "url": "https://gowithguide.com/china/tour/chongqing-beyond-tourist-chongqing-teahouse-local-snacks-included-23763",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "抓取于2026-07-30",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "provider_or_experience",
+    "claim": "公开页称3.5小时、最多5人、英语、茶和小吃并含出租车转场；拍摄与场地许可仍未知。",
+    "commercial_signal": "seller_or_provider",
+    "independence": "seller_or_provider",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Beyond Tourist Chongqing — Teahouse & Local Snacks Included. Original source level: S3.",
+    "source_score": 0,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "seller/provider claim",
+      "risk-locked to research lead"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-039",
+    "legacy_source_id": "SRC039",
+    "platform": "official",
+    "url": "https://whlyw.cq.gov.cn/zwxx_221/ztzl/wlcy/zxcq/202412/P020241209602406961699.pdf",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "公开资料",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "transport",
+    "claim": "官方资料列出四川美术学院、黄桷坪涂鸦街、美术公园、交通茶馆等资源。",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 九龙半岛九渡口滨江艺术风情街区资料. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-040",
+    "legacy_source_id": "SRC040",
+    "platform": "official",
+    "url": "https://www.cq.gov.cn/ywdt/jrcq/202504/t20250421_14537250.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2025-04-21",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "transport",
+    "claim": "官方报道写明魁星楼平街对应大楼22楼，戴家巷与嘉滨路高差60余米。",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: “微更新”激活山城“大魅力”. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-041",
+    "legacy_source_id": "SRC041",
+    "platform": "official",
+    "url": "https://www.cq.gov.cn/ywdt/jrcq/202602/t20260211_15418408.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-02-11",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "opening_or_access",
+    "claim": "春节期间多个首发节点分时段管制，部分区域根据人流实时改道；不能外推为普通工作日。",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 2026年春节解放碑、洪崖洞等区域交通管制. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-042",
+    "legacy_source_id": "SRC042",
+    "platform": "official",
+    "url": "https://www.cq.gov.cn/ywdt/zwhd/bmdt/202512/t20251208_15218393.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2025-12-08",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "opening_or_access",
+    "claim": "官方称2.4公里滨江步道改造完成并开放，串联洪崖洞、朝天门和湖广会馆方向。",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 洪崖洞—朝天门—湖广会馆2.4公里亲水步道开放. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-043",
+    "legacy_source_id": "SRC043",
+    "platform": "official",
+    "url": "https://www.cq.gov.cn/ywdt/jrcq/202607/t20260715_15822716.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-07-15",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "weather_or_season",
+    "claim": "报道记录洪崖洞周边约40℃现场体感及朝天门志愿服务站等降温措施。",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 暑期景区清凉服务与高温现场. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-044",
+    "legacy_source_id": "SRC044",
+    "platform": "official",
+    "url": "https://whlyw.cq.gov.cn/zwxx_221/bmdt/tzgg/202601/t20260115_15320690.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-01-15",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "opening_or_access",
+    "claim": "名录列明9:00—18:00、电话023-63914697，并建议小什字站8号口转东水门大桥电梯；实际开放须当日复核。",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 2025年度重庆市博物馆名录：重庆湖广会馆. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-045",
+    "legacy_source_id": "SRC045",
+    "platform": "official",
+    "url": "https://www.cq.gov.cn/zwgk/zfxxgkml/zdlyxxgk/ggwh/ly/zxdt/202605/t20260520_15691032.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-05-20",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "transport",
+    "claim": "官方资料称山城巷位于崖壁，场地落差高达70米；不代表低体力路线已验证。",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 重庆这些山城步道等你来Walk. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-046",
+    "legacy_source_id": "SRC046",
+    "platform": "official",
+    "url": "https://www.cq.gov.cn/ywdt/jrcq/202606/t20260613_15751500.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-06-13",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "opening_or_access",
+    "claim": "2026-06-16至11-30站台部分区域施工；1、2、3号出入口和A/B厅分阶段封闭，预计12月底完工。",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 轨道李子坝站2026年更新改造计划. Original source level: S1.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-047",
+    "legacy_source_id": "SRC047",
+    "platform": "other",
+    "url": "https://www.cqmetro.cn/smbsj.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "动态页面，2026-07-31检查",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "opening_or_access",
+    "claim": "页面列出2号线较场口—李子坝等站序和首末班车查询；具体时刻发布前再次查询。",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 重庆轨道交通首末班车时刻表. Original source level: S1.",
+    "source_score": 17,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-048",
+    "legacy_source_id": "SRC048",
+    "platform": "reddit",
+    "url": "https://www.reddit.com/r/travelchina/comments/1t4cdvm/help_planning_chongqing/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-05-05",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "transport",
+    "claim": "帖子和回复显示自制地图位置关系错误，并提示Google Maps在中国可能不准确。",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Help Planning Chongqing. Original source level: S3.",
+    "source_score": 39,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-049",
+    "legacy_source_id": "SRC049",
+    "platform": "reddit",
+    "url": "https://www.reddit.com/r/travelchina/comments/1v4olqp/thoughts_on_my_chongqing_itinerary/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-07-23",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "transport",
+    "claim": "回复指出行程过满、部分路段地形粗粝，主城地面交通可能较慢；用于产品摩擦而非事实证明。",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Thoughts on my Chongqing itinerary?. Original source level: S3.",
+    "source_score": 39,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-CHONGQIN-20260802-050",
+    "legacy_source_id": "SRC050",
+    "platform": "reddit",
+    "url": "https://www.reddit.com/r/chinatravel/comments/1stkfg0/chongqing_for_25_days_possible_itinerary/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "2026-04-23",
+    "city_scope": [
+      "Chongqing",
+      "重庆主城"
+    ],
+    "claim_type": "transport",
+    "claim": "讨论认为2.5天应聚焦城市本身，并反复提及洪崖洞、魁星楼、李子坝和山城步道。",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Chongqing for 2.5 days possible itinerary. Original source level: S3.",
+    "source_score": 39,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  }
+]

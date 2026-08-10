@@ -1,0 +1,175 @@
+{
+  "schema_version": "0.1",
+  "as_of": "2026-08-03",
+  "boundary": "All tasks are unstarted templates. No task is field-verified and no task authorizes booking, payment or a supplier claim.",
+  "packs": [
+    {
+      "city": "Shanghai",
+      "priority": "首发",
+      "tasks": [
+        {
+          "task_id": "SH-FIELD-001",
+          "route_modules": ["SHM04"],
+          "object": "People's Square museum and civic-core route",
+          "method": "complete walk + timed museum entry check",
+          "why": "Determines whether a first-time English visitor can start with one cultural frame without hidden entry friction.",
+          "must_record": ["correct entrance", "English wayfinding", "passport/identity rules", "security and bag storage", "toilets and seating", "actual dwell time", "rain fallback"],
+          "minimum_evidence": ["entrance photo", "official page or screenshot", "time-stamped route note", "tester observation"],
+          "pass_criteria": "A foreign visitor can identify the correct entrance, understand the basic rules and complete the planned museum segment without invented access assumptions.",
+          "blocking_condition": "No reliable foreign-visitor entry path, unresolved identity rule or no workable rainy-day exit.",
+          "cannot_promote_to": ["guaranteed entry", "fixed opening hours", "museum guide service"]
+        },
+        {
+          "task_id": "SH-FIELD-002",
+          "route_modules": ["SHM01"],
+          "object": "Bund—river crossing—Pudong transition",
+          "method": "complete route at normal pace and blue-hour recheck",
+          "why": "Determines whether the river contrast can be experienced without a generic viewpoint checklist.",
+          "must_record": ["chosen crossing mode", "waiting time", "shade and rest", "crowd load", "safe exit", "night lighting", "rain alternative"],
+          "minimum_evidence": ["two route traces", "entry/exit photos", "time segments", "crowd and weather notes"],
+          "pass_criteria": "The route has one readable river question, one lower-friction fallback and a safe return path.",
+          "blocking_condition": "Crossing depends on an unconfirmed service, unsafe crowd edge or an itinerary that cannot protect recovery time.",
+          "cannot_promote_to": ["specific cruise promise", "specific sunset/photo guarantee", "best viewpoint claim"]
+        },
+        {
+          "task_id": "SH-FIELD-003",
+          "route_modules": ["SHM02"],
+          "object": "Hengfu—Wukang ethical walking loop",
+          "method": "complete walk on weekday and inspect wet-weather cover",
+          "why": "Determines whether the architecture route is walkable and respectful of residents.",
+          "must_record": ["continuous walking time", "shade", "toilets", "traffic crossings", "resident privacy boundaries", "construction", "rain cover"],
+          "minimum_evidence": ["route trace", "privacy-boundary photos without identifiable residents", "tester notes", "fallback segment"],
+          "pass_criteria": "The route can be explained as public-street observation without entering private compounds or staging local life.",
+          "blocking_condition": "No practical rest/exit plan, unsafe crossings or unclear privacy boundary.",
+          "cannot_promote_to": ["authentic-neighbourhood claim", "private compound access", "resident photography"]
+        },
+        {
+          "task_id": "SH-FIELD-004",
+          "route_modules": ["SHM06"],
+          "object": "Yangpu or West Bund public-space route",
+          "method": "start-to-end continuity walk with evening-light check",
+          "why": "Determines whether a regeneration story works as a route rather than a collection of disconnected places.",
+          "must_record": ["start/end access", "path continuity", "rest points", "public toilets", "programme reality", "night lighting", "transport exit"],
+          "minimum_evidence": ["route trace", "continuity photos", "official programme page if relevant", "tester timing"],
+          "pass_criteria": "A guest can complete a bounded segment and leave safely if the far end or programme is unavailable.",
+          "blocking_condition": "Broken continuity or night exit makes the route fragile.",
+          "cannot_promote_to": ["full-riverside completion promise", "programme guarantee", "night-safety guarantee"]
+        }
+      ]
+    },
+    {
+      "city": "Chongqing",
+      "priority": "首发",
+      "tasks": [
+        {
+          "task_id": "CQ-FIELD-001",
+          "route_modules": ["RM01", "RM02", "RM04"],
+          "object": "解放碑—魁星楼—洪崖洞外观—大剧院江岸",
+          "method": "day complete walk + weekend night rewalk",
+          "why": "Validates the core multi-level and night-visual route without requiring a full commercial-complex visit.",
+          "must_record": ["correct entrances", "floor changes", "stairs", "crowd load", "safe exits", "night lighting", "return transport"],
+          "minimum_evidence": ["GPS/route trace", "entrance photos", "segment minutes", "day/night crowd notes"],
+          "pass_criteria": "High, medium and lower-load variants can be described with clear exits and no private-space dependency.",
+          "blocking_condition": "A key connection depends on temporary passage, unsafe edge or unresolved construction.",
+          "cannot_promote_to": ["洪崖洞完整逛完承诺", "特定灯光/无人机秀保证", "最佳机位保证"]
+        },
+        {
+          "task_id": "CQ-FIELD-002",
+          "route_modules": ["RM03"],
+          "object": "朝天门江岸与两江方向",
+          "method": "day entry check + rain/heat alternative",
+          "why": "Validates the city-gateway explanation and a lower-friction river-edge entry.",
+          "must_record": ["metro exit", "drop-off point", "shade", "seating", "waterfront access", "return route", "rain alternative"],
+          "minimum_evidence": ["two route traces", "entrance photos", "minutes and step estimate"],
+          "pass_criteria": "Ordinary-weather and adverse-weather versions both have clear arrival and exit logic.",
+          "blocking_condition": "River edge is closed or the only route is high-load and exposed.",
+          "cannot_promote_to": ["cruise availability", "unrestricted riverfront access"]
+        },
+        {
+          "task_id": "CQ-FIELD-003",
+          "route_modules": ["RM07", "RM13", "RM14"],
+          "object": "湖广会馆—东水门—白象街",
+          "method": "phone/written confirmation + complete walk",
+          "why": "Validates the migration, trade and ordinary-life explanation layer.",
+          "must_record": ["passport ticketing", "English support", "opening", "filming rules", "route continuity", "stairs", "90/150-minute versions"],
+          "minimum_evidence": ["call or written record", "ticket screenshot", "route trace", "interpretation notes"],
+          "pass_criteria": "Public access, English explanation scope and route continuity are independently evidenced.",
+          "blocking_condition": "English/access cannot be confirmed or the route requires an unstable passage.",
+          "cannot_promote_to": ["English guide guarantee", "private religious access", "commercial filming permission"]
+        },
+        {
+          "task_id": "CQ-FIELD-004",
+          "route_modules": ["RM16"],
+          "object": "轨道 2 号线乘车—李子坝",
+          "method": "non-peak ride + weekend crowd recheck",
+          "why": "Makes the train ride—not the viewpoint—the core explanation of Chongqing's transport system.",
+          "must_record": ["direction", "carriage position", "time", "crowd", "safe viewing", "construction", "external fallback"],
+          "minimum_evidence": ["in-car observation script", "time-stamped video", "service screenshot", "construction note"],
+          "pass_criteria": "The experience works without promising a specific train or forcing a dangerous platform stop.",
+          "blocking_condition": "Construction or crowding removes the safe observation point.",
+          "cannot_promote_to": ["specific carriage guarantee", "specific train guarantee", "viral photo guarantee"]
+        }
+      ]
+    },
+    {
+      "city": "Quanzhou–Dehua",
+      "priority": "第二批",
+      "tasks": [
+        {
+          "task_id": "QZ-FIELD-001",
+          "route_modules": ["QZM01", "QZM08"],
+          "object": "世界遗产公共访问与外籍游客预约路径",
+          "method": "official-page and phone/WeChat check",
+          "why": "Determines whether the maritime-system route can be used by a foreign visitor without guessing payment, identity or reservation steps.",
+          "must_record": ["official reservation channel", "passport/identity", "English support", "opening", "payment", "cancellation", "toilets and transport"],
+          "minimum_evidence": ["official page screenshot", "dated written/call record", "one test intake if permitted"],
+          "pass_criteria": "Public heritage access can be described with a reproducible foreign-visitor path.",
+          "blocking_condition": "No reliable channel or unresolved identity/payment barrier.",
+          "cannot_promote_to": ["heritage-site fast-track", "private temple access", "guaranteed English explanation"]
+        },
+        {
+          "task_id": "QZ-FIELD-002",
+          "route_modules": ["QZM01", "QZM03", "QZM08"],
+          "object": "德化陶瓷公共体验线索",
+          "method": "venue call + public-access visit",
+          "why": "Separates a publicly released ceramics activity from an assumed private factory or artist visit.",
+          "must_record": ["venue identity", "English", "capacity", "price", "cancellation", "filming", "transport", "safety"],
+          "minimum_evidence": ["written venue response", "public entrance evidence", "current price/booking screen", "consent record"],
+          "pass_criteria": "Only the explicitly released public activity is described; all private access is removed.",
+          "blocking_condition": "Venue cannot confirm responsibility, capacity, price or filming boundary.",
+          "cannot_promote_to": ["artist studio access", "factory access", "private workshop", "ceramic authenticity claim"]
+        }
+      ]
+    },
+    {
+      "city": "Jingmai Mountain",
+      "priority": "实验",
+      "tasks": [
+        {
+          "task_id": "JM-FIELD-001",
+          "route_modules": ["JMM01", "JMM02", "JMM06"],
+          "object": "到达、道路、住宿、支付和通讯",
+          "method": "real transfer observation + accommodation check",
+          "why": "A deep tea-forest product fails if recovery, payment or emergency communication is not workable.",
+          "must_record": ["actual transfer minutes", "road/weather", "fuel/payment", "network/power", "food", "toilets", "medical fallback"],
+          "minimum_evidence": ["route trace", "dated lodging response", "payment test", "connectivity note"],
+          "pass_criteria": "The route has a realistic arrival/departure buffer and a documented fallback for weather or road disruption.",
+          "blocking_condition": "No safe arrival window, unreliable accommodation or no practical emergency fallback.",
+          "cannot_promote_to": ["easy weekend add-on", "guaranteed network/payment", "tea-homestay promise"]
+        },
+        {
+          "task_id": "JM-FIELD-002",
+          "route_modules": ["JMM01", "JMM03", "JMM05"],
+          "object": "公共茶林步行与社区同意边界",
+          "method": "low-impact public walk + consent conversation",
+          "why": "Ensures the tea-forest story is about landscape and livelihoods without turning residents into staged attractions.",
+          "must_record": ["public route", "terrain/weather", "guide responsibility", "photography rules", "village boundaries", "community consent", "turnback point"],
+          "minimum_evidence": ["GPS/route trace", "local consent or rule record", "safety note", "non-identifying landscape photos"],
+          "pass_criteria": "The route stays in public/consented space and can be shortened safely when weather or body capacity changes.",
+          "blocking_condition": "No clear consent, unsafe footing or pressure to arrange private homes/rituals.",
+          "cannot_promote_to": ["authentic village encounter", "private tea ceremony", "old-tree-tea authenticity", "resident portraits"]
+        }
+      ]
+    }
+  ]
+}

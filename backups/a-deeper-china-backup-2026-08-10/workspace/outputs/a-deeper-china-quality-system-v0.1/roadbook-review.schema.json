@@ -1,0 +1,24 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "title":"A Deeper China Roadbook Review Record V0.1",
+  "type":"object",
+  "additionalProperties":false,
+  "required":["schema_version","review_id","city_unit","city","module_ids","travel_start","travel_end","reviewed_at","reviewer","completed_check_ids","current_source_ids","decision"],
+  "properties":{
+    "schema_version":{"const":"0.1"},
+    "review_id":{"type":"string","pattern":"^RBR-[A-Z0-9-]{8,80}$"},
+    "city_unit":{"type":"string","minLength":2,"maxLength":80},
+    "city":{"type":"string","minLength":2,"maxLength":100},
+    "module_ids":{"type":"array","minItems":1,"items":{"type":"string"},"maxItems":12},
+    "travel_start":{"type":"string","format":"date"},
+    "travel_end":{"type":"string","format":"date"},
+    "reviewed_at":{"type":"string","format":"date-time"},
+    "reviewer":{"type":"string","minLength":2,"maxLength":120},
+    "completed_check_ids":{"type":"array","items":{"type":"string"},"maxItems":30},
+    "completed_field_module_ids":{"type":"array","items":{"type":"string"},"maxItems":30},
+    "current_source_ids":{"type":"array","items":{"type":"string"},"maxItems":30},
+    "evidence_links":{"type":"array","items":{"type":"string","maxLength":1200},"maxItems":40},
+    "decision":{"enum":["draft_only","human_checked_ready","rejected"]},
+    "notes":{"type":"string","maxLength":3000}
+  }
+}

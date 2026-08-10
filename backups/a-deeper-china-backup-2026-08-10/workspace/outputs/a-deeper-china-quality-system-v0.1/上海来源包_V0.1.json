@@ -1,0 +1,1043 @@
+[
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-001",
+    "legacy_source_id": "SH001",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A legible first frame for treaty-port finance, river trade and the Pudong skyline opposite.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: The Bund architectural waterfront. Original source level: A.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-002",
+    "legacy_source_id": "SH002",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-Overview/20231212/c9aa0f22df154557bbbbb30d996eb2b2.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "Use after the Bund to read the city as two riverbanks, not as an observation-deck checklist.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Lujiazui public-realm / skyline view. Original source level: B.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-003",
+    "legacy_source_id": "SH003",
+    "platform": "other",
+    "url": "https://www.meet-in-shanghai.net/en/news/hai-guide-your-guide-to-the-latest-huangpu-river-cruises-131513/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A physical crossing makes the old/new-bank comparison felt instead of narrated.",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Huangpu River crossing (mode selected at runtime). Original source level: A.",
+    "source_score": 17,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-004",
+    "legacy_source_id": "SH004",
+    "platform": "other",
+    "url": "https://www.meet-in-shanghai.net/en/news/celebrating-national-day-and-midautumn-festival-a-selection-of-recommended-travel-routes-in-shanghai-523978/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A compact entry to twentieth-century residential, cultural and street history; use it as a question-led walk.",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Wukang Road. Original source level: A.",
+    "source_score": 17,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-005",
+    "legacy_source_id": "SH005",
+    "platform": "other",
+    "url": "https://www.meet-in-shanghai.net/en/news/celebrating-national-day-and-midautumn-festival-a-selection-of-recommended-travel-routes-in-shanghai-523978/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "Useful as a short visual stop, not a whole itinerary or a reason to queue.",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Wukang Building (exterior reading). Original source level: A.",
+    "source_score": 17,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-006",
+    "legacy_source_id": "SH006",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-Parks/index.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A counterweight to monumental Shanghai: public green space, social rhythm and a possible body-practice context.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Fuxing Park. Original source level: A.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-007",
+    "legacy_source_id": "SH007",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "Lets the agent create a coherent shaded walk instead of listing isolated colonial-era buildings.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Hengfu street network (specific loop after field walk). Original source level: B.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-008",
+    "legacy_source_id": "SH008",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "Pair the garden's designed space with a wider explanation of old-city commerce and ritual geography.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Yu Garden / old-city edge. Original source level: A.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-009",
+    "legacy_source_id": "SH009",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "Useful only if the guest wants religion, urban history or food geography; explain etiquette first.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: City God Temple precinct (external/contextual). Original source level: B.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-010",
+    "legacy_source_id": "SH010",
+    "platform": "official",
+    "url": "https://www.shanghaimuseum.net/mu/frontend/pg/m/en/open-info",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "opening_or_access",
+    "claim": "Best for guests who need a broad material-culture frame before neighborhood wandering.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Shanghai Museum, People's Square. Original source level: A.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-011",
+    "legacy_source_id": "SH011",
+    "platform": "official",
+    "url": "https://www.shanghaimuseum.net/mu/frontend/pg/m/en/service/visit-east",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "opening_or_access",
+    "claim": "A large museum alternative when the guest is already spending a day on the east bank.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "dynamic_check_required",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Shanghai Museum East Branch. Original source level: A.",
+    "source_score": 95,
+    "source_use": "requires_current_check",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-012",
+    "legacy_source_id": "SH012",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "Recommend only when the current show matches the guest's interests; it is not a default substitute for history.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Museum of Art Pudong (programme-led). Original source level: A.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-013",
+    "legacy_source_id": "SH013",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A possible lens on modern Chinese visual culture, selected by exhibition and travel radius.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: China Art Museum (programme-led). Original source level: A.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-014",
+    "legacy_source_id": "SH014",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-CityTour/20260521/4b118b5779a0485595391c90cc457747.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "Lets visitors read manufacturing, working riverfront and civic regeneration beyond the postcard skyline.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Yangpu Riverside. Original source level: A.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-015",
+    "legacy_source_id": "SH015",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-CityTour/20260521/4b118b5779a0485595391c90cc457747.html",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "Useful only for guests interested in work, making or family learning; verify current programme.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: WorldSkills Museum (programme-led). Original source level: A.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-016",
+    "legacy_source_id": "SH016",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "Potentially useful for art-minded guests, but gallery turnover makes a generic recommendation weak.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: M50 arts district (field-check candidate). Original source level: C.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-017",
+    "legacy_source_id": "SH017",
+    "platform": "other",
+    "url": "https://www.meet-in-shanghai.net/en/news/hai-guide-your-guide-to-the-latest-huangpu-river-cruises-131513/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A potentially strong contemporary-art plus riverfront line, selected only by current programming and distance tolerance.",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: West Bund / Tank Shanghai area (field-check candidate). Original source level: A.",
+    "source_score": 17,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-018",
+    "legacy_source_id": "SH018",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "Pairs well with Shanghai Museum for a first-day explanation of contemporary centrality.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: People's Square civic core. Original source level: A.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-019",
+    "legacy_source_id": "SH019",
+    "platform": "reddit",
+    "url": "https://www.reddit.com/r/travelchina/comments/1onnh8r/need_advice_for_a_trip_to_shanghai/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "The same landmark can serve a calm visual and bodily experience before the evening crowd.",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Bund early-morning walk. Original source level: C.",
+    "source_score": 39,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-020",
+    "legacy_source_id": "SH020",
+    "platform": "other",
+    "url": "internal supplier due diligence",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "Potential signature experience linking public-space etiquette, embodied practice and the user's local resource.",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Tai Chi with verified English-speaking teacher. Original source level: F.",
+    "source_score": 17,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-021",
+    "legacy_source_id": "SH021",
+    "platform": "reddit",
+    "url": "https://www.reddit.com/r/chinatravel/comments/1u7a0ns/looking_for_a_4day_itinerary_starting_from/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "Recommend only when guest has at least one extra full day, Jiangnan interest and accepts a change of urban pace.",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Hangzhou extension decision. Original source level: C.",
+    "source_score": 39,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-022",
+    "legacy_source_id": "SH022",
+    "platform": "reddit",
+    "url": "https://www.reddit.com/r/travelchina/comments/1jut866/itinerary_china_check_for_april/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "Recommend only for garden/canal/heritage intent, not as a compulsory day trip.",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Suzhou extension decision. Original source level: C.",
+    "source_score": 39,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-023",
+    "legacy_source_id": "SH023",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A candidate for reading industry, ecology and public space along a less postcard-driven water edge.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Suzhou Creek river walk (field-check candidate). Original source level: B.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-024",
+    "legacy_source_id": "SH024",
+    "platform": "other",
+    "url": "https://www.meet-in-shanghai.net/en/news/explore-the-wonders-of-urban-tourism-in-shanghai-at-north-bund-481171/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A broader port and river perspective that shifts the story away from the central Bund alone.",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: North Bund waterfront. Original source level: A.",
+    "source_score": 17,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-025",
+    "legacy_source_id": "SH025",
+    "platform": "other",
+    "url": "https://www.meet-in-shanghai.net/en/news/explore-the-wonders-of-urban-tourism-in-shanghai-at-north-bund-481171/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A focused entry into Shanghai’s role as refuge during World War II, best handled with historical care.",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Shanghai Jewish Refugees Museum. Original source level: A.",
+    "source_score": 17,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-026",
+    "legacy_source_id": "SH026",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A possible lens on ritual, time and temple-city relationships beyond a generic sightseeing stop.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Longhua Temple area. Original source level: B.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-027",
+    "legacy_source_id": "SH027",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A potential comparison with Longhua when a guest explicitly wants living religious practice.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Jade Buddha Temple. Original source level: A.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-028",
+    "legacy_source_id": "SH028",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A concise urban contrast between temple, metro, retail and high-density city life.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Jing’an Temple district. Original source level: B.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-029",
+    "legacy_source_id": "SH029",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "Choose only for guests interested in cinema, media or twentieth-century visual culture.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Shanghai Film Museum (programme-led). Original source level: A.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-030",
+    "legacy_source_id": "SH030",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "Potentially useful for design and political-visual-culture questions, not as a default stop.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Shanghai Propaganda Poster Art Centre (candidate). Original source level: C.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-031",
+    "legacy_source_id": "SH031",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A strong architectural case when the guest wants form, reuse and changing public use.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: 1933 Old Millfun. Original source level: B.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-032",
+    "legacy_source_id": "SH032",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A potential route for modern Chinese literary and civic history, requiring a coherent field-checked loop.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Duolun Road cultural street (field-check candidate). Original source level: C.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-033",
+    "legacy_source_id": "SH033",
+    "platform": "other",
+    "url": "internal field research required",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A future participatory food layer centred on timing, ordering and table rhythm rather than a ranked restaurant list.",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Shanghai breakfast context (field-check candidate). Original source level: F.",
+    "source_score": 17,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-034",
+    "legacy_source_id": "SH034",
+    "platform": "other",
+    "url": "internal operational design",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A short, low-decision first-evening block after a long-haul arrival, tailored to hotel location and energy.",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Shanghai first-evening orientation walk. Original source level: F.",
+    "source_score": 17,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-035",
+    "legacy_source_id": "SH035",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "Potentially valuable when a current programme supports a question about contemporary art and industrial reuse.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Power Station of Art (programme-led). Original source level: A.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-036",
+    "legacy_source_id": "SH036",
+    "platform": "official",
+    "url": "https://english.shanghai.gov.cn/en-TravelinShanghai/",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A possible indoor learning anchor for family plans when current access and interest align.",
+    "commercial_signal": "none_seen",
+    "independence": "official_primary",
+    "evidence_status": "lead_only",
+    "review_status": "usable_as_context",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Shanghai Natural History Museum (family candidate). Original source level: A.",
+    "source_score": 95,
+    "source_use": "context_with_citation",
+    "source_score_reasons": [
+      "primary authority"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-037",
+    "legacy_source_id": "SH037",
+    "platform": "other",
+    "url": "internal ethics protocol",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A method card, not a destination: allow time for one repeated street, park or market edge without extracting private life.",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Neighbourhood routine observation protocol. Original source level: F.",
+    "source_score": 17,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-038",
+    "legacy_source_id": "SH038",
+    "platform": "other",
+    "url": "internal ethics protocol",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A method card that helps photographers distinguish public composition from intrusive capture of strangers.",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Public-space photography protocol. Original source level: F.",
+    "source_score": 17,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-039",
+    "legacy_source_id": "SH039",
+    "platform": "other",
+    "url": "internal routing rule",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A decision node: hand off to the future Suzhou database only after time, pacing and garden/canal intent are explicit.",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Suzhou extension handoff. Original source level: F.",
+    "source_score": 17,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  },
+  {
+    "schema_version": "0.1",
+    "source_id": "SRC-SHANGHAI-20260802-040",
+    "legacy_source_id": "SH040",
+    "platform": "other",
+    "url": "internal routing rule",
+    "captured_at": "2026-08-03T00:00:00+08:00",
+    "published_at": null,
+    "published_date_note": "Publication time not normalized from legacy database.",
+    "city_scope": [
+      "Shanghai core"
+    ],
+    "claim_type": "heritage_context",
+    "claim": "A decision node: hand off to the future Hangzhou database only after landscape/tea intent and overnight capacity are explicit.",
+    "commercial_signal": "none_seen",
+    "independence": "firsthand_unclear",
+    "evidence_status": "lead_only",
+    "review_status": "unreviewed",
+    "corroboration_ids": [],
+    "notes": "Migrated from legacy source: Hangzhou extension handoff. Original source level: F.",
+    "source_score": 17,
+    "source_use": "lead_only",
+    "source_score_reasons": [
+      "firsthand claim unclear"
+    ]
+  }
+]
+

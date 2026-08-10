@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "updated_at": "2026-08-09",
+  "organization": "task_first_hybrid",
+  "principle": "Store city-owned facts by city; retrieve by the decision the traveller is trying to make.",
+  "layers": [
+    {
+      "id": "portfolio_router",
+      "scope": "10 product units",
+      "search": ["positioning_overview", "interaction_overlay", "city_comparison"],
+      "purpose": "Choose a city or city pair before loading detailed city records."
+    },
+    {
+      "id": "city_decision_layer",
+      "scope": "one selected city or product unit",
+      "search": ["route_seed", "traveler_faq", "audience_fit"],
+      "purpose": "Resolve pace, route, deletion and hidden-need questions."
+    },
+    {
+      "id": "city_detail_layer",
+      "scope": "selected city metadata filter",
+      "search": ["attraction", "experience", "food", "transport", "source_note"],
+      "purpose": "Fill the route only after the route question is known."
+    },
+    {
+      "id": "global_guardrail_layer",
+      "scope": "all requests",
+      "search": ["dynamic checks", "human review", "commercial boundary", "source policy"],
+      "purpose": "Apply the same safety, evidence and delivery rules across cities."
+    }
+  ],
+  "retrieval_modes": {
+    "city_focused": "Named city detected; filter detailed records by its destination slug.",
+    "comparison": "Two or more named cities, or an explicit choice question; load only comparison and decision records for candidates.",
+    "portfolio_discovery": "No city named; search small portfolio summaries and interaction overlays first, then promote at most three candidates.",
+    "research_only": "Private access, medical/safety, booking or other guarded request; retrieve boundaries and human-review tasks before any route details."
+  },
+  "required_pre_filters": ["destination_slug", "content_type", "release_boundary", "dynamic_check_required"],
+  "never_do": ["retrieve every city detail record for a single-city request", "mix cities without a comparison reason", "treat source_note as current operational fact", "promote a private-access lead to a route promise"]
+}

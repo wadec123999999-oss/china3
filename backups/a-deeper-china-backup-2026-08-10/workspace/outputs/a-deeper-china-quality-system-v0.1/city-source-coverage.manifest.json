@@ -1,0 +1,15 @@
+[
+  {"city":"Shanghai","database":"../shanghai-agent-database-20260802/上海主城智能体数据库_V1.0.json","mode":"source_pack_ref"},
+  {"city":"Beijing","database":"../beijing-agent-database-20260802/北京智能体数据库_V0.1.json","mode":"source_pack_ref"},
+  {"city":"Chengdu","database":"../chengdu-agent-database-20260802/成都智能体数据库_V0.1.json","mode":"source_pack_ref"},
+  {"city":"Chongqing","database":"../chongqing-agent-database-20260729/重庆主城智能体数据库_V1.0.json","mode":"source_pack_ref"},
+  {"city":"Guangzhou","database":"../guangzhou-agent-database-20260802/广州智能体数据库_V0.1.json","mode":"source_pack_ref"},
+  {"city":"Shenzhen","database":"../shenzhen-agent-database-20260802/深圳智能体数据库_V0.1.json","mode":"source_pack_ref"},
+  {"city":"Guilin–Yangshuo","database":"../guilin-yangshuo-agent-database-20260802/桂林阳朔智能体数据库_V0.1.json","mode":"source_pack_ref"},
+  {"city":"Hangzhou","database":"../hangzhou-agent-database-20260802/杭州智能体数据库_V0.1.json","mode":"source_pack_ref"},
+  {"city":"Suzhou","database":"../suzhou-agent-database-20260802/苏州智能体数据库_V0.1.json","mode":"source_pack_ref"},
+  {"city":"Quanzhou–Dehua","database":"../quanzhou-dehua-agent-database-20260802/泉州德化智能体数据库_V0.1.json","mode":"source_pack_ref"},
+  {"city":"Jingdezhen","database":"../jingdezhen-agent-database-20260802/景德镇智能体数据库_V0.1.json","mode":"source_pack_ref"},
+  {"city":"Wudang Mountains","database":"../wudang-agent-database-20260802/武当山智能体数据库_V0.1.json","mode":"source_pack_ref"},
+  {"city":"Jingmai Mountain","database":"../jingmai-agent-database-20260802/景迈茶山智能体数据库_V0.1.json","mode":"source_pack_ref"}
+]

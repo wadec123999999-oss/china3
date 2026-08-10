@@ -1,0 +1,158 @@
+{
+  "schema_version": "0.2",
+  "as_of": "2026-08-03",
+  "base_packet": "field-review-task-packs_V0.1.json",
+  "boundary": "Supplemental P1 task packs. Merge with V0.1; these are unstarted tasks, not evidence or release approval.",
+  "packs": [
+    {
+      "city": "Beijing",
+      "priority": "P1",
+      "tasks": [
+        {
+          "task_id": "BJ-FIELD-001",
+          "route_modules": ["BJM01", "BJM07"],
+          "object": "Imperial-axis first-entry and foreign-visitor reservation path",
+          "method": "dated entry-path rehearsal + public transport arrival check",
+          "why": "A first-time visitor route fails if the palace/civic anchor cannot be entered or the arrival friction consumes the day.",
+          "must_record": ["correct entry sequence", "passport/identity rules", "security and bag process", "English wayfinding", "reservation timing", "toilets and seating", "rain/low-energy exit"],
+          "minimum_evidence": ["official reservation screenshot", "dated arrival trace", "entrance/wayfinding photos", "time-stamped route note"],
+          "pass_criteria": "A foreign visitor can reproduce the public entry path and the route has a realistic shorter version when queues, heat or fatigue rise.",
+          "blocking_condition": "Unresolved identity/reservation rule, no reliable public entry path or no workable recovery exit.",
+          "cannot_promote_to": ["guaranteed entry", "skip-the-line promise", "fixed opening guarantee", "private access"]
+        },
+        {
+          "task_id": "BJ-FIELD-002",
+          "route_modules": ["BJM04"],
+          "object": "Great Wall section, transfer and turnaround decision",
+          "method": "complete public route at ordinary pace + weather/return-plan check",
+          "why": "The Wall is a transfer-and-body decision; the route must not be sold from reputation alone.",
+          "must_record": ["chosen section", "transfer minutes", "ticket/identity process", "stairs and terrain", "shade/rest", "turnaround point", "return transport", "weather fallback"],
+          "minimum_evidence": ["route trace", "dated ticket/official notice", "segment timing", "terrain and return notes"],
+          "pass_criteria": "The selected public section has a stated body budget, a pre-set turnaround and a credible weather/return fallback.",
+          "blocking_condition": "Unresolved transport, unsafe surface, no clear turnaround or an itinerary dependent on ideal weather.",
+          "cannot_promote_to": ["best Wall claim", "guaranteed cable-car availability", "specific crowd level", "weather-proof route"]
+        }
+      ]
+    },
+    {
+      "city": "Chengdu",
+      "priority": "P1",
+      "tasks": [
+        {
+          "task_id": "CD-FIELD-001",
+          "route_modules": ["CDM02"],
+          "object": "Panda Base foreign-visitor entry and half-day operating shape",
+          "method": "dated public entry rehearsal + transport and dwell-time observation",
+          "why": "The panda anchor should consume the part of the day it genuinely needs, not silently destroy the rest of the route.",
+          "must_record": ["passport/reservation path", "arrival and return transport", "crowd load", "animal-activity window", "shade and rest", "actual dwell time", "rain/low-energy fallback"],
+          "minimum_evidence": ["official reservation screenshot", "dated route trace", "entrance evidence", "time-stamped observation"],
+          "pass_criteria": "A foreign visitor can enter through a reproducible path and the half-day has a realistic exit without adding a distant attraction by default.",
+          "blocking_condition": "Unresolved reservation/identity rule, no reliable return path or route depends on an unsupported animal-activity promise.",
+          "cannot_promote_to": ["guaranteed panda activity", "skip-the-line promise", "animal encounter", "private keeper access"]
+        },
+        {
+          "task_id": "CD-FIELD-002",
+          "route_modules": ["CDM03", "CDM04"],
+          "object": "Tea-park public life plus low-friction food context",
+          "method": "ordinary-weather public-space observation + venue/dietary check",
+          "why": "Chengdu’s slow-city value depends on sitting, ordering and public rhythm rather than a list of restaurants.",
+          "must_record": ["public seating", "shade/weather", "language support", "ordering process", "spice/allergen handling", "payment", "quiet exit", "consent boundary"],
+          "minimum_evidence": ["dated public-space note", "venue response or menu evidence", "payment/ordering record", "non-identifying photos"],
+          "pass_criteria": "The route can explain public life and one food context without staging local encounters or making unsupported dietary claims.",
+          "blocking_condition": "No clear dietary response, public access depends on private contact or the route becomes a venue-hopping script.",
+          "cannot_promote_to": ["guaranteed English host", "allergy-safe meal", "private tea-house encounter", "restaurant ranking"]
+        }
+      ]
+    },
+    {
+      "city": "Guangzhou",
+      "priority": "P1",
+      "tasks": [
+        {
+          "task_id": "GZ-FIELD-001",
+          "route_modules": ["GZM02", "GZM04"],
+          "object": "Liwan/arcade old-city route in heat and rain",
+          "method": "complete public loop at normal pace + adverse-weather alternative",
+          "why": "The old-city story must remain legible and respectful without turning humidity, retail noise or residents into hidden friction.",
+          "must_record": ["starting entrance", "shade and covered sections", "crossings", "crowd/retail noise", "public toilets and seating", "resident boundary", "rain exit", "return transport"],
+          "minimum_evidence": ["route trace", "segment timings", "weather notes", "public-space photos without identifiable residents"],
+          "pass_criteria": "One coherent public old-city loop and a shorter rain/heat version can be described without private access assumptions.",
+          "blocking_condition": "No safe covered exit, route depends on private courtyards or the public explanation is overwhelmed by unresolved construction/access.",
+          "cannot_promote_to": ["authentic neighbourhood claim", "resident encounter", "fixed crowd level", "private courtyard access"]
+        },
+        {
+          "task_id": "GZ-FIELD-002",
+          "route_modules": ["GZM01", "GZM08"],
+          "object": "Cantonese food context and Guangzhou–Shenzhen handoff",
+          "method": "venue communication/dietary check + transfer timing review",
+          "why": "Food is a social system and the city pairing must not become a generic restaurant list or an unplanned transfer.",
+          "must_record": ["English/payment path", "menu and ingredient questions", "spice/allergen response", "waiting time", "cancellation", "rail/transfer time", "rain fallback"],
+          "minimum_evidence": ["dated venue response", "menu or official page", "payment/booking screen", "current transfer evidence"],
+          "pass_criteria": "The public food context and the city-pair decision are separately explainable with no unsupported restaurant or transport guarantee.",
+          "blocking_condition": "Venue cannot answer key dietary/payment questions or the handoff depends on unverified live inventory.",
+          "cannot_promote_to": ["allergy-safe meal", "restaurant ranking", "guaranteed train seat", "two-city package"]
+        }
+      ]
+    },
+    {
+      "city": "Shenzhen",
+      "priority": "P1",
+      "tasks": [
+        {
+          "task_id": "SZ-FIELD-001",
+          "route_modules": ["SZM01", "SZM02"],
+          "object": "Huaqiangbei public supply-chain observation",
+          "method": "public market walk + purchase/sourcing boundary test",
+          "why": "A technology route must explain interfaces and supply chains without turning public observation into a sourcing promise.",
+          "must_record": ["public entrances", "crowd and navigation", "payment", "language", "price/quality uncertainty", "photo rules", "safe exit", "rain fallback"],
+          "minimum_evidence": ["dated route trace", "public entrance photos", "sample price/quality notes", "written boundary note"],
+          "pass_criteria": "A visitor can observe one supply-chain question and leave without implying authenticity, wholesale access or guaranteed sourcing.",
+          "blocking_condition": "Route requires private introductions, unsafe purchasing or unresolved filming/payment boundaries.",
+          "cannot_promote_to": ["factory access", "verified sourcing", "best price claim", "private supplier introduction"]
+        },
+        {
+          "task_id": "SZ-FIELD-002",
+          "route_modules": ["SZM03", "SZM08"],
+          "object": "Public-facing technology route and corporate-access boundary",
+          "method": "public venue visit + permission/filming review",
+          "why": "The route should show technology in daily life while stopping cleanly before private company access or corporate theatre.",
+          "must_record": ["public evidence points", "venue opening", "English/payment", "filming rules", "consent boundary", "transfer time", "indoor fallback", "escalation point"],
+          "minimum_evidence": ["official venue page", "dated public visit note", "permission response if filming is requested", "route trace"],
+          "pass_criteria": "The public route is independently usable and every private-access claim is removed or separately released.",
+          "blocking_condition": "The story depends on a company visit, identifiable-person filming or an unverified programme.",
+          "cannot_promote_to": ["company visit", "factory tour", "executive meeting", "commercial filming permission"]
+        }
+      ]
+    },
+    {
+      "city": "Jingdezhen",
+      "priority": "P1",
+      "tasks": [
+        {
+          "task_id": "JZ-FIELD-001",
+          "route_modules": ["JZM01", "JZM02"],
+          "object": "Public porcelain-system and imperial-kiln route",
+          "method": "complete public route + museum/kiln access check",
+          "why": "The product must explain material, labour, kiln and technical history rather than collapse into ceramic shopping.",
+          "must_record": ["public entrances", "English interpretation", "opening/reservation", "dwell time", "process evidence", "rest and toilets", "rain fallback", "purchase boundary"],
+          "minimum_evidence": ["official venue page", "dated public route note", "entrance evidence", "non-commercial process observations"],
+          "pass_criteria": "A visitor can understand one public porcelain-system question without relying on private studio access or sales claims.",
+          "blocking_condition": "Public interpretation is unavailable or route meaning depends on an unreleased private encounter.",
+          "cannot_promote_to": ["ceramic authenticity claim", "private kiln access", "artist endorsement", "shopping recommendation"]
+        },
+        {
+          "task_id": "JZ-FIELD-002",
+          "route_modules": ["JZM05", "JZM06"],
+          "object": "Workshop level, safety and public-release boundary",
+          "method": "venue due-diligence call + public-access observation",
+          "why": "Courses, workshops, residencies and apprenticeships are different products and cannot be sold from social-media leads.",
+          "must_record": ["venue identity", "responsible contact", "English", "capacity", "price", "cancellation", "kiln/dust safety", "filming/consent", "public/private boundary"],
+          "minimum_evidence": ["written venue response", "public entrance evidence", "current terms", "safety or consent record"],
+          "pass_criteria": "Only the explicitly released public activity is described, with documented safety and cancellation terms.",
+          "blocking_condition": "No accountable venue, unclear safety, no current terms or pressure to imply private artist access.",
+          "cannot_promote_to": ["artist studio access", "residency", "apprenticeship", "private workshop", "guaranteed firing result"]
+        }
+      ]
+    }
+  ]
+}

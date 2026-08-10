@@ -1,0 +1,31 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://adeeperchina.example/schemas/source-record-v0.1.json",
+  "title":"A Deeper China Source Record V0.1",
+  "type":"object",
+  "additionalProperties":false,
+  "required":["schema_version","source_id","platform","captured_at","published_at","city_scope","claim_type","claim","commercial_signal","independence","evidence_status","review_status"],
+  "properties":{
+    "schema_version":{"const":"0.1"},
+    "source_id":{"type":"string","pattern":"^SRC-[A-Z]{2,8}-[0-9]{8}-[0-9]{2,5}$"},
+    "legacy_source_id":{"type":["string","null"],"maxLength":120},
+    "platform":{"enum":["official","on_site","xiaohongshu","mafengwo","qyer","ctrip","dianping","wechat","douyin","bilibili","youtube","tiktok","reddit","google_maps","other"]},
+    "url":{"type":"string","maxLength":1200},
+    "captured_at":{"type":"string","format":"date-time"},
+    "published_at":{"type":["string","null"],"format":"date-time","description":"Use null when the page does not expose a reliable publication timestamp; never invent one."},
+    "published_date_note":{"type":"string","maxLength":240},
+    "city_scope":{"type":"array","minItems":1,"items":{"type":"string","maxLength":80},"maxItems":8},
+    "claim_type":{"enum":["heritage_context","opening_or_access","transport","route_condition","weather_or_season","price_or_purchase","food_or_accommodation","provider_or_experience","community_or_etiquette","traveller_friction","other"]},
+    "claim":{"type":"string","minLength":10,"maxLength":1500},
+    "commercial_signal":{"enum":["none_seen","affiliate_or_commission","sponsored_or_gifted","seller_or_provider","unclear"]},
+    "independence":{"enum":["official_primary","firsthand_identified","firsthand_unclear","repost_or_compilation","anonymous_or_unverifiable"]},
+    "evidence_status":{"enum":["lead_only","corroborated","field_verified","contradicted","expired"]},
+    "review_status":{"enum":["unreviewed","usable_as_context","needs_corroboration","dynamic_check_required","community_signal_only","excluded"]},
+    "corroboration_ids":{"type":"array","items":{"type":"string"},"maxItems":12},
+    "module_ids":{"type":"array","description":"Optional direct binding for a narrow research lead. Never omit relevance review merely because it is present.","items":{"type":"string","pattern":"^[A-Z]{2,8}M[0-9]{2,3}$"},"minItems":1,"maxItems":8,"uniqueItems":true},
+    "notes":{"type":"string","maxLength":1500},
+    "source_score":{"type":"integer","minimum":0,"maximum":100},
+    "source_use":{"enum":["lead_only","corroborate_before_database","context_with_citation","requires_current_check","eligible_for_human_checked","exclude"]},
+    "source_score_reasons":{"type":"array","items":{"type":"string"},"maxItems":12}
+  }
+}

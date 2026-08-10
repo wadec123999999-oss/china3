@@ -1,0 +1,47 @@
+{
+  "schema_version": "0.1",
+  "city": "Chongqing",
+  "task_id": "CQ-FIELD-002",
+  "route_modules": [
+    "RM03"
+  ],
+  "object": "朝天门江岸与两江方向",
+  "method": "day entry check + rain/heat alternative",
+  "field_date": null,
+  "applies_to_travel_start": null,
+  "checked_at": null,
+  "tester": null,
+  "companion_tester": null,
+  "weather_crowd": null,
+  "start_time": null,
+  "end_time": null,
+  "actual_minutes": null,
+  "result": "incomplete",
+  "safety_blocking": false,
+  "observations": {
+    "metro exit": null,
+    "drop-off point": null,
+    "shade": null,
+    "seating": null,
+    "waterfront access": null,
+    "return route": null,
+    "rain alternative": null
+  },
+  "finding": null,
+  "conditions": null,
+  "failure_reason": null,
+  "issues_changes": null,
+  "evidence": [],
+  "minimum_evidence": [
+    "two route traces",
+    "entrance photos",
+    "minutes and step estimate"
+  ],
+  "pass_criteria": "Ordinary-weather and adverse-weather versions both have clear arrival and exit logic.",
+  "blocking_condition": "River edge is closed or the only route is high-load and exposed.",
+  "cannot_promote_to": [
+    "cruise availability",
+    "unrestricted riverfront access"
+  ],
+  "notes": "Template only. Do not change result to pass without real dated evidence."
+}

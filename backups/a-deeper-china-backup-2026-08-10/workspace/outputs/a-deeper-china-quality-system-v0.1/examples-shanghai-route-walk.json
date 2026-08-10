@@ -1,0 +1,17 @@
+{
+  "schema_version":"0.1",
+  "record_id":"FR-SH-20260802-01",
+  "city":"Shanghai",
+  "recorded_at":"2026-08-02T14:30:00+08:00",
+  "reviewer_role":"city_reviewer",
+  "record_type":"route_walk",
+  "subject":{"id":"SH-ROUTE-CANDIDATE-01","name":"Example first-visit architecture route","related_module_ids":["SHM01","SHM03"]},
+  "evidence":[
+    {"type":"field_observation","captured_at":"2026-08-02T14:30:00+08:00","reference":"Example only — replace with an actual dated field note","summary":"This is a schema demonstration, not evidence that any route was walked or verified."}
+  ],
+  "findings":{"what_changed":"No operational conclusion may be drawn from this example record.","traveller_impact":"The route remains research-led until a real reviewer records time, walking conditions, access and fallback evidence.","output_rule":"Do not label any customer route Human-checked on the basis of this example."},
+  "risk_level":"P1",
+  "status":"needs_recheck",
+  "next_review_due":"2026-08-03T00:00:00+08:00",
+  "reviewed_by":"Example only"
+}

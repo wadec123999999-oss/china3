@@ -1,0 +1,30 @@
+{
+  "city_unit": "shanghai",
+  "message": "This is our first visit to China. We love architecture and do not want to rush.",
+  "travel": {
+    "start_date": "2026-09-10",
+    "end_date": "2026-09-13"
+  },
+  "client": {
+    "party": {
+      "adults": 2,
+      "children_ages": []
+    },
+    "arrival": {
+      "date_time": "2026-09-10T12:00:00+08:00",
+      "place": "airport to confirm"
+    },
+    "departure": {
+      "date_time": "2026-09-13T12:00:00+08:00",
+      "place": "airport to confirm"
+    },
+    "overnight_area": "to confirm",
+    "pace": "slow",
+    "mobility_notes": "none reported after asking",
+    "priorities": ["architecture"],
+    "avoid": ["rushing"],
+    "food_restrictions": "none reported",
+    "budget_context": "comfortable",
+    "output_language": "English"
+  }
+}

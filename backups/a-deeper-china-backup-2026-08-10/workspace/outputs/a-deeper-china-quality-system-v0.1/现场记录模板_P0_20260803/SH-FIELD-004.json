@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1",
+  "city": "Shanghai",
+  "task_id": "SH-FIELD-004",
+  "route_modules": [
+    "SHM06"
+  ],
+  "object": "Yangpu or West Bund public-space route",
+  "method": "start-to-end continuity walk with evening-light check",
+  "field_date": null,
+  "applies_to_travel_start": null,
+  "checked_at": null,
+  "tester": null,
+  "companion_tester": null,
+  "weather_crowd": null,
+  "start_time": null,
+  "end_time": null,
+  "actual_minutes": null,
+  "result": "incomplete",
+  "safety_blocking": false,
+  "observations": {
+    "start/end access": null,
+    "path continuity": null,
+    "rest points": null,
+    "public toilets": null,
+    "programme reality": null,
+    "night lighting": null,
+    "transport exit": null
+  },
+  "finding": null,
+  "conditions": null,
+  "failure_reason": null,
+  "issues_changes": null,
+  "evidence": [],
+  "minimum_evidence": [
+    "route trace",
+    "continuity photos",
+    "official programme page if relevant",
+    "tester timing"
+  ],
+  "pass_criteria": "A guest can complete a bounded segment and leave safely if the far end or programme is unavailable.",
+  "blocking_condition": "Broken continuity or night exit makes the route fragile.",
+  "cannot_promote_to": [
+    "full-riverside completion promise",
+    "programme guarantee",
+    "night-safety guarantee"
+  ],
+  "notes": "Template only. Do not change result to pass without real dated evidence."
+}

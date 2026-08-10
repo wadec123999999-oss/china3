@@ -1,0 +1,119 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-08-03",
+  "travel_start": "2026-09-10",
+  "travel_end": "2026-09-13",
+  "cities": [
+    "Shanghai",
+    "Chongqing"
+  ],
+  "city_results": [
+    {
+      "valid": true,
+      "status": "pending_current_check",
+      "city": "Shanghai",
+      "module_ids": [],
+      "travel_start": "2026-09-10",
+      "travel_end": "2026-09-13",
+      "source_refresh_as_of": "2026-08-03T23:59:59+08:00",
+      "source_refresh_file": "上海当前来源刷新_20260803.json",
+      "tasks": [
+        {
+          "task_id": "CST-SHANGHAI-01",
+          "source_id": "SRC-SHANGHAI-20260803-REFRESH01",
+          "module_ids": [
+            "SHM04"
+          ],
+          "source_url": "https://english.shanghai.gov.cn/en-MuseumsGalleries/20231218/01fdd3f62d0c4877bc289ec0b1de6afa.html",
+          "claim_to_check": "The official visitor-information page lists Shanghai Museum People's Square hours as 9:00–17:00 with last admission at 16:00 and Monday closure except public holidays; individual reservation rules must be checked again for the client's dates.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        },
+        {
+          "task_id": "CST-SHANGHAI-02",
+          "source_id": "SRC-SHANGHAI-20260803-REFRESH02",
+          "module_ids": [
+            "SHM04"
+          ],
+          "source_url": "https://english.shanghai.gov.cn/en-Latest-WhatsNew/20240913/665093caee7643cf87a17e44a22bf7be.html",
+          "claim_to_check": "The official Shanghai Museum East update describes reservation-free individual entry for the main museum while noting that some sections, including the Digital Gallery and Curio-city, still require reservations; current opening and exhibition rules remain date-sensitive.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        },
+        {
+          "task_id": "CST-SHANGHAI-03",
+          "source_id": "SRC-SHANGHAI-20260803-REFRESH03",
+          "module_ids": [
+            "SHM01",
+            "SHM06"
+          ],
+          "source_url": "https://www.meet-in-shanghai.net/en/guide/exploring-shanghais-waterfront-10-huangpu-river-tour-routes-603448/",
+          "claim_to_check": "The current city tourism guide presents multiple Huangpu waterfront route options and gives route-specific boarding information, including a reminder to board at least 30 minutes early for listed cruises; exact service and pier conditions still require date checks.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        }
+      ],
+      "boundary": "These are empty review tasks, not evidence and not a release decision."
+    },
+    {
+      "valid": true,
+      "status": "pending_current_check",
+      "city": "Chongqing",
+      "module_ids": [],
+      "travel_start": "2026-09-10",
+      "travel_end": "2026-09-13",
+      "source_refresh_as_of": "2026-08-03T23:59:59+08:00",
+      "source_refresh_file": "重庆当前来源刷新_20260803.json",
+      "tasks": [
+        {
+          "task_id": "CST-CHONGQING-01",
+          "source_id": "SRC-CHONGQING-20260803-REFRESH02",
+          "module_ids": [
+            "RM04",
+            "RM02"
+          ],
+          "source_url": "https://www.cq.gov.cn/ywdt/bmts/202603/t20260325_15566552.html",
+          "claim_to_check": "An official construction update describes a planned escalator and public-realm project beside Hongyadong, connecting upper and lower riverside levels, with the article stating that the main escalator structure was targeted for completion by the end of 2026; the exact September 2026 pedestrian arrangement must be checked on site or through a current notice.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        }
+      ],
+      "boundary": "These are empty review tasks, not evidence and not a release decision."
+    }
+  ],
+  "task_count": 4,
+  "completed_count": 0,
+  "boundary": "All tasks are empty review tasks. They are not evidence and do not approve a route until checked_by, checked_at, evidence_url and finding are completed for the exact travel dates."
+}

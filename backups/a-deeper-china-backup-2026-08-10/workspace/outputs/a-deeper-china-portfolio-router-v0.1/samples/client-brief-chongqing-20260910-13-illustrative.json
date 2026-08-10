@@ -1,0 +1,19 @@
+{
+  "city_unit": "chengdu_chongqing",
+  "runtime_city": "chongqing",
+  "message": "This is our first visit to China. We want to understand Chongqing's vertical city and everyday life without rushing.",
+  "travel": {"start_date":"2026-09-10","end_date":"2026-09-13"},
+  "client": {
+    "party":{"adults":2,"children_ages":[]},
+    "arrival":{"date_time":"2026-09-10T12:00:00+08:00","place":"rail station to confirm"},
+    "departure":{"date_time":"2026-09-13T12:00:00+08:00","place":"rail station to confirm"},
+    "overnight_area":"central city to confirm",
+    "pace":"slow",
+    "mobility_notes":"none reported after asking",
+    "priorities":["vertical city, architecture and everyday life"],
+    "avoid":["rushing","a checklist of viral landmarks"],
+    "food_restrictions":"none reported",
+    "budget_context":"comfortable",
+    "output_language":"English"
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "schema_version": "0.1",
+  "city": "Chongqing",
+  "task_id": "CQ-FIELD-001",
+  "route_modules": [
+    "RM01",
+    "RM02",
+    "RM04"
+  ],
+  "object": "解放碑—魁星楼—洪崖洞外观—大剧院江岸",
+  "method": "day complete walk + weekend night rewalk",
+  "field_date": null,
+  "applies_to_travel_start": null,
+  "checked_at": null,
+  "tester": null,
+  "companion_tester": null,
+  "weather_crowd": null,
+  "start_time": null,
+  "end_time": null,
+  "actual_minutes": null,
+  "result": "incomplete",
+  "safety_blocking": false,
+  "observations": {
+    "correct entrances": null,
+    "floor changes": null,
+    "stairs": null,
+    "crowd load": null,
+    "safe exits": null,
+    "night lighting": null,
+    "return transport": null
+  },
+  "finding": null,
+  "conditions": null,
+  "failure_reason": null,
+  "issues_changes": null,
+  "evidence": [],
+  "minimum_evidence": [
+    "GPS/route trace",
+    "entrance photos",
+    "segment minutes",
+    "day/night crowd notes"
+  ],
+  "pass_criteria": "High, medium and lower-load variants can be described with clear exits and no private-space dependency.",
+  "blocking_condition": "A key connection depends on temporary passage, unsafe edge or unresolved construction.",
+  "cannot_promote_to": [
+    "洪崖洞完整逛完承诺",
+    "特定灯光/无人机秀保证",
+    "最佳机位保证"
+  ],
+  "notes": "Template only. Do not change result to pass without real dated evidence."
+}

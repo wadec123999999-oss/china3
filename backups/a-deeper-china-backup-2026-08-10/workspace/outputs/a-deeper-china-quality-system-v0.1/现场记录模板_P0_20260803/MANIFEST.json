@@ -1,0 +1,63 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-08-03",
+  "boundary": "All records are incomplete templates. No field evidence is present.",
+  "records": [
+    {
+      "city": "Shanghai",
+      "task_id": "SH-FIELD-001",
+      "filename": "SH-FIELD-001.json",
+      "result": "incomplete",
+      "evidence_count": 0
+    },
+    {
+      "city": "Shanghai",
+      "task_id": "SH-FIELD-002",
+      "filename": "SH-FIELD-002.json",
+      "result": "incomplete",
+      "evidence_count": 0
+    },
+    {
+      "city": "Shanghai",
+      "task_id": "SH-FIELD-003",
+      "filename": "SH-FIELD-003.json",
+      "result": "incomplete",
+      "evidence_count": 0
+    },
+    {
+      "city": "Shanghai",
+      "task_id": "SH-FIELD-004",
+      "filename": "SH-FIELD-004.json",
+      "result": "incomplete",
+      "evidence_count": 0
+    },
+    {
+      "city": "Chongqing",
+      "task_id": "CQ-FIELD-001",
+      "filename": "CQ-FIELD-001.json",
+      "result": "incomplete",
+      "evidence_count": 0
+    },
+    {
+      "city": "Chongqing",
+      "task_id": "CQ-FIELD-002",
+      "filename": "CQ-FIELD-002.json",
+      "result": "incomplete",
+      "evidence_count": 0
+    },
+    {
+      "city": "Chongqing",
+      "task_id": "CQ-FIELD-003",
+      "filename": "CQ-FIELD-003.json",
+      "result": "incomplete",
+      "evidence_count": 0
+    },
+    {
+      "city": "Chongqing",
+      "task_id": "CQ-FIELD-004",
+      "filename": "CQ-FIELD-004.json",
+      "result": "incomplete",
+      "evidence_count": 0
+    }
+  ]
+}

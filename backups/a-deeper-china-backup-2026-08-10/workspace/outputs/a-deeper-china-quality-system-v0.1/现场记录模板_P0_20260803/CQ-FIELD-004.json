@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1",
+  "city": "Chongqing",
+  "task_id": "CQ-FIELD-004",
+  "route_modules": [
+    "RM16"
+  ],
+  "object": "轨道 2 号线乘车—李子坝",
+  "method": "non-peak ride + weekend crowd recheck",
+  "field_date": null,
+  "applies_to_travel_start": null,
+  "checked_at": null,
+  "tester": null,
+  "companion_tester": null,
+  "weather_crowd": null,
+  "start_time": null,
+  "end_time": null,
+  "actual_minutes": null,
+  "result": "incomplete",
+  "safety_blocking": false,
+  "observations": {
+    "direction": null,
+    "carriage position": null,
+    "time": null,
+    "crowd": null,
+    "safe viewing": null,
+    "construction": null,
+    "external fallback": null
+  },
+  "finding": null,
+  "conditions": null,
+  "failure_reason": null,
+  "issues_changes": null,
+  "evidence": [],
+  "minimum_evidence": [
+    "in-car observation script",
+    "time-stamped video",
+    "service screenshot",
+    "construction note"
+  ],
+  "pass_criteria": "The experience works without promising a specific train or forcing a dangerous platform stop.",
+  "blocking_condition": "Construction or crowding removes the safe observation point.",
+  "cannot_promote_to": [
+    "specific carriage guarantee",
+    "specific train guarantee",
+    "viral photo guarantee"
+  ],
+  "notes": "Template only. Do not change result to pass without real dated evidence."
+}

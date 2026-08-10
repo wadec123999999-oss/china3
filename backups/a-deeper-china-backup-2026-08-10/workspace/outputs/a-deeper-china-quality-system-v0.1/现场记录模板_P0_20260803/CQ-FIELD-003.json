@@ -1,0 +1,51 @@
+{
+  "schema_version": "0.1",
+  "city": "Chongqing",
+  "task_id": "CQ-FIELD-003",
+  "route_modules": [
+    "RM07",
+    "RM13",
+    "RM14"
+  ],
+  "object": "湖广会馆—东水门—白象街",
+  "method": "phone/written confirmation + complete walk",
+  "field_date": null,
+  "applies_to_travel_start": null,
+  "checked_at": null,
+  "tester": null,
+  "companion_tester": null,
+  "weather_crowd": null,
+  "start_time": null,
+  "end_time": null,
+  "actual_minutes": null,
+  "result": "incomplete",
+  "safety_blocking": false,
+  "observations": {
+    "passport ticketing": null,
+    "English support": null,
+    "opening": null,
+    "filming rules": null,
+    "route continuity": null,
+    "stairs": null,
+    "90/150-minute versions": null
+  },
+  "finding": null,
+  "conditions": null,
+  "failure_reason": null,
+  "issues_changes": null,
+  "evidence": [],
+  "minimum_evidence": [
+    "call or written record",
+    "ticket screenshot",
+    "route trace",
+    "interpretation notes"
+  ],
+  "pass_criteria": "Public access, English explanation scope and route continuity are independently evidenced.",
+  "blocking_condition": "English/access cannot be confirmed or the route requires an unstable passage.",
+  "cannot_promote_to": [
+    "English guide guarantee",
+    "private religious access",
+    "commercial filming permission"
+  ],
+  "notes": "Template only. Do not change result to pass without real dated evidence."
+}

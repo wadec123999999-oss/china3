@@ -1,0 +1,585 @@
+{
+  "schema_version": "0.1",
+  "generated_at": "2026-08-03",
+  "travel_start": "2026-09-10",
+  "travel_end": "2026-09-13",
+  "cities": [
+    "Shanghai",
+    "Chongqing",
+    "Beijing",
+    "Chengdu",
+    "Guangzhou",
+    "Shenzhen",
+    "Guilin–Yangshuo",
+    "Hangzhou",
+    "Suzhou",
+    "Quanzhou–Dehua",
+    "Jingdezhen",
+    "Wudang Mountains",
+    "Jingmai Mountain"
+  ],
+  "city_results": [
+    {
+      "valid": true,
+      "status": "pending_current_check",
+      "city": "Shanghai",
+      "module_ids": [],
+      "travel_start": "2026-09-10",
+      "travel_end": "2026-09-13",
+      "source_refresh_as_of": "2026-08-03T23:59:59+08:00",
+      "source_refresh_file": "上海当前来源刷新_20260803.json",
+      "tasks": [
+        {
+          "task_id": "CST-SHANGHAI-01",
+          "source_id": "SRC-SHANGHAI-20260803-REFRESH01",
+          "module_ids": [
+            "SHM04"
+          ],
+          "source_url": "https://english.shanghai.gov.cn/en-MuseumsGalleries/20231218/01fdd3f62d0c4877bc289ec0b1de6afa.html",
+          "claim_to_check": "The official visitor-information page lists Shanghai Museum People's Square hours as 9:00–17:00 with last admission at 16:00 and Monday closure except public holidays; individual reservation rules must be checked again for the client's dates.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        },
+        {
+          "task_id": "CST-SHANGHAI-02",
+          "source_id": "SRC-SHANGHAI-20260803-REFRESH02",
+          "module_ids": [
+            "SHM04"
+          ],
+          "source_url": "https://english.shanghai.gov.cn/en-Latest-WhatsNew/20240913/665093caee7643cf87a17e44a22bf7be.html",
+          "claim_to_check": "The official Shanghai Museum East update describes reservation-free individual entry for the main museum while noting that some sections, including the Digital Gallery and Curio-city, still require reservations; current opening and exhibition rules remain date-sensitive.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        },
+        {
+          "task_id": "CST-SHANGHAI-03",
+          "source_id": "SRC-SHANGHAI-20260803-REFRESH03",
+          "module_ids": [
+            "SHM01",
+            "SHM06"
+          ],
+          "source_url": "https://www.meet-in-shanghai.net/en/guide/exploring-shanghais-waterfront-10-huangpu-river-tour-routes-603448/",
+          "claim_to_check": "The current city tourism guide presents multiple Huangpu waterfront route options and gives route-specific boarding information, including a reminder to board at least 30 minutes early for listed cruises; exact service and pier conditions still require date checks.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        }
+      ],
+      "boundary": "These are empty review tasks, not evidence and not a release decision."
+    },
+    {
+      "valid": true,
+      "status": "pending_current_check",
+      "city": "Chongqing",
+      "module_ids": [],
+      "travel_start": "2026-09-10",
+      "travel_end": "2026-09-13",
+      "source_refresh_as_of": "2026-08-03T23:59:59+08:00",
+      "source_refresh_file": "重庆当前来源刷新_20260803.json",
+      "tasks": [
+        {
+          "task_id": "CST-CHONGQING-01",
+          "source_id": "SRC-CHONGQING-20260803-REFRESH02",
+          "module_ids": [
+            "RM04",
+            "RM02"
+          ],
+          "source_url": "https://www.cq.gov.cn/ywdt/bmts/202603/t20260325_15566552.html",
+          "claim_to_check": "An official construction update describes a planned escalator and public-realm project beside Hongyadong, connecting upper and lower riverside levels, with the article stating that the main escalator structure was targeted for completion by the end of 2026; the exact September 2026 pedestrian arrangement must be checked on site or through a current notice.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        }
+      ],
+      "boundary": "These are empty review tasks, not evidence and not a release decision."
+    },
+    {
+      "valid": true,
+      "status": "pending_current_check",
+      "city": "Beijing",
+      "module_ids": [],
+      "travel_start": "2026-09-10",
+      "travel_end": "2026-09-13",
+      "source_refresh_as_of": "2026-08-03T23:59:59+08:00",
+      "source_refresh_file": "北京当前来源刷新_20260803.json",
+      "tasks": [
+        {
+          "task_id": "CST-BEIJING-01",
+          "source_id": "SRC-BEIJING-20260803-REFRESH01",
+          "module_ids": [
+            "BJM01",
+            "BJM04"
+          ],
+          "source_url": "https://english.beijing.gov.cn/specials/ticketing/index.html",
+          "claim_to_check": "The official Beijing attraction index provides current seasonal opening and ticketing fields for listed attractions, including peak-season hours; it should be used as a navigation point to the exact attraction record rather than as a substitute for a Palace Museum or Wall reservation check.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        },
+        {
+          "task_id": "CST-BEIJING-02",
+          "source_id": "SRC-BEIJING-20260803-REFRESH02",
+          "module_ids": [
+            "BJM04"
+          ],
+          "source_url": "https://english.beijing.gov.cn/travellinginbeijing/attractions/202603/t20260325_4566115.html",
+          "claim_to_check": "The official Mutianyu page describes the section, location, public-transport connection and supporting facilities such as cable cars; route choice still depends on the guest's body, transfer budget, weather and current service status.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        },
+        {
+          "task_id": "CST-BEIJING-03",
+          "source_id": "SRC-BEIJING-20260803-REFRESH03",
+          "module_ids": [
+            "BJM02"
+          ],
+          "source_url": "https://english.beijing.gov.cn/specials/parktours/guidevisitors/templeofheaven/",
+          "claim_to_check": "The official Temple of Heaven visitor guide separates park-gate hours from the hours of individual interior sites and notes Monday closure for several enclosed attractions except statutory holidays; the route must therefore distinguish the park layer from the hall layer.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        },
+        {
+          "task_id": "CST-BEIJING-04",
+          "source_id": "SRC-BEIJING-20260803-REFRESH04",
+          "module_ids": [
+            "BJM04"
+          ],
+          "source_url": "https://english.beijing.gov.cn/latest/news/202606/t20260630_4738683.html",
+          "claim_to_check": "The official notice documents a 2026 summer night-tour relaunch at Mutianyu with a defined open section and reservation channel; this is a seasonal signal, not evidence that a September night tour will operate.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        }
+      ],
+      "boundary": "These are empty review tasks, not evidence and not a release decision."
+    },
+    {
+      "valid": true,
+      "status": "pending_current_check",
+      "city": "Chengdu",
+      "module_ids": [],
+      "travel_start": "2026-09-10",
+      "travel_end": "2026-09-13",
+      "source_refresh_as_of": "2026-08-03T23:59:59+08:00",
+      "source_refresh_file": "成都当前来源刷新_20260803.json",
+      "tasks": [
+        {
+          "task_id": "CST-CHENGDU-01",
+          "source_id": "SRC-CHENGDU-20260803-REFRESH01",
+          "module_ids": [
+            "CDM02"
+          ],
+          "source_url": "https://m.panda.org.cn/en/service/ticket/",
+          "claim_to_check": "The official Panda Base ticket page separates morning and afternoon entry windows, states that March–October uses an earlier morning window, and says tickets may be reserved online up to 14 days ahead until the daily quota sells out; this should shape a dated morning decision rather than a fixed all-day promise.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        },
+        {
+          "task_id": "CST-CHENGDU-02",
+          "source_id": "SRC-CHENGDU-20260803-REFRESH02",
+          "module_ids": [
+            "CDM02"
+          ],
+          "source_url": "https://m.panda.org.cn/en/service/notice/",
+          "claim_to_check": "The official visitor-information page lists seasonal opening hours for the West and South Gate tourist centres; gate selection and internal movement should be checked against the client's hotel, transport and chosen route.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        },
+        {
+          "task_id": "CST-CHENGDU-03",
+          "source_id": "SRC-CHENGDU-20260803-REFRESH03",
+          "module_ids": [
+            "CDM02",
+            "CDM01"
+          ],
+          "source_url": "https://m.panda.org.cn/en/service/transit/",
+          "claim_to_check": "The official public-transport guide tells visitors to follow real-time traffic conditions and treats route suggestions as changeable; this supports a transfer-budget warning and prevents the agent from hard-coding a single route to the Panda Base.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        }
+      ],
+      "boundary": "These are empty review tasks, not evidence and not a release decision."
+    },
+    {
+      "valid": true,
+      "status": "pending_current_check",
+      "city": "Guangzhou",
+      "module_ids": [],
+      "travel_start": "2026-09-10",
+      "travel_end": "2026-09-13",
+      "source_refresh_as_of": "2026-08-03T23:59:59+08:00",
+      "source_refresh_file": "广州深圳当前来源刷新_20260803.json",
+      "tasks": [
+        {
+          "task_id": "CST-GUANGZHOU-01",
+          "source_id": "SRC-GUANGZHOU-20260803-REFRESH03",
+          "module_ids": [
+            "GZM03"
+          ],
+          "source_url": "https://www.gz.gov.cn/zt/hckhqydt/hsbk/content/post_10701608.html",
+          "claim_to_check": "The official Guangzhou portal article directs visitors to reserve Chen Clan Academy tickets through the Guangdong Folk Art Museum WeChat account; reservation mechanics and foreign-visitor identity support still require a current check.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        }
+      ],
+      "boundary": "These are empty review tasks, not evidence and not a release decision."
+    },
+    {
+      "valid": true,
+      "status": "pending_current_check",
+      "city": "Shenzhen",
+      "module_ids": [],
+      "travel_start": "2026-09-10",
+      "travel_end": "2026-09-13",
+      "source_refresh_as_of": "2026-08-03T23:59:59+08:00",
+      "source_refresh_file": "广州深圳当前来源刷新_20260803.json",
+      "tasks": [
+        {
+          "task_id": "CST-SHENZHEN-01",
+          "source_id": "SRC-SHENZHEN-20260803-REFRESH02",
+          "module_ids": [
+            "SZM01",
+            "SZM03"
+          ],
+          "source_url": "https://www.sz.gov.cn/en_szgov/news/latest/content/post_12731918.html",
+          "claim_to_check": "The official transport update describes bilingual announcements and multilingual translation support in taxis and public transport; this is evidence for an inbound-visitor friction question, not a guarantee that every vehicle or route will offer the same service.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        }
+      ],
+      "boundary": "These are empty review tasks, not evidence and not a release decision."
+    },
+    {
+      "valid": true,
+      "status": "pending_current_check",
+      "city": "Guilin–Yangshuo",
+      "module_ids": [],
+      "travel_start": "2026-09-10",
+      "travel_end": "2026-09-13",
+      "source_refresh_as_of": "2026-08-03T23:59:59+08:00",
+      "source_refresh_file": "桂林阳朔当前来源刷新_20260803.json",
+      "tasks": [
+        {
+          "task_id": "CST-GUILIN-YANGSHUO-01",
+          "source_id": "SRC-GUILIN-20260803-REFRESH01",
+          "module_ids": [
+            "GYM02",
+            "GYM08"
+          ],
+          "source_url": "https://www.liriver.com.cn/",
+          "claim_to_check": "The official Lijiang portal offers online ticketing and presents the Mopanshan/Zhujiang-to-Yangshuo water route as a recommended product; route choice, pier, water conditions and departure time still require a date-specific check.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        },
+        {
+          "task_id": "CST-GUILIN-YANGSHUO-02",
+          "source_id": "SRC-GUILIN-20260803-REFRESH02",
+          "module_ids": [
+            "GYM02",
+            "GYM03"
+          ],
+          "source_url": "https://www.guilin.gov.cn/ywdt/zwdt/t27483657.shtml",
+          "claim_to_check": "The official Guilin update describes current Lijiang river tourism services and water-based cultural programming; it supports treating the river as an active operating system, not just scenery, while exact services remain dynamic.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        }
+      ],
+      "boundary": "These are empty review tasks, not evidence and not a release decision."
+    },
+    {
+      "valid": true,
+      "status": "no_dynamic_tasks_for_selected_scope",
+      "city": "Hangzhou",
+      "module_ids": [],
+      "travel_start": "2026-09-10",
+      "travel_end": "2026-09-13",
+      "source_refresh_as_of": "2026-08-03T23:59:59+08:00",
+      "source_refresh_file": "杭州苏州当前来源刷新_20260803.json",
+      "tasks": [],
+      "boundary": "These are empty review tasks, not evidence and not a release decision."
+    },
+    {
+      "valid": true,
+      "status": "pending_current_check",
+      "city": "Suzhou",
+      "module_ids": [],
+      "travel_start": "2026-09-10",
+      "travel_end": "2026-09-13",
+      "source_refresh_as_of": "2026-08-03T23:59:59+08:00",
+      "source_refresh_file": "杭州苏州当前来源刷新_20260803.json",
+      "tasks": [
+        {
+          "task_id": "CST-SUZHOU-01",
+          "source_id": "SRC-SUZHOU-20260803-REFRESH01",
+          "module_ids": [
+            "SZUM01",
+            "SZUM02"
+          ],
+          "source_url": "https://english.suzhou.gov.cn/szsenglish/sjwhyclm/201611/0e774293426145f6b4b00d3a5717c6df.shtml",
+          "claim_to_check": "The official Suzhou municipal page frames the Humble Administrator's Garden through water, pavilions, bridges and advance reservation; use it for the garden-as-attention story, while treating ticket and reservation details as stale until rechecked.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        },
+        {
+          "task_id": "CST-SUZHOU-02",
+          "source_id": "SRC-SUZHOU-20260803-REFRESH02",
+          "module_ids": [
+            "SZUM01",
+            "SZUM08"
+          ],
+          "source_url": "https://ylj.suzhou.gov.cn/szsylj/mpjg/wztt.shtml",
+          "claim_to_check": "The official Suzhou Garden Bureau table distinguishes peak and off-season prices for major gardens, including the Humble Administrator's Garden; actual visitor-date price, ticket identity rules and reservation channel require a current check.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        }
+      ],
+      "boundary": "These are empty review tasks, not evidence and not a release decision."
+    },
+    {
+      "valid": true,
+      "status": "pending_current_check",
+      "city": "Quanzhou–Dehua",
+      "module_ids": [],
+      "travel_start": "2026-09-10",
+      "travel_end": "2026-09-13",
+      "source_refresh_as_of": "2026-08-03T23:59:59+08:00",
+      "source_refresh_file": "泉州德化当前来源刷新_20260803.json",
+      "tasks": [
+        {
+          "task_id": "CST-QUANZHOU-DEHUA-01",
+          "source_id": "SRC-QUANZHOU-20260803-REFRESH01",
+          "module_ids": [
+            "QZM01",
+            "QZM02",
+            "QZM08"
+          ],
+          "source_url": "https://cbtb.quanzhou.gov.cn/gzcy/zxft/index_15586.htm?id=5155",
+          "claim_to_check": "The official Quanzhou tourism page describes an integrated explanation/reservation platform for 22 core world-heritage sites and names a Dehua ceramics culture venue offering hands-on making; this is a lead for public access research, not a confirmed private workshop or appointment.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        }
+      ],
+      "boundary": "These are empty review tasks, not evidence and not a release decision."
+    },
+    {
+      "valid": true,
+      "status": "pending_current_check",
+      "city": "Jingdezhen",
+      "module_ids": [],
+      "travel_start": "2026-09-10",
+      "travel_end": "2026-09-13",
+      "source_refresh_as_of": "2026-08-03T23:59:59+08:00",
+      "source_refresh_file": "景德镇当前来源刷新_20260803.json",
+      "tasks": [
+        {
+          "task_id": "CST-JINGDEZHEN-01",
+          "source_id": "SRC-JINGDEZHEN-20260803-REFRESH01",
+          "module_ids": [
+            "JZM02",
+            "JZM08"
+          ],
+          "source_url": "https://www.jdz.gov.cn/zwgk/fdzdgknr/zdlyxxgk/shgysyyzdmsly/ggwh/t1085885.shtml",
+          "claim_to_check": "The official museum notice states that the museum opens Tuesday–Sunday, stops entry at 16:30 and closes at 17:00, with Monday closure except statutory holidays; it also says the sole official reservation channel is the Changyou Jingdezhen WeChat mini-program and that individual visitors may reserve up to five days ahead when quota exists.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        },
+        {
+          "task_id": "CST-JINGDEZHEN-02",
+          "source_id": "SRC-JINGDEZHEN-20260803-REFRESH02",
+          "module_ids": [
+            "JZM01",
+            "JZM02"
+          ],
+          "source_url": "https://www.jingdezhenzgtcbwg.cn/",
+          "claim_to_check": "The official museum site positions the China Ceramics Museum as a free public museum with a Tuesday–Sunday opening pattern and a reservation entry point; it supports a technical-history module, not a studio, workshop or purchase promise.",
+          "applies_to_travel_start": "2026-09-10",
+          "applies_to_travel_end": "2026-09-13",
+          "required_evidence": {
+            "checked_by": null,
+            "checked_at": null,
+            "evidence_url": null,
+            "finding": null
+          },
+          "status": "pending",
+          "instruction": "Do not mark complete from the source page alone; record what was checked for this client date and attach the page, screenshot, call record or field note."
+        }
+      ],
+      "boundary": "These are empty review tasks, not evidence and not a release decision."
+    },
+    {
+      "valid": true,
+      "status": "no_dynamic_tasks_for_selected_scope",
+      "city": "Wudang Mountains",
+      "module_ids": [],
+      "travel_start": "2026-09-10",
+      "travel_end": "2026-09-13",
+      "source_refresh_as_of": "2026-08-03T23:59:59+08:00",
+      "source_refresh_file": "武当山当前来源刷新_20260803.json",
+      "tasks": [],
+      "boundary": "These are empty review tasks, not evidence and not a release decision."
+    },
+    {
+      "valid": true,
+      "status": "no_dynamic_tasks_for_selected_scope",
+      "city": "Jingmai Mountain",
+      "module_ids": [],
+      "travel_start": "2026-09-10",
+      "travel_end": "2026-09-13",
+      "source_refresh_as_of": "2026-08-03T23:59:59+08:00",
+      "source_refresh_file": "景迈茶山当前来源刷新_20260803.json",
+      "tasks": [],
+      "boundary": "These are empty review tasks, not evidence and not a release decision."
+    }
+  ],
+  "task_count": 20,
+  "completed_count": 0,
+  "boundary": "All tasks are empty review tasks. They are not evidence and do not approve a route until checked_by, checked_at, evidence_url and finding are completed for the exact travel dates."
+}

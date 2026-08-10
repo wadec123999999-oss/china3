@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1",
+  "city": "Shanghai",
+  "task_id": "SH-FIELD-002",
+  "route_modules": [
+    "SHM01"
+  ],
+  "object": "Bund—river crossing—Pudong transition",
+  "method": "complete route at normal pace and blue-hour recheck",
+  "field_date": null,
+  "applies_to_travel_start": null,
+  "checked_at": null,
+  "tester": null,
+  "companion_tester": null,
+  "weather_crowd": null,
+  "start_time": null,
+  "end_time": null,
+  "actual_minutes": null,
+  "result": "incomplete",
+  "safety_blocking": false,
+  "observations": {
+    "chosen crossing mode": null,
+    "waiting time": null,
+    "shade and rest": null,
+    "crowd load": null,
+    "safe exit": null,
+    "night lighting": null,
+    "rain alternative": null
+  },
+  "finding": null,
+  "conditions": null,
+  "failure_reason": null,
+  "issues_changes": null,
+  "evidence": [],
+  "minimum_evidence": [
+    "two route traces",
+    "entry/exit photos",
+    "time segments",
+    "crowd and weather notes"
+  ],
+  "pass_criteria": "The route has one readable river question, one lower-friction fallback and a safe return path.",
+  "blocking_condition": "Crossing depends on an unconfirmed service, unsafe crowd edge or an itinerary that cannot protect recovery time.",
+  "cannot_promote_to": [
+    "specific cruise promise",
+    "specific sunset/photo guarantee",
+    "best viewpoint claim"
+  ],
+  "notes": "Template only. Do not change result to pass without real dated evidence."
+}

@@ -1,0 +1,49 @@
+{
+  "schema_version": "0.1",
+  "city": "Shanghai",
+  "task_id": "SH-FIELD-003",
+  "route_modules": [
+    "SHM02"
+  ],
+  "object": "Hengfu—Wukang ethical walking loop",
+  "method": "complete walk on weekday and inspect wet-weather cover",
+  "field_date": null,
+  "applies_to_travel_start": null,
+  "checked_at": null,
+  "tester": null,
+  "companion_tester": null,
+  "weather_crowd": null,
+  "start_time": null,
+  "end_time": null,
+  "actual_minutes": null,
+  "result": "incomplete",
+  "safety_blocking": false,
+  "observations": {
+    "continuous walking time": null,
+    "shade": null,
+    "toilets": null,
+    "traffic crossings": null,
+    "resident privacy boundaries": null,
+    "construction": null,
+    "rain cover": null
+  },
+  "finding": null,
+  "conditions": null,
+  "failure_reason": null,
+  "issues_changes": null,
+  "evidence": [],
+  "minimum_evidence": [
+    "route trace",
+    "privacy-boundary photos without identifiable residents",
+    "tester notes",
+    "fallback segment"
+  ],
+  "pass_criteria": "The route can be explained as public-street observation without entering private compounds or staging local life.",
+  "blocking_condition": "No practical rest/exit plan, unsafe crossings or unclear privacy boundary.",
+  "cannot_promote_to": [
+    "authentic-neighbourhood claim",
+    "private compound access",
+    "resident photography"
+  ],
+  "notes": "Template only. Do not change result to pass without real dated evidence."
+}
